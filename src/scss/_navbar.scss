@@ -1,13 +1,13 @@
-$logo-height: 44px;
+$logo-height: 40px;
 
-nav {
-  padding: 4rem 0;
+.nav {
+  padding: 1.8rem 0;
   position: absolute;
   width: 100%;
   z-index: 100;
 
   .drf-logo-black {
-    height: 25px;
+    height: 40px;
   }
 
   .links {
@@ -25,9 +25,8 @@ nav {
     }
 
     a {
-      @extend %h3;
       transition: $t-hover-opacity;
-
+      font-size: 0.875rem;
       &:hover {
         opacity: $semi-trans;
       }

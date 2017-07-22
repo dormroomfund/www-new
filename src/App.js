@@ -7,16 +7,8 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-              <Menu />
-
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+              <Hero />
+            </div>
         );
     }
 }
@@ -24,7 +16,7 @@ class App extends Component {
 class Menu extends Component {
     render() {
         return (
-            <div className="content">
+            <div className="nav content">
               <div className="col-12">
                   <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
                   <ul className="links">
@@ -45,6 +37,15 @@ class Menu extends Component {
           </div>
         );
     }
+}
+
+class Hero extends Component {
+  render(){
+    return(
+      <div>
+      <menu></>
+      </div>
+  }
 }
 
 export default App;
