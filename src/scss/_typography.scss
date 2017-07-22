@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Calibre';
+  src: url('/font/CalibreWeb-Regular.eot'); // IE9 Compat Modes
+  src: url('/font/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
+       url('/font/CalibreWeb-Regular.woff') format('woff'); // Pretty Modern Browsers
+}
+
+// Font weights
+$extra-bold: 800;
+$bold: 700;
+$regular: 400;
+$thin: 300;
+
+// Fonts
+$sans: 'Calibre', Helvetica, Arial, sans-serif;
+
+h1, %h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, %h2 {
+  font-size: 2rem;
+}
+
+
+h3, %h3 {
+  font-size: 1.5rem;
+}
+
+h4, %h4 {
+  font-size: 1rem;
+}
+
+p, %p {
+  font-size: 1rem;
+
+  &.large {
+    @extend %h3;
+  }
+
+  cite {
+    font-style: italic;
+  }
+}
+
+@media screen and (max-width: $tablet-landscape-max) {
+  p, %p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $tablet-portrait-max) {
+  h1, %h1, .h1 {
+    font-size: 2.5rem;
+  }
+
+  p, %p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  h1, %h1, .h1 {
+    font-size: 1.5rem;
+  }
+
+  h2, %h2 {
+    font-size: 1.5rem;
+  }
+
+  h3, %h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: $phone-portrait-max) {
+  h1, %h1, .h1 {
+    font-size: 1.75rem;
+    line-height: 1.25;
+  }
+
+  h4, %h4 {
+    font-size: 1.25rem;
+  }
+
+  p, %p {
+    font-size: 1.25rem;
+  }
+}

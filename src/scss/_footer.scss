@@ -1,0 +1,199 @@
+
+footer {
+  position: relative;
+  z-index: 100;
+
+  &.solid {
+    background-color: $light-gray;
+  }
+
+  &.with-line > .content:first-child {
+    border-top: 2px solid $medium-gray;
+  }
+
+  .cta {
+    padding: 8rem 0 4rem;
+  }
+
+  .h1 {
+    color: $dark-gray;
+    text-align: center;
+    transition: $t-scroll-opacity;
+
+    + .h1 {
+      margin-top: 2rem;
+    }
+
+    a {
+      color: $blue;
+      text-decoration: underline;
+
+      &:hover {
+        color: $green;
+      }
+    }
+  }
+
+  p, a {
+    @include clearfix;
+    color: $medium-gray;
+    transition: $t-hover-color;
+  }
+
+  rect, polygon, path {
+    fill: $medium-gray;
+  }
+
+  .social {
+    display: inline-block;
+    float: left;
+    width: 50%;
+  }
+
+  .icon {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    height: 1.5rem;
+    padding: 0.25rem 0.5rem 0.25rem 0;
+
+    > svg {
+      display: block;
+      height: 1rem;
+      width: 1rem;
+    }
+  }
+
+  .icon-label {
+    display: inline-block;
+    float: left;
+  }
+
+  .bottom {
+    padding: 4rem 0 8rem;
+  }
+
+  .bottom:hover {
+    a, p {
+      color: $dark-gray;
+    }
+
+    .h1 a {
+      color: $blue;
+    }
+
+    rect, polygon, path {
+      fill: $dark-gray;
+    }
+
+    a:hover {
+
+      rect, polygon {
+        fill: $blue;
+      }
+    }
+  }
+}
+
+footer .bottom:hover a:hover, .team-member:hover .icon:hover {
+  &.twitter-link {
+    color: $twitter-blue;
+    path { fill: $twitter-blue; }
+  }
+
+  &.github-link {
+    color: $github-blue;
+    path { fill: $github-blue; }
+  }
+
+  &.facebook-link, {
+    color: $facebook-blue;
+    path { fill: $facebook-blue; }
+  }
+
+  &.dribbble-link, {
+    color: $dribbble-pink;
+    path { fill: $dribbble-pink; }
+  }
+
+  &.globe-link, {
+    color: $blue;
+    path { fill: $blue; }
+  }
+}
+
+@media screen and (max-width: $tablet-landscape-max) {
+  footer {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-portrait-max) {
+  footer {
+    background-color: $light-gray;
+    display: block;
+    padding: 0.5rem 0 2.5rem;
+
+    &::before {
+      background-color: $light-gray;
+      content: ' ';
+      display: block;
+      height: 8px;
+      left: 0;
+      position: absolute;
+      top: -4px;
+      width: 100%;
+      z-index: 200;
+    }
+
+    .cta {
+      padding: 3rem 0 0;
+      width: 90%;
+    }
+
+    .h1 + .h1 {
+      margin-top: 0.5rem;
+    }
+
+    .minimill-logo, .copyright, .icon-label {
+      display: none;
+    }
+
+    .address {
+      text-align: center;
+    }
+
+    .bottom {
+      padding: 3rem 0;
+    }
+
+    .icon {
+      height: 1.75rem;
+
+      > svg {
+        height: 1.25rem;
+        width: 1.25rem;
+      }
+    }
+
+    .social {
+      display: inline;
+      float: none;
+      margin-right: 2rem;
+      width: auto;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .col-4.socials {
+      display: flex;
+      flex-direction: horizontal;
+      justify-content: center;
+      padding: 0 0 2.25rem;
+    }
+  }
+}

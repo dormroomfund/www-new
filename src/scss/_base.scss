@@ -1,0 +1,44 @@
+html, body {
+  color: $white;
+  font-family: $sans;
+  font-size: 16px;
+  font-weight: $regular;
+  height: 100%;
+  line-height: 1.5;
+  position: relative;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+ * Helper Functions & Mixins
+ */
+
+@mixin clearfix {
+  &:after {
+    clear: both;
+    content: ' ';
+    display: block;
+    height: 0;
+  }
+}
+
+@function contains($list, $var) {
+  $_out: false;
+  @each $item in $list { @if $item == $var { $_out: true; } }
+  @return $_out;
+}
+
+
+@media screen and (max-width: $phone-landscape-max) {
+  hr {
+    margin-bottom: 4rem;
+  }
+}

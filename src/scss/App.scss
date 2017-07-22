@@ -1,4 +1,21 @@
+// Reset
 @import 'lib/reset.min';
+
+// Essentials
+@import 'media-queries';
+@import 'z-index';
+@import 'colors';
+@import 'animations';
+@import 'typography';
+@import 'base';
+@import 'layout';
+@import 'responsive';
+
+// Components
+@import 'svg';
+@import 'navbar';
+@import 'footer';
+
 
 .App {
   text-align: center;
