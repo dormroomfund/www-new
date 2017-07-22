@@ -1,13 +1,15 @@
 $logo-height: 40px;
 
-.nav {
-  padding: 1.8rem 0;
+nav {
+  padding: 4rem 0;
   position: absolute;
   width: 100%;
   z-index: 100;
 
   .drf-logo-black {
     height: 40px;
+    display: inline-block;
+    float: left;  
   }
 
   .links {
@@ -44,3 +46,6 @@ $logo-height: 40px;
     transition: $t-page-opacity, $t-page-transform;
   }
 }
+
+
+

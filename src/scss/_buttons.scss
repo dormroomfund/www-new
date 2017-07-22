@@ -1,0 +1,10 @@
+$button-rounded-horizontal-padding: 1.6rem;
+$button-rounded-vertical-padding: 0.7rem;
+$button-rounded-radius: 1.4rem;
+
+.button-rounded-blue {
+  background: $blue;
+  padding: $button-rounded-vertical-padding $button-rounded-horizontal-padding;
+  color: $white;
+  border-radius: $button-rounded-radius;
+}

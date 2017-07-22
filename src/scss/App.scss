@@ -12,9 +12,12 @@
 @import 'responsive';
 
 // Components
+@import 'buttons';
 @import 'svg';
 @import 'navbar';
 @import 'footer';
+
+@import 'home';
 
 .App {
   text-align: center;
