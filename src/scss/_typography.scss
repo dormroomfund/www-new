@@ -1,9 +1,43 @@
 @font-face {
-  font-family: 'Calibre';
-  src: url('/font/CalibreWeb-Regular.eot'); // IE9 Compat Modes
-  src: url('/font/CalibreWeb-Regular.eot?#iefix') format('embedded-opentype'), // IE6-IE8
-       url('/font/CalibreWeb-Regular.woff') format('woff'); // Pretty Modern Browsers
+  font-family: 'Circular Std';
+  src: url('../font/CircularStd-Medium.eot');
+  src: url('../font/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/CircularStd-Medium.woff') format('woff'),
+    url('../font/CircularStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('../font/CircularStd-Bold.eot');
+  src: url('../font/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../font/CircularStd-Bold.woff') format('woff'),
+    url('../font/CircularStd-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: url('../font/CircularStd-Book.eot');
+  src: url('../font/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('../font/CircularStd-Book.woff') format('woff'),
+    url('../font/CircularStd-Book.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT Walsheim';
+  src: url('../font/GTWalsheimMedium.eot');
+  src: url('../font/GTWalsheimMedium.eot?#iefix') format('embedded-opentype'),
+    url('../font/GTWalsheimMedium.woff') format('woff'),
+    url('../font/GTWalsheimMedium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
 
 // Font weights
 $extra-bold: 800;

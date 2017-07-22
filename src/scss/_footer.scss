@@ -97,23 +97,23 @@ footer {
 
 footer .bottom:hover a:hover, .team-member:hover .icon:hover {
   &.twitter-link {
-    color: $twitter-blue;
-    path { fill: $twitter-blue; }
+    color: $blue;
+    path { fill: $blue; }
   }
 
   &.github-link {
-    color: $github-blue;
-    path { fill: $github-blue; }
+    color: $blue;
+    path { fill: $blue; }
   }
 
   &.facebook-link, {
-    color: $facebook-blue;
-    path { fill: $facebook-blue; }
+    color: $blue;
+    path { fill: $blue; }
   }
 
   &.dribbble-link, {
-    color: $dribbble-pink;
-    path { fill: $dribbble-pink; }
+    color: $blue;
+    path { fill: $blue; }
   }
 
   &.globe-link, {

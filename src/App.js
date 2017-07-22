@@ -3,9 +3,9 @@ import logo from './logo.svg';
 import './css/App.css';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
+    render() {
+        return (
+            <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
@@ -14,8 +14,36 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
-    );
-  }
+        );
+    }
+}
+
+class Menu extends Component {
+    render() {
+        return (
+            <div class="content">
+              <div class="col-12">
+                  <div class="drf-logo-black">
+                      <a href="/" class="close-contact-modal-link"></a>
+                  </div>
+                  <ul class="links">
+                      <li>
+                          <a href="/founders/">Our Founders</a>
+                      </li>
+                      <li>
+                          <a href="/team/">Our Team</a>
+                      </li>
+                      <li>
+                          <a href="/faq">FAQS</a>
+                      </li>
+                      <li>
+                          <a href="/apply">Apply Now</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        );
+    }
 }
 
 export default App;
