@@ -38,15 +38,14 @@
   font-style: normal;
 }
 
-
 // Font weights
-$extra-bold: 800;
 $bold: 700;
+$medium: 500;
 $regular: 400;
-$thin: 300;
+$book: 300;
 
 // Fonts
-$sans: 'Calibre', Helvetica, Arial, sans-serif;
+$sans: 'Circular Std', Helvetica, Arial, sans-serif;
 
 h1, %h1, .h1 {
   font-size: 2.5rem;
@@ -66,7 +65,7 @@ h4, %h4 {
 }
 
 p, %p {
-  font-size: 1rem;
+  font-size: 0.875rem;
 
   &.large {
     @extend %h3;
@@ -75,6 +74,13 @@ p, %p {
   cite {
     font-style: italic;
   }
+}
+
+a, %a {
+  font-size: 0.875rem;
+  font-weight: $bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
 }
 
 @media screen and (max-width: $tablet-landscape-max) {

@@ -6,11 +6,8 @@ nav {
   width: 100%;
   z-index: 100;
 
-  .minimill-logo {
-    rect, polygon {
-      fill: $white;
-      transition: $t-page-fill;
-    }
+  .drf-logo-black {
+    height: 25px;
   }
 
   .links {
