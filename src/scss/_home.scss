@@ -1,4 +1,23 @@
+.hero-wrapper {
+  @include column;
+  display: inline-block;
+  float: left;
+  position: relative;
+  width: 75%;
+  z-index: 2;
+}
+
 .hero-header {
 	text-align: left;
 	padding-top: 12rem;
+}
+
+.hero-subheader {
+	width: 95%;
+	text-align: left;
+	margin-top: 1rem;
+}
+
+.ramp {
+	width: 100vw;
 }
