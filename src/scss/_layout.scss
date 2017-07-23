@@ -1,4 +1,4 @@
-$content-width: 66rem;
+/*  */$content-width: 66rem;
 
 @mixin column {
   box-sizing: border-box;
@@ -93,8 +93,12 @@ $content-width: 66rem;
         width: 25%;
       }
 
-      &.m-col-6.col-2 {
-        width: 33.333333%;
+      &.m-col-6.col-3 {
+        width: 50%;
+      }
+
+      &.m-col-12.col-10 {
+        width: 100%;
       }
     }
 
@@ -113,8 +117,16 @@ $content-width: 66rem;
         width: 33.333333%;
       }
 
+      &.m-col-6.col-3 {
+        width: 50%;
+      }
+
       &.m-col-4.col-3 {
         width: 33.333333%;
+      }
+
+      &.m-col-12.col-10 {
+        width: 100%;
       }
     }
   }

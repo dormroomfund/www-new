@@ -18,6 +18,103 @@
 	margin-top: 1rem;
 }
 
+.hero-investors-text {
+	@extend h2;
+	margin-top: 3.5rem;
+	font-size: 1rem;
+}
+
+.hero-investors {
+	height: 80px;
+}
+
 .ramp {
 	width: 100vw;
 }
+
+
+.logo-section .content  {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.logos {
+  margin: 0 -1.25rem;
+  padding-top: 5rem;
+
+  svg:not(:hover) path {
+    fill: $dark-gray;
+  }
+
+  .col-3 {
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+  }
+}
+
+.logo {
+	height: 3rem;
+}
+
+
+.section-logos {
+  > .content {
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+  }
+
+  .hero-investors-text {
+		@extend h2;
+		margin-top: 3.5rem;
+		font-size: 1rem;
+	}
+
+  .logos {
+    margin: 0 -1.25rem;
+    padding-top: 5rem;
+
+    svg:not(:hover) path {
+      fill: $dark-gray;
+    }
+
+    .col-3 {
+      padding-bottom: 1.25rem;
+      padding-top: 1.25rem;
+    }
+  }
+
+  .logo {
+  	height: 3rem;
+  }
+}
+
+@media screen and (max-width: $tablet-landscape-max) {
+  .section-logos {
+    .logos {
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .col-3 {
+        padding: 1.0rem 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  .section-logos {
+
+    > .content {
+      padding-bottom: 2rem;
+      padding-top: 4rem;
+    }
+
+    .logos {
+      padding-top: 2rem;
+    }
+  }
+}
+
