@@ -2,9 +2,21 @@ $button-rounded-horizontal-padding: 1.6rem;
 $button-rounded-vertical-padding: 0.7rem;
 $button-rounded-radius: 1.4rem;
 
-.button-rounded-blue {
+.button-rounded, %button-rounded {
   background: $blue;
   padding: $button-rounded-vertical-padding $button-rounded-horizontal-padding;
-  color: $white;
   border-radius: $button-rounded-radius;
+  cursor: pointer;
+}
+
+.button-rounded-blue {
+  @extend .button-rounded;
+  background: $blue;
+  color: $white;
+}
+
+.button-rounded-white {
+	@extend .button-rounded;
+	background: $white;
+	color: $blue;
 }

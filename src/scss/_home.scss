@@ -1,3 +1,16 @@
+$between-text-spacing: 1rem;
+$section-padding: 4rem;
+$between-button-spacing: 2rem;
+
+.section, %section {
+  min-height: 30vh;
+}
+
+.light-text {
+  color: $white;
+}
+
+/* Hero Section*/
 .hero-wrapper {
   @include column;
   display: inline-block;
@@ -15,7 +28,7 @@
 .hero-subheader {
 	width: 95%;
 	text-align: left;
-	margin-top: 1rem;
+	margin-top: $between-text-spacing;
 }
 
 .hero-investors-text {
@@ -118,3 +131,41 @@
   }
 }
 
+/* Community Section */
+.community-section {
+  @extend .section;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+}
+
+.bg-colored {
+  width: 100vw;
+  background-color: $blue;
+}
+
+.community-wrapper {
+  @include column;
+  display: inline-block;
+  float: left;
+}
+.community-header {
+  text-align: left;
+  width: 50%;
+}
+
+.community-subheader {
+  text-align: left;
+  margin-top: $between-text-spacing;
+  width: 50%;
+}
+
+.our-team-button {
+  margin-top: $between-button-spacing;
+  float: left;
+}
+
+.community-image {
+  @include column;
+  display: inline-block;
+  float: left;
+}

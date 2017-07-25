@@ -3,7 +3,7 @@ import drf_logo_black from './img/drf-logo-black.svg'
 import ramp from './img/ramp.svg'
 import investor_firstround from './img/investor-firstround.svg'
 import investor_gv from './img/investor-gv.png'
-import investor_sequoia from './img/investor-sequoia.png'
+import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
 
 import './css/App.css';
@@ -46,6 +46,22 @@ class Menu extends Component {
     }
 }
 
+class Community extends Component {
+  render(){
+   return(
+    <div className="bg-colored community-section">
+    <div className="content">
+    <div className="community-wrapper">
+    <h1 className="community-header light-text">For students, by students.</h1>
+    <p className="community-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
+    <a className="our-team-button button-rounded-white">Our Team</a>
+    </div>
+    </div>
+    </div>
+    )
+  }
+}
+
 class Hero extends Component {
   render(){
     return(
@@ -68,7 +84,7 @@ class Hero extends Component {
       <div className="content">
       <div className="col-3 m-col-6"><object className="logo" data={investor_firstround} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><img className="logo" src={investor_gv}></img></div>
-      <div className="col-3 m-col-6"><img className="logo" src={investor_sequoia}></img></div>
+      <div className="col-3 m-col-6"><object className="logo" data={investor_sequoia}></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_yc} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_yc} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_yc} type="image/svg+xml"></object></div>
@@ -81,8 +97,9 @@ class Hero extends Component {
       </div>
       </div>
       </div>
+      <Community/>
       </div>
-    )
+      )
   }
 }
 
