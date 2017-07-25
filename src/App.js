@@ -5,6 +5,7 @@ import investor_firstround from './img/investor-firstround.svg'
 import investor_gv from './img/investor-gv.png'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
+import community_photo from './img/community-photo.png'
 
 import './css/App.css';
 
@@ -56,6 +57,7 @@ class Community extends Component {
     <p className="community-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
     <a className="our-team-button button-rounded-white">Our Team</a>
     </div>
+    <img className="community-image" src={community_photo}></img>
     </div>
     </div>
     )
@@ -80,7 +82,7 @@ class Hero extends Component {
       <h1 className="hero-investors-text">We’ve invested in 130+ startups that have gone on to raise over $XYZ Millon from investors, including:</h1>
       <div className="logos">
       <div className="content">
-      <div className="col-10 col-centered m-col-12 ">
+      <div className="col-10 col-centered m-col-12">
       <div className="content">
       <div className="col-3 m-col-6"><object className="logo" data={investor_firstround} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><img className="logo" src={investor_gv}></img></div>

@@ -136,6 +136,7 @@ $between-button-spacing: 2rem;
   @extend .section;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
+  position: relative;
 }
 
 .bg-colored {
@@ -147,16 +148,15 @@ $between-button-spacing: 2rem;
   @include column;
   display: inline-block;
   float: left;
+  width:66%;
 }
 .community-header {
   text-align: left;
-  width: 50%;
 }
 
 .community-subheader {
   text-align: left;
   margin-top: $between-text-spacing;
-  width: 50%;
 }
 
 .our-team-button {
@@ -165,7 +165,10 @@ $between-button-spacing: 2rem;
 }
 
 .community-image {
-  @include column;
-  display: inline-block;
-  float: left;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 33%;
+  object-fit: cover;
 }
