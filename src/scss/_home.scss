@@ -137,6 +137,8 @@ $between-button-spacing: 2rem;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .bg-colored {
