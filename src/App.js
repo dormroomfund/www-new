@@ -5,7 +5,7 @@ import investor_firstround from './img/investor-firstround.svg'
 import investor_gv from './img/investor-gv.png'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
-// import community_photo from './img/community-photo.png'
+import community_photo from './img/community-photo.png'
 
 import './css/App.css';
 
@@ -83,7 +83,7 @@ class Community extends Component {
     <a className="colored-section-button button-rounded-white">Our Team</a>
     </div>
     </div>
-    {/* <img className="community-image" src={community_photo}></img> */}
+    <img className="community-image" src={community_photo}></img>
     </div>
     </div>
     )
