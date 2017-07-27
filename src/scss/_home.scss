@@ -131,6 +131,8 @@ $between-button-spacing: 2rem;
   }
 }
 
+
+
 /* Community Section */
 .community-section {
   @extend .section;
@@ -141,29 +143,11 @@ $between-button-spacing: 2rem;
   align-items: center;
 }
 
-.bg-colored {
-  width: 100vw;
-  background-color: $blue;
-}
-
 .community-wrapper {
   @include column;
   display: inline-block;
   float: left;
-  width:66%;
-}
-.community-header {
-  text-align: left;
-}
-
-.community-subheader {
-  text-align: left;
-  margin-top: $between-text-spacing;
-}
-
-.our-team-button {
-  margin-top: $between-button-spacing;
-  float: left;
+  width:60%;
 }
 
 .community-image {
@@ -171,6 +155,74 @@ $between-button-spacing: 2rem;
   right: 0;
   top: 0;
   height: 100%;
-  width: 33%;
+  width: 40%;
   object-fit: cover;
 }
+
+/* Founders Section */
+.founders-section {
+  @extend .section;
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.founders-wrapper {
+  @include column;
+  display: inline-block;
+  float: right;
+  width: 60%;
+  padding-left: $section-padding;
+}
+
+.founders-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 40%;
+  object-fit: cover;
+}
+
+.founders-image-overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40%;
+  background-color: rgba(0, 0, 0, .35);
+  opacity: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $between-text-spacing 0;
+}
+
+.founders-image-caption {
+  position: relative;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Blue Section */
+.bg-colored-blue {
+  width: 100vw;
+  background-color: $blue;
+}
+
+.colored-section-header {
+  text-align: left;
+}
+
+.colored-section-subheader {
+  text-align: left;
+  margin-top: $between-text-spacing;
+}
+
+.colored-section-button {
+  margin-top: $between-button-spacing;
+  float: left;
+}
+

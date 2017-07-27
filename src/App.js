@@ -47,15 +47,41 @@ class Menu extends Component {
     }
 }
 
+class Founders extends Component {
+  render(){
+    return(
+    <div className="bg-colored-blue founders-section">
+    <div className="content">
+    <div className="founders-wrapper">
+    <div>
+    <h1 className="colored-section-header light-text">Our founders, our family.</h1>
+    <p className="colored-section-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
+    <a className="colored-section-button button-rounded-white">Our Founders</a>
+    </div>
+    </div>
+    <div className="founders-image-container">
+    <img className="founders-image" src={community_photo}></img>
+    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Chris Gray, Drexel ’12, Founder of Scholly</p></div>
+
+    </div>
+    </div>
+    </div>
+    )
+  }
+
+}
+
 class Community extends Component {
   render(){
    return(
-    <div className="bg-colored community-section">
+    <div className="bg-colored-blue community-section">
     <div className="content">
     <div className="community-wrapper">
-    <h1 className="community-header light-text">For students, by students.</h1>
-    <p className="community-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
-    <a className="our-team-button button-rounded-white">Our Team</a>
+    <div>
+    <h1 className="colored-section-header light-text">For students, by students.</h1>
+    <p className="colored-section-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
+    <a className="colored-section-button button-rounded-white">Our Team</a>
+    </div>
     </div>
     <img className="community-image" src={community_photo}></img>
     </div>
@@ -100,6 +126,7 @@ class Hero extends Component {
       </div>
       </div>
       <Community/>
+      <Founders/>
       </div>
       )
   }
