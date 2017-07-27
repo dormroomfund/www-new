@@ -131,6 +131,30 @@ $between-button-spacing: 2rem;
   }
 }
 
+/* Shared --Sections */
+
+.bg-colored-gray {
+  width: 100vw;
+  background-color: $light-gray;
+}
+.bg-colored-blue {
+  width: 100vw;
+  background-color: $blue;
+}
+
+.colored-section-header {
+  text-align: left;
+}
+
+.colored-section-subheader {
+  text-align: left;
+  margin-top: $between-text-spacing;
+}
+
+.colored-section-button {
+  margin-top: $between-button-spacing;
+  float: left;
+}
 
 
 /* Community Section */
@@ -206,23 +230,36 @@ $between-button-spacing: 2rem;
   vertical-align: middle;
 }
 
-/* Blue Section */
-.bg-colored-blue {
-  width: 100vw;
-  background-color: $blue;
+/* Value Section */
+.value-section {
+  @extend .section;
+  padding-top: $section-padding;
+  padding-bottom: 5rem;
+  position: relative;
 }
 
-.colored-section-header {
-  text-align: left;
-}
-
-.colored-section-subheader {
-  text-align: left;
+.value-section-subheader {
   margin-top: $between-text-spacing;
 }
 
-.colored-section-button {
-  margin-top: $between-button-spacing;
-  float: left;
+.value-section-cards {
+  margin-top: $section-padding;
 }
+
+.value-section-card {
+  padding: 2rem 0.9rem;
+  background-color: white;
+  transition: all 0.4s ease;
+  box-shadow: 6px 6px $purple;
+  &:hover {
+    // transform: translate(-4px,-4px); 
+    // box-shadow: 6px 6px gray;
+  }
+}
+
+.value-section-text {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
 

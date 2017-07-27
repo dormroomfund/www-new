@@ -1,4 +1,4 @@
-/*  */$content-width: 66rem;
+  /*  */$content-width: 66rem;
 
 @mixin column {
   box-sizing: border-box;
@@ -100,6 +100,9 @@
       &.m-col-12.col-10 {
         width: 100%;
       }
+      &.m-col-12.col-4 {
+        width: 100%;
+      }
     }
 
     &.full-on-mobile {
@@ -126,6 +129,10 @@
       }
 
       &.m-col-12.col-10 {
+        width: 100%;
+      }
+
+      &.m-col-12.col-4 {
         width: 100%;
       }
     }

@@ -47,6 +47,24 @@ class Menu extends Component {
     }
 }
 
+class Value extends Component {
+  render(){
+    return(
+      <div className="bg-colored-gray value-section">
+      <div className="content">
+      <h2>So, what do Dorm Room Fund founders recieve?</h2>
+      <p className="value-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
+      <div className="value-section-cards content">
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
+      </div>
+      </div>
+      </div>
+    )
+  }
+}
+
 class Founders extends Component {
   render(){
     return(
@@ -62,7 +80,6 @@ class Founders extends Component {
     <div className="founders-image-container">
     <img className="founders-image" src={community_photo}></img>
     <div className="founders-image-overlay"><p className="founders-image-caption light-text">Chris Gray, Drexel ’12, Founder of Scholly</p></div>
-
     </div>
     </div>
     </div>
@@ -126,6 +143,7 @@ class Hero extends Component {
       </div>
       </div>
       <Community/>
+      <Value/>
       <Founders/>
       </div>
       )
