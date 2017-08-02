@@ -107,6 +107,20 @@ class Community extends Component {
   }
 }
 
+class Apply extends Component {
+  render(){
+    return( 
+      <div className="bg-colored-gray value-section">
+      <div className="content">
+      <h2>What are you waiting for? Apply now.</h2>
+      <p className="apply-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
+      <a className="apply-section-button button-rounded-blue">Apply Now</a>
+      </div>
+      </div>
+      )
+  }
+}
+
 class Hero extends Component {
   render(){
     return(
@@ -141,8 +155,58 @@ class Hero extends Component {
       <Community/>
       <Value/>
       <Founders/>
+      <Apply/>
+      <Resources/>
       </div>
       )
+  }
+}
+
+class Resources extends Component {
+  render(){
+    return(
+      <div className="resources-section">
+      <div className="content">
+      <h2 className="resources-section-header">Stay Up to Date with our Resources</h2>
+      <NameForm/>
+      </div>
+      </div>
+    )
+  }
+}
+
+class NameForm extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {email: '', school: ''};
+
+    this.handleEmailChange = this.handleEmailChange.bind(this);
+    this.handleSchoolChange = this.handleSchoolChange.bind(this);
+
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleEmailChange(event) {
+    this.setState({email: event.target.value});
+  }
+
+  handleSchoolChange(event) {
+    this.setState({school: event.target.value});
+  }
+
+  handleSubmit(event) {
+    alert('An email was submitted: ' + this.state.email);
+    event.preventDefault();
+  }
+
+  render() {
+    return (
+      <form className="resources-section-form" onSubmit={this.handleSubmit}>
+        <input className="email" placeholder="Email Address" type="text" value={this.state.email} onChange={this.handleEmailChange} />
+        <input className="school" placeholder="School" type="text" value={this.state.school} onChange={this.handleSchoolChange} />
+        <input type="submit" value="Sign Up" />
+      </form>
+    );
   }
 }
 
