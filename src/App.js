@@ -6,6 +6,8 @@ import investor_gv from './img/investor-gv.png'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
 import community_photo from './img/community-photo.png'
+import twitter_icon from './img/twitter-icon.svg'
+import medium_icon from './img/medium-icon.svg'
 
 import './css/App.css';
 
@@ -28,7 +30,7 @@ class Menu extends Component {
                   <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
                   <ul className="links">
                       <li>
-                          <a className="work-link" href="/founders/">Our Founders</a>
+                          <a href="/founders/">Our Founders</a>
                       </li>
                       <li>
                           <a href="/team/">Our Team</a>
@@ -157,6 +159,7 @@ class Hero extends Component {
       <Founders/>
       <Apply/>
       <Resources/>
+      <CustomFooter/>
       </div>
       )
   }
@@ -207,6 +210,28 @@ class NameForm extends Component {
         <input type="submit" value="Sign Up" />
       </form>
     );
+  }
+}
+
+class CustomFooter extends Component {
+  render(){
+    return(
+    <footer>
+    <div className="content">
+    <div className="wrapper">
+    <div className="link-box">
+    <h2 className="title">© 2017 Dorm Room Fund.</h2>
+    <ul className="links">
+      <li><div className="link-box"><img className="icon" src={medium_icon}></img><a>Medium</a></div>
+      </li>
+      <li><div className="link-box"><img className="icon" src={twitter_icon}></img><a>Twitter</a></div>
+      </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </footer>
+    )
   }
 }
 

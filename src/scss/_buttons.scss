@@ -9,14 +9,23 @@ $button-rounded-radius: 1.4rem;
   cursor: pointer;
 }
 
+
 .button-rounded-blue {
   @extend .button-rounded;
   background: $blue;
   color: $white;
+  transition: $t-hover-opacity;
+  &:hover {
+    opacity: $semi-trans;
+  }
 }
 
 .button-rounded-white {
 	@extend .button-rounded;
 	background: $white;
 	color: $blue;
+  transition: $t-hover-opacity;
+  &:hover {
+    opacity: $semi-trans;
+  }
 }

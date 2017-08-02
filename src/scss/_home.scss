@@ -319,6 +319,11 @@ input[type="submit"] {
   background: $blue;
   border-radius: 0.1rem;
   border: none;
+  cursor: pointer;
+  transition: $t-hover-opacity;
+  &:hover {
+    opacity: $semi-trans;
+  }
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
