@@ -26,9 +26,12 @@ class Menu extends Component {
         return (
           <nav>
             <div className="content">
-              <div className="col-12">
+              <div className="wrapper">
                   <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
                   <ul className="links">
+                      <li className="hamburger">
+                      <span className="hamburger-icon" ><span className="line"></span></span>
+                      </li>
                       <li>
                           <a href="/founders/">Our Founders</a>
                       </li>

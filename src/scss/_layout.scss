@@ -1,9 +1,10 @@
-  /*  */$content-width: 66rem;
+$content-width: 66rem;
+$content-padding: 1.2rem;
 
 @mixin column {
   box-sizing: border-box;
   float: left;
-  padding: 0 1.25rem;
+  padding: 0 $content-padding;
 }
 
 .content {
@@ -103,6 +104,9 @@
       &.m-col-12.col-4 {
         width: 100%;
       }
+      &.m-col-12.col-12 {
+        width: 100%;
+      }
     }
 
     &.full-on-mobile {
@@ -133,6 +137,9 @@
       }
 
       &.m-col-12.col-4 {
+        width: 100%;
+      }
+      &.m-col-12.col-12 {
         width: 100%;
       }
     }

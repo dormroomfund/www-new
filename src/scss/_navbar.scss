@@ -6,6 +6,10 @@ nav {
   width: 100%;
   z-index: 100;
 
+  .wrapper {
+    padding: 0 $content-padding;
+  }
+
   .drf-logo-black {
     height: 40px;
     display: inline-block;
@@ -18,6 +22,10 @@ nav {
     font-size: 0;
     height: $logo-height;
     transition: $t-page-color;
+
+    .hamburger {
+      display: none;
+    }
 
     li {
       display: inline-block;
@@ -46,6 +54,62 @@ nav {
     transition: $t-page-opacity, $t-page-transform;
   }
 }
+div.mobile-nav {
+  position: relative;
+  padding-bottom: 75px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
 
+  ul {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: $tablet-landscape-max) {
+  nav {
+    .links > li {
+      display: none;
+    }
+
+    .links > .hamburger {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    
+
+    .hamburger-icon .line {
+        transition: background .3s cubic-bezier(.25,.1,.25,1);
+        display: block;
+        transform:translateY(18px);
+    }
+
+    .hamburger-icon .line, .hamburger-icon .line:after, .hamburger-icon .line:before {
+      width: 28px;
+      height: 2px;
+      background-color: #3f4147;
+    }
+
+    .hamburger-icon .line:before {
+            position: absolute;
+
+      top: 8px;
+    }
+    .hamburger-icon .line:after {
+            position: absolute;
+
+      top: -8px;
+    }
+
+    .hamburger .line:after, .hamburger .line:before {
+        content: '';
+        left: 0;
+    }
+  }
+
+}
 
 
