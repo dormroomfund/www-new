@@ -22,34 +22,47 @@ class App extends Component {
 }
 
 class Menu extends Component {
-    render() {
-        return (
-          <nav>
-            <div className="content">
-              <div className="wrapper">
-                  <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
-                  <ul className="links">
-                      <li className="hamburger">
-                      <span className="hamburger-icon" ><span className="line"></span></span>
-                      </li>
-                      <li>
-                          <a href="/founders/">Our Founders</a>
-                      </li>
-                      <li>
-                          <a href="/team/">Our Team</a>
-                      </li>
-                      <li>
-                          <a href="/faq">FAQS</a>
-                      </li>
-                      <li>
-                          <a href="/apply" className="button-rounded-blue">Apply Now</a>
-                      </li>
-                  </ul>
-              </div>
+  constructor(props) {
+    super(props);
+    this.state = {showMobileMenu: true};
+    this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
+  }
+
+  handleHamburgerClick(){
+    console.log("maneetk")
+    this.setState({showMobileMenu: !this.state.showMobileMenu})
+  }
+
+  render() {
+    return (
+      <nav>
+        <div className="content">
+          <div className="wrapper">
+              <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
+              <ul className="links">
+                  <li className="hamburger-container">
+                  <div className="hamburger" onClick={this.handleHamburgerClick}>
+                    <span className="hamburger-icon"><span className= {"line" + (this.state.showMobileMenu ? ' active' : '')}></span></span>
+                  </div>
+                  </li>
+                  <li>
+                      <a href="/founders/">Our Founders</a>
+                  </li>
+                  <li>
+                      <a href="/team/">Our Team</a>
+                  </li>
+                  <li>
+                      <a href="/faq">FAQS</a>
+                  </li>
+                  <li>
+                      <a href="/apply" className="button-rounded-blue">Apply Now</a>
+                  </li>
+              </ul>
           </div>
-          </nav>
-        );
-    }
+      </div>
+      </nav>
+    );
+  }
 }
 
 class Value extends Component {
