@@ -30,12 +30,6 @@ $between-button-spacing: 2rem;
 	margin-top: $between-text-spacing;
 }
 
-.hero-investors-text {
-	@extend h2;
-	margin-top: 3.5rem;
-	font-size: 1rem;
-}
-
 .hero-investors {
 	height: 80px;
 }
@@ -82,9 +76,7 @@ $between-button-spacing: 2rem;
   }
 
   .hero-investors-text {
-		@extend h2;
 		margin-top: 3.5rem;
-		font-size: 1rem;
 	}
 
   .logos {

@@ -170,7 +170,7 @@ class Hero extends Component {
       <Menu/>
       <div className="content">
       <div className="hero-wrapper">
-      <h1 className="hero-header">Hi. We’re Dorm Room Fund, the best way for student founders to accelerate their startup.</h1>
+      <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
       <p className="hero-subheader">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000.</p>
       </div>
       </div>
@@ -180,7 +180,7 @@ class Hero extends Component {
       <div className="section-logos">
       <div className="content">
       <div className="col-12">
-      <h1 className="hero-investors-text">We’ve invested in 130+ startups that have gone on to raise over $XYZ Millon from investors, including:</h1>
+      <p className="hero-investors-text">We’ve invested in 130+ startups that have gone on to raise over $XYZ Millon from investors, including:</p>
       <div className="logos">
       <div className="content">
       <div className="col-10 col-centered m-col-12">
