@@ -166,6 +166,7 @@ class Hero extends Component {
   render(){
     return(
       <div>
+      <div className="hero-container">
       <Menu/>
       <div className="content">
       <div className="hero-wrapper">
@@ -175,6 +176,7 @@ class Hero extends Component {
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
       <object className="ramp-mobile" data={ramp_mobile} type="image/svg+xml"></object>
+      </div>
       <div className="section-logos">
       <div className="content">
       <div className="col-12">

@@ -17,11 +17,11 @@ $between-button-spacing: 2rem;
   display: inline-block;
   float: left;
   width: 75%;
+  margin-top: 12rem;
 }
 
 .hero-header {
 	text-align: left;
-	padding-top: 12rem;
 }
 
 .hero-subheader {
@@ -44,11 +44,12 @@ $between-button-spacing: 2rem;
 	width: 100vw;
 }
 .ramp-mobile {
-  margin-top: 7rem;
   width: 100%;
   display: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
-
 
 .logo-section .content  {
 	display: flex;
@@ -133,6 +134,14 @@ $between-button-spacing: 2rem;
     // .logos {
     //   padding-top: 2rem;
     // }
+  }
+
+  .hero-container {
+    min-height: 100vh;
+  }
+
+  .hero-wrapper {
+    margin-top: 30vh;
   }
 
   .hero-wrapper {
