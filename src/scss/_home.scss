@@ -205,6 +205,19 @@ $between-button-spacing: 2rem;
   object-fit: cover;
 }
 
+
+@media screen and (max-width: $phone-landscape-max) {
+
+  .community-image {
+    display: none;
+  }
+
+  .community-wrapper {
+    width: 100%;
+  }
+}
+
+
 /* Founders Section */
 .founders-section {
   @extend .section;
@@ -250,6 +263,19 @@ $between-button-spacing: 2rem;
   font-weight: 500;
   text-align: center;
   vertical-align: middle;
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+
+  .founders-image, .founders-image-overlay, .founders-image-caption {
+    display: none;
+  }
+
+  .founders-wrapper {
+    @include column;
+    float: left;
+    width: 100%;
+  }
 }
 
 /* Value Section */
