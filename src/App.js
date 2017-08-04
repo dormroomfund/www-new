@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import drf_logo_black from './img/drf-logo-black.svg'
+import drf_logo_small_black from './img/drf-logo-small-black.svg'
 import ramp from './img/ramp.svg'
+import ramp_mobile from './img/ramp-mobile.svg'
 import investor_firstround from './img/investor-firstround.svg'
 import investor_gv from './img/investor-gv.png'
 import investor_sequoia from './img/investor-sequoia.svg'
@@ -24,21 +26,24 @@ class App extends Component {
 class Menu extends Component {
   constructor(props) {
     super(props);
-    this.state = {showMobileMenu: true};
+    this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
   }
 
   handleHamburgerClick(){
-    console.log("maneetk")
     this.setState({showMobileMenu: !this.state.showMobileMenu})
+    document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
   }
-
+  
   render() {
     return (
+      <div>
+      { this.state.showMobileMenu ? <MobileMenu /> : null }
       <nav>
         <div className="content">
           <div className="wrapper">
               <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
+              <img alt="Dorm Room Fund logo" className="drf-logo-small-black" src={drf_logo_small_black}></img>
               <ul className="links">
                   <li className="hamburger-container">
                   <div className="hamburger" onClick={this.handleHamburgerClick}>
@@ -61,7 +66,25 @@ class Menu extends Component {
           </div>
       </div>
       </nav>
+      </div>
     );
+  }
+}
+
+
+class MobileMenu extends Component {
+
+  render(){
+    return(
+    <div className="mobile-nav">
+    <ul>
+      <li><a className="menu-link">Our Founders</a></li>
+      <li><a className="menu-link">Our Team</a></li>
+      <li><a className="menu-link">FAQS</a></li>
+      <li><a className="menu-link">Apply Now</a></li>
+    </ul>
+    </div>
+    )
   }
 }
 
@@ -128,7 +151,7 @@ class Community extends Component {
 class Apply extends Component {
   render(){
     return( 
-      <div className="bg-colored-gray value-section">
+      <div className="value-section">
       <div className="content">
       <h2>What are you waiting for? Apply now.</h2>
       <p className="apply-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
@@ -151,6 +174,7 @@ class Hero extends Component {
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
+      <object className="ramp-mobile" data={ramp_mobile} type="image/svg+xml"></object>
       <div className="section-logos">
       <div className="content">
       <div className="col-12">

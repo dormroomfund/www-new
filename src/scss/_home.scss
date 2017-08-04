@@ -16,9 +16,7 @@ $between-button-spacing: 2rem;
   @include column;
   display: inline-block;
   float: left;
-  position: relative;
   width: 75%;
-  z-index: 2;
 }
 
 .hero-header {
@@ -44,6 +42,11 @@ $between-button-spacing: 2rem;
 
 .ramp {
 	width: 100vw;
+}
+.ramp-mobile {
+  margin-top: 7rem;
+  width: 100%;
+  display: none;
 }
 
 
@@ -119,20 +122,37 @@ $between-button-spacing: 2rem;
 }
 
 @media screen and (max-width: $phone-landscape-max) {
+
   .section-logos {
 
-    > .content {
-      padding-bottom: 2rem;
-      padding-top: 4rem;
-    }
+    // > .content {
+    //   padding-bottom: 2rem;
+    //   padding-top: 4rem;
+    // }
 
-    .logos {
-      padding-top: 2rem;
-    }
+    // .logos {
+    //   padding-top: 2rem;
+    // }
+  }
+
+  .hero-wrapper {
+    width: 100%;
+  }
+
+  .hero-subheader {
+    display: none;
+  }
+
+  .ramp {
+    display: none;
+  }
+
+  .ramp-mobile {
+    display: inline;
   }
 }
 
-/* Shared --Sections */
+/* Shared Sections */
 
 .bg-colored-gray {
   width: 100vw;
@@ -267,7 +287,7 @@ $between-button-spacing: 2rem;
 .apply-section {
   @extend .section;
   padding-top: $section-padding;
-  padding-bottom: 5rem;
+  padding-bottom: $section-padding;
   position: relative;
 }
 
@@ -283,7 +303,7 @@ $between-button-spacing: 2rem;
 
 /*Resources Section*/
 .resources-section {
-  margin-top: $section-padding;
+  margin-top: 0;
   margin-bottom: $section-padding;
 }
 
