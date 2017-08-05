@@ -86,6 +86,11 @@ a, %a {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   color: $near-black;
+  transition: $t-hover-opacity;
+
+  &:hover {
+    opacity: $semi-trans;
+  }
 }
 
 @media screen and (max-width: $tablet-landscape-max) {

@@ -38,11 +38,7 @@ nav {
     }
 
     a {
-      transition: $t-hover-opacity;
       font-size: 0.875rem;
-      &:hover {
-        opacity: $semi-trans;
-      }
     }
   }
 

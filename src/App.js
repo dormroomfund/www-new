@@ -94,11 +94,11 @@ class Value extends Component {
       <div className="value-section">
       <div className="content">
       <h2>So, what do Dorm Room Fund founders recieve?</h2>
-      <p className="value-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
+      <p className="value-section-subheader">Everything we do is to designed to help student founders go from the earliest stage to the seed stage.</p>
       <div className="value-section-cards content">
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note. Yup, these are the most founder-friendly terms that exist. </p></div></div>
       </div>
       </div>
       </div>
@@ -114,7 +114,7 @@ class Founders extends Component {
     <div className="founders-wrapper">
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
-    <p className="colored-section-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
+    <p className="colored-section-subheader light-text">Since 2012, we have helped our companies grow exponentially. The majority of founders have gone on to raise seed rounds, and many are now running teams with 100+ employees.</p>
     <a className="colored-section-button button-rounded-white">Our Founders</a>
     </div>
     </div>
@@ -137,7 +137,7 @@ class Community extends Component {
     <div className="community-wrapper">
     <div>
     <h1 className="colored-section-header light-text">For students, by students.</h1>
-    <p className="colored-section-subheader light-text">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000. Our community provides.</p>
+    <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run completely by students who are passionate about helping our peers start companies.</p>
     <a className="colored-section-button button-rounded-white">Our Team</a>
     </div>
     </div>
@@ -171,7 +171,7 @@ class Hero extends Component {
       <div className="content">
       <div className="hero-wrapper">
       <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
-      <p className="hero-subheader">Our community provides founders a stong network of other founders and VCs, access to dozens of mentors, business development deals, and $20,000.</p>
+      <p className="hero-subheader">Our community provides students a strong network of founders and investors, expert mentors who have built influential tech companies, and a $20,000 check.</p>
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
@@ -180,7 +180,7 @@ class Hero extends Component {
       <div className="section-logos">
       <div className="content">
       <div className="col-12">
-      <p className="hero-investors-text">We’ve invested in 130+ startups that have gone on to raise over $XYZ Millon from investors, including:</p>
+      <p className="hero-investors-text">We’ve invested in 150+ startups that have gone on to raise over $300 million from investors, including:</p>
       <div className="logos">
       <div className="content">
       <div className="col-10 col-centered m-col-12">
