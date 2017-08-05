@@ -345,44 +345,52 @@ $dot-space: 18px;
   margin-bottom: $between-text-spacing;
 }
 
-input[type="text"] {
-  font-family: 'Circular Std';
-  font-weight: 300;
-  font-size: 0.75rem;
-  border: 1px solid $light-gray-border;
-  padding: 0.8rem 0.8rem  0.8rem 1rem;
-  width: 15rem;
-  border-radius: 0.1rem;
+form {
 
-  &.email {
-    margin-right: $element-spacing;
+  input, ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    @extend p;
+  }
+  input[type="text"] {
+    border: 1px solid $light-gray-border;
+    padding: 0.8rem 0.8rem  0.8rem 1rem;
+    width: 15rem;
+    border-radius: 0.1rem;
   }
 
-  &.school {
-    margin-right: $element-spacing;
+  input[type="submit"] {
+    color: $white;
+    padding: 0.8rem 3rem;
+    text-decoration: none;
+    background: $blue;
+    border-radius: 0.1rem;
+    border: none;
+    cursor: pointer;
+    transition: $t-hover-opacity;
+    &:hover {
+      opacity: $semi-trans;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    justify-content: space-around;
+    max-width: 50rem;
+    margin: auto;
   }
 }
 
-input[type="submit"] {
-  font-family: 'Circular Std';
-  font-weight: 300;
-  font-size: 0.75rem;
-  color: $white;
-  padding: 0.8rem 3rem;
-  text-decoration: none;
-  background: $blue;
-  border-radius: 0.1rem;
-  border: none;
-  cursor: pointer;
-  transition: $t-hover-opacity;
-  &:hover {
-    opacity: $semi-trans;
+@media screen and (max-width: $tablet-portrait-max) {
+  form {
+    .container {
+      height: 13rem;
+      width: auto;
+      flex-direction: column;
+      justify-content: space-between;
+    }
   }
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-weight: 300;
-  font-size: 0.75rem;
-  font-family: 'Circular Std';
-}
 

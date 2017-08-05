@@ -92,6 +92,10 @@ a, %a {
   p, %p {
     font-size: 1.5rem;
   }
+
+  a, %a {
+    font-size: 1.0rem;
+  }
 }
 
 @media screen and (max-width: $tablet-portrait-max) {
@@ -101,6 +105,10 @@ a, %a {
 
   p, %p {
     font-size: 1.5rem;
+  }
+
+  a, %a {
+    font-size: 1.0rem;
   }
 }
 
@@ -130,5 +138,9 @@ a, %a {
 
   p, %p {
     font-size: 1.25rem;
+  }
+
+  a, %a {
+    font-size: 1.0rem;
   }
 }
