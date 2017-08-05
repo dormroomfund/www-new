@@ -271,9 +271,9 @@ class CustomFooter extends Component {
     <h2 className="title">© 2017 Dorm Room Fund.</h2>
     <h2 className="title-mobile">© 2017 DRF.</h2>
     <ul className="links">
-      <li><a><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
+      <li><a href="https://medium.com/@dormroomfund"><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
       </li>
-      <li><a><div className="link-box"><img className="icon" src={twitter_icon}></img><span className="link-text">Twitter</span></div></a>
+      <li><a href="https://twitter.com/DormRoomFund"><div className="link-box"><img className="icon" src={twitter_icon}></img><span className="link-text">Twitter</span></div></a>
       </li>
     </ul>
     </div>
