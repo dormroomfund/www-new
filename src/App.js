@@ -77,12 +77,16 @@ class MobileMenu extends Component {
   render(){
     return(
     <div className="mobile-nav">
+    <div className="content">
+    <div className="wrapper">
     <ul>
       <li><a className="menu-link">Our Founders</a></li>
       <li><a className="menu-link">Our Team</a></li>
       <li><a className="menu-link">FAQS</a></li>
       <li><a className="menu-link">Apply Now</a></li>
     </ul>
+    </div>
+    </div>
     </div>
     )
   }
