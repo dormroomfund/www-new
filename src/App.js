@@ -190,7 +190,7 @@ class Hero extends Component {
       <div className="col-10 col-centered m-col-12">
       <div className="content">
       <div className="col-3 m-col-6"><object className="logo" data={investor_firstround} type="image/svg+xml"></object></div>
-      <div className="col-3 m-col-6"><img className="logo" src={investor_gv}></img></div>
+      <div className="col-3 m-col-6"><object className="logo" src={investor_gv} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_sequoia}></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_yc} type="image/svg+xml"></object></div>
       </div>
