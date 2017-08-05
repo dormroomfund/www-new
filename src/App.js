@@ -11,6 +11,8 @@ import community_photo from './img/community-photo.png'
 import twitter_icon from './img/twitter-icon.svg'
 import medium_icon from './img/medium-icon.svg'
 
+import founder from './img/founders/blockstack2.jpg'
+
 import './css/App.css';
 
 class App extends Component {
@@ -123,8 +125,8 @@ class Founders extends Component {
     </div>
     </div>
     <div className="founders-image-container">
-    <img className="founders-image" src={community_photo}></img>
-    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Chris Gray, Drexel ’12, Founder of Scholly</p></div>
+    <img className="founders-image" src={founder}></img>
+    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Founder of Blockstack (Princeton '17)</p></div>
     </div>
     </div>
     </div>
