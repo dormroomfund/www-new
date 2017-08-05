@@ -5,6 +5,7 @@ footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
+
   .wrapper {
     padding: 0 1.25rem;
   }
@@ -22,15 +23,18 @@ footer {
   .title-mobile {
     display: none;
   }
+
   .links {
     display: inline-block;
     font-size: 0;
     float: right;
+
     li {
       display: inline-block;
       margin-left: 6rem;
       vertical-align: middle;
       cursor: pointer;
+
       &:hover {
         opacity: $semi-trans;
       }
@@ -76,6 +80,7 @@ footer {
     .title, .title-mobile {
       font-size: 1.25rem;
     }
+
     .links {
       li {
         margin-left: 2rem;
@@ -96,7 +101,3 @@ footer {
 
   }
 }
-
-@media screen and (max-width: $phone-portrait-large) {
-}
-
