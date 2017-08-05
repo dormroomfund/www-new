@@ -265,6 +265,14 @@ $between-button-spacing: 2rem;
   vertical-align: middle;
 }
 
+// Colors
+$dot-bg-color: #fff;
+$dot-color: #ccc;
+
+// Dimensions
+$dot-size: 2px;
+$dot-space: 18px;
+
 @media screen and (max-width: $phone-landscape-max) {
 
   .founders-image, .founders-image-overlay, .founders-image-caption {
@@ -307,7 +315,6 @@ $between-button-spacing: 2rem;
 
 .value-section-text {
   margin-top: 0.5rem;
-  font-size: 0.75rem;
 }
 
 /*Apply Section*/

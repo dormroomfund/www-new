@@ -91,7 +91,7 @@ class MobileMenu extends Component {
 class Value extends Component {
   render(){
     return(
-      <div className="bg-colored-gray value-section">
+      <div className="value-section">
       <div className="content">
       <h2>So, what do Dorm Room Fund founders recieve?</h2>
       <p className="value-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
@@ -261,12 +261,13 @@ class CustomFooter extends Component {
     <footer>
     <div className="content">
     <div className="wrapper">
-    <div className="link-box">
+    <div className="vertically-centered">
     <h2 className="title">© 2017 Dorm Room Fund.</h2>
+    <h2 className="title-mobile">© 2017 DRF.</h2>
     <ul className="links">
-      <li><div className="link-box"><img className="icon" src={medium_icon}></img><a>Medium</a></div>
+      <li><a><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
       </li>
-      <li><div className="link-box"><img className="icon" src={twitter_icon}></img><a>Twitter</a></div>
+      <li><a><div className="link-box"><img className="icon" src={twitter_icon}></img><span className="link-text">Twitter</span></div></a>
       </li>
     </ul>
     </div>
