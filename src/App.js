@@ -59,7 +59,7 @@ class Menu extends Component {
                       <a href="/team/">Our Team</a>
                   </li>
                   <li>
-                      <a href="/faq">FAQS</a>
+                      <a href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
                       <a href="/apply" className="button-rounded-blue">Apply Now</a>
@@ -126,7 +126,7 @@ class Founders extends Component {
     </div>
     <div className="founders-image-container">
     <img className="founders-image" src={founder}></img>
-    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Founder of Blockstack (Princeton '17)</p></div>
+    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Founder of Blockstack (Princeton PhD '17)</p></div>
     </div>
     </div>
     </div>
