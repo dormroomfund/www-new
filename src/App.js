@@ -62,7 +62,7 @@ class Menu extends Component {
                       <a href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
-                      <a href="/apply" className="button-rounded-blue">Apply Now</a>
+                      <a href="https://dormroomfund.typeform.com/to/DsPlYB" className="button-rounded-blue">Apply Now</a>
                   </li>
               </ul>
           </div>
@@ -103,8 +103,8 @@ class Value extends Component {
       <p className="value-section-subheader">Everything we do is to designed to help student founders go from the earliest stage to the seed stage.</p>
       <div className="value-section-cards content">
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note. Yup, these are the most founder-friendly terms that exist. </p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Venmo, YouTube, Buzzfeed, and Quora.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note—yup, the most founder-friendly terms that exist. </p></div></div>
       </div>
       </div>
       </div>
@@ -120,7 +120,7 @@ class Founders extends Component {
     <div className="founders-wrapper">
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
-    <p className="colored-section-subheader light-text">Since 2012, we have helped our companies grow exponentially. The majority of founders have gone on to raise seed rounds, and many are now running teams with 100+ employees.</p>
+    <p className="colored-section-subheader light-text">Since 2012, we have helped our companies grow exponentially. The majority of our founders have gone on to raise seed rounds, and many are now running teams with 100+ employees.</p>
     <a className="colored-section-button button-rounded-white">Our Founders</a>
     </div>
     </div>
@@ -177,7 +177,7 @@ class Hero extends Component {
       <div className="content">
       <div className="hero-wrapper">
       <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
-      <p className="hero-subheader">Our community provides students a strong network of founders and investors, expert mentors who have built influential tech companies, and a $20,000 check.</p>
+      <p className="hero-subheader">Our community provides students a strong network of founders and investors, world-class mentors who have built influential tech companies, and a $20,000 check.</p>
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
