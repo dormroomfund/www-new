@@ -102,7 +102,7 @@ class Value extends Component {
       <h2>So, what do Dorm Room Fund founders recieve?</h2>
       <p className="value-section-subheader">Everything we do is to designed to help student founders go from the earliest stage to the seed stage.</p>
       <div className="value-section-cards content">
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ world-class mentors, and dozens of intimate events with industry leaders and investors.</p></div></div>
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Venmo, YouTube, Buzzfeed, and Quora.</p></div></div>
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note—yup, the most founder-friendly terms that exist. </p></div></div>
       </div>
@@ -120,7 +120,7 @@ class Founders extends Component {
     <div className="founders-wrapper">
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
-    <p className="colored-section-subheader light-text">Since 2012, we have helped our companies grow exponentially. The majority of our founders have gone on to raise seed rounds, and many are now running teams with 100+ employees.</p>
+    <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have gone on to raise further rounds of funding and run teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
     <a className="colored-section-button button-rounded-white">Our Founders</a>
     </div>
     </div>
