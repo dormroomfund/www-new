@@ -1,0 +1,103 @@
+.team {
+	.team-hero-wrapper {
+	}
+	.team-hero-wrapper
+	.team-hero-subheader {
+		margin-top: $between-text-spacing;
+	}
+
+	.team-wrapper {
+		padding: 0 1.2rem;
+	}
+	.team-hero-photo {
+		z-index: -1;
+		width: 100%;
+		height: 60vh;
+		min-height: 30rem;	
+		background-image: url("../img/community-photo-blue.png");
+		background-size: cover;
+		background-position: center 0;
+		position:relative;
+		right: 0;
+		top: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	hr.team-divider {
+		border-top: 1px solid $gray-divider;
+	}
+	.team-divider-title {
+		text-align: left;
+		margin-top: $section-padding;
+		margin-bottom: $between-text-spacing;
+	}
+
+	.team-card-text {
+		display: inline-block;
+		vertical-align: middle;
+		width: 9rem;
+
+		.team-card-school, .team-card-bio {
+			font-size: 0.65rem;
+			font-weight: $book;
+			text-align: left;
+		}
+
+		.team-card-name {
+			text-align: left;
+		}
+
+		.team-card-school {
+			color: $true-black;
+		}
+
+		.team-card-bio {
+			margin-top: 0.25rem;
+			color: #919191;
+		}
+	}
+
+  	.team-card-container {
+  		margin-top: $between-text-spacing;
+  		margin-bottom: $between-text-spacing;
+  		display: inline-block;
+  	}
+  	.team-card-image {
+	  	border-radius: 50%;
+	  	height: 6rem;
+	  	margin-right: 1rem;
+	  	display: inline-block;
+	  	vertical-align: middle;
+  	}
+
+  	.team-grid-container {
+  		padding: 0 $medium-spacing;
+  	}
+}
+
+$prefix: team;
+$totalColumns: 9;
+
+// Custom Prefix
+.#{$prefix} {
+  
+  &-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @for $i from 1 through $totalColumns {
+      &[data-column="#{$i}"] {
+        .#{$prefix}-column {
+          width: percentage( 1 / $i );
+          max-width: percentage( 1 / $i );
+          min-width: percentage( 1 / $i );
+          flex-basis: percentage( 1 / $i );
+          text-align: center;
+        }
+      }
+    }
+  }
+}

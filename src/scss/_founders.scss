@@ -1,0 +1,7 @@
+.founders {
+	.founders-hero-wrapper {
+		@include column;
+		text-align: center;
+		margin-top: 12rem;
+	}
+}

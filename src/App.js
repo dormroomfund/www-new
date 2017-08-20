@@ -1,6 +1,15 @@
 import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
 import drf_logo_black from './img/drf-logo-black.svg'
 import drf_logo_small_black from './img/drf-logo-small-black.svg'
+import drf_logo_white from './img/drf-logo-white.svg'
+import drf_logo_small_white from './img/drf-logo-small-white.svg'
+
+
 import ramp from './img/ramp.svg'
 import ramp_mobile from './img/ramp-mobile.svg'
 import investor_firstround from './img/investor-firstround.svg'
@@ -8,26 +17,117 @@ import investor_gv from './img/investor-gv.svg'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
 import community_photo from './img/community-photo.png'
+import community_photo_blue from './img/community-photo-blue.png'
+
 import twitter_icon from './img/twitter-icon.svg'
 import medium_icon from './img/medium-icon.svg'
 
 import founder from './img/founders/blockstack2.jpg'
+
+import team_member from './img/team/athena.jpeg'
+
+import team_data from './team.json';
 
 import './css/App.css';
 
 class App extends Component {
     render() {
         return (
+          <Router>
             <div className="App">
-              <Hero />
+              <Route exact path="/" component={Home}/>
+              <Route path="/founders" component={Founders}/>
+              <Route path="/team" component={Team}/>
             </div>
+          </Router>
         );
     }
 }
 
+/* Pages */
+class Home extends Component {
+  render() {
+    return(
+      <div>
+      <Menu lightColor={false}/>
+      <Hero/>
+      <Community/>
+      <Value/>
+      <FoundersSection/>
+      <Apply/>
+      <Resources/>
+      <CustomFooter/>
+      </div>
+    )
+  }
+}
+
+class Founders extends Component {
+  render() {
+    return (
+      <div className="founders">
+      <Menu lightColor={false}/>
+      <div className="hero-container">
+      <div className="content">
+      <div className="founders-hero-wrapper">
+      <h1 className="hero-header">Lorem Ipsum.</h1>
+      <p className="hero-subheader">Lorem Ipsum.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+    )
+  }
+}
+
+class Team extends Component {
+  render() {
+    return (
+      <div className="team">
+      <Menu lightColor={true}/>
+      <div className="team-hero-photo">
+      <div className="content">
+      <div className="team-hero-wrapper">
+      <h1 className="light-text">Dorm Room Fund is run 100% for students, 100% by students.</h1>
+      </div>
+      </div>
+      </div>
+      <div className="content">
+      <div className="team-wrapper">
+      <h1 className="team-divider-title">Investment</h1>
+      <hr className="team-divider"/>
+      <div className="team-grid-container">
+      <div className="team-grid" data-column="3">
+      {team_data["boston"].map(teamMember => TeamMember({ teamMember }))}
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+    )
+  }
+}
+
+const TeamMember = ({ teamMember }) => (
+  <div className="team-column">
+  <div className="team-card-container">
+    <div className="team-card">
+    <img src={require(`./img/team/${teamMember.imageFileName}`)} className="team-card-image"></img>
+    <div className="team-card-text">
+      <h5 className="team-card-name">{teamMember.name}</h5>
+      <div className="team-card-school">{teamMember.school}</div>
+      <div className="team-card-bio">{teamMember.miniBio}</div>
+    </div>
+    </div>
+    </div>
+  </div>
+  )
+
 class Menu extends Component {
   constructor(props) {
     super(props);
+
+    console.log(this.props.lightColor)
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
   }
@@ -44,25 +144,34 @@ class Menu extends Component {
       <nav>
         <div className="content">
           <div className="wrapper">
-              <img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img>
-              <img alt="Dorm Room Fund logo" className="drf-logo-small-black" src={drf_logo_small_black}></img>
+            { this.props.lightColor ?
+              <div>
+              <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-white" src={drf_logo_white}></img></Link>
+              <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-small-white" src={drf_logo_small_white}></img></Link>
+              </div>
+              :
+              <div>
+              <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-black" src={drf_logo_black}></img></Link>
+              <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-small-black" src={drf_logo_small_black}></img></Link>
+              </div>
+            }
               <ul className="links">
                   <li className="hamburger-container">
                   <div className="hamburger" onClick={this.handleHamburgerClick}>
-                    <span className="hamburger-icon"><span className= {"line" + (this.state.showMobileMenu ? ' active' : '')}></span></span>
+                    <span className="hamburger-icon"><span className={"line" + (this.props.lightColor ? ' light' : '') + (this.state.showMobileMenu ? ' active' : '')}></span></span>
                   </div>
                   </li>
                   <li>
-                      <a href="/founders/">Our Founders</a>
+                      <Link to="/founders"><a className={(this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
                   </li>
                   <li>
-                      <a href="/team/">Our Team</a>
+                      <a className={(this.props.lightColor ? 'light' : '')} href="/team">Our Team</a>
                   </li>
                   <li>
-                      <a href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
+                      <a className={(this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
-                      <a href="https://dormroomfund.typeform.com/to/DsPlYB" className="button-rounded-blue">Apply Now</a>
+                      <a className={(this.props.lightColor ? 'light' : '')} href="https://dormroomfund.typeform.com/to/DsPlYB" className="button-rounded-blue">Apply Now</a>
                   </li>
               </ul>
           </div>
@@ -112,7 +221,7 @@ class Value extends Component {
   }
 }
 
-class Founders extends Component {
+class FoundersSection extends Component {
   render(){
     return(
     <div className="bg-colored-blue founders-section">
@@ -159,7 +268,7 @@ class Apply extends Component {
     return( 
       <div className="value-section">
       <div className="content">
-      <h2>What are you waiting for? Apply now.</h2>
+      <h2>Working on something big? Let's talk.</h2>
       <p className="apply-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
       <a className="apply-section-button button-rounded-blue">Apply Now</a>
       </div>
@@ -173,7 +282,6 @@ class Hero extends Component {
     return(
       <div>
       <div className="hero-container">
-      <Menu/>
       <div className="content">
       <div className="hero-wrapper">
       <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
@@ -202,12 +310,6 @@ class Hero extends Component {
       </div>
       </div>
       </div>
-      <Community/>
-      <Value/>
-      <Founders/>
-      <Apply/>
-      <Resources/>
-      <CustomFooter/>
       </div>
       )
   }
@@ -218,7 +320,7 @@ class Resources extends Component {
     return(
       <div className="resources-section">
       <div className="content">
-      <h2 className="resources-section-header">Stay Up to Date with our Resources</h2>
+      <h2 className="resources-section-header">Not ready yet? We'd still love to help.</h2>
       <NameForm/>
       </div>
       </div>

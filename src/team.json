@@ -1,0 +1,73 @@
+{
+	"bayArea": [
+	],
+	"newYork": [
+	],
+	"boston": [
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		},
+		{
+			"name": "Athena Kan",
+			"school": "Harvard University",
+			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"imageFileName": "athena.jpeg"
+		}
+
+	],
+	"philly": [
+	],
+	"national": [
+	]
+}
