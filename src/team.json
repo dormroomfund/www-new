@@ -126,7 +126,7 @@
 		{
 			"name": "Nathaniel Horwitz",
 			"school": "Harvard University",
-			"miniBio": "Founder of General Biotechnologies.",
+			"miniBio": "HMS Researcher. Founder of General Biotechnologies.",
 			"imageFileName": "nathaniel_horwitz.png",
 			"linkedin": "http://www.linkedin.com/in/nathaniel-brooks-horwitz"
 		},
@@ -149,9 +149,46 @@
 		{
 			"name": "David Ongchoco",
 			"school": "University of Pennsylvania",
-			"miniBio": "Covering Entrepreneurs at Huffington Post & Inc. Magazine.",
+			"miniBio": "Covers Young Entrepreneurs for The Huffington Post.",
 			"imageFileName": "david_ongchoco.jpeg",
 			"linkedin": "https://www.linkedin.com/in/davidongchoco/"
+		},
+		{
+			"name": "Matt Klein",
+			"school": "Wharton",
+			"miniBio": "Former investor at Marlin Equity Partners.",
+			"imageFileName": "matt_klein.jpeg",
+			"linkedin": "https://www.linkedin.com/in/matt-klein-920a2b37/"
+		},
+		{
+			"name": "Matthew Wachter",
+			"school": "Wharton",
+			"miniBio": "Growth equity investing at General Atlantic.",
+			"imageFileName": "matthew_wachter.jpeg",
+			"linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870/"
+		},
+		{
+			"name": "Nick Kim",
+			"school": "Wharton",
+			"miniBio": "Former GM at Warby Parker.",
+			"imageFileName": "nick_kim.png",
+			"linkedin": "https://www.linkedin.com/in/nickbkim"
+		},
+		{
+
+			"name": "Priya Banerjee",
+			"school": "Wharton",
+			"miniBio": "Formerly at Sequoia, McKinsey, and Goldman Sachs.",
+			"imageFileName": "priya_banerjee.JPG",
+			"linkedin": "https://www.linkedin.com/in/nickbkim"
+		},
+		{
+
+			"name": "Trent Buezli",
+			"school": "Wharton",
+			"miniBio": "Private equity analyst at Silver Lake.",
+			"imageFileName": "nick_kim.png",
+			"linkedin": "https://www.linkedin.com/in/trentbuenzli/"
 		}
 	],
 	"bayArea": [

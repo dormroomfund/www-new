@@ -112,6 +112,11 @@ class Team extends Component {
       <div className="team-grid" data-column="3">
       {team_data["newYork"].map(teamMember => TeamMember({ teamMember }))}
       </div>
+      <hr className="team-divider"/>
+      <h4 className="team-divider-subtitle">Philly</h4>
+      <div className="team-grid" data-column="3">
+      {team_data["philly"].map(teamMember => TeamMember({ teamMember }))}
+      </div>
       </div>
       </div>
       <CustomFooter/>
