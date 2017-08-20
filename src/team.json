@@ -192,5 +192,48 @@
 		}
 	],
 	"bayArea": [
+		{
+			"name": "Catherina Xu",
+			"school": "Stanford University",
+			"miniBio": "APM Intern at Google. VP of Stanford Women in Business.",
+			"imageFileName": "catherina_xu.png",
+			"linkedin": "https://www.linkedin.com/in/catherinaxu/"
+		},
+		{
+			"name": "Erin Booth",
+			"school": "Stanford GSB",
+			"miniBio": "Led growth at onefinestay. Acquired by Accordhotels.",
+			"imageFileName": "erin_booth.jpeg",
+			"linkedin": "https://www.linkedin.com/in/erindbooth/"
+		},
+		{
+			"name": "Farbod Nowzad",
+			"school": "UC Berkeley",
+			"miniBio": "Director of Free Ventures, Berkeley's incubator.",
+			"imageFileName": "farbod_nowzad.jpeg",
+			"linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870/"
+		},
+		{
+			"name": "Jamie Macfarlane",
+			"school": "Stanford GSB",
+			"miniBio": "Former advisor to the Prime Minister of Croatia.",
+			"imageFileName": "jamie_macfarlane.png",
+			"linkedin": "https://www.linkedin.com/in/jamiemacfarlane/"
+		},
+		{
+
+			"name": "Jeff Oldenburg",
+			"school": "UC Berkeley",
+			"miniBio": "Former trader at Royal Bank of Scotland.",
+			"imageFileName": "jeff_oldenburg.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
+		},
+		{
+			"name": "Josh Tobin",
+			"school": "UC Berkeley",
+			"miniBio": "Research scientist at OpenAI. Formerly at McKinsey.",
+			"imageFileName": "josh_tobin.jpg",
+			"linkedin": "https://www.linkedin.com/in/josh-tobin-4b3b10a9"
+		}
 	]
 }

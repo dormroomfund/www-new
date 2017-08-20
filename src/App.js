@@ -109,13 +109,24 @@ class Team extends Component {
       </div>
       <hr className="team-divider"/>
       <h4 className="team-divider-subtitle">New York</h4>
+      <div className="team-grid-container">
       <div className="team-grid" data-column="3">
       {team_data["newYork"].map(teamMember => TeamMember({ teamMember }))}
       </div>
+      </div>
       <hr className="team-divider"/>
       <h4 className="team-divider-subtitle">Philly</h4>
+      <div className="team-grid-container">
       <div className="team-grid" data-column="3">
       {team_data["philly"].map(teamMember => TeamMember({ teamMember }))}
+      </div>
+      </div>
+      <hr className="team-divider"/>
+      <h4 className="team-divider-subtitle">Bay Area</h4>
+      <div className="team-grid-container">
+      <div className="team-grid" data-column="3">
+      {team_data["bayArea"].map(teamMember => TeamMember({ teamMember }))}
+      </div>
       </div>
       </div>
       </div>
