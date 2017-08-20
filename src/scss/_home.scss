@@ -1,6 +1,7 @@
 $element-spacing: 0.5rem;
 $between-text-spacing: 1rem;
 $medium-spacing: 2rem;
+$small-spacing: 1.25rem;
 $section-padding: 4rem;
 $between-button-spacing: 2rem;
 
@@ -275,7 +276,7 @@ $dot-space: 18px;
 }
 
 .value-section-card {
-  padding: 2rem 0.9rem;
+  padding: 2rem 0rem;
   background-color: white;
   transition: all 0.4s ease;
   &:hover {

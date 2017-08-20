@@ -1,73 +1,131 @@
 {
-	"bayArea": [
+	"national": [
 	],
 	"newYork": [
+		{
+			"name": "Andrew Ng",
+			"school": "Princeton University",
+			"miniBio": "Founder of Chesscademy. 8-time US Chess Champion.",
+			"imageFileName": "andrew_ng.jpeg",
+			"linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
+		},
+		{
+			"name": "Lilly Wyden",
+			"school": "Columbia Business School",
+			"miniBio": "Summer associate at Bessemer. Previously at Instagram.",
+			"imageFileName": "lilly_wyden.png",
+			"linkedin": "https://www.linkedin.com/in/lillywyden/"
+		},
+		{
+			"name": "Maneet Khaira",
+			"school": "Columbia University",
+			"miniBio": "Ex-track athlete and coder. Payments at Google.",
+			"imageFileName": "maneet_khaira.jpeg",
+			"linkedin": "https://www.linkedin.com/in/maneetkhaira/"
+		},
+		{
+			"name": "Mike Annunziata",
+			"school": "Cornell University",
+			"miniBio": "Founder of Natural Cuts Food.",
+			"imageFileName": "mike_annunziata.jpeg",
+			"linkedin": "https://www.linkedin.com/in/michael-annunziata-cfa-12853bb/"
+		},
+		{
+			"name": "Monica Shi",
+			"school": "Princeton University",
+			"miniBio": "Director of HackPrinceton. PM Intern at Lyft.",
+			"imageFileName": "monica_shi.jpeg",
+			"linkedin": "https://www.linkedin.com/in/monicashi/"
+		},
+		{
+			"name": "Nash Mouen-Makoua",
+			"school": "New York University",
+			"miniBio": "Former Senior Management Associate at Bridgewater.",
+			"imageFileName": "nashilu_mouen-makoua.jpeg",
+			"linkedin": "https://www.linkedin.com/in/nashilu/"
+		},
+		{
+			"name": "Sara Sakowitz",
+			"school": "Columbia University",
+			"miniBio": "President of CORE. NYC EDC 20 Under 20.",
+			"imageFileName": "sara_sakowitz.jpg",
+			"linkedin": "https://www.linkedin.com/in/sara-sakowitz-72216496"
+		},
+		{
+			"name": "Udit Jain",
+			"school": "Yale University",
+			"miniBio": "Data science at Quora.",
+			"imageFileName": "udit_jain.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jainudit"
+		}
 	],
 	"boston": [
 		{
 			"name": "Athena Kan",
 			"school": "Harvard University",
 			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"imageFileName": "athena_kan.jpeg",
+			"linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"name": "Isabelle Phelps",
+			"school": "MIT Sloan",
+			"miniBio": "Former marketer at eBay and Yahoo. InSITE Fellow.",
+			"imageFileName": "isabelle_phelps.jpeg",
+			"linkedin": "https://www.linkedin.com/in/isabellephelps/"
 		},
 		{
-			"name": "Athena Kan",
+			"name": "Joe Kahn",
 			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"miniBio": "APM intern for Google Brain.",
+			"imageFileName": "joe_kahn.jpeg",
+			"linkedin": "https://www.linkedin.com/in/josephwandile/"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
+			"name": "Kelsey Bishop",
+			"school": "Boston College",
 			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"imageFileName": "kelsey_bishop.jpeg",
+			"linkedin": "https://www.linkedin.com/in/bishopkelsey"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
+			"name": "Lisette Tellez",
+			"school": "MIT",
 			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"imageFileName": "lisette_tellez.jpeg",
+			"linkedin": "https://www.linkedin.com/in/lisettellez"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"name": "Mikal Khoso",
+			"school": "Northeastern University",
+			"miniBio": "Led Northeastern's New Venture Initiative.",
+			"imageFileName": "mikal_khoso.jpeg",
+			"linkedin": "https://www.linkedin.com/in/mikalk/"
 		},
 		{
-			"name": "Athena Kan",
+			"name": "Nathaniel Horwitz",
 			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"miniBio": "Founder of General Biotechnologies.",
+			"imageFileName": "nathaniel_horwitz.png",
+			"linkedin": "http://www.linkedin.com/in/nathaniel-brooks-horwitz"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"name": "Phoebe Peronto",
+			"school": "Harvard Business School",
+			"miniBio": "Marketing at Google Ventures and Pixar.",
+			"imageFileName": "phoebe_peronto.jpeg",
+			"linkedin": "https://www.linkedin.com/in/phoebeperonto/"
 		},
 		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
-		},
-		{
-			"name": "Athena Kan",
-			"school": "Harvard University",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena.jpeg"
+			"name": "Zoe Lu",
+			"school": "MIT",
+			"miniBio": "Software at Google. Cancer Researcher at Koch Institute.",
+			"imageFileName": "zoe_lu.jpeg",
+			"linkedin": "http://linkedin.com/in/siyulumit"
 		}
-
 	],
 	"philly": [
 	],
-	"national": [
+	"bayArea": [
 	]
 }

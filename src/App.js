@@ -24,8 +24,6 @@ import medium_icon from './img/medium-icon.svg'
 
 import founder from './img/founders/blockstack2.jpg'
 
-import team_member from './img/team/athena.jpeg'
-
 import team_data from './team.json';
 
 import './css/App.css';
@@ -96,13 +94,20 @@ class Team extends Component {
       <div className="team-wrapper">
       <h1 className="team-divider-title">Investment</h1>
       <hr className="team-divider"/>
+      <h4 className="team-divider-subtitle">Boston</h4>
       <div className="team-grid-container">
       <div className="team-grid" data-column="3">
       {team_data["boston"].map(teamMember => TeamMember({ teamMember }))}
       </div>
       </div>
+      <hr className="team-divider"/>
+      <h4 className="team-divider-subtitle">New York</h4>
+      <div className="team-grid" data-column="3">
+      {team_data["newYork"].map(teamMember => TeamMember({ teamMember }))}
       </div>
       </div>
+      </div>
+      <CustomFooter/>
       </div>
     )
   }
@@ -211,9 +216,9 @@ class Value extends Component {
       <h2>So, what do Dorm Room Fund founders recieve?</h2>
       <p className="value-section-subheader">Everything we do is to designed to help student founders go from the earliest stage to the seed stage.</p>
       <div className="value-section-cards content">
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ world-class mentors, and dozens of intimate events with industry leaders and investors.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ world-class mentors, dozens of intimate events with industry leaders and investors.</p></div></div>
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Venmo, YouTube, Buzzfeed, and Quora.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note—yup, the most founder-friendly terms that exist. </p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note—the most founder-friendly terms that exist. </p></div></div>
       </div>
       </div>
       </div>
@@ -229,7 +234,7 @@ class FoundersSection extends Component {
     <div className="founders-wrapper">
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
-    <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have gone on to raise further rounds of funding and run teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
+    <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have raised further rounds of funding, running teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
     <a className="colored-section-button button-rounded-white">Our Founders</a>
     </div>
     </div>
