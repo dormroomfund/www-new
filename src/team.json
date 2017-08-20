@@ -1,5 +1,26 @@
 {
 	"national": [
+		{
+			"name": "Rei Wang",
+			"school": "First Round",
+			"miniBio": "Director of Dorm Room Fund. Led PM at General Assembly.",
+			"imageFileName": "rei_wang.jpeg",
+			"linkedin": "https://www.linkedin.com/in/reiwang/"
+		},
+		{
+			"name": "Yasyf Mohamedali",
+			"school": "MIT",
+			"miniBio": "Engineering at Jane Street, Facebook, and Square.",
+			"imageFileName": "yasyf_mohamedali.jpg",
+			"linkedin": "https://www.linkedin.com/in/yasyfmohamedali"
+		},
+		{
+			"name": "Haris Memon",
+			"school": "Brown University",
+			"miniBio": "Marketing at Spot. Brown Entrepreneurship Director.",
+			"imageFileName": "haris_memon.jpg",
+			"linkedin": "https://www.linkedin.com/in/harismemon/"
+		}
 	],
 	"newYork": [
 		{
@@ -12,7 +33,7 @@
 		{
 			"name": "Lilly Wyden",
 			"school": "Columbia Business School",
-			"miniBio": "Summer associate at Bessemer. Previously at Instagram.",
+			"miniBio": "Invested at Bessemer. Previously at Instagram.",
 			"imageFileName": "lilly_wyden.png",
 			"linkedin": "https://www.linkedin.com/in/lillywyden/"
 		},
@@ -77,14 +98,14 @@
 		{
 			"name": "Joe Kahn",
 			"school": "Harvard University",
-			"miniBio": "APM intern for Google Brain.",
+			"miniBio": "APM intern for Google Brain. Formerly at Bridgewater.",
 			"imageFileName": "joe_kahn.jpeg",
 			"linkedin": "https://www.linkedin.com/in/josephwandile/"
 		},
 		{
 			"name": "Kelsey Bishop",
 			"school": "Boston College",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"miniBio": "Leads Growth at Omni. Formerly at Rent the Runway.",
 			"imageFileName": "kelsey_bishop.jpeg",
 			"linkedin": "https://www.linkedin.com/in/bishopkelsey"
 		},
@@ -125,6 +146,13 @@
 		}
 	],
 	"philly": [
+		{
+			"name": "David Ongchoco",
+			"school": "University of Pennsylvania",
+			"miniBio": "Covering Entrepreneurs at Huffington Post & Inc. Magazine.",
+			"imageFileName": "david_ongchoco.jpeg",
+			"linkedin": "https://www.linkedin.com/in/davidongchoco/"
+		}
 	],
 	"bayArea": [
 	]

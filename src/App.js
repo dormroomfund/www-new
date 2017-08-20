@@ -92,6 +92,13 @@ class Team extends Component {
       </div>
       <div className="content">
       <div className="team-wrapper">
+      <h1 className="team-divider-title">Brand & Strategy</h1>
+      <hr className="team-divider"/>
+      <div className="team-grid-container">
+      <div className="team-grid" data-column="3">
+      {team_data["national"].map(teamMember => TeamMember({ teamMember }))}
+      </div>
+      </div>
       <h1 className="team-divider-title">Investment</h1>
       <hr className="team-divider"/>
       <h4 className="team-divider-subtitle">Boston</h4>
