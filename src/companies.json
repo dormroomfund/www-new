@@ -1,28 +1,172 @@
 [
+ {
+   "companyName": "Clara",
+   "url": "clarahealth.com",
+   "people": "Evan Ehrenberg, Sol Chen",
+   "school": "Brown University"
+ },
+ {
+   "companyName": "101",
+   "url": "101edu.co",
+   "people": "Justin Weinberg, Igor Belyayev",
+   "school": "Carnegie Mellon University"
+ },
+{
+  "companyName": "ProducePay",
+  "url": "producepay.com",
+  "people": "Pablo Borquez Schwarzbeck",
+  "school": "Cornell University"
+},
+ {
+   "companyName": "Scholly",
+   "url": "zincplatform.com",
+   "people": "Christopher Gray, Nicholas Pirollo",
+   "school": "Drexel University"
+ },
+ {
+   "companyName": "Draftpot",
+   "url": "draftpot.com",
+   "people": "Harrison Fields, Kevin Baquero",
+   "school": "George Washington University"
+ },
+ {
+   "companyName": "FiscalNote",
+   "url": "fiscalnote.com",
+   "people": "Tim Hwang, Gerald Yao",
+   "school": "Harvard University"
+ },
+ {
+   "companyName": "Bevi",
+   "url": "bevi.co",
+   "people": "Sean Grundy, Eliza Becton, Frank Lee",
+   "school": "MIT"
+ },
+ {
+   "companyName": "Bevspot",
+   "url": "bevspot.com",
+   "people": "Rory Crawford, Alex Lesman, Chidubem Ezeaka",
+   "school": "Harvard University"
+ },
 
+ {
+   "companyName": "RapidSOS",
+   "url": "rapidsos.com",
+   "people": "Michael Martin, Nick Horelik",
+   "school": "Harvard University"
+ },
+  {
+   "companyName": "Grove Labs",
+   "url": "grovelabs.io",
+   "people": "Gabriel Blanchet, James Byron",
+   "school": "MIT"
+ },
+ {
+   "companyName": "Lovepop",
+   "url": "lovepopcards.com",
+   "people": "Wombi Rose, John Wise",
+   "school": "MIT"
+ },
+  {
+   "companyName": "ShieldAI",
+   "url": "shield.ai",
+   "people": "Ryan Tseng, Brandon Tseng, Andrew Reiter",
+   "school": "MIT"
+ },
+  {
+   "companyName": "Spyce",
+   "url": "spyce.io",
+   "people": "Michael Farid, Kale Rogers, Braden Knight, Luke Schlueter",
+   "school": "MIT"
+ },
+ {
+   "companyName": "Tetrascience",
+   "url": "tetrascience.com",
+   "people": "Alok Tayi, Siping Wang, Salvatore Savo",
+   "school": "Northwestern University"
+ },
+  {
+   "companyName": "Brooklinen",
+   "url": "brooklinen.com",
+   "people": "Richard Fulop",
+   "school": "NYU"
+ },
+ {
+   "companyName": "Blockstack",
+   "url": "blockstack.org",
+   "people": "Muneeb Ali, Ryan Shea",
+   "school": "Princeton University"
+ },
+ {
+   "companyName": "Athelas",
+   "url": "getathelas.com",
+   "people": "Tanay Tandon",
+   "school": "Stanford University"
+ },
+ {
+   "companyName": "Boom Fantasy",
+   "url": "boomfantasy.com",
+   "people": "Assaf Einat, Stephen A. Murphy",
+   "school": "Stanford University"
+ },
+ {
+   "companyName": "Capella Space",
+   "url": "capellaspace.com",
+   "people": "Payam Banazadeh, Will Woods",
+   "school": "Stanford University"
+ },
+ {
+   "companyName": "Homesuite",
+   "url": "yourhomesuite.com",
+   "people": "David Adams",
+   "school": "Stanford University"
+ },
+  {
+   "companyName": "Onfleet",
+   "url": "onfleet.com",
+   "people": "Khaled Naim, David Vetrano, Mikel Carmenes Cavia",
+   "school": "Stanford University"
+ },
+ {
+   "companyName": "YardClub",
+   "url": "yardclub.com",
+   "people": "Colin Evran",
+   "school": "Stanford University"
+ },
+ {
+   "companyName": "AdsNative",
+   "url": "adsnative.com",
+   "people": "Dhawal M., Satish P., Kuldeep K., Max G.",
+   "school": "UC Berkeley"
+ },
+ {
+   "companyName": "Harper Wilde",
+   "url": "harperwilde.com",
+   "people": "Jenna Kerner, Jane Fisher",
+   "school": "University of Pennsylvannia"
+ },
+ {
+   "companyName": "LeapYear Technologies",
+   "url": "leapyear.io",
+   "people": "Ishaan Nerurkar, Colton Jang",
+   "school": "University of Pennsylvannia"
+ },
 
-		{
-			"companyName": "sdfd Energy",
-			"url": "https://verbenergybar.com",
-			"people": ["Matt Czarnecki", "Isaac Morrier", "Bennett Byerley", "Andre Monteiro"],
-			"school": "Harvard University"
-		},
-		{
-			"companyName": "Verb Energy",
-			"url": "https://verbenergybar.com",
-			"people": ["Matt Czarnecki", "Isaac Morrier", "Bennett Byerley", "Andre Monteiro"],
-			"school": "Yale University"
-		},
-		{
-			"companyName": "sdf Energy",
-			"url": "https://verbenergybar.com",
-			"people": ["Matt Czarnecki", "Isaac Morrier", "Bennett Byerley", "Andre Monteiro"],
-			"school": "Yale University"
-		},
-		{
-			"companyName": "asdf Energy",
-			"url": "https://verbenergybar.com",
-			"people": ["Matt Czarnecki", "Isaac Morrier", "Bennett Byerley", "Andre Monteiro"],
-			"school": "Yale University"
-		}
+ {
+   "companyName": "Zodiac",
+   "url": "zodiacmetrics.com",
+   "people": "Justin Bleich, Artem Mariychin, Dan McCarthy, Peter Fader",
+   "school": "University of Pennsylvannia"
+ },
+ {
+   "companyName": "Forge",
+   "url": "forgeapp.com",
+   "people": "Stacey Ferreira",
+   "school": "Thiel Fellowship"
+ },
+  {
+   "companyName": "Kitsplit",
+   "url": "kitsplit.com",
+   "people": "Lisbeth Kaufman, Ken Amarit, Kristina Budelis",
+   "school": "Yale University"
+ }
 ]

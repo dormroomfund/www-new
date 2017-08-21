@@ -139,8 +139,8 @@ const Company = ({ company, first, last }) => (
   <a href={company.url} className="founders-card-link">
   <div className="founders-card">
   <div className="card-text">
-  <div className="">{company.companyName}</div>
-  <div className="founders-card-bio">{company.people.join(', ')}</div>
+  <div className=""><h5>{company.companyName}</h5></div>
+  <div className="founders-card-bio">{company.people}</div>
   </div>
   </div>
   </a>
@@ -263,7 +263,7 @@ class Menu extends Component {
                       <Link to="/founders"><a className={(this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
                   </li>
                   <li>
-                      <a className={(this.props.lightColor ? 'light' : '')} href="/team">Our Team</a>
+                      <Link to="/team"><a className={(this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
                       <a className={(this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
@@ -289,10 +289,10 @@ class MobileMenu extends Component {
     <div className="content">
     <div className="wrapper">
     <ul>
-      <li><a className="menu-link">Our Founders</a></li>
-      <li><a className="menu-link">Our Team</a></li>
-      <li><a className="menu-link">FAQS</a></li>
-      <li><a className="menu-link">Apply Now</a></li>
+      <li><Link to="/founders"><a className="menu-link">Our Founders</a></Link></li>
+      <li><Link to="/team"><a className="menu-link">Our Team</a></Link></li>
+      <li><a className="menu-link" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a></li>
+      <li><a className="menu-link" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
     </ul>
     </div>
     </div>

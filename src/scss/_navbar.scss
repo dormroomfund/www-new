@@ -84,6 +84,20 @@ div.mobile-nav {
   }
 }
 
+@media screen and (max-width: 1250px) {  
+  nav {
+    .links {
+      li {
+        margin-left: 1.75rem;
+
+        &:nth-child(4) {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $tablet-landscape-max) {  
   nav {
     .links > li {
