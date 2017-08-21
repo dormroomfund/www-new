@@ -25,8 +25,11 @@ import medium_icon from './img/medium-icon.svg'
 import founder from './img/founders/blockstack2.jpg'
 
 import team_data from './team.json';
+import company_data from './companies.json';
+
 
 import './css/App.css';
+
 
 class App extends Component {
     render() {
@@ -61,15 +64,51 @@ class Home extends Component {
 }
 
 class Founders extends Component {
+
+  getSchoolCompanies(){
+    var schools = [];
+
+    // Get all unique schools
+    for (var i = 0; i < company_data.length; i++){
+      console.log(company_data[i])
+      if (!schools.includes(company_data[i]["school"])){
+        schools.push(company_data[i]["school"]);
+      }
+    }
+
+    console.log(schools)
+
+    // Create school-by-school components
+    var output = schools.map(function (school){
+
+      var schoolCompanies = company_data.filter(function(company){
+        return company["school"] == school;
+      })
+
+      return CompanySection({ schoolCompanies })
+    })
+
+    return output
+  }
+
   render() {
     return (
-      <div className="founders">
+      <div className="founders">  
       <Menu lightColor={false}/>
       <div className="hero-container">
       <div className="content">
       <div className="founders-hero-wrapper">
-      <h1 className="hero-header">Lorem Ipsum.</h1>
-      <p className="hero-subheader">Lorem Ipsum.</p>
+      </div>
+      </div>
+      </div>
+      <div className="content">
+      <div className="founders-grid-wrapper">
+      <h1 className="team-divider-title">Our Founders</h1>
+      <hr className="team-divider"/>
+      <div className="founders-grid-container">
+      <div className="founders-grid" data-column="3">
+      {this.getSchoolCompanies()}
+      </div>  
       </div>
       </div>
       </div>
@@ -77,6 +116,37 @@ class Founders extends Component {
     )
   }
 }
+
+const CompanySection = ({ schoolCompanies }) => (
+  schoolCompanies.map(function (company, index, array){
+
+    var first = index == 0 ? true : false
+
+    var last = index == array.length - 1;
+    console.log(last)
+
+    return Company({ company, first, last})
+  })
+)
+
+const Company = ({ company, first, last }) => (
+  <div className="founders-column">
+  <div className="founders-card-container">
+  <div className={"founders-line" + (last ? " last" : "")} >
+  { first ? <span className="founders-school">{company.school}</span>: null }
+  </div>
+  { first ? <h4 className="founders-school-mobile">{company.school}</h4> : null }
+  <a href={company.url} className="founders-card-link">
+  <div className="founders-card">
+  <div className="card-text">
+  <div className="">{company.companyName}</div>
+  <div className="founders-card-bio">{company.people.join(', ')}</div>
+  </div>
+  </div>
+  </a>
+  </div>
+  </div>
+)
 
 class Team extends Component {
   render() {
@@ -141,7 +211,7 @@ const TeamMember = ({ teamMember }) => (
   <div className="team-card-container">
     <div className="team-card">
     <img src={require(`./img/team/${teamMember.imageFileName}`)} className="team-card-image"></img>
-    <div className="team-card-text">
+    <div className="card-text team-card-text">
       <h5 className="team-card-name">{teamMember.name}</h5>
       <div className="team-card-school">{teamMember.school}</div>
       <div className="team-card-bio">{teamMember.miniBio}</div>

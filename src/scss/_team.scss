@@ -1,3 +1,18 @@
+hr.team-divider {
+	border-top: 1px solid $gray-divider;
+}
+.team-divider-title {
+	text-align: left;
+	margin-top: $section-padding;
+	margin-bottom: $between-text-spacing;
+}
+
+.team-divider-subtitle {
+	margin: $between-text-spacing 0;
+	text-align: left;
+}
+
+
 .team {
 	.team-hero-wrapper {
 	}
@@ -26,43 +41,27 @@
 		justify-content: center;
 	}
 
-	hr.team-divider {
-		border-top: 1px solid $gray-divider;
-	}
-	.team-divider-title {
-		text-align: left;
-		margin-top: $section-padding;
-		margin-bottom: $between-text-spacing;
-	}
 
-	.team-divider-subtitle {
-		margin: $between-text-spacing 0;
-		text-align: left;
-	}
+  .team-card-text {
+  	display: inline-block;
+  	vertical-align: middle;
+  	width: 9.5rem;
 
-	.team-card-text {
-		display: inline-block;
-		vertical-align: middle;
-		width: 9.5rem;
-		font-size: 0.7rem;
-		font-weight: $book;
-		text-align: left;
+  	.team-card-name {
+  		text-align: left;
+  	}
 
-		.team-card-name {
-			text-align: left;
-		}
+  	.team-card-school {
+  		color: $true-black;
+  	}
 
-		.team-card-school {
-			color: $true-black;
-		}
-
-		.team-card-bio {
-			line-height: 0.9rem;
-			margin-top: 0.25rem;
-			color: #919191;
-		}
-	}
-
+  	.team-card-bio {
+  		line-height: 0.9rem;
+  		margin-top: 0.25rem;
+  		color: #7E7E7E;
+  	}
+  }
+  
   	.team-card-container {
   		margin-top: $small-spacing;
   		margin-bottom: $small-spacing;
@@ -123,9 +122,6 @@
 
   	@media screen and (max-width: $tablet-landscape-max) {
   		.team-card-text {
-  			font-size: 0.875rem;
-  			line-height: 1.075rem;
-
   			width: 12rem;
   		}
 

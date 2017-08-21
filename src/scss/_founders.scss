@@ -1,7 +1,97 @@
+$card-in-between-spacing: 0.5rem;
+
 .founders {
+	a.founders-card-link {
+		text-transform: none;
+		letter-spacing: initial;
+	}
 	.founders-hero-wrapper {
 		@include column;
 		text-align: center;
 		margin-top: 12rem;
 	}
+	.founders-grid-wrapper {
+		padding: 0 $content-padding;
+	}
+
+	.founders-grid-container {
+		margin-top: $section-padding;
+	}
+
+	.founders-grid {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	$desktop-columns: 3;
+	$tablet-columns: 2;
+	$mobile-columns: 1;
+
+	.founders-column {
+	  width: percentage( 1 / $desktop-columns );
+	  max-width: percentage( 1 / $desktop-columns );
+	  min-width: percentage( 1 / $desktop-columns );
+	  flex-basis: percentage( 1 / $desktop-columns );
+	}
+
+	.founders-card {
+		border: 1px solid $gray-divider;
+		padding: 1rem;
+		margin: 1rem $card-in-between-spacing 1rem 0;
+	}
+
+	.founders-card-bio {
+		color: $gray-card-text
+	}
+
+	span.founders-school {
+		width: initial;
+		background: $white;
+		padding-right: 0.5rem;
+	}
+
+	.founders-school-mobile {
+		text-align: left;
+		display: none;
+	}
+
+	.founders-line {
+		width: 100%; 
+		height: 20px; 
+		border-bottom: 1px solid $true-black; 
+		text-align: left;
+
+		&.last {
+			width: calc(100% - 0.5rem);
+		}
+	}
+
+	@media screen and (max-width: $tablet-landscape-max) {
+		.founders-column {
+			width: percentage( 1 / $tablet-columns );
+			max-width: percentage( 1 / $tablet-columns );
+			min-width: percentage( 1 / $tablet-columns );
+			flex-basis: percentage( 1 / $tablet-columns );
+		}
+	}
+
+	@media screen and (max-width: $tablet-portrait-max) {
+		.founders-column {
+		  width: percentage( 1 / $mobile-columns );
+		  max-width: percentage( 1 / $mobile-columns );
+		  min-width: percentage( 1 / $mobile-columns );
+		  flex-basis: percentage( 1 / $mobile-columns );
+		  text-align: center;
+		}
+
+		.founders-line {
+			display: none;
+		}
+
+		.founders-school-mobile {
+			display: block;
+		}
+	}
+
 }
