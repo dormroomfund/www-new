@@ -112,6 +112,7 @@ class Founders extends Component {
       </div>
       </div>
       </div>
+      <CustomFooter/>
       </div>
     )
   }
@@ -333,7 +334,7 @@ class FoundersSection extends Component {
     </div>
     <div className="founders-image-container">
     <img className="founders-image" src={founder}></img>
-    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Founder of Blockstack (Princeton PhD '17)</p></div>
+    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Blockstack (Princeton PhD '17)</p></div>
     </div>
     </div>
     </div>
@@ -349,7 +350,7 @@ class Community extends Component {
     <div className="content">
     <div className="community-wrapper">
     <div>
-    <h1 className="colored-section-header light-text">For students, by students.</h1>
+    <h1 className="colored-section-header light-text">Powered by First Round.</h1>
     <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run completely by students who are passionate about helping our peers start companies.</p>
     <a className="colored-section-button button-rounded-white">Our Team</a>
     </div>
@@ -383,7 +384,7 @@ class Hero extends Component {
       <div className="content">
       <div className="hero-wrapper">
       <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
-      <p className="hero-subheader">Our community provides students a strong network of founders and investors, world-class mentors who have built influential tech companies, and a $20,000 check.</p>
+      <p className="hero-subheader">Powered by First Round, we provide a strong network of investors, world-class mentors, and a $20,000 check.</p>
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
@@ -392,7 +393,7 @@ class Hero extends Component {
       <div className="section-logos">
       <div className="content">
       <div className="col-12">
-      <p className="hero-investors-text">We’ve invested in 150+ startups that have gone on to raise over $300 million from investors, including:</p>
+      <h1>150+ startups, over $300 million raised from:</h1>
       <div className="logos">
       <div className="content">
       <div className="col-10 col-centered m-col-12">
