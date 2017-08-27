@@ -384,7 +384,7 @@ class Hero extends Component {
       <div className="content">
       <div className="hero-wrapper">
       <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
-      <p className="hero-subheader">Powered by First Round, we provide a strong network of investors, world-class mentors, and a $20,000 check.</p>
+      <p className="hero-subheader">Powered by First Round, we provide our community with a strong network of investors, access to world-class mentors, and a $20,000 check.</p>
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
