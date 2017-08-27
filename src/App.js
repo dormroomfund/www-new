@@ -22,10 +22,14 @@ import community_photo_blue from './img/community-photo-blue.png'
 import twitter_icon from './img/twitter-icon.svg'
 import medium_icon from './img/medium-icon.svg'
 
-import founder from './img/founders/blockstack2.jpg'
+import founder from './img/founders/blockstack1.jpg'
 
 // Founder features
-import fiscal_note_founder from './img/founders/fiscalnote.jpg';
+import blockstack_founder from './img/founders/blockstack1.jpg'
+import brooklinen_founder from './img/founders/brooklinen.jpg'
+import fiscalnote_founder from './img/founders/fiscalnote.jpg'
+import scholly_founder from './img/founders/scholly.jpg';
+
 
 // Team and company data is dynamically loaded
 import team_data from './team.json';
@@ -104,12 +108,12 @@ class Founders extends Component {
             <div className="founders-hero-grid">
             <div className="left-part">
               <div className="left-first-row">
-                <div className="left-first-row-first-half tile"><div className="card-text overlay-text">Hi there.</div></div>
-                <div className="left-first-row-second-half tile"></div>
+                <div className="left-first-row-first-half tile"><img className="tile-img" src={blockstack_founder}></img><div className="card-text overlay-text">Hi there.</div></div>
+                <div className="left-first-row-second-half tile"><img className="tile-img" src={scholly_founder}></img></div>
               </div>
-              <div className="left-second-row tile"></div>
+              <div className="left-second-row tile"><img className="tile-img" src={brooklinen_founder}></img></div>
             </div>
-            <div className="right-part tile"></div>
+            <div className="right-part tile"><img className="tile-img" src={fiscalnote_founder}></img></div>
             </div>
       </div>
       </div>
@@ -256,6 +260,7 @@ class Menu extends Component {
       <nav>
         <div className="content">
           <div className="wrapper">
+          <div className={"logo-container " + (this.state.showMobileMenu ? "mobile-menu-visible" : "")}>
             { this.props.lightColor ?
               <div>
               <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-white" src={drf_logo_white}></img></Link>
@@ -267,7 +272,8 @@ class Menu extends Component {
               <Link to="/"><img alt="Dorm Room Fund logo" className="drf-logo-small-black" src={drf_logo_small_black}></img></Link>
               </div>
             }
-              <ul className="links">
+            </div>
+              <ul className={"links " + (this.state.showMobileMenu ? "lock" : "")}>
                   <li className="hamburger-container">
                   <div className="hamburger" onClick={this.handleHamburgerClick}>
                     <span className="hamburger-icon"><span className={"line" + (this.props.lightColor ? ' light' : '') + (this.state.showMobileMenu ? ' active' : '')}></span></span>

@@ -1,9 +1,19 @@
 $logo-height: 40px;
 
+
 nav {
   padding: 4rem 0;
   position: absolute;
   width: 100%;
+  z-index: 1;
+  display: block;
+
+  .logo-container {
+    display: block;
+    &.mobile-menu-visible {
+      display: none;
+    }
+  }
   .wrapper {
     padding: 0 $content-padding;
   }
@@ -26,6 +36,9 @@ nav {
 
     .hamburger-container {
       display: none;
+      &.mobile {
+        display: block;
+      }
     }
 
     li {
@@ -58,6 +71,7 @@ nav {
 
 
 div.mobile-nav {
+  z-index: 1; 
   background-color: $light-gray;
   position: fixed;
   left: 0;
@@ -65,7 +79,6 @@ div.mobile-nav {
   right: 0;
   bottom: 0;
   padding: 8rem 3rem;
-  z-index: 11;
   box-sizing: border-box;
   text-align: center;
   overflow-x: hidden;
@@ -96,6 +109,20 @@ div.mobile-nav {
       }
     }
   }
+}
+
+nav {
+    .links.lock > li {
+      display: none;
+      position: relative;
+      z-index: 11;
+    }
+
+    .links.lock > .hamburger-container {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+    }
 }
 
 @media screen and (max-width: $tablet-landscape-max) {  
