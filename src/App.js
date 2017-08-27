@@ -24,9 +24,12 @@ import medium_icon from './img/medium-icon.svg'
 
 import founder from './img/founders/blockstack2.jpg'
 
+// Founder features
+import fiscal_note_founder from './img/founders/fiscalnote.jpg';
+
+// Team and company data is dynamically loaded
 import team_data from './team.json';
 import company_data from './companies.json';
-
 
 import './css/App.css';
 
@@ -101,12 +104,12 @@ class Founders extends Component {
             <div className="founders-hero-grid">
             <div className="left-part">
               <div className="left-first-row">
-                <div className="left-first-row-first-half"></div>
-                <div className="left-first-row-second-half"></div>
+                <div className="left-first-row-first-half tile"><div className="card-text overlay-text">Hi there.</div></div>
+                <div className="left-first-row-second-half tile"></div>
               </div>
-              <div className="left-second-row"></div>
+              <div className="left-second-row tile"></div>
             </div>
-            <div className="right-part"></div>
+            <div className="right-part tile"></div>
             </div>
       </div>
       </div>

@@ -1,5 +1,9 @@
 $card-in-between-spacing: 0.5rem;
 
+@mixin cover-photo {
+	background-size: cover;
+	background-position: center 0;
+}
 .founders {
 	.founders-hero-photo {
 		z-index: -1;
@@ -14,11 +18,21 @@ $card-in-between-spacing: 0.5rem;
 		justify-content: center;
 	}
 
-	.founders-hero-grid-text {
+	$overlay-text-inset: 0.5rem;
+	.overlay-text {
+		opacity: 1;
 		text-align: left;
+		color: $white;
+		position: absolute;
+		bottom: $overlay-text-inset;
+		left: $overlay-text-inset;
 	}
 
-	$grid-height: 20rem;
+	.tile {
+		position: relative;
+	}
+
+	$grid-height: 28rem;
 	$grid-separator: 0.5rem;
 	.founders-hero-grid {
 		display: flex;
@@ -32,7 +46,7 @@ $card-in-between-spacing: 0.5rem;
 
 				> div {
 					&:nth-child(1) {
-						height: 50%;
+						height: 40%;
 						width: 100%;
 						display: flex;
 						flex-direction: row;
@@ -45,6 +59,8 @@ $card-in-between-spacing: 0.5rem;
 								height: 100%;
 								background-color: green;
 								margin-right: 0.5 * $grid-separator;
+								background-image: url("../img/founders/blockstack1.jpg");
+								@include cover-photo;
 							}
 							// ELEMENT - FIRST ROW RIGHT
 							&:nth-child(2) {
@@ -52,15 +68,19 @@ $card-in-between-spacing: 0.5rem;
 								height: 100%;
 								background-color: black;
 								margin-left: 0.5 * $grid-separator;
+								background-image: url("../img/founders/scholly.jpg");
+								@include cover-photo;
 							}
 						}
 					}
 					// ELEMENT - SECOND ROW
 					&:nth-child(2) {
-						height: 50%;
+						height: 60%;
 						width: 100%;
 						background-color: orange;
 						margin-top: 0.5 * $grid-separator;
+						background-image: url("../img/founders/brooklinen.jpg");
+						@include cover-photo;
 					}
 				}
 			}
@@ -69,6 +89,8 @@ $card-in-between-spacing: 0.5rem;
 				margin-left: $grid-separator;
 				width: calc(100% / 3 * 1);
 				background-color: green;
+				background-image: url("../img/founders/fiscalnote.jpg");
+				@include cover-photo;
 			}
 		}
 	}
