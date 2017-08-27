@@ -94,10 +94,20 @@ class Founders extends Component {
   render() {
     return (
       <div className="founders">  
-      <Menu lightColor={false}/>
-      <div className="hero-container">
+      <Menu lightColor={true}/>
+      <div className="founders-hero-photo">
       <div className="content">
       <div className="founders-hero-wrapper">
+            <div className="founders-hero-grid">
+            <div className="left-part">
+              <div className="left-first-row">
+                <div className="left-first-row-first-half"></div>
+                <div className="left-first-row-second-half"></div>
+              </div>
+              <div className="left-second-row"></div>
+            </div>
+            <div className="right-part"></div>
+            </div>
       </div>
       </div>
       </div>
