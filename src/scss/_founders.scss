@@ -38,11 +38,14 @@ $card-in-between-spacing: 0.5rem;
 	.founders-card {
 		border: 1px solid $gray-divider;
 		padding: 1rem;
-		margin: 1rem $card-in-between-spacing 1rem 0;
+		margin: 0.5rem $card-in-between-spacing 1rem 0;
 	}
 
 	.founders-card-bio {
-		color: $gray-card-text
+		color: $gray-card-text;
+		white-space: nowrap;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
 	}
 
 	span.founders-school {
