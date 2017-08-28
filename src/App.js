@@ -21,8 +21,8 @@ import investor_firstround from './img/investor-firstround.svg'
 import investor_gv from './img/investor-gv.svg'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
-import community_photo from './img/community-photo.png'
-import community_photo_blue from './img/community-photo-blue.png'
+import community_photo from './img/community-photo.jpg'
+import community_photo_blue from './img/community-photo-blue.jpg'
 
 // Medium article previews
 import article_1 from './img/article-1.jpg'
@@ -124,7 +124,7 @@ class Founders extends Component {
             <div className="founders-hero-grid">
             <div className="left-part">
               <div className="left-first-row">
-                <div className="left-first-row-first-half tile"><Link to="/muneeb-ali"><img className="tile-img" src={blockstack_founder}></img><div className="overlay-text card-text"><div className="mobile-only">Muneeb Ali</div><div className="mobile-only">Princeton '12</div><div>Muneeb Ali (Princeton '12)</div><div>Blockstack</div></div></Link></div>
+                <div className="left-first-row-first-half tile"><Link to="/muneeb-ali"><img className="tile-img" src={blockstack_founder}></img><div className="overlay-text card-text"><div className="mobile-only">Muneeb Ali</div><div className="mobile-only">Princeton PhD</div><div>Muneeb Ali (Princeton PhD '17)</div><div>Blockstack</div></div></Link></div>
                 <div className="left-first-row-second-half tile"><Link to="/chris-gray"><img className="tile-img" src={scholly_founder}></img><div className="overlay-text card-text"><div className="mobile-only">Chris Gray</div><div className="mobile-only">Drexel '13</div><div>Chris Gray (Drexel '13)</div><div>Scholly</div></div></Link></div>
               </div>
               <div className="left-second-row tile"><Link to="/brooklinen"><img className="tile-img brooklinen" src={brooklinen_founder}></img><div className="overlay-text card-text"><div className="mobile-only">Vicki Fulop</div><div className="mobile-only">NYU '07</div><div>Rich Fulop (NYU '14) & Vicki Fulop (NYU '07)</div><div>Brooklinen</div></div></Link></div>
