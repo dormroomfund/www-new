@@ -318,7 +318,7 @@ class Menu extends Component {
                       <a className={"menu " + (this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
-                      <a className={"button-rounded-blue"} href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
+                      <a className={(this.props.lightColor ? "button-rounded-white" : "button-rounded-blue")} href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
                   </li>
               </ul>
           </div>
