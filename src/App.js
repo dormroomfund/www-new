@@ -304,13 +304,20 @@ class Menu extends Component {
     super(props);
 
     console.log(this.props.lightColor)
+    document.body.style.overflow = 'initial';
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
+    this.handleExitClick = this.handleExitClick.bind(this)
   }
 
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
     document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+  }
+
+  handleExitClick(){
+    console.log("HIHIIIHFD;adkljadls;kfj (maneetk)")
+    document.body.style.overflow = this.state.originalBodyOverflow;
   }
   
   render() {
@@ -343,7 +350,7 @@ class Menu extends Component {
                       <Link to="/founders"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
                   </li>
                   <li>
-                      <Link to="/team"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
+                      <Link to="/team" onClick={this.handleExitClick}><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
                       <a className={"menu " + (this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
@@ -408,7 +415,7 @@ class FoundersSection extends Component {
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
     <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have raised further rounds of funding, running teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
-    <a className="colored-section-button button-rounded-white">Our Founders</a>
+    <Link to="/founders"><a className="colored-section-button button-rounded-white">Our Founders</a></Link>
     </div>
     </div>
     <div className="founders-image-container">
@@ -431,7 +438,7 @@ class Community extends Component {
     <div>
     <h1 className="colored-section-header light-text">Powered by First Round.</h1>
     <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run completely by students who are passionate about helping our peers start companies.</p>
-    <a className="colored-section-button button-rounded-white">Our Team</a>
+    <Link to="/team"><a className="colored-section-button button-rounded-white">Our Team</a></Link>
     </div>
     </div>
     <img className="community-image" src={community_photo}></img>
@@ -444,11 +451,12 @@ class Community extends Component {
 class Apply extends Component {
   render(){
     return( 
-      <div className="value-section">
+      <div className="apply-section">
       <div className="content">
+      <div className="apply-wrapper">
       <h2>Working on something big? Let's talk.</h2>
-      <p className="apply-section-subheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus venenatis iaculis lorem, vel viverra.</p>
-      <a className="apply-section-button button-rounded-blue">Apply Now</a>
+      <a href="https://dormroomfund.typeform.com/to/DsPlYB" className="apply-section-button button-rounded-blue">Apply Now</a>
+      </div>
       </div>
       </div>
       )

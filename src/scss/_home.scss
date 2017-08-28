@@ -294,8 +294,11 @@ $dot-space: 18px;
 .apply-section {
   @extend .section;
   padding-top: $section-padding;
-  padding-bottom: $section-padding;
   position: relative;
+}
+
+.apply-section-wrapper {
+  @include column;
 }
 
 .apply-section-subheader {
@@ -305,7 +308,7 @@ $dot-space: 18px;
 
 .apply-section-button {
   display: inline-block;
-  margin-top: $section-padding;
+  margin-top: $medium-spacing;
 }
 
 /*Resources Section*/
