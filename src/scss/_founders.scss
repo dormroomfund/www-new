@@ -101,6 +101,7 @@ $card-in-between-spacing: 0.5rem;
 				width: calc(100% / 3 * 2);
 				display: flex;
 				flex-direction: column;
+				height: 100%;
 
 				> div {
 					&:nth-child(1) {
