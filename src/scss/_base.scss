@@ -8,6 +8,10 @@ html, body {
   position: relative;
   animation: .7s fade-in;
   position: relative;
+
+  &.scroll-lock {
+    overflow-x: hidden;
+  }
 }
 
 a, a:hover {

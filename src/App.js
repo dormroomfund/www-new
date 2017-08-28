@@ -309,16 +309,11 @@ class Menu extends Component {
     document.body.style.overflow = 'initial';
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
-    this.handleExitClick = this.handleExitClick.bind(this)
   }
 
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
     document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
-  }
-
-  handleExitClick(){
-    document.body.style.overflow = this.state.originalBodyOverflow;
   }
   
   render() {
@@ -354,7 +349,7 @@ class Menu extends Component {
                       <Link to="/team" onClick={this.handleExitClick}><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
-                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
+                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://medium.com/best-of-rm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
                       <a className={(this.props.lightColor ? "button-rounded-white" : "button-rounded-blue")} href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
