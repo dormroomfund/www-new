@@ -33,14 +33,14 @@
 		{
 			"name": "Lilly Wyden",
 			"school": "Columbia Business School",
-			"miniBio": "Invested at Bessemer. Previously at Instagram.",
+			"miniBio": "Formerly at Bessemer and Instagram.",
 			"imageFileName": "lilly_wyden.png",
 			"linkedin": "https://www.linkedin.com/in/lillywyden/"
 		},
 		{
 			"name": "Maneet Khaira",
 			"school": "Columbia University",
-			"miniBio": "Software Engineering. Payments at Google.",
+			"miniBio": "Google. Former President of Oregon Model UN.",
 			"imageFileName": "maneet_khaira.jpg",
 			"linkedin": "https://www.linkedin.com/in/maneetkhaira/"
 		},
@@ -68,14 +68,21 @@
 		{
 			"name": "Sara Sakowitz",
 			"school": "Columbia University",
-			"miniBio": "President of CORE. NYC EDC 20 Under 20.",
+			"miniBio": "President of CORE. Founder of Blue Moon Box.",
 			"imageFileName": "sara_sakowitz.jpg",
+			"linkedin": "https://www.linkedin.com/in/sweyn"
+		},
+		{
+			"name": "Sweyn Venderbush",
+			"school": "Yale University",
+			"miniBio": "APM intern at Google. Led the Elmseed Enterprise Fund.",
+			"imageFileName": "sweyn_venderbush.jpg",
 			"linkedin": "https://www.linkedin.com/in/sara-sakowitz-72216496"
 		},
 		{
 			"name": "Udit Jain",
 			"school": "Yale University",
-			"miniBio": "Data science intern at Quora.",
+			"miniBio": "Data Science Intern at Quora. Led Yale Leadership Institute.",
 			"imageFileName": "udit_jain.jpg",
 			"linkedin": "https://www.linkedin.com/in/jainudit"
 		}
@@ -161,16 +168,9 @@
 			"linkedin": "https://www.linkedin.com/in/matt-klein-920a2b37/"
 		},
 		{
-			"name": "Matthew Wachter",
-			"school": "Wharton",
-			"miniBio": "Growth equity investing at General Atlantic.",
-			"imageFileName": "matthew_wachter.jpeg",
-			"linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870/"
-		},
-		{
 			"name": "Nick Kim",
 			"school": "Wharton",
-			"miniBio": "Founder and former GM at Warby Parker",
+			"miniBio": "Founder at Walnut. Former GM at Warby Parker.",
 			"imageFileName": "nick_kim.jpg",
 			"linkedin": "https://www.linkedin.com/in/nickbkim"
 		},
@@ -194,7 +194,7 @@
 		{
 			"name": "Erin Booth",
 			"school": "Stanford GSB",
-			"miniBio": "Led growth at onefinestay. Acquired by Accordhotels.",
+			"miniBio": "Led growth and marketing at onefinestay.",
 			"imageFileName": "erin_booth.jpeg",
 			"linkedin": "https://www.linkedin.com/in/erindbooth/"
 		},
@@ -214,10 +214,10 @@
 		},
 		{
 
-			"name": "Jeff Oldenburg",
+			"name": "Josh Ephraim",
 			"school": "UC Berkeley",
-			"miniBio": "Former trader at Royal Bank of Scotland.",
-			"imageFileName": "jeff_oldenburg.jpeg",
+			"miniBio": "Summer Associate at Gunderson Dettmer.",
+			"imageFileName": "josh_ephraim.jpeg",
 			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
 		},
 		{

@@ -15,7 +15,12 @@ hr.team-divider {
 
 .team {
 	.team-hero-wrapper {
+    padding: 0 1.2rem;
 	}
+
+  .hero-text {
+    font-weight: 300;
+  }
 	.team-hero-wrapper
 	.team-hero-subheader {
 		margin-top: $between-text-spacing;

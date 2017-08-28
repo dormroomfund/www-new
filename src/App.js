@@ -234,7 +234,7 @@ class Team extends Component {
       <div className="team-hero-photo">
       <div className="content">
       <div className="team-hero-wrapper">
-      <h1 className="light-text">Dorm Room Fund is run 100% for students, 100% by students.</h1>
+      <h1 className="hero-text light-text">Dorm Room Fund is run 100% for students, 100% by students.</h1>
       </div>
       </div>
       </div>
