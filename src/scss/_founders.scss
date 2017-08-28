@@ -31,9 +31,22 @@ $card-in-between-spacing: 0.5rem;
 		bottom: $overlay-text-inset;
 		left: $overlay-text-inset;
 
-		> div:last-child {
-			color: $white;
+
+		> div {
+			&.mobile-only {
+				display: none;
+			}
 		}
+
+		@media screen and (max-width: $phone-portrait-large) {
+			> div {
+				display: none;
+				&.mobile-only {
+					display: block;
+				}
+			}
+		}
+
 		// TODO(maneet): Add hover animation
 		// > div:last-child {
 		// 	opacity: 0;
@@ -43,6 +56,7 @@ $card-in-between-spacing: 0.5rem;
 		// }
 
 	}
+
 
 	.tile {
 		position: relative;
@@ -57,6 +71,14 @@ $card-in-between-spacing: 0.5rem;
 		object-fit: cover;
 		object-position: 50% 0;
 		display: block;
+		@media screen and (max-width: $phone-portrait-max) {
+			&.brooklinen {
+				object-position: 90% 0;
+			}
+			&.fiscalnote {
+				object-position: 55% 0;
+			}
+		}
 	}
 
 	.tile-img {
