@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Route,
-  Link
+  Link,
+  NavLink
 } from 'react-router-dom'
 import drf_logo_black from './img/drf-logo-black.svg'
 import drf_logo_small_black from './img/drf-logo-small-black.svg'
@@ -46,6 +47,10 @@ class App extends Component {
               <Route exact path="/" component={Home}/>
               <Route path="/founders" component={Founders}/>
               <Route path="/team" component={Team}/>
+              <Route path="/ryan-shea" component={FoundersFeature}/>
+              <Route path="/chris-gray" component={FoundersFeature}/>
+              <Route path="/brooklinen" component={FoundersFeature}/>
+              <Route path="/tim-hwang" component={FoundersFeature}/>
             </div>
           </Router>
         );
@@ -105,15 +110,16 @@ class Founders extends Component {
       <div className="founders-hero-photo">
       <div className="content">
       <div className="founders-hero-wrapper">
+            <h1 className="founders-header light-text">Dorm Room Fund has invested in 305 founders from 40 universities.</h1>
             <div className="founders-hero-grid">
             <div className="left-part">
               <div className="left-first-row">
-                <div className="left-first-row-first-half tile"><img className="tile-img" src={blockstack_founder}></img><div className="card-text overlay-text">Hi there.</div></div>
-                <div className="left-first-row-second-half tile"><img className="tile-img" src={scholly_founder}></img></div>
+                <div className="left-first-row-first-half tile"><Link to="/ryan-shea"><img className="tile-img" src={blockstack_founder}></img><div className="overlay-text"><div className="card-text">Ryan Shea (Princeton '17)</div><div className="card-text">Blockstack</div></div></Link></div>
+                <div className="left-first-row-second-half tile"><Link to="/chris-gray"><img className="tile-img" src={scholly_founder}></img><div className="overlay-text"><div className="card-text">Chris Gray (Drexel '13)</div><div className="card-text">Scholly</div></div></Link></div>
               </div>
-              <div className="left-second-row tile"><img className="tile-img" src={brooklinen_founder}></img></div>
+              <div className="left-second-row tile"><Link to="/brooklinen"><img className="tile-img" src={brooklinen_founder}></img><div className="overlay-text"><div className="card-text">Rich Fulop (NYU '14) & Vicki Fulop (NYU '07)</div><div className="card-text">Brooklinen</div></div></Link></div>
             </div>
-            <div className="right-part tile"><img className="tile-img" src={fiscalnote_founder}></img></div>
+            <div className="right-part tile"><NavLink to="/tim-hwang"><img className="tile-img" src={fiscalnote_founder}></img><div className="overlay-text"><div className="card-text">Tim Hwang (Princeton '14)</div><div className="card-text">FiscalNote</div></div></NavLink></div>
             </div>
       </div>
       </div>
@@ -132,6 +138,29 @@ class Founders extends Component {
       <CustomFooter/>
       </div>
     )
+  }
+}
+
+class FoundersFeature extends Component {
+  render() {
+    return(
+      <div className="founders-feature">
+        <Menu/>
+        <div className="content">
+          <div className="feature-wrapper">
+            <img className="photo" src={blockstack_founder}></img>
+            <div className="text">
+              <h1 className="founder-name">Ryan Shea</h1>
+              <h1>Blockstack</h1>
+              <div className="founder-bio">
+                <p>Hi I am a yolo swaggins.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <CustomFooter/>
+      </div>
+      )
   }
 }
 
@@ -257,7 +286,7 @@ class Menu extends Component {
     return (
       <div>
       { this.state.showMobileMenu ? <MobileMenu /> : null }
-      <nav>
+      <nav className={this.state.showMobileMenu ? "mobile-menu-visible" : ""}>
         <div className="content">
           <div className="wrapper">
           <div className={"logo-container " + (this.state.showMobileMenu ? "mobile-menu-visible" : "")}>
@@ -280,16 +309,16 @@ class Menu extends Component {
                   </div>
                   </li>
                   <li>
-                      <Link to="/founders"><a className={(this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
+                      <Link to="/founders"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
                   </li>
                   <li>
-                      <Link to="/team"><a className={(this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
+                      <Link to="/team"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
-                      <a className={(this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
+                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
-                      <a className={(this.props.lightColor ? 'light' : '')} href="https://dormroomfund.typeform.com/to/DsPlYB" className="button-rounded-blue">Apply Now</a>
+                      <a className={"button-rounded-blue"} href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
                   </li>
               </ul>
           </div>
@@ -493,9 +522,9 @@ class CustomFooter extends Component {
     <h2 className="title">© 2017 Dorm Room Fund.</h2>
     <h2 className="title-mobile">© 2017 DRF.</h2>
     <ul className="links">
-      <li><a href="https://medium.com/@dormroomfund"><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
+      <li><a className="menu" href="https://medium.com/@dormroomfund"><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
       </li>
-      <li><a href="https://twitter.com/DormRoomFund"><div className="link-box"><img className="icon" src={twitter_icon}></img><span className="link-text">Twitter</span></div></a>
+      <li><a className="menu" href="https://twitter.com/DormRoomFund"><div className="link-box"><img className="icon" src={twitter_icon}></img><span className="link-text">Twitter</span></div></a>
       </li>
     </ul>
     </div>

@@ -78,6 +78,7 @@ h4, %h4, .h4{
 h5 {
   font-size: 0.95rem;
   font-weight: $bold;
+  color: $black;
 }
 
 p, %p {
@@ -94,7 +95,7 @@ p, %p {
   }
 }
 
-a, %a {
+.menu {
   @extend h4;
   transition: $t-hover-opacity;
 
@@ -112,7 +113,7 @@ a, %a {
 
 @media screen and (max-width: $tablet-landscape-max) {
 
-  a, %a, h4, %h4 {
+  .menu, h4, %h4 {
     font-size: 1.0rem;
   }
   .card-text {
@@ -130,7 +131,7 @@ a, %a {
     font-size: 1.5rem;
   }
 
-  a, %a, h4, %h4 {
+  .menu, h4, %h4 {
     font-size: 1.0rem;
   }
 }
@@ -163,7 +164,7 @@ a, %a {
     font-size: 1.25rem;
   }
 
-  a, %a, h4, %h4 {
+  .menu, h4, %h4 {
     font-size: 1.0rem;
   }
 }

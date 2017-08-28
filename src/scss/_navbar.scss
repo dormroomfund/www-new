@@ -8,6 +8,10 @@ nav {
   z-index: 1;
   display: block;
 
+  &.mobile-menu-visible {
+    padding-bottom: 0;
+  }
+
   .logo-container {
     display: block;
     &.mobile-menu-visible {

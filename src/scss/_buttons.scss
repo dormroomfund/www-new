@@ -3,6 +3,7 @@ $button-rounded-vertical-padding: 0.7rem;
 $button-rounded-radius: 1.4rem;
 
 .button-rounded, %button-rounded {
+  @extend .menu;
   background: $blue;
   padding: $button-rounded-vertical-padding $button-rounded-horizontal-padding;
   border-radius: $button-rounded-radius;
