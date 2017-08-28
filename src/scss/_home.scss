@@ -318,6 +318,15 @@ $dot-space: 18px;
   margin-bottom: $between-text-spacing;
 }
 
+.medium-title {
+  color: $light-gray-text;
+  margin-top: $section-padding;
+}
+
+.medium-content-links {
+  margin-top: $medium-spacing;
+}
+
 form {
 
   input, ::-webkit-input-placeholder { /* Chrome/Opera/Safari */

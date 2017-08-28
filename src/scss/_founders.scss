@@ -238,34 +238,63 @@ $card-in-between-spacing: 0.5rem;
 		display: inline-block;
 		width: 100%;
 	}
-
-	img.photo {
-		float: left;
-		width: 30%;
-		height: 30%;
-		max-width: 15rem;
-		max-height: 15rem;
-		object-fit: cover;
-		margin-left: 4rem;
-	}
-
 	.text {
-		width: 50%;
-		max-width: 35rem;
 		text-align: left;
-		float: left;
-		margin-left: 4rem;
+		padding-right: 8rem;
 
-		.founder-name {
-			font-size: 2.5rem;
+		@media screen and (max-width: $tablet-portrait-max) {
+			padding-right: 0;
 		}
 
-		.founder-bio {
-			margin-top: 3rem;
+		.feature-name{
+			font-size: 2.5rem;
+
+			@media screen and (max-width: $tablet-portrait-max) {
+				margin-top: $between-text-spacing;
+			}
+		}
+
+		.feature-summary {
+			margin-top: $medium-spacing;
+		}
+
+		.feature-bio {
+			> p {
+				margin-top: $between-text-spacing;
+			}
 		}
 	}
 
+	.sidebar {
+		margin-bottom: $medium-spacing;
+		font-size: 0.7rem;
+
+		@media screen and (max-width: $tablet-portrait-max) {
+			display: none;
+			font-size: 1rem;
+		}
+
+		&.bottom {
+			margin-top: $medium-spacing;
+			display: none;
+			@media screen and (max-width: $tablet-portrait-max) {
+				display: block;
+			}
+		}
+	}
+	.overview-list {
+		text-align: left;
+		margin-top: $between-text-spacing;
+		font-weight: 300;
+		:nth-child(1) {
+			font-weight: 700;
+		}
+	}
 	.subtitle {
 
+	}
+
+	.bio-line-break {
+		margin-top: 1rem;
 	}
 }
