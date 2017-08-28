@@ -21,9 +21,9 @@ import community_photo from './img/community-photo.png'
 import community_photo_blue from './img/community-photo-blue.png'
 
 // Medium article previews
-import article_1 from './img/article-1.png'
-import article_2 from './img/article-2.png'
-import article_3 from './img/article-3.png'
+import article_1 from './img/article-1.jpg'
+import article_2 from './img/article-2.jpg'
+import article_3 from './img/article-3.jpg'
 
 
 // Social
@@ -420,7 +420,7 @@ class FoundersSection extends Component {
     </div>
     <div className="founders-image-container">
     <img className="founders-image" src={founder}></img>
-    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Muneeb Ali, Blockstack (Princeton PhD '17)</p></div>
+    <div className="founders-image-overlay"><p className="founders-image-caption light-text">Ryan Shea, Blockstack (Princeton '12)</p></div>
     </div>
     </div>
     </div>
