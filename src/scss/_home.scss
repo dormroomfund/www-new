@@ -5,9 +5,6 @@ $small-spacing: 1.25rem;
 $section-padding: 4rem;
 $between-button-spacing: 2rem;
 
-// .section, %section {
-//   min-height: 30vh;
-// }
 
 .light-text {
   color: $white;
@@ -154,7 +151,6 @@ $between-button-spacing: 2rem;
 
 /* Community Section */
 .community-section {
-  @extend .section;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   position: relative;
@@ -193,7 +189,6 @@ $between-button-spacing: 2rem;
 
 /* Founders Section */
 .founders-section {
-  @extend .section;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   position: relative;
@@ -261,7 +256,6 @@ $dot-space: 18px;
 
 /* Value Section */
 .value-section {
-  @extend .section;
   padding-top: $section-padding;
   padding-bottom: $section-padding;
   position: relative;
@@ -292,7 +286,6 @@ $dot-space: 18px;
 
 /*Apply Section*/
 .apply-section {
-  @extend .section;
   padding-top: $section-padding;
   position: relative;
 }
@@ -309,6 +302,7 @@ $dot-space: 18px;
 .apply-section-button {
   display: inline-block;
   margin-top: $medium-spacing;
+  margin-bottom: $section-padding;
 }
 
 /*Resources Section*/
