@@ -137,6 +137,7 @@ $card-in-between-spacing: 0.5rem;
 			// ELEMENT - RIGHT HALF
 			&:nth-child(2) {
 				margin-left: $grid-separator;
+				height: 100%;
 				width: calc(100% / 3 * 1);
 			}
 		}
