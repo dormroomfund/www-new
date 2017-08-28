@@ -17,6 +17,7 @@ $between-button-spacing: 2rem;
   float: left;
   width: 75%;
   margin-top: 12rem;
+  animation: 1s fade-in;
 }
 
 .hero-header {
@@ -27,6 +28,7 @@ $between-button-spacing: 2rem;
 	width: 95%;
 	text-align: left;
 	margin-top: $between-text-spacing;
+
 }
 
 .hero-investors {
@@ -35,6 +37,7 @@ $between-button-spacing: 2rem;
 
 .ramp {
 	width: 100vw;
+  animation: 1s fade-in;
 }
 .ramp-mobile {
   width: 100%;

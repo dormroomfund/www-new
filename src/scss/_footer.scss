@@ -62,20 +62,7 @@ footer {
   }
 }
 
-@media screen and (max-width: $tablet-portrait-max) {
-  footer {
-    .title, .title-mobile {
-      font-size: 1.5rem;
-    }
-    .links {
-      li {
-        margin-left: 2rem;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: $phone-landscape-max) {
+@media screen and (max-width: $tablet-landscape-max) {
   footer {
     .title, .title-mobile {
       font-size: 1.25rem;

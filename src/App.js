@@ -88,13 +88,11 @@ class Founders extends Component {
 
     // Get all unique schools
     for (var i = 0; i < company_data.length; i++){
-      console.log(company_data[i])
       if (!schools.includes(company_data[i]["school"])){
         schools.push(company_data[i]["school"]);
       }
     }
 
-    console.log(schools)
 
     // Create school-by-school components
     var output = schools.map(function (school){
@@ -203,7 +201,6 @@ const CompanySection = ({ schoolCompanies }) => (
     var first = index == 0 ? true : false
 
     var last = index == array.length - 1;
-    console.log(last)
 
     return Company({ company, first, last})
   })
@@ -303,7 +300,6 @@ class Menu extends Component {
   constructor(props) {
     super(props);
 
-    console.log(this.props.lightColor)
     document.body.style.overflow = 'initial';
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
@@ -316,7 +312,6 @@ class Menu extends Component {
   }
 
   handleExitClick(){
-    console.log("HIHIIIHFD;adkljadls;kfj (maneetk)")
     document.body.style.overflow = this.state.originalBodyOverflow;
   }
   
@@ -512,18 +507,18 @@ class Resources extends Component {
       <div className="medium-content-links">
         <div className="content">
         <div className="col-4 m-col-12">
-          <a href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726">
-          <div className="medium-card">
-          <img className="medium-article" src={article_1}></img>
-          <p className="medium-article-title">Meet the Seven Dorm Room Fund Startups Presenting at Y Combinator S17 Demo Day</p>
-          </div>
-          </a>
-        </div>
-        <div className="col-4 m-col-12">
           <a href="https://medium.com/@dormroomfund/drf4life-congrats-to-the-graduating-dorm-room-fund-partners-719f82ab3e03">
           <div className="medium-card">
           <img className="medium-article" src={article_2}></img>
           <p className="medium-article-title">#DRF4Life: Congrats to the Graduating Dorm Room Fund Partners!</p>
+          </div>
+          </a>
+        </div>
+        <div className="col-4 m-col-12">
+          <a href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726">
+          <div className="medium-card">
+          <img className="medium-article" src={article_1}></img>
+          <p className="medium-article-title">Meet the Seven Dorm Room Fund Startups Presenting at Y Combinator S17 Demo Day</p>
           </div>
           </a>
         </div>

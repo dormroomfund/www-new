@@ -70,6 +70,7 @@ $card-in-between-spacing: 0.5rem;
 	$grid-height: 28rem;
 	$grid-separator: 0.5rem;
 	.founders-hero-grid {
+		animation: 1s fade-in-up;
 		display: flex;
 		flex-direction: row;
 		height: $grid-height;
