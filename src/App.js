@@ -22,8 +22,6 @@ import investor_gv from './img/investor-gv.svg'
 import investor_sequoia from './img/investor-sequoia.svg'
 import investor_yc from './img/investor-yc.svg'
 import community_photo from './img/community-photo.jpg'
-import community_photo_blue from './img/community-photo-blue.jpg'
-
 // Medium article previews
 import article_1 from './img/article-1.jpg'
 import article_2 from './img/article-2.jpg'
@@ -314,6 +312,11 @@ class Menu extends Component {
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
     document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+    if (this.state.showMobileMenu){
+      document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+    } else {
+      document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
+    }
   }
   
   render() {
