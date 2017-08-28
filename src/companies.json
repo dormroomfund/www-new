@@ -91,6 +91,18 @@
    "school": "NYU"
  },
  {
+   "companyName": "Kitsplit",
+   "url": "https://kitsplit.com",
+   "people": "Lisbeth Kaufman, Ken Amarit, Kristina Budelis",
+   "school": "NYU"
+ },
+ {
+   "companyName": "Forge",
+   "url": "https://joinforge.com",
+   "people": "Stacey Ferreira",
+   "school": "NYU (Thiel Fellowship)"
+ },
+ {
    "companyName": "Blockstack",
    "url": "https://blockstack.org",
    "people": "Muneeb Ali, Ryan Shea",
@@ -156,17 +168,5 @@
    "url": "https://zodiacmetrics.com",
    "people": "Justin Bleich, Artem Mariychin, Dan McCarthy, Peter Fader",
    "school": "University of Pennsylvannia"
- },
- {
-   "companyName": "Forge",
-   "url": "https://joinforge.com",
-   "people": "Stacey Ferreira",
-   "school": "Thiel Fellowship"
- },
-  {
-   "companyName": "Kitsplit",
-   "url": "https://kitsplit.com",
-   "people": "Lisbeth Kaufman, Ken Amarit, Kristina Budelis",
-   "school": "Yale University"
  }
 ]

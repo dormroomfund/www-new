@@ -73,6 +73,10 @@ $between-button-spacing: 2rem;
   .logo {
   	height: 3rem;
   }
+  .logos-wrapper {
+    @include column;
+    float: none;
+  }
 }
 
 @media screen and (max-width: $tablet-landscape-max) {

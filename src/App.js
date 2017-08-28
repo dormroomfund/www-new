@@ -235,13 +235,13 @@ class Team extends Component {
       <div className="team-hero-photo">
       <div className="content">
       <div className="team-hero-wrapper">
-      <h1 className="hero-text light-text">Dorm Room Fund is run 100% for students, 100% by students.</h1>
+      <h1 className="hero-text light-text">Dorm Room Fund is designed 100% for students, run 100% by students.</h1>
       </div>
       </div>
       </div>
       <div className="content">
       <div className="team-wrapper">
-      <h1 className="team-divider-title">Brand & Strategy</h1>
+      <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
       <hr className="team-divider"/>
       <div className="team-grid-container">
       <div className="team-grid" data-column="3">
@@ -394,11 +394,11 @@ class Value extends Component {
       <div className="value-section">
       <div className="content">
       <h2>So, what do Dorm Room Fund founders recieve?</h2>
-      <p className="value-section-subheader">Everything we do is to designed to help student founders go from the earliest stage to the seed stage.</p>
+      <p className="value-section-subheader">We're designed to help student founders go from the earliest stage to the seed stage and beyond.</p>
       <div className="value-section-cards content">
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ world-class mentors, dozens of intimate events with industry leaders and investors.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Venmo, YouTube, Buzzfeed, and Quora.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 on an uncapped convertible note—the most founder-friendly terms that exist. </p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ mentors, dozens of intimate events with industry leaders and investors.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Buzzfeed, Venmo, YouTube, and Quora.</p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 through an uncapped convertible note—the most founder-friendly terms that exist. </p></div></div>
       </div>
       </div>
       </div>
@@ -414,7 +414,7 @@ class FoundersSection extends Component {
     <div className="founders-wrapper">
     <div>
     <h1 className="colored-section-header light-text">Our founders, our family.</h1>
-    <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have raised further rounds of funding, running teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
+    <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have raised additional rounds of funding, running teams of up to 100+ employees. By helping our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
     <Link to="/founders"><a className="colored-section-button button-rounded-white">Our Founders</a></Link>
     </div>
     </div>
@@ -436,7 +436,7 @@ class Community extends Component {
     <div className="content">
     <div className="community-wrapper">
     <div>
-    <h1 className="colored-section-header light-text">Powered by First Round.</h1>
+    <h1 className="colored-section-header light-text">Built by students and powered by First Round.</h1>
     <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run completely by students who are passionate about helping our peers start companies.</p>
     <Link to="/team"><a className="colored-section-button button-rounded-white">Our Team</a></Link>
     </div>
@@ -470,8 +470,8 @@ class Hero extends Component {
       <div className="hero-container">
       <div className="content">
       <div className="hero-wrapper">
-      <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to accelerate their startup.</h1>
-      <p className="hero-subheader">Powered by First Round, we provide our community with a strong network of investors, access to world-class mentors, and a $20,000 check.</p>
+      <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to grow their startup.</h1>
+      <p className="hero-subheader">Built by students and powered by First Round, we provide founders with a strong network of investors, world-class mentors, and a $20,000 check.</p>
       </div>
       </div>
       <object className="ramp" data={ramp} type="image/svg+xml"></object>
@@ -480,7 +480,8 @@ class Hero extends Component {
       <div className="section-logos">
       <div className="content">
       <div className="col-12">
-      <h1>150+ startups, over $300 million raised from:</h1>
+      <div className="logos-wrapper">
+      <h1>We've invested in 150 startups who've raised $300 million from:</h1>
       <div className="logos">
       <div className="content">
       <div className="col-10 col-centered m-col-12">
@@ -489,6 +490,7 @@ class Hero extends Component {
       <div className="col-3 m-col-6"><object className="logo" data={investor_gv} type="image/svg+xml"></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_sequoia}></object></div>
       <div className="col-3 m-col-6"><object className="logo" data={investor_yc} type="image/svg+xml"></object></div>
+      </div>
       </div>
       </div>
       </div>
