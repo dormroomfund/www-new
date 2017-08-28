@@ -17,7 +17,7 @@
 		{
 			"name": "Haris Memon",
 			"school": "Brown University",
-			"miniBio": "Marketing at Spot. Brown Entrepreneurship Director.",
+			"miniBio": "Founder of Growth Tailors. Former BD Lead at BrandSlip.",
 			"imageFileName": "haris_memon.jpg",
 			"linkedin": "https://www.linkedin.com/in/harismemon/"
 		}
@@ -40,7 +40,7 @@
 		{
 			"name": "Maneet Khaira",
 			"school": "Columbia University",
-			"miniBio": "Google. Former President of Oregon Model UN.",
+			"miniBio": "Google Payments. Founder of Readism.",
 			"imageFileName": "maneet_khaira.jpg",
 			"linkedin": "https://www.linkedin.com/in/maneetkhaira/"
 		},
@@ -112,21 +112,21 @@
 		{
 			"name": "Kelsey Bishop",
 			"school": "Boston College",
-			"miniBio": "Leads Growth at Omni. Formerly at Rent the Runway.",
+			"miniBio": "Head of BD at Campus Insights. Growth at Omni.",
 			"imageFileName": "kelsey_bishop.jpeg",
 			"linkedin": "https://www.linkedin.com/in/bishopkelsey"
 		},
 		{
 			"name": "Lisette Tellez",
 			"school": "MIT",
-			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
+			"miniBio": "Director of StartLabs, Advisor at Sandbox Innovation Fund.",
 			"imageFileName": "lisette_tellez.jpeg",
 			"linkedin": "https://www.linkedin.com/in/lisettellez"
 		},
 		{
 			"name": "Mikal Khoso",
 			"school": "Northeastern University",
-			"miniBio": "Led Northeastern's New Venture Initiative.",
+			"miniBio": "Associate at Underscore VC. Led New Venture Initiative.",
 			"imageFileName": "mikal_khoso.jpg",
 			"linkedin": "https://www.linkedin.com/in/mikalk/"
 		},
@@ -156,7 +156,7 @@
 		{
 			"name": "David Ongchoco",
 			"school": "University of Pennsylvania",
-			"miniBio": "Covers Young Entrepreneurs for The Huffington Post.",
+			"miniBio": "Founder of YouthHack. Writer at Inc. & HuffPo.",
 			"imageFileName": "david_ongchoco.jpeg",
 			"linkedin": "https://www.linkedin.com/in/davidongchoco/"
 		},
@@ -216,14 +216,14 @@
 
 			"name": "Josh Ephraim",
 			"school": "UC Berkeley",
-			"miniBio": "Summer Associate at Gunderson Dettmer.",
+			"miniBio": "Berkeley JD-MBA. President of InSITE Fellows.",
 			"imageFileName": "josh_ephraim.jpeg",
 			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
 		},
 		{
 			"name": "Josh Tobin",
 			"school": "UC Berkeley",
-			"miniBio": "Research scientist at OpenAI. Formerly at McKinsey.",
+			"miniBio": "Machine Learning PhD at Berkeley. Research at OpenAI.",
 			"imageFileName": "josh_tobin.jpg",
 			"linkedin": "https://www.linkedin.com/in/josh-tobin-4b3b10a9"
 		}

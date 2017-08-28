@@ -354,7 +354,7 @@ class Menu extends Component {
                       <Link to="/team" onClick={this.handleExitClick}><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
-                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
+                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
                   </li>
                   <li>
                       <a className={(this.props.lightColor ? "button-rounded-white" : "button-rounded-blue")} href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
@@ -513,7 +513,7 @@ class Resources extends Component {
       <div className="medium-content-links">
         <div className="content">
         <div className="col-4 m-col-12">
-          <a href="https://medium.com/@dormroomfund/drf4life-congrats-to-the-graduating-dorm-room-fund-partners-719f82ab3e03">
+          <a target="_blank" href="https://medium.com/@dormroomfund/drf4life-congrats-to-the-graduating-dorm-room-fund-partners-719f82ab3e03">
           <div className="medium-card">
           <img className="medium-article" src={article_2}></img>
           <p className="medium-article-title">#DRF4Life: Congrats to the Graduating Dorm Room Fund Partners!</p>
@@ -521,7 +521,7 @@ class Resources extends Component {
           </a>
         </div>
         <div className="col-4 m-col-12">
-          <a href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726">
+          <a target="_blank" href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726">
           <div className="medium-card">
           <img className="medium-article" src={article_1}></img>
           <p className="medium-article-title">Meet the Seven Dorm Room Fund Startups Presenting at Y Combinator S17 Demo Day</p>
@@ -529,7 +529,7 @@ class Resources extends Component {
           </a>
         </div>
         <div className="col-4 m-col-12">
-          <a href="https://medium.com/@dormroomfund/the-26-students-powering-entrepreneurship-meet-dorm-room-funds-new-partners-2a2d83d7c9f0">
+          <a target="_blank" href="https://medium.com/@dormroomfund/the-26-students-powering-entrepreneurship-meet-dorm-room-funds-new-partners-2a2d83d7c9f0">
           <div className="medium-card">
           <img className="medium-article" src={article_3}></img>
           <p className="medium-article-title">The 26 Students Powering Entrepreneurship — Meet Dorm Room Fund’s New Partners</p>
