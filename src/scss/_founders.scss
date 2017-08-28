@@ -237,13 +237,17 @@ $card-in-between-spacing: 0.5rem;
 
 	img.photo {
 		float: left;
-		width: 14rem;
-		height: 14rem;
+		width: 30%;
+		height: 30%;
+		max-width: 15rem;
+		max-height: 15rem;
 		object-fit: cover;
 		margin-left: 4rem;
 	}
 
 	.text {
+		width: 50%;
+		max-width: 35rem;
 		text-align: left;
 		float: left;
 		margin-left: 4rem;

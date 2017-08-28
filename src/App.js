@@ -38,7 +38,6 @@ import company_data from './companies.json';
 
 import './css/App.css';
 
-
 class App extends Component {
     render() {
         return (
@@ -153,7 +152,7 @@ class FoundersFeature extends Component {
               <h1 className="founder-name">Ryan Shea</h1>
               <h1>Blockstack</h1>
               <div className="founder-bio">
-                <p>Hi I am a yolo swaggins.</p>
+                <p>Hi, I am Ryan Shea. Buy in on my ICO you filthy motherfucker (before it's too late).</p>
               </div>
             </div>
           </div>
@@ -338,10 +337,10 @@ class MobileMenu extends Component {
     <div className="mobile-wrapper">
     <div>
     <ul>
-      <li><Link to="/founders"><a className="menu-link">Our Founders</a></Link></li>
-      <li><Link to="/team"><a className="menu-link">Our Team</a></Link></li>
-      <li><a className="menu-link" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a></li>
-      <li><a className="menu-link" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
+      <li><Link to="/founders"><a className="menu menu-link">Our Founders</a></Link></li>
+      <li><Link to="/team"><a className="menu menu-link">Our Team</a></Link></li>
+      <li><a className="menu menu-link" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a></li>
+      <li><a className="menu menu-link" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
     </ul>
     </div>
     </div>
