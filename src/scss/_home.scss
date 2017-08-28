@@ -321,10 +321,31 @@ $dot-space: 18px;
 .medium-title {
   color: $light-gray-text;
   margin-top: $section-padding;
+
+  .gray-underline {
+    color: $light-gray-text;
+    border-bottom: 2px solid $light-gray-text;
+  }
 }
 
 .medium-content-links {
   margin-top: $medium-spacing;
+}
+
+.medium-article {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  object-position: 50% 0;
+}
+.medium-article-title {
+  color: $black;
+}
+
+.medium-card {
+  @media screen and (max-width: $tablet-portrait-max) {
+    margin-top: $medium-spacing;
+  }
 }
 
 form {

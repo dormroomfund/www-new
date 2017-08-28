@@ -10,7 +10,7 @@ import drf_logo_small_black from './img/drf-logo-small-black.svg'
 import drf_logo_white from './img/drf-logo-white.svg'
 import drf_logo_small_white from './img/drf-logo-small-white.svg'
 
-
+// Home page assets
 import ramp from './img/ramp.svg'
 import ramp_mobile from './img/ramp-mobile.svg'
 import investor_firstround from './img/investor-firstround.svg'
@@ -20,6 +20,13 @@ import investor_yc from './img/investor-yc.svg'
 import community_photo from './img/community-photo.png'
 import community_photo_blue from './img/community-photo-blue.png'
 
+// Medium article previews
+import article_1 from './img/article-1.png'
+import article_2 from './img/article-2.png'
+import article_3 from './img/article-3.png'
+
+
+// Social
 import twitter_icon from './img/twitter-icon.svg'
 import medium_icon from './img/medium-icon.svg'
 
@@ -31,7 +38,6 @@ import blockstack_founder from './img/founders/blockstack2.jpg'
 import brooklinen_founder from './img/founders/brooklinen.jpg'
 import fiscalnote_founder from './img/founders/fiscalnote.jpg'
 import scholly_founder from './img/founders/scholly.jpg';
-
 
 // Team and company data is dynamically loaded
 import team_data from './team.json';
@@ -494,19 +500,34 @@ class Resources extends Component {
       <div className="content">
       <h2 className="resources-section-header">Not ready yet? We'd still love to help.</h2>
       <NameForm/>
-      <p className="medium-title">Our most recent posts on Medium:</p>
-      <div className="content">
+      <p className="medium-title">Our most recent posts on <a href="https://medium.com/@dormroomfund"><span className="gray-underline">Medium</span></a>:</p>
       <div className="medium-content-links">
+        <div className="content">
         <div className="col-4 m-col-12">
-        <img ></img>
+          <a href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726">
+          <div className="medium-card">
+          <img className="medium-article" src={article_1}></img>
+          <p className="medium-article-title">Meet the Seven Dorm Room Fund Startups Presenting at Y Combinator S17 Demo Day</p>
+          </div>
+          </a>
         </div>
         <div className="col-4 m-col-12">
-        Hi team-hero-wrapper
+          <a href="https://medium.com/@dormroomfund/drf4life-congrats-to-the-graduating-dorm-room-fund-partners-719f82ab3e03">
+          <div className="medium-card">
+          <img className="medium-article" src={article_2}></img>
+          <p className="medium-article-title">#DRF4Life: Congrats to the Graduating Dorm Room Fund Partners!</p>
+          </div>
+          </a>
         </div>
         <div className="col-4 m-col-12">
-        <img></img>
+          <a href="https://medium.com/@dormroomfund/the-26-students-powering-entrepreneurship-meet-dorm-room-funds-new-partners-2a2d83d7c9f0">
+          <div className="medium-card">
+          <img className="medium-article" src={article_3}></img>
+          <p className="medium-article-title">The 26 Students Powering Entrepreneurship — Meet Dorm Room Fund’s New Partners</p>
+          </div>
+          </a>
         </div>
-      </div>
+        </div>
       </div>
       </div>
       </div>
