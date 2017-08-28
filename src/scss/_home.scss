@@ -295,6 +295,7 @@ $dot-space: 18px;
 
 .apply-section-wrapper {
   @include column;
+  float: none;
 }
 
 .apply-section-subheader {
@@ -314,13 +315,23 @@ $dot-space: 18px;
   margin-bottom: $section-padding;
 }
 
+.resources-section-wrapper {
+  @include column;
+}
+
 .resources-section-header {
+  margin-bottom: 3rem;
+}
+
+.email-title {
+  color: $light-gray-text;
+  margin-top: $small-spacing;
   margin-bottom: $between-text-spacing;
 }
 
 .medium-title {
   color: $light-gray-text;
-  margin-top: $section-padding;
+  margin-top: 3rem;
 
   .gray-underline {
     color: $light-gray-text;
@@ -329,7 +340,7 @@ $dot-space: 18px;
 }
 
 .medium-content-links {
-  margin-top: $medium-spacing;
+  margin-top: $small-spacing;
 }
 
 .medium-article {
@@ -344,7 +355,10 @@ $dot-space: 18px;
 
 .medium-card {
   @media screen and (max-width: $tablet-portrait-max) {
-    margin-top: $medium-spacing;
+    margin-bottom: $medium-spacing;
+    &.last {
+      margin-bottom: 0;
+    }
   }
 }
 

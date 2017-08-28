@@ -305,6 +305,7 @@ class Menu extends Component {
     super(props);
 
     document.body.style.overflow = 'initial';
+    document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
   }
@@ -452,7 +453,7 @@ class Apply extends Component {
     return( 
       <div className="apply-section">
       <div className="content">
-      <div className="apply-wrapper">
+      <div className="apply-section-wrapper">
       <h2>Working on something big? Let's talk.</h2>
       <a href="https://dormroomfund.typeform.com/to/DsPlYB" className="apply-section-button button-rounded-blue">Apply Now</a>
       </div>
@@ -505,7 +506,9 @@ class Resources extends Component {
     return(
       <div className="resources-section">
       <div className="content">
+      <div className="resources-section-wrapper">
       <h2 className="resources-section-header">Not ready yet? We'd still love to help.</h2>
+      <p className="email-title">Follow events, resources, and jobs in our portfolio:</p>
       <NameForm/>
       <p className="medium-title">Our most recent posts on <a href="https://medium.com/@dormroomfund"><span className="gray-underline">Medium</span></a>:</p>
       <div className="medium-content-links">
@@ -528,13 +531,14 @@ class Resources extends Component {
         </div>
         <div className="col-4 m-col-12">
           <a target="_blank" href="https://medium.com/@dormroomfund/the-26-students-powering-entrepreneurship-meet-dorm-room-funds-new-partners-2a2d83d7c9f0">
-          <div className="medium-card">
+          <div className="medium-card last">
           <img className="medium-article" src={article_3}></img>
           <p className="medium-article-title">The 26 Students Powering Entrepreneurship — Meet Dorm Room Fund’s New Partners</p>
           </div>
           </a>
         </div>
         </div>
+      </div>
       </div>
       </div>
       </div>
