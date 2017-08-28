@@ -572,8 +572,8 @@ class NameForm extends Component {
     return (
       <form className="resources-section-form" onSubmit={this.handleSubmit}>
       <div className="container">
-        <input className="email" placeholder="Email Address" type="text" value={this.state.email} onChange={this.handleEmailChange} />
-        <input className="school" placeholder="School" type="text" value={this.state.school} onChange={this.handleSchoolChange} />
+        <input className="email" placeholder="First Name" type="text" value={this.state.email} onChange={this.handleEmailChange} />
+        <input className="school" placeholder="Email Address" type="text" value={this.state.school} onChange={this.handleSchoolChange} />
         <input type="submit" value="Sign Up" />
       </div>
       </form>
