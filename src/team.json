@@ -27,8 +27,8 @@
 			"name": "Andrew Ng",
 			"school": "Princeton University",
 			"miniBio": "Founder of Chesscademy. 8-time US Chess Champion.",
-			"imageFileName": "andrew_ng.jpeg",
-			"linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
+			"imageFileName": "andrew_ng.jpg",
+			"linkedin": "https://www.linkedin.com/in/andrewjmng/"
 		},
 		{
 			"name": "Lilly Wyden",
@@ -41,7 +41,7 @@
 			"name": "Maneet Khaira",
 			"school": "Columbia University",
 			"miniBio": "Software Engineering. Payments at Google.",
-			"imageFileName": "maneet_khaira.jpeg",
+			"imageFileName": "maneet_khaira.jpg",
 			"linkedin": "https://www.linkedin.com/in/maneetkhaira/"
 		},
 		{
@@ -55,7 +55,7 @@
 			"name": "Monica Shi",
 			"school": "Princeton University",
 			"miniBio": "Director of HackPrinceton. PM Intern at Lyft.",
-			"imageFileName": "monica_shi.jpeg",
+			"imageFileName": "monica_shi.jpg",
 			"linkedin": "https://www.linkedin.com/in/monicashi/"
 		},
 		{
@@ -76,7 +76,7 @@
 			"name": "Udit Jain",
 			"school": "Yale University",
 			"miniBio": "Data science intern at Quora.",
-			"imageFileName": "udit_jain.jpeg",
+			"imageFileName": "udit_jain.jpg",
 			"linkedin": "https://www.linkedin.com/in/jainudit"
 		}
 	],
@@ -85,7 +85,7 @@
 			"name": "Athena Kan",
 			"school": "Harvard University",
 			"miniBio": "Built self-driving cars at Uber and leads Coding it Forward.",
-			"imageFileName": "athena_kan.jpeg",
+			"imageFileName": "athena_kan.jpg",
 			"linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
 		},
 		{
@@ -120,7 +120,7 @@
 			"name": "Mikal Khoso",
 			"school": "Northeastern University",
 			"miniBio": "Led Northeastern's New Venture Initiative.",
-			"imageFileName": "mikal_khoso.jpeg",
+			"imageFileName": "mikal_khoso.jpg",
 			"linkedin": "https://www.linkedin.com/in/mikalk/"
 		},
 		{
@@ -134,14 +134,14 @@
 			"name": "Phoebe Peronto",
 			"school": "Harvard Business School",
 			"miniBio": "Marketing at Google Ventures and Pixar.",
-			"imageFileName": "phoebe_peronto.jpeg",
+			"imageFileName": "phoebe_peronto.jpg",
 			"linkedin": "https://www.linkedin.com/in/phoebeperonto/"
 		},
 		{
 			"name": "Zoe Lu",
 			"school": "MIT",
 			"miniBio": "Software at Google. Cancer Researcher at Koch Institute.",
-			"imageFileName": "zoe_lu.jpeg",
+			"imageFileName": "zoe_lu.jpg",
 			"linkedin": "http://linkedin.com/in/siyulumit"
 		}
 	],
@@ -171,7 +171,7 @@
 			"name": "Nick Kim",
 			"school": "Wharton",
 			"miniBio": "Founder and former GM at Warby Parker",
-			"imageFileName": "nick_kim.png",
+			"imageFileName": "nick_kim.jpg",
 			"linkedin": "https://www.linkedin.com/in/nickbkim"
 		},
 		{
@@ -181,14 +181,6 @@
 			"miniBio": "Formerly at Sequoia, McKinsey, and Goldman Sachs.",
 			"imageFileName": "priya_banerjee.jpg",
 			"linkedin": "https://www.linkedin.com/in/nickbkim"
-		},
-		{
-
-			"name": "Trent Buezli",
-			"school": "Wharton",
-			"miniBio": "Private equity analyst at Silver Lake.",
-			"imageFileName": "nick_kim.png",
-			"linkedin": "https://www.linkedin.com/in/trentbuenzli/"
 		}
 	],
 	"bayArea": [
