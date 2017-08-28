@@ -155,16 +155,20 @@ $card-in-between-spacing: 0.5rem;
 	}
 
 	.founders-card {
-		border: 1px solid $gray-divider;
+		border: 1px solid $gray-box;
 		padding: 1rem;
 		margin: 0.5rem $card-in-between-spacing 1rem 0;
 	}
 
-	.founders-card-bio {
-		color: $gray-card-text;
+	.founders-card-bio, .founders-card-school {
+		color: #7E7E7E;
 		white-space: nowrap;
 		  overflow: hidden;
 		  text-overflow: ellipsis;
+	}
+
+	.founders-card-school {
+		color: $black;
 	}
 
 	span.founders-school {

@@ -178,14 +178,12 @@ const CompanySection = ({ schoolCompanies }) => (
 const Company = ({ company, first, last }) => (
   <div className="founders-column">
   <div className="founders-card-container">
-  <div className={"founders-line" + (last ? " last" : "")} >
-  { first ? <span className="founders-school">{company.school}</span>: null }
-  </div>
-  { first ? <h4 className="founders-school-mobile">{company.school}</h4> : null }
+
   <a href={company.url} className="founders-card-link">
   <div className="founders-card">
   <div className="card-text">
   <div className=""><h5>{company.companyName}</h5></div>
+  <div className="founders-card-school">{company.school}</div>
   <div className="founders-card-bio">{company.people}</div>
   </div>
   </div>

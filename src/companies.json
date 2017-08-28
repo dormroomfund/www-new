@@ -1,171 +1,171 @@
 [
  {
    "companyName": "Clara",
-   "url": "clarahealth.com",
+   "url": "https://clarahealth.com",
    "people": "Evan Ehrenberg, Sol Chen",
    "school": "Brown University"
  },
  {
    "companyName": "101",
-   "url": "101edu.co",
+   "url": "https://www.101edu.co",
    "people": "Justin Weinberg, Igor Belyayev",
    "school": "Carnegie Mellon University"
  },
 {
   "companyName": "ProducePay",
-  "url": "producepay.com",
+  "url": "https://producepay.com",
   "people": "Pablo Borquez Schwarzbeck",
   "school": "Cornell University"
 },
  {
    "companyName": "Scholly",
-   "url": "zincplatform.com",
+   "url": "https://myscholly.com",
    "people": "Christopher Gray, Nicholas Pirollo",
    "school": "Drexel University"
  },
  {
    "companyName": "Draftpot",
-   "url": "draftpot.com",
+   "url": "https://draftpot.com",
    "people": "Harrison Fields, Kevin Baquero",
    "school": "George Washington University"
  },
  {
    "companyName": "FiscalNote",
-   "url": "fiscalnote.com",
+   "url": "https://fiscalnote.com",
    "people": "Tim Hwang, Gerald Yao",
    "school": "Harvard University"
  },
  {
    "companyName": "Bevi",
-   "url": "bevi.co",
+   "url": "http://bevi.co",
    "people": "Sean Grundy, Eliza Becton, Frank Lee",
    "school": "MIT"
  },
  {
    "companyName": "Bevspot",
-   "url": "bevspot.com",
+   "url": "https://www.bevspot.com",
    "people": "Rory Crawford, Alex Lesman, Chidubem Ezeaka",
    "school": "Harvard University"
  },
 
  {
    "companyName": "RapidSOS",
-   "url": "rapidsos.com",
+   "url": "https://rapidsos.com",
    "people": "Michael Martin, Nick Horelik",
    "school": "Harvard University"
  },
   {
    "companyName": "Grove Labs",
-   "url": "grovelabs.io",
+   "url": "https://grovelabs.io",
    "people": "Gabriel Blanchet, James Byron",
    "school": "MIT"
  },
  {
    "companyName": "Lovepop",
-   "url": "lovepopcards.com",
+   "url": "https://lovepopcards.com",
    "people": "Wombi Rose, John Wise",
    "school": "MIT"
  },
   {
    "companyName": "ShieldAI",
-   "url": "shield.ai",
+   "url": "https://shield.ai",
    "people": "Ryan Tseng, Brandon Tseng, Andrew Reiter",
    "school": "MIT"
  },
   {
    "companyName": "Spyce",
-   "url": "spyce.io",
+   "url": "http://spyce.io",
    "people": "Michael Farid, Kale Rogers, Braden Knight, Luke Schlueter",
    "school": "MIT"
  },
  {
    "companyName": "Tetrascience",
-   "url": "tetrascience.com",
+   "url": "https://tetrascience.com",
    "people": "Alok Tayi, Siping Wang, Salvatore Savo",
    "school": "Northwestern University"
  },
   {
    "companyName": "Brooklinen",
-   "url": "brooklinen.com",
+   "url": "https://brooklinen.com",
    "people": "Richard Fulop",
    "school": "NYU"
  },
  {
    "companyName": "Blockstack",
-   "url": "blockstack.org",
+   "url": "https://blockstack.org",
    "people": "Muneeb Ali, Ryan Shea",
    "school": "Princeton University"
  },
  {
    "companyName": "Athelas",
-   "url": "getathelas.com",
+   "url": "http://getathelas.com",
    "people": "Tanay Tandon",
    "school": "Stanford University"
  },
  {
    "companyName": "Boom Fantasy",
-   "url": "boomfantasy.com",
+   "url": "http://boomfantasy.com",
    "people": "Assaf Einat, Stephen A. Murphy",
    "school": "Stanford University"
  },
  {
    "companyName": "Capella Space",
-   "url": "capellaspace.com",
+   "url": "https://capellaspace.com",
    "people": "Payam Banazadeh, Will Woods",
    "school": "Stanford University"
  },
  {
    "companyName": "Homesuite",
-   "url": "yourhomesuite.com",
+   "url": "https://yourhomesuite.com",
    "people": "David Adams",
    "school": "Stanford University"
  },
   {
    "companyName": "Onfleet",
-   "url": "onfleet.com",
+   "url": "https://onfleet.com",
    "people": "Khaled Naim, David Vetrano, Mikel Carmenes Cavia",
    "school": "Stanford University"
  },
  {
    "companyName": "YardClub",
-   "url": "yardclub.com",
+   "url": "https://yardclub.com",
    "people": "Colin Evran",
    "school": "Stanford University"
  },
  {
-   "companyName": "AdsNative",
-   "url": "adsnative.com",
+   "companyName": "Polymorph",
+   "url": "http://getpolymorph.com",
    "people": "Dhawal M., Satish P., Kuldeep K., Max G.",
    "school": "UC Berkeley"
  },
  {
    "companyName": "Harper Wilde",
-   "url": "harperwilde.com",
+   "url": "https://harperwilde.com",
    "people": "Jenna Kerner, Jane Fisher",
    "school": "University of Pennsylvannia"
  },
  {
    "companyName": "LeapYear Technologies",
-   "url": "leapyear.io",
+   "url": "https://leapyear.io",
    "people": "Ishaan Nerurkar, Colton Jang",
    "school": "University of Pennsylvannia"
  },
 
  {
    "companyName": "Zodiac",
-   "url": "zodiacmetrics.com",
+   "url": "https://zodiacmetrics.com",
    "people": "Justin Bleich, Artem Mariychin, Dan McCarthy, Peter Fader",
    "school": "University of Pennsylvannia"
  },
  {
    "companyName": "Forge",
-   "url": "forgeapp.com",
+   "url": "https://joinforge.com",
    "people": "Stacey Ferreira",
    "school": "Thiel Fellowship"
  },
   {
    "companyName": "Kitsplit",
-   "url": "kitsplit.com",
+   "url": "https://kitsplit.com",
    "people": "Lisbeth Kaufman, Ken Amarit, Kristina Budelis",
    "school": "Yale University"
  }
