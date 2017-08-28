@@ -120,7 +120,7 @@ class Founders extends Component {
             <div className="founders-hero-grid">
             <div className="left-part">
               <div className="left-first-row">
-                <div className="left-first-row-first-half tile"><Link to="/muneeb-shea"><img className="tile-img" src={blockstack_founder}></img><div className="overlay-text"><div className="card-text">Muneeb Ali (Princeton '12)</div><div className="card-text">Blockstack</div></div></Link></div>
+                <div className="left-first-row-first-half tile"><Link to="/muneeb-ali"><img className="tile-img" src={blockstack_founder}></img><div className="overlay-text"><div className="card-text">Muneeb Ali (Princeton '12)</div><div className="card-text">Blockstack</div></div></Link></div>
                 <div className="left-first-row-second-half tile"><Link to="/chris-gray"><img className="tile-img" src={scholly_founder}></img><div className="overlay-text"><div className="card-text">Chris Gray (Drexel '13)</div><div className="card-text">Scholly</div></div></Link></div>
               </div>
               <div className="left-second-row tile"><Link to="/brooklinen"><img className="tile-img" src={brooklinen_founder}></img><div className="overlay-text"><div className="card-text">Rich Fulop (NYU '14) & Vicki Fulop (NYU '07)</div><div className="card-text">Brooklinen</div></div></Link></div>
