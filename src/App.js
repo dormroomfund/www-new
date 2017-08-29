@@ -316,11 +316,11 @@ class Menu extends Component {
 
     function blockMove(e){ e.preventDefault(); }
 
-    if (!this.state.showMobileMenu){
-      document.body.addEventListener('touchmove', blockMove);
-    } else {
-      document.body.removeEventListener('touchmove', blockMove);
-    }
+    // if (!this.state.showMobileMenu){
+    //   document.body.addEventListener('touchmove', blockMove);
+    // } else {
+    //   document.body.removeEventListener('touchmove', blockMove);
+    // }
   }
   
   render() {
