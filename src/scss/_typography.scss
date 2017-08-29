@@ -47,6 +47,10 @@ $book: 300;
 // Fonts
 $sans: 'Circular Std', Helvetica, Arial, sans-serif;
 
+p.italic {
+    font-style: italic;
+}
+
 h1, %h1, .h1 {
   font-size: 1.5rem;
   font-weight: $bold;

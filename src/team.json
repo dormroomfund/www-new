@@ -96,6 +96,13 @@
 			"linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
 		},
 		{
+			"name": "Bryan Giudicelli",
+			"school": "MIT Sloan",
+			"miniBio": "Formerly at Copley Equity Partners and Deloitte.",
+			"imageFileName": "bryan_giudicelli.jpeg",
+			"linkedin": "https://www.linkedin.com/in/bryangiudicelli/"
+		},
+		{
 			"name": "Isabelle Phelps",
 			"school": "MIT Sloan",
 			"miniBio": "Former marketer at eBay and Yahoo. InSITE Fellow.",
@@ -154,6 +161,13 @@
 	],
 	"philly": [
 		{
+			"name": "Christine Esserman",
+			"school": "University of Pennsylvania",
+			"miniBio": "Sequoia Scout. Investor at Accel.",
+			"imageFileName": "christine_esserman.jpg",
+			"linkedin":"https://www.linkedin.com/in/christine-esserman-82834577/"
+		},
+		{
 			"name": "David Ongchoco",
 			"school": "University of Pennsylvania",
 			"miniBio": "Founder of YouthHack. Writer at Inc. & HuffPo.",
@@ -163,9 +177,16 @@
 		{
 			"name": "Matt Klein",
 			"school": "Wharton",
-			"miniBio": "Former investor at Marlin Equity Partners.",
-			"imageFileName": "matt_klein.jpeg",
+			"miniBio": "Formerly at B Capital Group and Marlin Equity Partners",
+			"imageFileName": "matt_klein.jpg",
 			"linkedin": "https://www.linkedin.com/in/matt-klein-920a2b37/"
+		},
+		{
+			"name": "Matthew Wachter",
+			"school": "Wharton",
+			"miniBio": "Growth equity investing at General Atlantic.",
+			"imageFileName": "matthew_wachter.jpg",
+			"linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870/"
 		},
 		{
 			"name": "Nick Kim",
@@ -178,16 +199,38 @@
 
 			"name": "Priya Banerjee",
 			"school": "Wharton",
-			"miniBio": "Formerly at Sequoia, McKinsey, and Goldman Sachs.",
+			"miniBio": "Formerly at Sequoia and Goldman Sachs.",
 			"imageFileName": "priya_banerjee.jpg",
 			"linkedin": "https://www.linkedin.com/in/nickbkim"
+		},
+		{
+
+			"name": "Trent Buezli",
+			"school": "Wharton",
+			"miniBio": "PM at Atomic Labs. Innovation Consultant.",
+			"imageFileName": "trent_buezli.png",
+			"linkedin": "https://www.linkedin.com/in/nickbkim"
+		},
+		{
+			"name": "Yonatan Dejene",
+			"school": "University of Pennsylvania",
+			"miniBio": "Serial Entrepreneur. M&T Innovation Fund.",
+			"imageFileName": "yonatan_dejene.png",
+			"linkedin": "none"
 		}
 	],
 	"bayArea": [
 		{
+			"name": "Ben Penchas",
+			"school": "Stanford University",
+			"miniBio": "Web Dev Instructor. Stanford Daily.",
+			"imageFileName": "ben_penchas.png",
+			"linkedin": "https://www.linkedin.com/in/benpenchas/"
+		},
+		{
 			"name": "Catherina Xu",
 			"school": "Stanford University",
-			"miniBio": "APM Intern at Google. VP of Stanford Women in Business.",
+			"miniBio": "Co-President of Stanford Women in CS.",
 			"imageFileName": "catherina_xu.png",
 			"linkedin": "https://www.linkedin.com/in/catherinaxu/"
 		},
@@ -211,6 +254,14 @@
 			"miniBio": "Former advisor to the Prime Minister of Croatia.",
 			"imageFileName": "jamie_macfarlane.png",
 			"linkedin": "https://www.linkedin.com/in/jamiemacfarlane/"
+		},
+		{
+
+			"name": "Jeff Oldenburg",
+			"school": "UC Berkeley",
+			"miniBio": "Former trader at Royal Bank of Scotland.",
+			"imageFileName": "jeff_oldenburg.jpeg",
+			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
 		},
 		{
 
