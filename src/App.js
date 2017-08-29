@@ -312,8 +312,8 @@ class Menu extends Component {
 
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
-    document.body.style.overflow = this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
-    if (this.state.showMobileMenu){
+    document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+    if (!this.state.showMobileMenu){
       document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
     } else {
       document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
@@ -568,17 +568,6 @@ class NameForm extends Component {
   }
 
   handleSubmit(event) {
-    var params = {
-               "range":"Sheet1!A1:B1",
-               "majorDimension": "ROWS",
-               "values": [
-               ["Hello","World"]
-              ],
-         }
-      var xhr = new XMLHttpRequest();
-      xhr.open('PUT', 'https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}/values/Sheet1!A1:B1?valueInputOption=USER_ENTERED');
-      xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
-      xhr.send(JSON.stringify(params));
   }
 
   render() {
