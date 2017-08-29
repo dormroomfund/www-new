@@ -312,7 +312,7 @@ class Menu extends Component {
 
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
-    document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+    document.body.style.overflow = this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
     if (this.state.showMobileMenu){
       document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
     } else {
@@ -436,7 +436,7 @@ class Community extends Component {
     <div className="content">
     <div className="community-wrapper">
     <div>
-    <h1 className="colored-section-header light-text">Built by students and powered by First Round.</h1>
+    <h1 className="colored-section-header light-text">Built by students, powered by First Round.</h1>
     <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate or graduate). Our investment team is run completely by students who are passionate about helping our peers start companies.</p>
     <Link to="/team"><a className="colored-section-button button-rounded-white">Our Team</a></Link>
     </div>
@@ -568,8 +568,17 @@ class NameForm extends Component {
   }
 
   handleSubmit(event) {
-    alert('An email was submitted: ' + this.state.email);
-    event.preventDefault();
+    var params = {
+               "range":"Sheet1!A1:B1",
+               "majorDimension": "ROWS",
+               "values": [
+               ["Hello","World"]
+              ],
+         }
+      var xhr = new XMLHttpRequest();
+      xhr.open('PUT', 'https://sheets.googleapis.com/v4/spreadsheets/{SPREADSHEET_ID}/values/Sheet1!A1:B1?valueInputOption=USER_ENTERED');
+      xhr.setRequestHeader('Authorization', 'Bearer ' + access_token);
+      xhr.send(JSON.stringify(params));
   }
 
   render() {
