@@ -4,7 +4,7 @@
 			"name": "Rei Wang",
 			"school": "First Round",
 			"miniBio": "Director of Dorm Room Fund. Led PM at General Assembly.",
-			"imageFileName": "rei_wang.jpeg",
+			"imageFileName": "rei_wang.jpg",
 			"linkedin": "https://www.linkedin.com/in/reiwang/"
 		},
 		{
@@ -34,7 +34,7 @@
 			"name": "Lilly Wyden",
 			"school": "Columbia Business School",
 			"miniBio": "Formerly at Bessemer and Instagram.",
-			"imageFileName": "lilly_wyden.png",
+			"imageFileName": "lilly_wyden.jpg",
 			"linkedin": "https://www.linkedin.com/in/lillywyden/"
 		},
 		{
@@ -48,7 +48,7 @@
 			"name": "Mike Annunziata",
 			"school": "Cornell University",
 			"miniBio": "Founder of Natural Cuts Food.",
-			"imageFileName": "mike_annunziata.jpeg",
+			"imageFileName": "mike_annunziata.jpg",
 			"linkedin": "https://www.linkedin.com/in/michael-annunziata-cfa-12853bb/"
 		},
 		{
@@ -62,7 +62,7 @@
 			"name": "Nash Mouen-Makoua",
 			"school": "New York University",
 			"miniBio": "Former Senior Management Associate at Bridgewater.",
-			"imageFileName": "nashilu_mouen-makoua.jpeg",
+			"imageFileName": "nashilu_mouen-makoua.jpg",
 			"linkedin": "https://www.linkedin.com/in/nashilu/"
 		},
 		{
@@ -99,35 +99,35 @@
 			"name": "Bryan Giudicelli",
 			"school": "MIT Sloan",
 			"miniBio": "Formerly at Copley Equity Partners and Deloitte.",
-			"imageFileName": "bryan_giudicelli.jpeg",
+			"imageFileName": "bryan_giudicelli.jpg",
 			"linkedin": "https://www.linkedin.com/in/bryangiudicelli/"
 		},
 		{
 			"name": "Isabelle Phelps",
 			"school": "MIT Sloan",
 			"miniBio": "Former marketer at eBay and Yahoo. InSITE Fellow.",
-			"imageFileName": "isabelle_phelps.jpeg",
+			"imageFileName": "isabelle_phelps.jpg",
 			"linkedin": "https://www.linkedin.com/in/isabellephelps/"
 		},
 		{
 			"name": "Joe Kahn",
 			"school": "Harvard University",
 			"miniBio": "APM intern for Google Brain. Formerly at Bridgewater.",
-			"imageFileName": "joe_kahn.jpeg",
+			"imageFileName": "joe_kahn.jpg",
 			"linkedin": "https://www.linkedin.com/in/josephwandile/"
 		},
 		{
 			"name": "Kelsey Bishop",
 			"school": "Boston College",
 			"miniBio": "Head of BD at Campus Insights. Growth at Omni.",
-			"imageFileName": "kelsey_bishop.jpeg",
+			"imageFileName": "kelsey_bishop.jpg",
 			"linkedin": "https://www.linkedin.com/in/bishopkelsey"
 		},
 		{
 			"name": "Lisette Tellez",
 			"school": "MIT",
 			"miniBio": "Director of StartLabs, Advisor at Sandbox Innovation Fund.",
-			"imageFileName": "lisette_tellez.jpeg",
+			"imageFileName": "lisette_tellez.jpg",
 			"linkedin": "https://www.linkedin.com/in/lisettellez"
 		},
 		{
@@ -141,7 +141,7 @@
 			"name": "Nathaniel Horwitz",
 			"school": "Harvard University",
 			"miniBio": "HMS Researcher. Founder of General Biotechnologies.",
-			"imageFileName": "nathaniel_horwitz.png",
+			"imageFileName": "nathaniel_horwitz.jpg",
 			"linkedin": "http://www.linkedin.com/in/nathaniel-brooks-horwitz"
 		},
 		{
@@ -171,7 +171,7 @@
 			"name": "David Ongchoco",
 			"school": "University of Pennsylvania",
 			"miniBio": "Founder of YouthHack. Writer at Inc. & HuffPo.",
-			"imageFileName": "david_ongchoco.jpeg",
+			"imageFileName": "david_ongchoco.jpg",
 			"linkedin": "https://www.linkedin.com/in/davidongchoco/"
 		},
 		{
@@ -208,14 +208,14 @@
 			"name": "Trent Buezli",
 			"school": "Wharton",
 			"miniBio": "PM at Atomic Labs. Innovation Consultant.",
-			"imageFileName": "trent_buezli.png",
+			"imageFileName": "trent_buezli.jpg",
 			"linkedin": "https://www.linkedin.com/in/nickbkim"
 		},
 		{
 			"name": "Yonatan Dejene",
 			"school": "University of Pennsylvania",
 			"miniBio": "Serial Entrepreneur. M&T Innovation Fund.",
-			"imageFileName": "yonatan_dejene.png",
+			"imageFileName": "yonatan_dejene.jpg",
 			"linkedin": "none"
 		}
 	],
@@ -224,35 +224,42 @@
 			"name": "Ben Penchas",
 			"school": "Stanford University",
 			"miniBio": "Web Dev Instructor. Stanford Daily.",
-			"imageFileName": "ben_penchas.png",
+			"imageFileName": "ben_penchas.jpg",
 			"linkedin": "https://www.linkedin.com/in/benpenchas/"
 		},
 		{
 			"name": "Catherina Xu",
 			"school": "Stanford University",
 			"miniBio": "Co-President of Stanford Women in CS.",
-			"imageFileName": "catherina_xu.png",
+			"imageFileName": "catherina_xu.jpg",
 			"linkedin": "https://www.linkedin.com/in/catherinaxu/"
+		},
+		{
+			"name": "David Bloom",
+			"school": "UC Berkeley",
+			"miniBio": "Summer Analyst at Sigma Ventures",
+			"imageFileName": "catherina_xu.jpg",
+			"linkedin": "https://www.linkedin.com/in/davidbloom5/"
 		},
 		{
 			"name": "Erin Booth",
 			"school": "Stanford GSB",
 			"miniBio": "Led growth and marketing at onefinestay.",
-			"imageFileName": "erin_booth.jpeg",
+			"imageFileName": "erin_booth.jpg",
 			"linkedin": "https://www.linkedin.com/in/erindbooth/"
 		},
 		{
 			"name": "Farbod Nowzad",
 			"school": "UC Berkeley",
 			"miniBio": "Director of Free Ventures, Berkeley's incubator.",
-			"imageFileName": "farbod_nowzad.jpeg",
+			"imageFileName": "farbod_nowzad.jpg",
 			"linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870/"
 		},
 		{
 			"name": "Jamie Macfarlane",
 			"school": "Stanford GSB",
 			"miniBio": "Former advisor to the Prime Minister of Croatia.",
-			"imageFileName": "jamie_macfarlane.png",
+			"imageFileName": "jamie_macfarlane.jpg",
 			"linkedin": "https://www.linkedin.com/in/jamiemacfarlane/"
 		},
 		{
@@ -260,7 +267,7 @@
 			"name": "Jeff Oldenburg",
 			"school": "UC Berkeley",
 			"miniBio": "Former trader at Royal Bank of Scotland.",
-			"imageFileName": "jeff_oldenburg.jpeg",
+			"imageFileName": "jeff_oldenburg.jpg",
 			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
 		},
 		{
@@ -268,7 +275,7 @@
 			"name": "Josh Ephraim",
 			"school": "UC Berkeley",
 			"miniBio": "Berkeley JD-MBA. President of InSITE Fellows.",
-			"imageFileName": "josh_ephraim.jpeg",
+			"imageFileName": "josh_ephraim.jpg",
 			"linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211/"
 		},
 		{
