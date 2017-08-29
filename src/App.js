@@ -304,7 +304,7 @@ class Menu extends Component {
   constructor(props) {
     super(props);
 
-    document.body.style.overflow = 'initial';
+    // document.body.style.overflow = 'initial';
     document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
@@ -313,10 +313,13 @@ class Menu extends Component {
   handleHamburgerClick(){
     this.setState({showMobileMenu: !this.state.showMobileMenu})
     document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+
+    function blockMove(e){ e.preventDefault(); }
+
     if (!this.state.showMobileMenu){
-      document.body.addEventListener('touchmove', function(e){ e.preventDefault(); });
+      document.body.addEventListener('touchmove', blockMove);
     } else {
-      document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
+      document.body.removeEventListener('touchmove', blockMove);
     }
   }
   
