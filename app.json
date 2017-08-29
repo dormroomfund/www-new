@@ -1,0 +1,9 @@
+{
+  "name": "Dorm Room Fund Website",
+  "repository": "https://github.com/dormroomfund/www-new",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
