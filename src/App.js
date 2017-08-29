@@ -350,7 +350,7 @@ class Menu extends Component {
                       <Link to="/founders"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Founders</a></Link>
                   </li>
                   <li>
-                      <Link to="/team" onClick={this.handleExitClick}><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
+                      <Link to="/team"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
                       <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://medium.com/best-of-rm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
