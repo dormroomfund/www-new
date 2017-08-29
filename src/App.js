@@ -47,6 +47,8 @@ import company_data from './companies.json';
 
 import './css/App.css';
 
+function blockMove(e){ e.preventDefault(); }
+
 class App extends Component {
     render() {
         return (
@@ -301,11 +303,13 @@ const TeamMember = ({ teamMember }) => (
   )
 
 class Menu extends Component {
+
+
   constructor(props) {
     super(props);
 
-    // document.body.style.overflow = 'initial';
-    document.body.removeEventListener('touchmove', function(e){ e.preventDefault(); });
+    document.body.style.overflow = 'initial';
+    document.body.removeEventListener('touchmove', blockMove);
     this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
     this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
   }
@@ -314,13 +318,11 @@ class Menu extends Component {
     this.setState({showMobileMenu: !this.state.showMobileMenu})
     document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
 
-    function blockMove(e){ e.preventDefault(); }
-
-    // if (!this.state.showMobileMenu){
-    //   document.body.addEventListener('touchmove', blockMove);
-    // } else {
-    //   document.body.removeEventListener('touchmove', blockMove);
-    // }
+    if (!this.state.showMobileMenu){
+      document.body.addEventListener('touchmove', blockMove);
+    } else {
+      document.body.removeEventListener('touchmove', blockMove);
+    }
   }
   
   render() {
