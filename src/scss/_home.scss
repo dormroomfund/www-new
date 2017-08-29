@@ -374,7 +374,7 @@ form {
   input[type="text"] {
     border: 1px solid $light-gray-border;
     padding: 0.8rem 0.8rem  0.8rem 1rem;
-    width: 15rem;
+    width: 14rem;
     border-radius: 0.1rem;
   }
 
@@ -412,7 +412,7 @@ form {
   }
 }
 
-@media screen and (max-width: $tablet-portrait-max) {
+@media screen and (max-width: $tablet-landscape-max) {
   form {
     .container {
       height: 13rem;
