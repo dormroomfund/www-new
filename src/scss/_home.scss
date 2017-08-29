@@ -401,6 +401,15 @@ form {
     max-width: 50rem;
     margin: auto;
   }
+
+  .validation-message {
+    margin-top: $between-text-spacing;
+    display: block;
+    color: red;
+    &.hidden {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: $tablet-portrait-max) {
