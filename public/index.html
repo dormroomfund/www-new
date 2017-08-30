@@ -27,23 +27,30 @@
         if (top.location != location) {
           top.location.href = document.location.href;
         }
+        <% if (process.env.DOMAIN) { %>
+          if (document.domain != '<%= process.env.DOMAIN %>') {
+            document.location.hostname = '<%= process.env.DOMAIN %>';
+          }
+        <% } %>
       }
     </script>
 
-    <script>
-      window.productHuntUpcoming = {
-        appId: 235,
-        position: 'bottomRight',
-      };
+    <% if (process.env.PH_APP) { %>
+      <script>
+        window.productHuntUpcoming = {
+          appId: <%= process.env.PH_APP %>,
+          position: 'bottomRight',
+        };
 
-      (function(doc, scr, src, a, b) {
-        a = doc.createElement(scr);
-        b = doc.getElementsByTagName(scr)[0];
-        a.async = true;
-        a.src = src;
-        b.parentNode.insertBefore(a, b);
-      })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
-    </script>
+        (function(doc, scr, src, a, b) {
+          a = doc.createElement(scr);
+          b = doc.getElementsByTagName(scr)[0];
+          a.async = true;
+          a.src = src;
+          b.parentNode.insertBefore(a, b);
+        })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
+      </script>
+    <% } %>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
