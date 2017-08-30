@@ -23,6 +23,14 @@
     <title>Dorm Room Fund</title>
 
     <script>
+      function breakFrame() {
+        if (top.location != location) {
+          top.location.href = document.location.href;
+        }
+      }
+    </script>
+
+    <script>
       window.productHuntUpcoming = {
         appId: 235,
         position: 'bottomRight',
@@ -48,7 +56,7 @@
 
     </script>
   </head>
-  <body>
+  <body onload="breakFrame()">
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
