@@ -89,34 +89,9 @@ class Home extends Component {
 }
 
 class Founders extends Component {
-
-  getSchoolCompanies(){
-    var schools = [];
-
-    // Get all unique schools
-    for (var i = 0; i < company_data.length; i++){
-      if (!schools.includes(company_data[i]["school"])){
-        schools.push(company_data[i]["school"]);
-      }
-    }
-
-
-    // Create school-by-school components
-    var output = schools.map(function (school){
-
-      var schoolCompanies = company_data.filter(function(company){
-        return company["school"] == school;
-      })
-
-      return CompanySection({ schoolCompanies })
-    })
-
-    return output
-  }
-
   render() {
     return (
-      <div className="founders">  
+      <div className="founders">
       <Menu lightColor={true}/>
       <div className="founders-hero-photo">
       <div className="content">
@@ -143,8 +118,8 @@ class Founders extends Component {
       <hr className="team-divider"/>
       <div className="founders-grid-container">
       <div className="founders-grid" data-column="3">
-      {this.getSchoolCompanies()}
-      </div>  
+      {company_data.sort((a, b) => (a.companyName < b.companyName) ? -1 : (a.companyName > b.companyName) ? 1 : 0).map(c => <Company key={c.companyName} company={c}/>)}
+      </div>
       </div>
       </div>
       </div>
@@ -202,18 +177,7 @@ class FoundersFeature extends Component {
   }
 }
 
-const CompanySection = ({ schoolCompanies }) => (
-  schoolCompanies.map(function (company, index, array){
-
-    var first = index == 0 ? true : false
-
-    var last = index == array.length - 1;
-
-    return Company({ company, first, last})
-  })
-)
-
-const Company = ({ company, first, last }) => (
+const Company = ({company}) => (
   <div className="founders-column">
   <div className="founders-card-container">
 
@@ -325,7 +289,7 @@ class Menu extends Component {
       document.body.removeEventListener('touchmove', blockMove);
     }
   }
-  
+
   render() {
     return (
       <div>
@@ -456,7 +420,7 @@ class Community extends Component {
 
 class Apply extends Component {
   render(){
-    return( 
+    return(
       <div className="apply-section">
       <div className="content">
       <div className="apply-section-wrapper">
