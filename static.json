@@ -1,6 +1,7 @@
 {
   "root": "build/",
   "routes": {
+    "/privacy": "privacy.html",
     "/**": "index.html"
   },
   "https_only": true,
