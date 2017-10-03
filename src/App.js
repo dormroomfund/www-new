@@ -9,6 +9,7 @@ import {
 
 import ScrollToTop from './ScrollToTop'
 
+import Privacy from './Privacy'
 
 import drf_logo_black from './img/drf-logo-black.svg'
 import drf_logo_small_black from './img/drf-logo-small-black.svg'
@@ -57,6 +58,7 @@ class App extends Component {
             <ScrollToTop>
               <div className="App">
                 <Route exact path="/" component={Home}/>
+                <Route exact path="/privacy" component={Privacy}/>
                 <Route path="/founders" component={Founders}/>
                 <Route path="/team" component={Team}/>
                 <Route path="/muneeb-ali" render={() => <FoundersFeature name="Muneeb Ali" photo={blockstack_founder} company="Blockstack" summary="A new internet for decentralized apps." founders={["Muneeb Ali, Princeton", "Ryan Shea, Princeton"]} milestones={['Y Combinator - 2014','$4M Series A led by USV - Jan. 2017', '$25M Signature Fund - Aug. 2017', 'ICO - coming soon.']} bio={"Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur."}/>}/>
