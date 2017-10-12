@@ -90,8 +90,8 @@
     "school": "Cooper Union, CUNY Baruch"
   },
   {
-    "companyName": "Natural Cuts",
-    "url": "https://www.natural-cuts.com/",
+    "companyName": "Farther Farms",
+    "url": "https://www.fartherfarms.com/",
     "people": "Michael Annunziata, Vipul Saran",
     "school": "Cornell"
   },
@@ -481,7 +481,7 @@
   },
   {
     "companyName": "Greo",
-    "url": "http://greo.com",
+    "url": "https://greo.com",
     "people": "Elizabeth Davis, Tremaine Kirkman, Brandon Hill",
     "school": "Stanford"
   },
@@ -558,7 +558,7 @@
     "school": "Tufts"
   },
   {
-    "companyName": "Colibri (prev SolarRoute)",
+    "companyName": "Colibri",
     "url": "http://www.colibri-global.com/",
     "people": "Morgab Babbs",
     "school": "Tufts"
@@ -708,7 +708,7 @@
     "school": "UC Berkeley"
   },
   {
-    "companyName": "Five (prev Outline)",
+    "companyName": "Five",
     "url": "http://www.five.com",
     "people": "Nikita Bier",
     "school": "UC Berkeley"
