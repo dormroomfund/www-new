@@ -325,7 +325,7 @@ class Menu extends Component {
                       <Link to="/team"><a className={"menu " + (this.props.lightColor ? 'light' : '')}>Our Team</a></Link>
                   </li>
                   <li>
-                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://medium.com/best-of-rm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a>
+                      <a className={"menu " + (this.props.lightColor ? 'light' : '')} target="_blank" href="https://5years.dormroomfund.com">5 Years</a>
                   </li>
                   <li>
                       <a className={(this.props.lightColor ? "button-rounded-white" : "button-rounded-blue")} target="_blank" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a>
@@ -350,7 +350,7 @@ class MobileMenu extends Component {
     <ul>
       <li><Link to="/founders"><a className="menu menu-link">Our Founders</a></Link></li>
       <li><Link to="/team"><a className="menu menu-link">Our Team</a></Link></li>
-      <li><a className="menu menu-link" href="https://medium.com/best-of-dorm-room-fund/dorm-room-fund-ask-us-anything-256c23cad699">FAQS</a></li>
+      <li><a className="menu menu-link" href="https://5years.dormroomfund.com">5 Years</a></li>
       <li><a className="menu menu-link" target="_blank" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
     </ul>
     </div>
