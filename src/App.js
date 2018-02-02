@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  NavLink,
-  withRouter
+    BrowserRouter as Router,
+    Route,
+    Link,
+    NavLink,
+    withRouter
 } from 'react-router-dom'
 
 import ScrollToTop from './ScrollToTop'
@@ -49,12 +49,12 @@ import company_data from './companies.json';
 
 import './css/App.css';
 
-function blockMove(e){ e.preventDefault(); }
+function blockMove(e) { e.preventDefault(); }
 
 class App extends Component {
     render() {
         return (
-          <Router>
+            <Router>
             <ScrollToTop>
               <div className="App">
                 <Route exact path="/" component={Home}/>
@@ -74,9 +74,9 @@ class App extends Component {
 
 /* Pages */
 class Home extends Component {
-  render() {
-    return(
-      <div>
+    render() {
+        return (
+            <div>
       <Menu lightColor={false}/>
       <Hero/>
       <Community/>
@@ -86,14 +86,14 @@ class Home extends Component {
       <Resources/>
       <CustomFooter/>
       </div>
-    )
-  }
+        )
+    }
 }
 
 class Founders extends Component {
-  render() {
-    return (
-      <div className="founders">
+    render() {
+        return (
+            <div className="founders">
       <Menu lightColor={true}/>
       <div className="founders-hero-photo">
       <div className="content">
@@ -127,14 +127,14 @@ class Founders extends Component {
       </div>
       <CustomFooter/>
       </div>
-    )
-  }
+        )
+    }
 }
 
 class FoundersFeature extends Component {
-  render() {
-    return(
-      <div className="founders-feature">
+    render() {
+        return (
+            <div className="founders-feature">
         <Menu/>
         <div className="feature-wrapper">
           <div className="content">
@@ -175,12 +175,12 @@ class FoundersFeature extends Component {
           </div>
         <CustomFooter/>
       </div>
-      )
-  }
+        )
+    }
 }
 
-const Company = ({company}) => (
-  <div className="founders-column">
+const Company = ({ company }) => (
+    <div className="founders-column">
   <div className="founders-card-container">
 
   <a href={company.url} className="founders-card-link">
@@ -197,9 +197,9 @@ const Company = ({company}) => (
 )
 
 class Team extends Component {
-  render() {
-    return (
-      <div className="team">
+    render() {
+        return (
+            <div className="team">
       <Menu lightColor={true}/>
       <div className="team-hero-photo">
       <div className="content">
@@ -250,12 +250,12 @@ class Team extends Component {
       </div>
       <CustomFooter/>
       </div>
-    )
-  }
+        )
+    }
 }
 
 const TeamMember = ({ teamMember }) => (
-  <div className="team-column">
+    <div className="team-column">
   <div className="team-card-container">
     <div className="team-card">
     <img src={require(`./img/team_compressed/${teamMember.imageFileName}`)} className="team-card-image"></img>
@@ -267,34 +267,34 @@ const TeamMember = ({ teamMember }) => (
     </div>
     </div>
   </div>
-  )
+)
 
 class Menu extends Component {
 
 
-  constructor(props) {
-    super(props);
+    constructor(props) {
+        super(props);
 
-    document.body.style.overflow = 'initial';
-    document.body.removeEventListener('touchmove', blockMove);
-    this.state = {showMobileMenu: false, originalBodyOverflow: document.body.style.overflow};
-    this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
-  }
-
-  handleHamburgerClick(){
-    this.setState({showMobileMenu: !this.state.showMobileMenu})
-    document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
-
-    if (!this.state.showMobileMenu){
-      document.body.addEventListener('touchmove', blockMove);
-    } else {
-      document.body.removeEventListener('touchmove', blockMove);
+        document.body.style.overflow = 'initial';
+        document.body.removeEventListener('touchmove', blockMove);
+        this.state = { showMobileMenu: false, originalBodyOverflow: document.body.style.overflow };
+        this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
     }
-  }
 
-  render() {
-    return (
-      <div>
+    handleHamburgerClick() {
+        this.setState({ showMobileMenu: !this.state.showMobileMenu })
+        document.body.style.overflow = !this.state.showMobileMenu ? 'hidden' : this.state.originalBodyOverflow;
+
+        if (!this.state.showMobileMenu) {
+            document.body.addEventListener('touchmove', blockMove);
+        } else {
+            document.body.removeEventListener('touchmove', blockMove);
+        }
+    }
+
+    render() {
+        return (
+            <div>
       { this.state.showMobileMenu ? <MobileMenu /> : null }
       <nav className={this.state.showMobileMenu ? "mobile-menu-visible" : ""}>
         <div className="content">
@@ -335,16 +335,16 @@ class Menu extends Component {
       </div>
       </nav>
       </div>
-    );
-  }
+        );
+    }
 }
 
 
 class MobileMenu extends Component {
 
-  render(){
-    return(
-    <div className="mobile-nav">
+    render() {
+        return (
+            <div className="mobile-nav">
     <div className="mobile-wrapper">
     <div>
     <ul>
@@ -356,14 +356,14 @@ class MobileMenu extends Component {
     </div>
     </div>
     </div>
-    )
-  }
+        )
+    }
 }
 
 class Value extends Component {
-  render(){
-    return(
-      <div className="value-section">
+    render() {
+        return (
+            <div className="value-section">
       <div className="content">
       <h2>So, what do Dorm Room Fund founders receive?</h2>
       <p className="value-section-subheader">We're designed to help student founders go from the earliest stage to the seed stage and beyond.</p>
@@ -374,14 +374,14 @@ class Value extends Component {
       </div>
       </div>
       </div>
-    )
-  }
+        )
+    }
 }
 
 class FoundersSection extends Component {
-  render(){
-    return(
-    <div className="bg-colored-blue founders-section">
+    render() {
+        return (
+            <div className="bg-colored-blue founders-section">
     <div className="content">
     <div className="founders-wrapper">
     <div>
@@ -396,15 +396,15 @@ class FoundersSection extends Component {
     </div>
     </div>
     </div>
-    )
-  }
+        )
+    }
 
 }
 
 class Community extends Component {
-  render(){
-   return(
-    <div className="bg-colored-blue community-section">
+    render() {
+        return (
+            <div className="bg-colored-blue community-section">
     <div className="content">
     <div className="community-wrapper">
     <div>
@@ -416,14 +416,14 @@ class Community extends Component {
     <img className="community-image" src={community_photo}></img>
     </div>
     </div>
-    )
-  }
+        )
+    }
 }
 
 class Apply extends Component {
-  render(){
-    return(
-      <div className="apply-section">
+    render() {
+        return (
+            <div className="apply-section">
       <div className="content">
       <div className="apply-section-wrapper">
       <h2>Working on something big? Let's talk.</h2>
@@ -431,14 +431,14 @@ class Apply extends Component {
       </div>
       </div>
       </div>
-      )
-  }
+        )
+    }
 }
 
 class Hero extends Component {
-  render(){
-    return(
-      <div>
+    render() {
+        return (
+            <div>
       <div className="hero-container">
       <div className="content">
       <div className="hero-wrapper">
@@ -471,14 +471,14 @@ class Hero extends Component {
       </div>
       </div>
       </div>
-      )
-  }
+        )
+    }
 }
 
 class Resources extends Component {
-  render(){
-    return(
-      <div className="resources-section">
+    render() {
+        return (
+            <div className="resources-section">
       <div className="content">
       <div className="resources-section-wrapper">
       <h2 className="resources-section-header">Not ready yet? We'd still love to help.</h2>
@@ -516,61 +516,61 @@ class Resources extends Component {
       </div>
       </div>
       </div>
-    )
-  }
+        )
+    }
 }
 
 class NameForm extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {name: '', email: '', submitted: false, error: false, message: ''};
+    constructor(props) {
+        super(props);
+        this.state = { name: '', email: '', submitted: false, error: false, message: '' };
 
-    this.handleNameChange = this.handleNameChange.bind(this);
-    this.handleEmailChange = this.handleEmailChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
-
-  handleNameChange(event) {
-    this.setState({name: event.target.value});
-  }
-
-  handleEmailChange(event) {
-    this.setState({email: event.target.value});
-  }
-  handleSubmit(event) {
-    event.preventDefault()
-
-    if (!this.state.name || !this.state.email){
-      this.setState({error: true, message: "Please fill out all required fields!"})
-    } else if (!validateEmail(this.state.email)){
-      this.setState({error: true, message: "Please use a valid email!"})
-    } else if (!this.state.submitted){
-      var url = "https://script.google.com/macros/s/AKfycbxs4vTvuG_Ysmaim4qefVjNH0bM4cWsmorz-av0eaby-1aPSQ/exec"
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', url);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.onreadystatechange = function() {
-          console.log( xhr.status, xhr.statusText )
-          console.log(xhr.responseText);
-          return;
-      };
-
-      var data = {
-        name: this.state.name,
-        email: this.state.email
-      }
-      // url encode form data for sending as post data
-      var encoded = Object.keys(data).map(function(k) {
-          return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
-      }).join('&')
-      xhr.send(encoded);
-      this.setState({submitted: true, error: false})
+        this.handleNameChange = this.handleNameChange.bind(this);
+        this.handleEmailChange = this.handleEmailChange.bind(this);
+        this.handleSubmit = this.handleSubmit.bind(this);
     }
-  }
 
-  render() {
-    return (
-      <form className="resources-section-form">
+    handleNameChange(event) {
+        this.setState({ name: event.target.value });
+    }
+
+    handleEmailChange(event) {
+        this.setState({ email: event.target.value });
+    }
+    handleSubmit(event) {
+        event.preventDefault()
+
+        if (!this.state.name || !this.state.email) {
+            this.setState({ error: true, message: "Please fill out all required fields!" })
+        } else if (!validateEmail(this.state.email)) {
+            this.setState({ error: true, message: "Please use a valid email!" })
+        } else if (!this.state.submitted) {
+            var url = "https://script.google.com/macros/s/AKfycbxs4vTvuG_Ysmaim4qefVjNH0bM4cWsmorz-av0eaby-1aPSQ/exec"
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', url);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function() {
+                console.log(xhr.status, xhr.statusText)
+                console.log(xhr.responseText);
+                return;
+            };
+
+            var data = {
+                name: this.state.name,
+                email: this.state.email
+            }
+            // url encode form data for sending as post data
+            var encoded = Object.keys(data).map(function(k) {
+                return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+            }).join('&')
+            xhr.send(encoded);
+            this.setState({ submitted: true, error: false })
+        }
+    }
+
+    render() {
+        return (
+            <form className="resources-section-form">
       {!this.state.submitted ?
         <div>
       <div className="container">
@@ -582,19 +582,19 @@ class NameForm extends Component {
       </div>
       : <h1>Thanks!</h1> }
       </form>
-    );
-  }
+        );
+    }
 }
 
 class CustomFooter extends Component {
-  render(){
-    return(
-    <footer>
+    render() {
+        return (
+            <footer>
     <div className="content">
     <div className="wrapper">
     <div className="vertically-centered">
-    <h2 className="title">© 2017 Dorm Room Fund.</h2>
-    <h2 className="title-mobile">© 2017 DRF.</h2>
+    <h2 className="title">© 2018 Dorm Room Fund.</h2>
+    <h2 className="title-mobile">© 2018 DRF.</h2>
     <ul className="links">
       <li><a className="menu" href="https://medium.com/@dormroomfund"><div className="link-box"><img className="icon" src={medium_icon}></img><span className="link-text">Medium</span></div></a>
       </li>
@@ -605,8 +605,8 @@ class CustomFooter extends Component {
     </div>
     </div>
     </footer>
-    )
-  }
+        )
+    }
 }
 
 function validateEmail(email) {
