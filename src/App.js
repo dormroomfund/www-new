@@ -370,7 +370,7 @@ class Value extends Component {
       <div className="value-section-cards content">
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Community</h3><p className="value-section-text">300+ fellow founders, 50+ mentors, dozens of intimate events with industry leaders and investors.</p></div></div>
       <div className="col-4 m-col-12"><div className="value-section-card"><h3>Mentors</h3><p className="value-section-text">Access to world-class advisors, including the founders of Buzzfeed, Venmo, YouTube, and Quora.</p></div></div>
-      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 through an uncapped convertible note—the most founder-friendly terms that exist. </p></div></div>
+      <div className="col-4 m-col-12"><div className="value-section-card"><h3>$20,000</h3><p className="value-section-text">We invest $20,000 through a SAFE—the most founder-friendly terms that exist. </p></div></div>
       </div>
       </div>
       </div>
