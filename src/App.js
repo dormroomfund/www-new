@@ -354,6 +354,7 @@ class MobileMenu extends Component {
       <li><Link to="/founders"><a className="menu menu-link">Our Founders</a></Link></li>
       <li><Link to="/team"><a className="menu menu-link">Our Team</a></Link></li>
       <li><a className="menu menu-link" href="https://5years.dormroomfund.com">5 Years</a></li>
+      <li><a className="menu menu-link" href="https://vcwiz.co">VCWiz</a></li>
       <li><a className="menu menu-link" target="_blank" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
     </ul>
     </div>
