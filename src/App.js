@@ -127,7 +127,7 @@ class Founders extends Component {
                     <Link to="/brooklinen"><img className="tile-img brooklinen" src={ brooklinen_founder }></img>
                       <div className="overlay-text card-text">
                         <div className="mobile-only">Vicki Fulop</div>
-                        <div className="mobile-only">NYU '07</div>
+                        <div className="mobile-only">NYU &#39;07</div>
                         <div>Rich Fulop (NYU &#39;14) & Vicki Fulop (NYU &#39;07)</div>
                         <div>Brooklinen</div>
                       </div>
