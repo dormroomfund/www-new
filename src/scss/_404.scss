@@ -1,0 +1,16 @@
+.error-wrapper {
+	padding: 0 1.2rem;
+	min-height: 90vh
+}
+
+.oops-text {
+	padding-top: 4*$section-padding;
+}
+
+.error-description-text {
+	margin-top: $medium-spacing;
+}
+
+.error-description-code {
+	margin-top: $element-spacing;
+}
