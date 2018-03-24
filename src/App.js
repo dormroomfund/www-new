@@ -107,7 +107,7 @@ class Founders extends Component {
                         <div className="overlay-text card-text">
                           <div className="mobile-only">Muneeb Ali</div>
                           <div className="mobile-only">Princeton PhD</div>
-                          <div>Muneeb Ali (Princeton PhD '17)</div>
+                          <div>Muneeb Ali (Princeton PhD &#39;17)</div>
                           <div>Blockstack</div>
                         </div>
                       </Link>
@@ -116,8 +116,8 @@ class Founders extends Component {
                       <Link to="/chris-gray"><img className="tile-img" src={ scholly_founder }></img>
                         <div className="overlay-text card-text">
                           <div className="mobile-only">Chris Gray</div>
-                          <div className="mobile-only">Drexel '13</div>
-                          <div>Chris Gray (Drexel '13)</div>
+                          <div className="mobile-only">Drexel &#39;13</div>
+                          <div>Chris Gray (Drexel &#39;13)</div>
                           <div>Scholly</div>
                         </div>
                       </Link>
@@ -128,7 +128,7 @@ class Founders extends Component {
                       <div className="overlay-text card-text">
                         <div className="mobile-only">Vicki Fulop</div>
                         <div className="mobile-only">NYU '07</div>
-                        <div>Rich Fulop (NYU '14) & Vicki Fulop (NYU '07)</div>
+                        <div>Rich Fulop (NYU &#39;14) & Vicki Fulop (NYU &#39;07)</div>
                         <div>Brooklinen</div>
                       </div>
                     </Link>
@@ -138,8 +138,8 @@ class Founders extends Component {
                   <NavLink to="/tim-hwang"><img className="tile-img fiscalnote" src={ fiscalnote_founder }></img>
                     <div className="overlay-text card-text">
                       <div className="mobile-only">Tim Hwang</div>
-                      <div className="mobile-only">Princeton '14</div>
-                      <div>Tim Hwang (Princeton '14)</div>
+                      <div className="mobile-only">Princeton &#39;14</div>
+                      <div>Tim Hwang (Princeton &#39;14)</div>
                       <div>FiscalNote</div>
                     </div>
                   </NavLink>
@@ -450,7 +450,7 @@ class Value extends Component {
       <div className="value-section">
         <div className="content">
           <h2>So, what do Dorm Room Fund founders receive?</h2>
-          <p className="value-section-subheader">We're designed to help student founders go from the earliest stage to the seed stage and beyond.</p>
+          <p className="value-section-subheader">We&#39;re designed to help student founders go from the earliest stage to the seed stage and beyond.</p>
           <div className="value-section-cards content">
             <div className="col-4 m-col-12">
               <div className="value-section-card">
@@ -493,7 +493,7 @@ class FoundersSection extends Component {
           <div className="founders-image-container">
             <img className="founders-image" src={ founder }></img>
             <div className="founders-image-overlay">
-              <p className="founders-image-caption light-text">Ryan Shea, Blockstack (Princeton '12)</p>
+              <p className="founders-image-caption light-text">Ryan Shea, Blockstack (Princeton &#39;12)</p>
             </div>
           </div>
         </div>
