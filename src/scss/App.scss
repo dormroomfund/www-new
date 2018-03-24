@@ -1,5 +1,5 @@
- // Reset
- @import 'lib/reset';
+// Reset
+@import 'lib/reset';
 
 // Essentials
 @import 'media-queries';
@@ -21,6 +21,7 @@
 @import 'home';
 @import 'founders';
 @import 'team';
+@import '404';
 
 .App {
   text-align: center;

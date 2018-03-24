@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, withRouter } from 'react-router-dom'
+import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom'
 
 import ScrollToTop from './ScrollToTop'
 
@@ -50,33 +50,54 @@ function blockMove(e) {
 class App extends Component {
   render() {
     return (
-      <Router>
+      <BrowserRouter>
         <ScrollToTop>
-          <div className="App">
-            <Route exact path="/" component={ Home } />
-            <Route exact path="/privacy" component={ Privacy } />
-            <Route path="/founders" component={ Founders } />
-            <Route path="/team" component={ Team } />
-            <Route path="/muneeb-ali" render={ () => <FoundersFeature name="Muneeb Ali" photo={ blockstack_founder } company="Blockstack" summary="A new internet for decentralized apps." founders={ ["Muneeb Ali, Princeton", "Ryan Shea, Princeton"] }
-                                                       milestones={ ['Y Combinator - 2014', '$4M Series A led by USV - Jan. 2017', '$25M Signature Fund - Aug. 2017', 'ICO - coming soon.'] } bio={ "Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur." } /> } />
-            <Route path="/chris-gray" render={ () => <FoundersFeature name="Chris Gray" photo={ scholly_founder } company="Scholly" summary="No more finding scholarships. Let the scholarships find you." founders={ ["Christopher Gray, Drexel", "Nicholas Pirollo, Drexel", "Bryson Alef, Amherst"] }
-                                                       milestones={ ["Viral Shark Tank Episode", "$70M in scholarships raised", "Featured in 40+ press outlets"] } bio={ "8 years ago, Christopher Gray was on the verge of not attending college. Coming from a low-income background, he couldn’t afford the insane price tags associated with most American universities.\nHundreds of scholarship applications and $1.3 million in winnings later, Chris was headed to school.\nAfter realizing first-hand how horrible it is to apply to so many scholarships, Chris realized something: many scholarships go unnoticed and un-awarded, and students blindly apply to tons of scholarships that aren’t specific to their profile.\nScholarships can’t find applicants, and students can’t find the right scholarships for them.\nBy building Scholly, Chris set out on a mission to help students easily find scholarships for college.\nWith over 1 million users and over $70 million in scholarships raised, it’s safe to say that Chris has delivered on that mission.\nOn top of the countless students whose lives have been changed because of Scholly, Chris has been recognized as 2015 Ernst & Young Entrepreneur of the Year for Social Entrepreneurship, 2016 Forbes 30 Under 30, Oprah’s Inaugural Super Soul 100 Honorees, and a place on Oprah’s list of her favorite people." } /> } />
-            <Route path="/brooklinen" render={ () => <FoundersFeature name="Rich Fulop & Vicki Fulop" photo={ brooklinen_founder } company="Brooklinen" summary="Luxury we can all afford to sleep in." founders={ ["Rich Fulop, NYU Stern", "Vicki Fulop, NYU"] }
-                                                       milestones={ ["Launch at NYU Stern - 2014", "$236,888 raised on Kickstarter - 2014", "$10M venture round - 2017"] } bio={ "They weren’t textile industry experts, they weren’t supply chain veterans, and they didn’t know much about ecommerce.\nWhat Rich & Vicki Fulop did know was, people should be able to buy ridiculously comfortable sheets without having to spend an entire paycheck.\nThat conviction paid off, big time.\nIn 3 years, Brooklinen surpassed a $50M annual run rate and raised a $10M venture round from First Mark Capital.\nWhat started off as a Kickstarter project in an NYU dorm room is now a rapidly growing ecommerce powerhouse that has grown 10x every year since launch." } /> } />
-            <Route path="/tim-hwang" render={ () => <FoundersFeature name="Tim Hwang" photo={ fiscalnote_founder } company="FiscalNote" summary="Reinventing government influence." founders={ ["Tim Hwang, Princeton"] } milestones={ ["World Economic Forum Technology Pioneer", "$10M Series C — Feb. 2016", "Acquired VoterVoice — July 2017"] }
-                                                      bio={ "As a field organizer for the Obama ’08 campaign and later elected to the Montgomery County Board of Education to oversee a $4B budget, Tim learned a thing or two about politics.\nSitting in a Motel 6 in Silicon Valley during his time as a student at Harvard Business School, Tim launched FiscalNote to improve the way organizations engage with government. By empowering organizations to have maximum impact on legislation and regulation, global powerhouses all around the world rely on FiscalNote.\nTo date, the team has raised over $40M in funding from prominent investors and has been recognized as a Technology Pioneer by the World Economic Forum. Tim has been profiled in countless publications and has been recognized as a Forbes 30 Under 30 & Inc. 30 Under 30." } /> } />
-          </div>
+          <Switch>
+              <Route exact path="/" component={ Home } />
+              <Route exact path="/privacy" component={ Privacy } />
+              <Route path="/founders" component={ Founders } />
+              <Route path="/team" component={ Team } />
+              <Route path="/muneeb-ali" render={ () => <FoundersFeature name="Muneeb Ali" photo={ blockstack_founder } company="Blockstack" summary="A new internet for decentralized apps." founders={ ["Muneeb Ali, Princeton", "Ryan Shea, Princeton"] }
+                                                         milestones={ ['Y Combinator - 2014', '$4M Series A led by USV - Jan. 2017', '$25M Signature Fund - Aug. 2017', 'ICO - coming soon.'] } bio={ "Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur." } /> } />
+              <Route path="/chris-gray" render={ () => <FoundersFeature name="Chris Gray" photo={ scholly_founder } company="Scholly" summary="No more finding scholarships. Let the scholarships find you." founders={ ["Christopher Gray, Drexel", "Nicholas Pirollo, Drexel", "Bryson Alef, Amherst"] }
+                                                         milestones={ ["Viral Shark Tank Episode", "$70M in scholarships raised", "Featured in 40+ press outlets"] } bio={ "8 years ago, Christopher Gray was on the verge of not attending college. Coming from a low-income background, he couldn’t afford the insane price tags associated with most American universities.\nHundreds of scholarship applications and $1.3 million in winnings later, Chris was headed to school.\nAfter realizing first-hand how horrible it is to apply to so many scholarships, Chris realized something: many scholarships go unnoticed and un-awarded, and students blindly apply to tons of scholarships that aren’t specific to their profile.\nScholarships can’t find applicants, and students can’t find the right scholarships for them.\nBy building Scholly, Chris set out on a mission to help students easily find scholarships for college.\nWith over 1 million users and over $70 million in scholarships raised, it’s safe to say that Chris has delivered on that mission.\nOn top of the countless students whose lives have been changed because of Scholly, Chris has been recognized as 2015 Ernst & Young Entrepreneur of the Year for Social Entrepreneurship, 2016 Forbes 30 Under 30, Oprah’s Inaugural Super Soul 100 Honorees, and a place on Oprah’s list of her favorite people." } /> } />
+              <Route path="/brooklinen" render={ () => <FoundersFeature name="Rich Fulop & Vicki Fulop" photo={ brooklinen_founder } company="Brooklinen" summary="Luxury we can all afford to sleep in." founders={ ["Rich Fulop, NYU Stern", "Vicki Fulop, NYU"] }
+                                                         milestones={ ["Launch at NYU Stern - 2014", "$236,888 raised on Kickstarter - 2014", "$10M venture round - 2017"] } bio={ "They weren’t textile industry experts, they weren’t supply chain veterans, and they didn’t know much about ecommerce.\nWhat Rich & Vicki Fulop did know was, people should be able to buy ridiculously comfortable sheets without having to spend an entire paycheck.\nThat conviction paid off, big time.\nIn 3 years, Brooklinen surpassed a $50M annual run rate and raised a $10M venture round from First Mark Capital.\nWhat started off as a Kickstarter project in an NYU dorm room is now a rapidly growing ecommerce powerhouse that has grown 10x every year since launch." } /> } />
+              <Route path="/tim-hwang" render={ () => <FoundersFeature name="Tim Hwang" photo={ fiscalnote_founder } company="FiscalNote" summary="Reinventing government influence." founders={ ["Tim Hwang, Princeton"] } milestones={ ["World Economic Forum Technology Pioneer", "$10M Series C — Feb. 2016", "Acquired VoterVoice — July 2017"] }
+                                                        bio={ "As a field organizer for the Obama ’08 campaign and later elected to the Montgomery County Board of Education to oversee a $4B budget, Tim learned a thing or two about politics.\nSitting in a Motel 6 in Silicon Valley during his time as a student at Harvard Business School, Tim launched FiscalNote to improve the way organizations engage with government. By empowering organizations to have maximum impact on legislation and regulation, global powerhouses all around the world rely on FiscalNote.\nTo date, the team has raised over $40M in funding from prominent investors and has been recognized as a Technology Pioneer by the World Economic Forum. Tim has been profiled in countless publications and has been recognized as a Forbes 30 Under 30 & Inc. 30 Under 30." } /> } />
+              <Route component={ NoMatch } status={404}/>
+          </Switch>
         </ScrollToTop>
-      </Router>
+      </BrowserRouter>
       );
   }
 }
 
 /* Pages */
+
+// 404 page
+class NoMatch extends Component {
+  render() {
+    return(
+      <div className="App">
+        <Menu lightColor={ false } />
+        <div className="content">
+          <div className="error-wrapper">
+            <h1 className="oops-text">Oops!</h1>
+            <p className="error-description-text">We can't seem to find the page you're looking for.</p>
+            <p className="error-description-code">Error code: 404</p>
+          </div>
+        </div>
+        <CustomFooter/>
+      </div>
+    )
+  }
+}
+
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Menu lightColor={ false } />
         <Hero/>
         <Community/>
@@ -93,75 +114,77 @@ class Home extends Component {
 class Founders extends Component {
   render() {
     return (
-      <div className="founders">
-        <Menu lightColor={ true } />
-        <div className="founders-hero-photo">
-          <div className="content">
-            <div className="founders-hero-wrapper">
-              <h1 className="founders-header light-text">Dorm Room Fund has invested in 305 founders from 40 universities.</h1>
-              <div className="founders-hero-grid">
-                <div className="left-part">
-                  <div className="left-first-row">
-                    <div className="left-first-row-first-half tile">
-                      <Link to="/muneeb-ali"><img className="tile-img" src={ blockstack_founder }></img>
-                        <div className="overlay-text card-text">
-                          <div className="mobile-only">Muneeb Ali</div>
-                          <div className="mobile-only">Princeton PhD</div>
-                          <div>Muneeb Ali (Princeton PhD &#39;17)</div>
-                          <div>Blockstack</div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="left-first-row-second-half tile">
-                      <Link to="/chris-gray"><img className="tile-img" src={ scholly_founder }></img>
-                        <div className="overlay-text card-text">
-                          <div className="mobile-only">Chris Gray</div>
-                          <div className="mobile-only">Drexel &#39;13</div>
-                          <div>Chris Gray (Drexel &#39;13)</div>
-                          <div>Scholly</div>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="left-second-row tile">
-                    <Link to="/brooklinen"><img className="tile-img brooklinen" src={ brooklinen_founder }></img>
-                      <div className="overlay-text card-text">
-                        <div className="mobile-only">Vicki Fulop</div>
-                        <div className="mobile-only">NYU &#39;07</div>
-                        <div>Rich Fulop (NYU &#39;14) & Vicki Fulop (NYU &#39;07)</div>
-                        <div>Brooklinen</div>
+      <div className="App">
+        <div className="founders">
+          <Menu lightColor={ true } />
+          <div className="founders-hero-photo">
+            <div className="content">
+              <div className="founders-hero-wrapper">
+                <h1 className="founders-header light-text">Dorm Room Fund has invested in 305 founders from 40 universities.</h1>
+                <div className="founders-hero-grid">
+                  <div className="left-part">
+                    <div className="left-first-row">
+                      <div className="left-first-row-first-half tile">
+                        <Link to="/muneeb-ali"><img className="tile-img" src={ blockstack_founder }></img>
+                          <div className="overlay-text card-text">
+                            <div className="mobile-only">Muneeb Ali</div>
+                            <div className="mobile-only">Princeton PhD</div>
+                            <div>Muneeb Ali (Princeton PhD &#39;17)</div>
+                            <div>Blockstack</div>
+                          </div>
+                        </Link>
                       </div>
-                    </Link>
+                      <div className="left-first-row-second-half tile">
+                        <Link to="/chris-gray"><img className="tile-img" src={ scholly_founder }></img>
+                          <div className="overlay-text card-text">
+                            <div className="mobile-only">Chris Gray</div>
+                            <div className="mobile-only">Drexel &#39;13</div>
+                            <div>Chris Gray (Drexel &#39;13)</div>
+                            <div>Scholly</div>
+                          </div>
+                        </Link>
+                      </div>
+                    </div>
+                    <div className="left-second-row tile">
+                      <Link to="/brooklinen"><img className="tile-img brooklinen" src={ brooklinen_founder }></img>
+                        <div className="overlay-text card-text">
+                          <div className="mobile-only">Vicki Fulop</div>
+                          <div className="mobile-only">NYU &#39;07</div>
+                          <div>Rich Fulop (NYU &#39;14) & Vicki Fulop (NYU &#39;07)</div>
+                          <div>Brooklinen</div>
+                        </div>
+                      </Link>
+                    </div>
+                  </div>
+                  <div className="right-part tile">
+                    <NavLink to="/tim-hwang"><img className="tile-img fiscalnote" src={ fiscalnote_founder }></img>
+                      <div className="overlay-text card-text">
+                        <div className="mobile-only">Tim Hwang</div>
+                        <div className="mobile-only">Princeton &#39;14</div>
+                        <div>Tim Hwang (Princeton &#39;14)</div>
+                        <div>FiscalNote</div>
+                      </div>
+                    </NavLink>
                   </div>
                 </div>
-                <div className="right-part tile">
-                  <NavLink to="/tim-hwang"><img className="tile-img fiscalnote" src={ fiscalnote_founder }></img>
-                    <div className="overlay-text card-text">
-                      <div className="mobile-only">Tim Hwang</div>
-                      <div className="mobile-only">Princeton &#39;14</div>
-                      <div>Tim Hwang (Princeton &#39;14)</div>
-                      <div>FiscalNote</div>
-                    </div>
-                  </NavLink>
+                <div className="founders-hero-grid-mobile">
                 </div>
               </div>
-              <div className="founders-hero-grid-mobile">
+            </div>
+          </div>
+          <div className="content">
+            <div className="founders-grid-wrapper">
+              <h1 className="team-divider-title">Our Founders</h1>
+              <hr className="team-divider" />
+              <div className="founders-grid-container">
+                <div className="founders-grid" data-column="3">
+                  { company_data.sort((a, b) => (a.companyName < b.companyName) ? -1 : (a.companyName > b.companyName) ? 1 : 0).map(c => <Company key={ c.companyName } company={ c } />) }
+                </div>
               </div>
             </div>
           </div>
+          <CustomFooter/>
         </div>
-        <div className="content">
-          <div className="founders-grid-wrapper">
-            <h1 className="team-divider-title">Our Founders</h1>
-            <hr className="team-divider" />
-            <div className="founders-grid-container">
-              <div className="founders-grid" data-column="3">
-                { company_data.sort((a, b) => (a.companyName < b.companyName) ? -1 : (a.companyName > b.companyName) ? 1 : 0).map(c => <Company key={ c.companyName } company={ c } />) }
-              </div>
-            </div>
-          </div>
-        </div>
-        <CustomFooter/>
       </div>
     )
   }
@@ -257,61 +280,63 @@ const Company = ({company}) => (
 class Team extends Component {
   render() {
     return (
-      <div className="team">
-        <Menu lightColor={ true } />
-        <div className="team-hero-photo">
-          <div className="content">
-            <div className="team-hero-wrapper">
-              <h1 className="hero-text light-text">Dorm Room Fund is designed 100% for students, run 100% by students.</h1>
+      <div className="App">
+        <div className="team">
+          <Menu lightColor={ true } />
+          <div className="team-hero-photo">
+            <div className="content">
+              <div className="team-hero-wrapper">
+                <h1 className="hero-text light-text">Dorm Room Fund is designed 100% for students, run 100% by students.</h1>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="content">
-          <div className="team-wrapper">
-            <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
-            <hr className="team-divider" />
-            <div className="team-grid-container">
-              <div className="team-grid" data-column="3">
-                { team_data["national"].map(teamMember => TeamMember({
-                    teamMember
-                  })) }
+          <div className="content">
+            <div className="team-wrapper">
+              <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
+              <hr className="team-divider" />
+              <div className="team-grid-container">
+                <div className="team-grid" data-column="3">
+                  { team_data["national"].map(teamMember => TeamMember({
+                      teamMember
+                    })) }
+                </div>
               </div>
-            </div>
-            <h1 className="team-divider-title">Investment</h1>
-            <hr className="team-divider" />
-            <h4 className="team-divider-subtitle">Boston</h4>
-            <div className="team-grid-container">
-              <div className="team-grid" data-column="3">
-                { team_data["boston"].map(teamMember => TeamMember({
-                    teamMember
-                  })) }
+              <h1 className="team-divider-title">Investment</h1>
+              <hr className="team-divider" />
+              <h4 className="team-divider-subtitle">Boston</h4>
+              <div className="team-grid-container">
+                <div className="team-grid" data-column="3">
+                  { team_data["boston"].map(teamMember => TeamMember({
+                      teamMember
+                    })) }
+                </div>
               </div>
-            </div>
-            <hr className="team-divider" />
-            <h4 className="team-divider-subtitle">New York</h4>
-            <div className="team-grid-container">
-              <div className="team-grid" data-column="3">
-                { team_data["newYork"].map(teamMember => TeamMember({
-                    teamMember
-                  })) }
+              <hr className="team-divider" />
+              <h4 className="team-divider-subtitle">New York</h4>
+              <div className="team-grid-container">
+                <div className="team-grid" data-column="3">
+                  { team_data["newYork"].map(teamMember => TeamMember({
+                      teamMember
+                    })) }
+                </div>
               </div>
-            </div>
-            <hr className="team-divider" />
-            <h4 className="team-divider-subtitle">Philly</h4>
-            <div className="team-grid-container">
-              <div className="team-grid" data-column="3">
-                { team_data["philly"].map(teamMember => TeamMember({
-                    teamMember
-                  })) }
+              <hr className="team-divider" />
+              <h4 className="team-divider-subtitle">Philly</h4>
+              <div className="team-grid-container">
+                <div className="team-grid" data-column="3">
+                  { team_data["philly"].map(teamMember => TeamMember({
+                      teamMember
+                    })) }
+                </div>
               </div>
-            </div>
-            <hr className="team-divider" />
-            <h4 className="team-divider-subtitle">San Francisco</h4>
-            <div className="team-grid-container">
-              <div className="team-grid" data-column="3">
-                { team_data["bayArea"].map(teamMember => TeamMember({
-                    teamMember
-                  })) }
+              <hr className="team-divider" />
+              <h4 className="team-divider-subtitle">San Francisco</h4>
+              <div className="team-grid-container">
+                <div className="team-grid" data-column="3">
+                  { team_data["bayArea"].map(teamMember => TeamMember({
+                      teamMember
+                    })) }
+                </div>
               </div>
             </div>
           </div>
@@ -511,7 +536,7 @@ class Community extends Component {
           <div className="community-wrapper">
             <div>
               <h1 className="colored-section-header light-text">Built by students, powered by First Round.</h1>
-              <p className="colored-section-subheader light-text">We're a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate
+              <p className="colored-section-subheader light-text">We&#39;re a student-run venture fund backed by First Round. We invest in startups where at least one person on the founding team is a student (undergraduate
                 or graduate). Our investment team is run by student leaders, entrepreneurs, and innovators across the country.</p>
               <Link to="/team"><a className="colored-section-button button-rounded-white">Our Team</a></Link>
             </div>
@@ -529,7 +554,7 @@ class Apply extends Component {
       <div className="apply-section">
         <div className="content">
           <div className="apply-section-wrapper">
-            <h2>Working on something big? Let's talk.</h2>
+            <h2>Working on something big? Let&#39;s talk.</h2>
             <a href="https://dormroomfund.typeform.com/to/DsPlYB" className="apply-section-button button-rounded-blue">Apply Now</a>
           </div>
         </div>
@@ -545,7 +570,7 @@ class Hero extends Component {
         <div className="hero-container">
           <div className="content">
             <div className="hero-wrapper">
-              <h1 className="hero-header">Hi. We’re Dorm Room Fund—the best way for student founders to grow their startup.</h1>
+              <h1 className="hero-header">Hi. We&#39;re Dorm Room Fund—the best way for student founders to grow their startup.</h1>
               <p className="hero-subheader">Built by students and powered by First Round, we provide founders with a strong network of investors, world-class mentors, and a $20,000 check.</p>
             </div>
           </div>
@@ -556,7 +581,7 @@ class Hero extends Component {
           <div className="content">
             <div className="col-12">
               <div className="logos-wrapper">
-                <h1>We've invested in 150 startups who've raised $300 million from:</h1>
+                <h1>We&#39;ve invested in 150 startups whove raised $300 million from:</h1>
                 <div className="logos">
                   <div className="content">
                     <div className="col-10 col-centered m-col-12">
@@ -592,7 +617,7 @@ class Resources extends Component {
       <div className="resources-section">
         <div className="content">
           <div className="resources-section-wrapper">
-            <h2 className="resources-section-header">Not ready yet? We'd still love to help.</h2>
+            <h2 className="resources-section-header">Not ready yet? We&#39;d still love to help.</h2>
             <p className="email-title">Follow events, resources, and jobs in our portfolio:</p>
             <NameForm/>
             <p className="medium-title">Our most recent posts on <a href="https://medium.com/@dormroomfund"><span className="gray-underline">Medium</span></a>:</p>
