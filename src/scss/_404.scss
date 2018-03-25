@@ -1,16 +1,31 @@
 .error-wrapper {
+	position: absolute;
 	padding: 0 1.2rem;
-	min-height: 90vh
+	min-height: 90vh;
+	z-index: 10;
+	text-align: left;
 }
 
 .oops-text {
-	padding-top: 4*$section-padding;
+	padding-top: 2*$section-padding;
+	font-size: 2.75rem;
 }
 
 .error-description-text {
-	margin-top: $medium-spacing;
+	font-size: 1rem;
 }
 
-.error-description-code {
-	margin-top: $element-spacing;
+.returnText{
+	font-size: .75rem;
+}
+
+.FOF{
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	left: 0;
+	z-index: 0;
+	background-image: url("../img/404.png");
+	background-repeat: no-repeat;	
+	background-position: center;
 }

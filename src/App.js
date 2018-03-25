@@ -83,11 +83,13 @@ class NoMatch extends Component {
         <Menu lightColor={ false } />
         <div className="content">
           <div className="error-wrapper">
-            <h1 className="oops-text">Oops!</h1>
-            <p className="error-description-text">We can't seem to find the page you're looking for.</p>
-            <p className="error-description-code">Error code: 404</p>
+            <h1 className="oops-text">Our rocketship got hijacked!</h1>
+            <h1 className="error-description-text">Sorry, now we can't go find the page you're looking for...</h1>
+            <p className="returnText">Error Code: 404</p>
+            <a href="index.html"><p className="returnText">Return to homebase</p></a>
           </div>
         </div>
+        <div className="FOF"></div>
         <CustomFooter/>
       </div>
     )
