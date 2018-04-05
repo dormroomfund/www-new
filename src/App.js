@@ -55,7 +55,7 @@ class App extends Component {
           <Switch>
               <Route exact path="/" component={ Home } />
               <Route exact path="/privacy" component={ Privacy } />
-              <Route path="/founders" component={ Founders } />
+              <Route path="/companies" component={ Founders } />
               <Route path="/team" component={ Team } />
               <Route path="/muneeb-ali" render={ () => <FoundersFeature name="Muneeb Ali" photo={ blockstack_founder } company="Blockstack" summary="A new internet for decentralized apps." founders={ ["Muneeb Ali, Princeton", "Ryan Shea, Princeton"] }
                                                          milestones={ ['Y Combinator - 2014', '$4M Series A led by USV - Jan. 2017', '$25M Signature Fund - Aug. 2017', 'ICO - coming soon.'] } bio={ "Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur." } /> } />
@@ -174,7 +174,7 @@ class Founders extends Component {
           </div>
           <div className="content">
             <div className="founders-grid-wrapper">
-              <h1 className="team-divider-title">Our Founders</h1>
+              <h1 className="team-divider-title">Companies</h1>
               <hr className="team-divider" />
               <div className="founders-grid-container">
                 <div className="founders-grid" data-column="3">
@@ -420,13 +420,13 @@ class Menu extends Component {
                   </div>
                 </li>
                 <li>
-                  <Link to="/founders"><a className={ "menu " + (this.props.lightColor ? 'light' : '') }>Our Founders</a></Link>
+                  <Link to="/companies"><a className={ "menu " + (this.props.lightColor ? 'light' : '') }>Companies</a></Link>
                 </li>
                 <li>
-                  <Link to="/team"><a className={ "menu " + (this.props.lightColor ? 'light' : '') }>Our Team</a></Link>
+                  <Link to="/team"><a className={ "menu " + (this.props.lightColor ? 'light' : '') }>Team</a></Link>
                 </li>
                 <li>
-                  <a className={ "menu " + (this.props.lightColor ? 'light' : '') } target="_blank" href="https://5years.dormroomfund.com">5 Years</a>
+                  <a className={ "menu " + (this.props.lightColor ? 'light' : '') } target="_blank" href="https://5years.dormroomfund.com">Five Years</a>
                 </li>
                 <li>
                   <a className={ "menu " + (this.props.lightColor ? 'light' : '') } target="_blank" href="https://vcwiz.co">VCWiz</a>
@@ -453,12 +453,12 @@ class MobileMenu extends Component {
           <div>
             <ul>
               <li>
-                <Link to="/founders"><a className="menu menu-link">Our Founders</a></Link>
+                <Link to="/companies"><a className="menu menu-link">Companies</a></Link>
               </li>
               <li>
-                <Link to="/team"><a className="menu menu-link">Our Team</a></Link>
+                <Link to="/team"><a className="menu menu-link">Team</a></Link>
               </li>
-              <li><a className="menu menu-link" href="https://5years.dormroomfund.com">5 Years</a></li>
+              <li><a className="menu menu-link" href="https://5years.dormroomfund.com">Years</a></li>
               <li><a className="menu menu-link" href="https://vcwiz.co">VCWiz</a></li>
               <li><a className="menu menu-link" target="_blank" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
             </ul>
@@ -512,7 +512,7 @@ class FoundersSection extends Component {
               <h1 className="colored-section-header light-text">Our founders, our family.</h1>
               <p className="colored-section-subheader light-text">Since our first investment in 2012, the majority of our founders have raised additional rounds of funding, running teams of up to 100+ employees. By helping
                 our founders learn the ins and outs of fundraising, launch strategy, growth, and hiring, we’re just as invested in your mission as you are.</p>
-              <Link to="/founders"><a className="colored-section-button button-rounded-white">Our Founders</a></Link>
+              <Link to="/companies"><a className="colored-section-button button-rounded-white">Our Companies</a></Link>
             </div>
           </div>
           <div className="founders-image-container">
