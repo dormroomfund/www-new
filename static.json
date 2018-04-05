@@ -1,8 +1,16 @@
 {
   "root": "build/",
   "routes": {
-    "/**": "index.html"
+    "/": "index.html",
+    "/privacy": "index.html",
+    "/founders": "index.html",
+    "/team": "index.html",
+    "/muneeb-ali": "index.html",
+    "/chris-gray": "index.html",
+    "/brooklinen": "index.html",
+    "/tim-hwang": "index.html"
   },
+  "error_page": "index.html",
   "https_only": true,
   "headers": {
     "/**": {
