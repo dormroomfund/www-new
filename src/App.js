@@ -54,10 +54,10 @@ class App extends Component {
       <BrowserRouter>
         <ScrollToTop>
           <Switch>
-              <Route exact path="/" component={ Home } />
+              <Route exact path="/" component={ HomePage } />
               <Route exact path="/privacy" component={ Privacy } />
-              <Route path="/companies" component={ Founders } />
-              <Route path="/team" component={ Team } />
+              <Route path="/companies" component={ CompaniesPage } />
+              <Route path="/team" component={ TeamPage } />
               <Route path="/muneeb-ali" render={ () => <FoundersFeature name="Muneeb Ali" photo={ blockstack_founder } company="Blockstack" summary="A new internet for decentralized apps." founders={ ["Muneeb Ali, Princeton", "Ryan Shea, Princeton"] }
                                                          milestones={ ['Y Combinator - 2014', '$4M Series A led by USV - Jan. 2017', '$25M Signature Fund - Aug. 2017', 'ICO - coming soon.'] } bio={ "Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur." } /> } />
               <Route path="/chris-gray" render={ () => <FoundersFeature name="Chris Gray" photo={ scholly_founder } company="Scholly" summary="No more finding scholarships. Let the scholarships find you." founders={ ["Christopher Gray, Drexel", "Nicholas Pirollo, Drexel", "Bryson Alef, Amherst"] }
@@ -66,7 +66,7 @@ class App extends Component {
                                                          milestones={ ["Launch at NYU Stern - 2014", "$236,888 raised on Kickstarter - 2014", "$10M venture round - 2017"] } bio={ "They weren’t textile industry experts, they weren’t supply chain veterans, and they didn’t know much about ecommerce.\nWhat Rich & Vicki Fulop did know was, people should be able to buy ridiculously comfortable sheets without having to spend an entire paycheck.\nThat conviction paid off, big time.\nIn 3 years, Brooklinen surpassed a $50M annual run rate and raised a $10M venture round from First Mark Capital.\nWhat started off as a Kickstarter project in an NYU dorm room is now a rapidly growing ecommerce powerhouse that has grown 10x every year since launch." } /> } />
               <Route path="/tim-hwang" render={ () => <FoundersFeature name="Tim Hwang" photo={ fiscalnote_founder } company="FiscalNote" summary="Reinventing government influence." founders={ ["Tim Hwang, Princeton"] } milestones={ ["World Economic Forum Technology Pioneer", "$10M Series C — Feb. 2016", "Acquired VoterVoice — July 2017"] }
                                                         bio={ "As a field organizer for the Obama ’08 campaign and later elected to the Montgomery County Board of Education to oversee a $4B budget, Tim learned a thing or two about politics.\nSitting in a Motel 6 in Silicon Valley during his time as a student at Harvard Business School, Tim launched FiscalNote to improve the way organizations engage with government. By empowering organizations to have maximum impact on legislation and regulation, global powerhouses all around the world rely on FiscalNote.\nTo date, the team has raised over $40M in funding from prominent investors and has been recognized as a Technology Pioneer by the World Economic Forum. Tim has been profiled in countless publications and has been recognized as a Forbes 30 Under 30 & Inc. 30 Under 30." } /> } />
-              <Route component={ NoMatch } status={404}/>
+              <Route component={ NoMatchPage } status={404}/>
           </Switch>
         </ScrollToTop>
       </BrowserRouter>
@@ -77,7 +77,7 @@ class App extends Component {
 /* Pages */
 
 // 404 page
-class NoMatch extends Component {
+class NoMatchPage extends Component {
   render() {
     return(
       <div className="App">
@@ -95,7 +95,7 @@ class NoMatch extends Component {
   }
 }
 
-class Home extends Component {
+class HomePage extends Component {
   render() {
     return (
       <div className="App">
@@ -115,7 +115,7 @@ class Home extends Component {
   }
 }
 
-class Founders extends Component {
+class CompaniesPage extends Component {
   render() {
     return (
       <div className="App">
@@ -284,7 +284,7 @@ const Company = ({company}) => (
   </div>
 )
 
-class Team extends Component {
+class TeamPage extends Component {
   render() {
     return (
       <div className="App">
