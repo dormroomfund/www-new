@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom'
+import {Helmet} from "react-helmet";
 
 import ScrollToTop from './ScrollToTop'
 
@@ -98,6 +99,9 @@ class Home extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+            <title>Dorm Room Fund</title>
+        </Helmet>
         <Menu lightColor={ false } />
         <Hero/>
         <Community/>
@@ -115,6 +119,9 @@ class Founders extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+            <title>Companies</title>
+        </Helmet>
         <div className="founders">
           <Menu lightColor={ true } />
           <div className="founders-hero-photo">
@@ -281,6 +288,9 @@ class Team extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+            <title>Team</title>
+        </Helmet>
         <div className="team">
           <Menu lightColor={ true } />
           <div className="team-hero-photo">
