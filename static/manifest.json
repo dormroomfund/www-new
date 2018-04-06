@@ -3,7 +3,7 @@
   "name": "Dorm Room Fund",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/static/favicon.ico",
       "sizes": "192x192",
       "type": "image/png"
     }
