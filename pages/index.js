@@ -109,7 +109,7 @@ class Hero extends Component {
             </div>
           </div>
           <object className="ramp" data="/static/img/ramp.svg" type="image/svg+xml"></object>
-          <object className="ramp-mobile" data="/static/img/ramp_mobile.svg" type="image/svg+xml"></object>
+          <object className="ramp-mobile" data="/static/img/ramp-mobile.svg" type="image/svg+xml"></object>
         </div>
         <div className="section-logos">
           <div className="content">
