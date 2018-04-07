@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'Circular Std';
   src: url('/static/font/CircularStd-Medium.eot');
-  src: url('/static/font/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+  src: url('/static/font/CircularStd-Medium.eot?#iefix')
+      format('embedded-opentype'),
     url('/static/font/CircularStd-Medium.woff') format('woff'),
     url('/static/font/CircularStd-Medium.ttf') format('truetype');
   font-weight: 500;
@@ -11,7 +12,8 @@
 @font-face {
   font-family: 'Circular Std';
   src: url('/static/font/CircularStd-Bold.eot');
-  src: url('/static/font/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
+  src: url('/static/font/CircularStd-Bold.eot?#iefix')
+      format('embedded-opentype'),
     url('/static/font/CircularStd-Bold.woff') format('woff'),
     url('/static/font/CircularStd-Bold.ttf') format('truetype');
   font-weight: bold;
@@ -21,7 +23,8 @@
 @font-face {
   font-family: 'Circular Std';
   src: url('/static/font/CircularStd-Book.eot');
-  src: url('/static/font/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
+  src: url('/static/font/CircularStd-Book.eot?#iefix')
+      format('embedded-opentype'),
     url('/static/font/CircularStd-Book.woff') format('woff'),
     url('/static/font/CircularStd-Book.ttf') format('truetype');
   font-weight: 300;
@@ -31,7 +34,8 @@
 @font-face {
   font-family: 'GT Walsheim';
   src: url('/static/font/GTWalsheimMedium.eot');
-  src: url('/static/font/GTWalsheimMedium.eot?#iefix') format('embedded-opentype'),
+  src: url('/static/font/GTWalsheimMedium.eot?#iefix')
+      format('embedded-opentype'),
     url('/static/font/GTWalsheimMedium.woff') format('woff'),
     url('/static/font/GTWalsheimMedium.ttf') format('truetype');
   font-weight: 500;
@@ -48,29 +52,35 @@ $book: 300;
 $sans: 'Circular Std', Helvetica, Arial, sans-serif;
 
 p.italic {
-    font-style: italic;
+  font-style: italic;
 }
 
-h1, %h1, .h1 {
+h1,
+%h1,
+.h1 {
   font-size: 1.5rem;
   font-weight: $bold;
   // line-height: 1.6rem;
 }
 
 // We alternate between Walsheim and Circular for titles
-h2, %h2 {
+h2,
+%h2 {
   @extend h1;
   // font-family: 'GT Walsheim';
   // font-weight: 500;
 }
 
-h3, %h3 {
+h3,
+%h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 // all caps
-h4, %h4, .h4{
+h4,
+%h4,
+.h4 {
   font-size: 0.75rem;
   font-weight: $bold;
   text-transform: uppercase;
@@ -85,7 +95,8 @@ h5 {
   color: $black;
 }
 
-p, %p {
+p,
+%p {
   // font-size: 0.875rem;
   // line-height: 1.1rem;
   font-weight: 300;
@@ -108,7 +119,6 @@ p, %p {
   }
 }
 
-
 .card-text {
   font-size: 0.7rem;
   font-weight: $book;
@@ -116,59 +126,75 @@ p, %p {
 }
 
 @media screen and (max-width: $tablet-landscape-max) {
-
-  .menu, h4, %h4 {
-    font-size: 1.0rem;
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1rem;
   }
   .card-text {
     font-size: 0.875rem;
     line-height: 1.075rem;
-  } 
+  }
 }
 
 @media screen and (max-width: $tablet-portrait-max) {
-  h1, %h1, .h1 {
+  h1,
+  %h1,
+  .h1 {
     font-size: 2.5rem;
   }
 
-  p, %p {
+  p,
+  %p {
     font-size: 1.5rem;
   }
 
-  .menu, h4, %h4 {
-    font-size: 1.0rem;
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: $phone-landscape-max) {
-  h1, %h1, .h1 {
+  h1,
+  %h1,
+  .h1 {
     font-size: 2.25rem;
   }
 
-  h2, %h2 {
+  h2,
+  %h2 {
     font-size: 1.5rem;
   }
 
-  h3, %h3 {
+  h3,
+  %h3 {
     font-size: 1.25rem;
   }
 }
 
 @media screen and (max-width: $phone-portrait-max) {
-  h1, %h1, .h1 {
+  h1,
+  %h1,
+  .h1 {
     font-size: 1.75rem;
     // line-height: 1.25;
   }
 
-  h4, %h4 {
+  h4,
+  %h4 {
     font-size: 1.25rem;
   }
 
-  p, %p {
+  p,
+  %p {
     font-size: 1.25rem;
   }
 
-  .menu, h4, %h4 {
-    font-size: 1.0rem;
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1rem;
   }
 }

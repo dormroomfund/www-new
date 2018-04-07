@@ -16,10 +16,11 @@ footer {
     align-items: center;
   }
 
-  .title, .title-mobile {
+  .title,
+  .title-mobile {
     float: left;
   }
-  
+
   .title-mobile {
     display: none;
   }
@@ -47,7 +48,7 @@ footer {
     a {
       font-size: 0.875rem;
     }
-  
+
     .icon {
       height: 1rem;
       margin-right: 0.5rem;
@@ -64,7 +65,8 @@ footer {
 
 @media screen and (max-width: $tablet-landscape-max) {
   footer {
-    .title, .title-mobile {
+    .title,
+    .title-mobile {
       font-size: 1.25rem;
     }
 
@@ -85,6 +87,5 @@ footer {
     .title-mobile {
       display: block;
     }
-
   }
 }

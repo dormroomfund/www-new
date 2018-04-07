@@ -11,9 +11,24 @@
     "webpack": "^3.11.0"
   },
   "scripts": {
+    "precommit": "lint-staged",
     "dev": "next",
     "build": "next build",
     "start": "next start -p $PORT",
     "heroku-postbuild": "next build"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.4",
+    "prettier": "^1.11.1"
+  },
+  "lint-staged": {
+    "{pages,src}/**/*.{js,jsx,json,css,scss}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }

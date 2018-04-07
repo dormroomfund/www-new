@@ -13,38 +13,75 @@ $slide-up-distance: 30rem;
 $semi-trans: 0.75;
 
 @keyframes shift {
-  0% { transform: 0; }
-  100% { transform: translate3d(12rem, 0, 0); }
+  0% {
+    transform: 0;
+  }
+  100% {
+    transform: translate3d(12rem, 0, 0);
+  }
 }
 
 @keyframes fade-in {
-  0% { opacity: 0; }
-  #{$t1/$d1 * 100}% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  #{$t1/$d1 * 100}% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fade-in-up {
-  0% { opacity: 0; transform: translate3d(0, 1rem, 0); }
-  #{$t1/$d1 * 100}% { opacity: 0; transform: translate3d(0, 1rem, 0); }
-  100% { opacity: 1; transform: translate3d(0, 0, 0); }
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+  }
+  #{$t1/$d1 * 100}% {
+    opacity: 0;
+    transform: translate3d(0, 1rem, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 @keyframes fade-in-delay {
-  0% { opacity: 0; }
-  #{$t2/$d2 * 100}% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  #{$t2/$d2 * 100}% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes slide-up {
-  0% { transform: translate3d(0, $slide-up-distance, 0); }
-  #{$t1/$d1 * 100}% { transform: translate3d(0, $slide-up-distance, 0); }
-  100% { transform: 0; }
+  0% {
+    transform: translate3d(0, $slide-up-distance, 0);
+  }
+  #{$t1/$d1 * 100}% {
+    transform: translate3d(0, $slide-up-distance, 0);
+  }
+  100% {
+    transform: 0;
+  }
 }
 
 @keyframes bounce {
-  0% { transform: translate3d(0, 0, 0); }
-  50% { transform: translate3d(0, -4px, 0); }
-  100% { transform: translate3d(0, 0, 0); }
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -4px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 $a-fade-in: fade-in $d1 ease;
