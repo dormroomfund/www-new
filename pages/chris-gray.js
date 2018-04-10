@@ -1,4 +1,4 @@
-import FoundersFeature from '../src/FoundersFeature';
+import FoundersFeature from '../components/FoundersFeature';
 
 export default () => (
   <FoundersFeature

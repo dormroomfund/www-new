@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Layout from '../src/layout';
+import Layout from '../components/Layout';
 
 export default class Error extends Component {
   static getInitialProps({ res, err }) {

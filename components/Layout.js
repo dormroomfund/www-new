@@ -1,5 +1,5 @@
-import Menu from './menu';
-import '../src/scss/App.scss';
+import Menu from './Menu';
+import '../styles/App.scss';
 
 const CustomFooter = () => (
   <footer>

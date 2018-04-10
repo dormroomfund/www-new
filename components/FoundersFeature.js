@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Layout from './layout';
+import Layout from './Layout';
 
 export default class FoundersFeature extends Component {
   render() {

@@ -1,5 +1,5 @@
-import Layout from '../src/layout';
-import team_data from '../src/team.json';
+import Layout from '../components/Layout';
+import team_data from '../lib/team.json';
 
 const TeamMember = ({ teamMember }) => (
   <div className="team-column">

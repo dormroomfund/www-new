@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-import Layout from '../src/layout';
+import Layout from '../components/Layout';
 
 class Value extends Component {
   render() {

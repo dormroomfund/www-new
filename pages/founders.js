@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
-import Layout from '../src/layout';
-import company_data from '../src/companies.json';
+import Layout from '../components/Layout';
+import company_data from '../lib/companies.json';
 
 const Company = ({ company }) => (
   <div className="founders-column">
