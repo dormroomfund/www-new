@@ -460,7 +460,7 @@ class Menu extends Component {
                   <a className={ "menu " + (this.props.lightColor ? 'light' : '') } target="_blank" href="https://vcwiz.co">VCWiz</a>
                 </li>
                 <li>
-                  <a className={ (this.props.lightColor ? "button-rounded-white" : "button-rounded-blue") } target="_blank" href="/apply">Apply Now</a>
+                  <a className={ (this.props.lightColor ? "button-rounded-white" : "button-rounded-blue") } href="/apply">Apply Now</a>
                 </li>
               </ul>
             </div>
@@ -488,7 +488,7 @@ class MobileMenu extends Component {
               </li>
               <li><a className="menu menu-link" href="https://5years.dormroomfund.com">Five Years</a></li>
               <li><a className="menu menu-link" href="https://vcwiz.co">VCWiz</a></li>
-              <li><a className="menu menu-link" target="_blank" href="/apply">Apply Now</a></li>
+              <li><a className="menu menu-link" href="/apply">Apply Now</a></li>
             </ul>
           </div>
         </div>
