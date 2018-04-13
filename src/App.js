@@ -460,7 +460,7 @@ class Menu extends Component {
                   <a className={ "menu " + (this.props.lightColor ? 'light' : '') } target="_blank" href="https://vcwiz.co">VCWiz</a>
                 </li>
                 <li>
-                  <a className={ (this.props.lightColor ? "button-rounded-white" : "button-rounded-blue") } href="/apply">Apply Now</a>
+                  <Link to="/apply"><a className={ (this.props.lightColor ? "button-rounded-white" : "button-rounded-blue") }>Apply Now</a></Link>
                 </li>
               </ul>
             </div>
@@ -488,7 +488,11 @@ class MobileMenu extends Component {
               </li>
               <li><a className="menu menu-link" href="https://5years.dormroomfund.com">Five Years</a></li>
               <li><a className="menu menu-link" href="https://vcwiz.co">VCWiz</a></li>
-              <li><a className="menu menu-link" href="/apply">Apply Now</a></li>
+              <li>
+                <Link to="/apply">
+                  <a className="menu menu-link">Apply Now</a>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
@@ -583,7 +587,7 @@ class Apply extends Component {
         <div className="content">
           <div className="apply-section-wrapper">
             <h2>Working on something big? Let&#39;s talk.</h2>
-            <a href="/apply" className="apply-section-button button-rounded-blue">Apply Now</a>
+            <Link to="/apply"><a className="apply-section-button button-rounded-blue">Apply Now</a></Link>
           </div>
         </div>
       </div>
