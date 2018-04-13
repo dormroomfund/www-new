@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom'
 import {Helmet} from "react-helmet";
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 import ScrollToTop from './ScrollToTop'
 
@@ -55,6 +56,7 @@ class App extends Component {
         <ScrollToTop>
           <Switch>
               <Route exact path="/" component={ HomePage } />
+              <Route path="/apply" component={ ApplyPage } />
               <Route exact path="/privacy" component={ Privacy } />
               <Route path="/companies" component={ CompaniesPage } />
               <Route path="/team" component={ TeamPage } />
@@ -81,6 +83,9 @@ class NoMatchPage extends Component {
   render() {
     return(
       <div className="App">
+        <Helmet>
+            <title>Dorm Room Fund</title>
+        </Helmet>
         <Menu lightColor={ false } />
         <div className="content">
           <div className="error-wrapper">
@@ -115,12 +120,25 @@ class HomePage extends Component {
   }
 }
 
+class ApplyPage extends Component {
+  render() {
+    return(
+    <div>
+      <Helmet>
+          <title>Dorm Room Fund - Apply</title>
+      </Helmet>
+      <ReactTypeformEmbed url={'https://dormroomfund.typeform.com/to/H90ZNU'}/>
+    </div>
+    )
+  }
+}
+
 class CompaniesPage extends Component {
   render() {
     return (
       <div className="App">
         <Helmet>
-            <title>Companies</title>
+            <title>Dorm Room Fund - Companies</title>
         </Helmet>
         <div className="founders">
           <Menu lightColor={ true } />
@@ -289,7 +307,7 @@ class TeamPage extends Component {
     return (
       <div className="App">
         <Helmet>
-            <title>Team</title>
+            <title>Dorm Room Fund - Team</title>
         </Helmet>
         <div className="team">
           <Menu lightColor={ true } />
@@ -468,7 +486,7 @@ class MobileMenu extends Component {
               <li>
                 <Link to="/team"><a className="menu menu-link">Team</a></Link>
               </li>
-              <li><a className="menu menu-link" href="https://5years.dormroomfund.com">Years</a></li>
+              <li><a className="menu menu-link" href="https://5years.dormroomfund.com">Five Years</a></li>
               <li><a className="menu menu-link" href="https://vcwiz.co">VCWiz</a></li>
               <li><a className="menu menu-link" target="_blank" href="https://dormroomfund.typeform.com/to/DsPlYB">Apply Now</a></li>
             </ul>
