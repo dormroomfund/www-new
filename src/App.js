@@ -613,7 +613,7 @@ class Hero extends Component {
           <div className="content">
             <div className="col-12">
               <div className="logos-wrapper">
-                <h1>We&#39;ve invested in 150 startups whove raised $300 million from:</h1>
+                <h1>We&#39;ve invested in 150 startups who&#39;ve raised $400 million from:</h1>
                 <div className="logos">
                   <div className="content">
                     <div className="col-10 col-centered m-col-12">
