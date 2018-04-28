@@ -1,32 +1,912 @@
 [
   {
-    "name": "Rei Wang",
-    "school": "First Round",
-    "linkedin": "https://www.linkedin.com/in/reiwang/"
+    "name": "Josh Ephraim",
+    "role": "Startup Lawyer",
+    "company": "",
+    "school": "Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Breton Birkhofer",
+    "role": "Investor",
+    "company": "PLD Ventures",
+    "school": "Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Mediha Abdulhay",
+    "role": "Marketing Manager",
+    "company": "Google",
+    "school": "Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Rick Ling",
+    "role": "Founder",
+    "company": "Blitz Esports",
+    "school": "Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Ryan Chapman",
+    "role": "Machine Learning Engineer",
+    "company": "Apple",
+    "school": "Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Marissa Fortson",
+    "role": "Freelance Marketing",
+    "company": "Freelance",
+    "school": "Berkeley + Wharton (MBA)",
+    "linkedin": ""
+  },
+  {
+    "name": "Mike Lapointe",
+    "role": "PM",
+    "company": "Human API",
+    "school": "Boston College",
+    "linkedin": ""
+  },
+  {
+    "name": "Riley Soward",
+    "role": "CEO",
+    "company": "Campus Insights",
+    "school": "Boston College",
+    "linkedin": ""
+  },
+  {
+    "name": "Alexandrea Mellen",
+    "role": "Founder",
+    "company": "Terrapin Computing",
+    "school": "Boston University",
+    "linkedin": ""
+  },
+  {
+    "name": "Connor McEwen",
+    "role": "Lead Other",
+    "company": "GoDaddy",
+    "school": "Boston University",
+    "linkedin": ""
+  },
+  {
+    "name": "Kanav Dhir",
+    "role": "Associate",
+    "company": "General Electric Ventures",
+    "school": "Boston University",
+    "linkedin": ""
+  },
+  {
+    "name": "Aaron Szekel",
+    "role": "Director, Business Operations",
+    "company": "Flatiron Health",
+    "school": "Brandeis + Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Abigail Stone",
+    "role": "Associate",
+    "company": "Founder Collective",
+    "school": "Columbia",
+    "linkedin": "https://www.linkedin.com/in/abigailcstone/"
+  },
+  {
+    "name": "Alex Ginsberg",
+    "role": "Partner",
+    "company": "One Line Partners",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "An Nguyen",
+    "role": "Product Lead",
+    "company": "Capital One",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Christopher Yan",
+    "role": "Consultant",
+    "company": "McKinsey",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Cole Diamond",
+    "role": "Analyst",
+    "company": "Balyasny Asset Mangement",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Deborah Li",
+    "role": "Head of NY Operations",
+    "company": "EDITED",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Nolan Walsh",
+    "role": "Founder",
+    "company": "Thursday Boots",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "JY (Jiaying) Lim",
+    "role": "Business Analyst",
+    "company": "Mckinsey",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Parthiban Loganathan",
+    "role": "Associate Product Manager",
+    "company": "Google",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Matt Piccolella",
+    "role": "Product Manager",
+    "company": "Lyft",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "George Liu",
+    "role": "CEO",
+    "company": "Palette",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Jason Krone",
+    "role": "Engineer/Master's Student",
+    "company": "N/A",
+    "school": "Columbia",
+    "linkedin": ""
+  },
+  {
+    "name": "Aditya Mukerjee",
+    "role": "Data Other",
+    "company": "Stripe",
+    "school": "Cornell",
+    "linkedin": "https://www.linkedin.com/in/aditya-mukerjee-7291002a/"
+  },
+  {
+    "name": "Ali Hamed",
+    "role": "Partner",
+    "company": "CoVenture",
+    "school": "Cornell",
+    "linkedin": ""
+  },
+  {
+    "name": "Matthew Windt",
+    "role": "Senior PM",
+    "company": "Verizon",
+    "school": "Cornell",
+    "linkedin": ""
+  },
+  {
+    "name": "Chris Gray",
+    "role": "Founder & CEO",
+    "company": "Scholly",
+    "school": "Drexel",
+    "linkedin": ""
+  },
+  {
+    "name": "Bradley Ericson",
+    "role": "Sales Manager",
+    "company": "Zagster",
+    "school": "Drexel",
+    "linkedin": ""
+  },
+  {
+    "name": "Nigel Coelho",
+    "role": "Technology Consultant",
+    "company": "Deloitte",
+    "school": "Drexel",
+    "linkedin": ""
+  },
+  {
+    "name": "David Kaufman",
+    "role": "Investment Associate",
+    "company": "Bridgewater Associates",
+    "school": "Harvard",
+    "linkedin": ""
+  },
+  {
+    "name": "James Ruben",
+    "role": "Associate Product Manager",
+    "company": "Google",
+    "school": "Harvard",
+    "linkedin": ""
+  },
+  {
+    "name": "Lindsay Ullman",
+    "role": "New Ventures (EIR?) -- former partner at GV",
+    "company": "Sidewalk",
+    "school": "Harvard",
+    "linkedin": ""
+  },
+  {
+    "name": "Anuv Ratan",
+    "role": "Associate",
+    "company": "FFL Partners",
+    "school": "Harvard",
+    "linkedin": ""
+  },
+  {
+    "name": "Karine Hsu",
+    "role": "Co-Founder",
+    "company": "And Comfort",
+    "school": "Harvard",
+    "linkedin": ""
+  },
+  {
+    "name": "Vesal Yazdi",
+    "role": "Investment Associate",
+    "company": "Davidson Kempner",
+    "school": "Harvard (HBS)",
+    "linkedin": ""
+  },
+  {
+    "name": "Eric Sung",
+    "role": "PM",
+    "company": "Pinterest",
+    "school": "Harvard (HBS)",
+    "linkedin": ""
+  },
+  {
+    "name": "Michael Ma",
+    "role": "General Partner",
+    "company": "Liquid 2 Ventures",
+    "school": "Harvard (HBS)",
+    "linkedin": ""
+  },
+  {
+    "name": "Henry Tsai",
+    "role": "Tech Advisor",
+    "company": "Mayor of San Jose",
+    "school": "Harvard (HBS)",
+    "linkedin": ""
+  },
+  {
+    "name": "Sophia Popova",
+    "role": "VP of Tech Growth Equity",
+    "company": "Summit Partners",
+    "school": "Harvard (HBS)",
+    "linkedin": ""
+  },
+  {
+    "name": "Quenton Craddock",
+    "role": "VC",
+    "company": "Highland Capital Partners",
+    "school": "Harvard + Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Bruno Faviero",
+    "role": "Founder & CEO",
+    "company": "Synapse",
+    "school": "MIT",
+    "linkedin": ""
+  },
+  {
+    "name": "Max Kanter",
+    "role": "CEO",
+    "company": "Feature Lab",
+    "school": "MIT",
+    "linkedin": ""
+  },
+  {
+    "name": "Desmond Lin",
+    "role": "CEO",
+    "company": "Quikforce",
+    "school": "MIT",
+    "linkedin": ""
+  },
+  {
+    "name": "Chris Alexander",
+    "role": "Product Manager",
+    "company": "Facebook",
+    "school": "MIT",
+    "linkedin": ""
   },
   {
     "name": "Yasyf Mohamedali",
+    "role": "Engineer/Master's Student",
+    "company": "N/A",
     "school": "MIT",
-    "linkedin": "https://www.linkedin.com/in/yasyfmohamedali"
+    "linkedin": ""
   },
   {
-    "name": "Haris Memon",
-    "school": "Brown University",
-    "linkedin": "https://www.linkedin.com/in/harismemon/"
+    "name": "Isabelle Phelps",
+    "role": "Associate",
+    "company": "Lerer Hippeau",
+    "school": "MIT Sloan",
+    "linkedin": ""
   },
   {
-    "name": "Albert Dong",
-    "school": "Brown University",
-    "linkedin": "https://www.linkedin.com/in/albertdong23/"
+    "name": "Jackie Larossi",
+    "role": "New Ventures",
+    "company": "BBVA",
+    "school": "MIT Sloan",
+    "linkedin": ""
   },
   {
-    "name": "Zachary Liu",
-    "school": "Princeton University",
-    "linkedin": "https://www.linkedin.com/in/zsliu/"
+    "name": "Will Green",
+    "role": "Product",
+    "company": "Zinc",
+    "school": "MIT Sloan",
+    "linkedin": ""
   },
   {
-    "name": "Alicia Tsai",
-    "school": "Georgia Tech",
-    "linkedin": "https://www.linkedin.com/in/aliciatsai/"
+    "name": "Ariel Winton",
+    "role": "Associate",
+    "company": "OpenView Venture Partners",
+    "school": "Northeastern",
+    "linkedin": ""
+  },
+  {
+    "name": "Casey Hogan",
+    "role": "Manager",
+    "company": "Foodloft",
+    "school": "Northeastern",
+    "linkedin": ""
+  },
+  {
+    "name": "Matt Bilotti",
+    "role": "PM",
+    "company": "Drift",
+    "school": "Northeastern",
+    "linkedin": ""
+  },
+  {
+    "name": "Lucas Rocha",
+    "role": "Associate",
+    "company": "Unshackled VC",
+    "school": "Northeastern",
+    "linkedin": ""
+  },
+  {
+    "name": "Alina Balean",
+    "role": "Principal Experience Designer",
+    "company": "Capital One",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Samantha Smith",
+    "role": "Partner Operations",
+    "company": "First Round Capital",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Sam Slover",
+    "role": "CEO",
+    "company": "Sage",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Clayton Bryan",
+    "role": "Team Member",
+    "company": "500 Startups",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Zak Kukoff",
+    "role": "Operations",
+    "company": "Flexport",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Ben Paster",
+    "role": "Freelance",
+    "company": "Freelance",
+    "school": "NYU",
+    "linkedin": ""
+  },
+  {
+    "name": "Kim Pham",
+    "role": "Founder",
+    "company": "Frontline Ventures",
+    "school": "NYU Stern",
+    "linkedin": ""
+  },
+  {
+    "name": "Avi Das",
+    "role": "Venture Partner",
+    "company": "Cimbria Capital",
+    "school": "NYU Stern",
+    "linkedin": ""
+  },
+  {
+    "name": "Ricky Berrin",
+    "role": "Founder",
+    "company": "RVLVR",
+    "school": "NYU Stern + Duke",
+    "linkedin": ""
+  },
+  {
+    "name": "Sam Ku",
+    "role": "Startup Lawyer",
+    "company": "Cooley",
+    "school": "NYU Stern/Law",
+    "linkedin": ""
+  },
+  {
+    "name": "Daniel Toro",
+    "role": "Markets Coverage Group",
+    "company": "Goldman",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "David Dworsky",
+    "role": "Global Manager",
+    "company": "AB InBev",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "Raymond Zhong",
+    "role": "Head of Product",
+    "company": "Predata",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "Michael Chiang",
+    "role": "Data Scientist",
+    "company": "Twitch",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "CeCe Cheng",
+    "role": "Partner",
+    "company": "Early Impact Ventures",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "Rishi Narang",
+    "role": "Product +",
+    "company": "AngelList",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "Taylor Francis",
+    "role": "Atlas Team",
+    "company": "Stripe",
+    "school": "Princeton",
+    "linkedin": ""
+  },
+  {
+    "name": "Adam Goldberg",
+    "role": "Partner",
+    "company": "Lightspeed Ventures",
+    "school": "Stanford",
+    "linkedin": "https://www.linkedin.com/in/adamwgoldberg/"
+  },
+  {
+    "name": "Amanda Bradford",
+    "role": "Founder & CEO",
+    "company": "The League",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Anjney Midha",
+    "role": "Founder & CEO",
+    "company": "Ubiquity6",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Bastiaan Janmaat",
+    "role": "Founder & CEO",
+    "company": "DataFox",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Liu Jiang",
+    "role": "Investor",
+    "company": "Sequoia Capital",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Neal Khosla",
+    "role": "Co-Founder",
+    "company": "Totemic Labs",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Ruby Lee",
+    "role": "Co-Founder & CTO",
+    "company": "Juni Learning",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Shubham Goel",
+    "role": "Co-Founder",
+    "company": "Affinity Inc",
+    "school": "Stanford",
+    "linkedin": ""
+  },
+  {
+    "name": "Talal Alhammad",
+    "role": "Strategic Partnerships",
+    "company": "Boxed",
+    "school": "Stanford GSB",
+    "linkedin": ""
+  },
+  {
+    "name": "Hiral Shah",
+    "role": "Senior Manager of Product Management",
+    "company": "Asurion",
+    "school": "Stanford University",
+    "linkedin": ""
+  },
+  {
+    "name": "Eric Forkosh",
+    "role": "CEO",
+    "company": "DribbleUp",
+    "school": "The Cooper Union for the Advancement of Science and Art",
+    "linkedin": ""
+  },
+  {
+    "name": "Christine Motch",
+    "role": "Associate Brand Manager",
+    "company": "Spotify",
+    "school": "Tufts",
+    "linkedin": ""
+  },
+  {
+    "name": "Nathaniel Hajian",
+    "role": "Product & Design",
+    "company": "Crew",
+    "school": "Tufts",
+    "linkedin": ""
+  },
+  {
+    "name": "David Sagalov",
+    "role": "Senior Manager, Business Development",
+    "company": "WeWork",
+    "school": "UC Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Jeremy Fiance",
+    "role": "Managing Partner",
+    "company": "House Fund",
+    "school": "UC Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "KC Simon",
+    "role": "Growth Marketing Manager",
+    "company": "Square",
+    "school": "UC Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Mediha Abdulhay",
+    "role": "Product Marketing Manager",
+    "company": "Google",
+    "school": "UC Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Ryan Jung",
+    "role": "Product Manager",
+    "company": "Capital one",
+    "school": "UC Berkeley",
+    "linkedin": ""
+  },
+  {
+    "name": "Heston Berkman",
+    "role": "Investor",
+    "company": "BoxGroup",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Steve Krouse",
+    "role": "Founder",
+    "company": "Coding Space",
+    "school": "Upenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Tim Miller",
+    "role": "Associate Consultant",
+    "company": "Bain & Co",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Will Fry",
+    "role": "Founder",
+    "company": "SolutionLoft",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Matt Gibstein",
+    "role": "Product Manager II - Technical",
+    "company": "Amazon",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Lauren Reeder",
+    "role": "Product Analytics",
+    "company": "Segment",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Pranav Ramabhadran",
+    "role": "PM",
+    "company": "Dropbox",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Potluck Mittal",
+    "role": "Other",
+    "company": "Clever",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Joshua Lee",
+    "role": "Freelance Design + Film",
+    "company": "Freelance",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Molly Wang",
+    "role": "Engineer (intern)",
+    "company": "Microsoft",
+    "school": "UPenn",
+    "linkedin": ""
+  },
+  {
+    "name": "Isaac Sukin",
+    "role": "Lead Frontend Software Other",
+    "company": "Instrumental Inc.",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Ryan Marschang",
+    "role": "Private Equity Analyst",
+    "company": "Blackstone",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Derek Kleinow",
+    "role": "Startup Business Development",
+    "company": "AWS",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Stephanie Weiner",
+    "role": "CEO",
+    "company": "Lux Lab (formerly VC at Bain Cap Ventures)",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Alon Bonder",
+    "role": "VP",
+    "company": "Venrock",
+    "school": "Wharton",
+    "linkedin": "https://www.linkedin.com/in/alonbonder/"
+  },
+  {
+    "name": "Andy Salamon",
+    "role": "Partner",
+    "company": "Atomic",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Dana Rosenberg",
+    "role": "Director of Business Operations",
+    "company": "Dolls Kill",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Jasmine Kriston",
+    "role": "Product Specialist",
+    "company": "Facebook",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Jeff Ellington",
+    "role": "Associate",
+    "company": "Fuel Capital",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Lisa Barnett",
+    "role": "CMO",
+    "company": "Little Spoon Organic",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Mac Cordrey",
+    "role": "Investor",
+    "company": "Bessemer",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Nilesh Kavthekar",
+    "role": "Associate Product Manager",
+    "company": "Cricket Health",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Sterling Witzke",
+    "role": "Investor",
+    "company": "Winklevoss Capital",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Steve Weiner",
+    "role": "CEO",
+    "company": "Spot",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "Talia Goldberg",
+    "role": "Principal",
+    "company": "Bessemer Venture Partners",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "David Greenstein",
+    "role": "Business Operations",
+    "company": "OpenDoor",
+    "school": "Wharton",
+    "linkedin": ""
+  },
+  {
+    "name": "David Chi",
+    "role": "Analyst",
+    "company": "Abdiel Capital",
+    "school": "Yale",
+    "linkedin": ""
+  },
+  {
+    "name": "Viveca Morris",
+    "role": "Advisor",
+    "company": "New Crop Capital (formerly First Round)",
+    "school": "Yale",
+    "linkedin": ""
+  },
+  {
+    "name": "Akanksha Midha",
+    "role": "Principal",
+    "company": "McKinsey (QuantumBlack)",
+    "school": "",
+    "linkedin": "https://www.linkedin.com/in/akankshamidha/"
+  },
+  {
+    "name": "Jia Wu",
+    "role": "",
+    "company": "Xolator",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Max Ritz",
+    "role": "",
+    "company": "",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Jennifer Sung",
+    "role": "",
+    "company": "Free People",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Brandon Myint",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Bill Trenchard",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Chris Fralic",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Hayley Barna",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Howard Morgan",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Josh Kopelman",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Phineas Barnes",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Rei Wang",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Rob Hayes",
+    "role": "FIRST ROUND",
+    "company": "First Round Capital",
+    "school": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Imran Khoja",
+    "role": "",
+    "company": "",
+    "school": "",
+    "linkedin": ""
   }
 ]
