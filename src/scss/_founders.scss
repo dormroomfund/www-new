@@ -183,6 +183,10 @@ $card-in-between-spacing: 0.5rem;
     margin: 0.5rem $card-in-between-spacing 1rem 0;
   }
 
+  hr.founders-card-top-bar {
+    border-top: 10px solid;
+  }
+
   .founders-card-bio,
   .founders-card-school {
     color: #7e7e7e;
