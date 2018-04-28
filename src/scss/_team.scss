@@ -28,10 +28,100 @@ hr.team-divider {
 }
 
 .team-alumni-description {
+  font-size: 0.875rem;
   text-align: left;
   line-height: 1.2rem;
   margin-top: 0.25rem;
   color: #7e7e7e;
+}
+
+.team-alumni {
+  a.team-alumni-card-link {
+    text-transform: none;
+    letter-spacing: initial;
+  }
+
+  .team-alumni-grid-wrapper {
+    padding: 0 $content-padding;
+  }
+
+  .team-alumni-grid-container {
+    margin: $section-padding 0;
+    margin-top: $between-text-spacing;
+  }
+
+  .team-alumni-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  $desktop-columns: 3;
+  $tablet-columns: 2;
+  $mobile-columns: 1;
+
+  .team-alumni-column {
+    width: percentage(1 / $desktop-columns);
+    max-width: percentage(1 / $desktop-columns);
+    min-width: percentage(1 / $desktop-columns);
+    flex-basis: percentage(1 / $desktop-columns);
+  }
+
+  .team-alumni-card {
+    //border: 1px solid $gray-box;
+    padding: 0.5rem;
+    //margin: 0.5rem $card-in-between-spacing 1rem 0;
+  }
+
+  hr.team-alumni-card-top-bar {
+    border-top: 10px solid;
+  }
+
+  .team-alumni-card-bio,
+  .team-alumni-card-school {
+    color: #7e7e7e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .team-alumni-card-school {
+    color: $black;
+  }
+
+  span.team-alumni-school {
+    @extend h4;
+    font-weight: 300;
+    font-size: 0.875;
+    color: #797b83;
+    width: initial;
+    background: $white;
+    padding-right: 0.5rem;
+  }
+
+  .team-alumni-school-mobile {
+    text-align: left;
+    display: none;
+  }
+
+  @media screen and (max-width: $tablet-landscape-max) {
+    .fteam-alumni-column {
+      width: percentage(1 / $tablet-columns);
+      max-width: percentage(1 / $tablet-columns);
+      min-width: percentage(1 / $tablet-columns);
+      flex-basis: percentage(1 / $tablet-columns);
+    }
+  }
+
+  @media screen and (max-width: $tablet-portrait-max) {
+    .team-alumni-column {
+      width: percentage(1 / $mobile-columns);
+      max-width: percentage(1 / $mobile-columns);
+      min-width: percentage(1 / $mobile-columns);
+      flex-basis: percentage(1 / $mobile-columns);
+      text-align: center;
+    }
+  }
 }
 
 .team {

@@ -560,9 +560,9 @@ class AlumniPage extends Component {
               </div>
             </div>
           </div>
-          <div className="founders">
+          <div className="team-alumni">
             <div className="content">
-              <div className="founders-grid-wrapper">
+              <div className="team-alumni-grid-wrapper">
                 <div className="team-alumni-navigation">
                   <ul>
                     <li className="team-alumni-link">
@@ -588,8 +588,8 @@ class AlumniPage extends Component {
                   Also birthed from the DRF community is the __________________,
                   Graduate Fund.
                 </div>
-                <div className="founders-grid-container">
-                  <div className="founders-grid" data-column="3">
+                <div className="team-alumni-grid-container">
+                  <div className="team-alumni-grid" data-column="3">
                     {alumni_data
                       .sort(
                         (a, b) =>
@@ -609,21 +609,22 @@ class AlumniPage extends Component {
 }
 
 const Alumni = ({ alumni }) =>
-  <div className="founders-column">
-    <div className="founders-card-container">
-      <a href={alumni.linkedin} className="founders-card-link">
-        <div className="founders-card">
+  <div className="team-alumni-column">
+    <div className="team-alumni-card-container">
+      <a href={alumni.linkedin} className="team-alumni-card-link">
+        <div className="team-alumni-card">
+          <hr className="team-alumni-card-top-bar" />
           <div className="card-text">
             <div className="">
               <h5>
                 {alumni.name}
               </h5>
             </div>
-            <div className="founders-card-school">
+            <div className="team-alumni-card-school">
               {alumni.role ? alumni.role + ', ' : ''}
               {alumni.company ? alumni.company : <br />}
             </div>
-            <div className="founders-card-bio">
+            <div className="team-alumni-card-bio">
               {alumni.school ? alumni.school : <br />}
             </div>
           </div>
