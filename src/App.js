@@ -579,6 +579,15 @@ class AlumniPage extends Component {
                 </div>
                 <h1 className="team-divider-title">Alumni</h1>
                 <hr className="team-divider" />
+                <div className="team-alumni-description">
+                  Over the past 5 years, Dorm Room Fund has graduated over 150
+                  investment team partners. These alumni have gone on to join
+                  top-flight VC firms such as First Round Capital and Sequoia
+                  Capital, found startups such as Synapse and DataFox, and been
+                  honored to prestigious awards such as Forbes30U30 and ___.
+                  Also birthed from the DRF community is the __________________,
+                  Graduate Fund.
+                </div>
                 <div className="founders-grid-container">
                   <div className="founders-grid" data-column="3">
                     {alumni_data
