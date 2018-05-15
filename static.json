@@ -2,8 +2,9 @@
   "root": "build/",
   "routes": {
     "/": "index.html",
+    "/apply": "index.html",
     "/privacy": "index.html",
-    "/founders": "index.html",
+    "/companies": "index.html",
     "/team": "index.html",
     "/muneeb-ali": "index.html",
     "/chris-gray": "index.html",

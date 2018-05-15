@@ -55,6 +55,7 @@ class App extends Component {
       <BrowserRouter>
         <ScrollToTop>
           <Switch>
+              {/* ***** Also add new routes to static.json! ***** */}
               <Route exact path="/" component={ HomePage } />
               <Route path="/apply" component={ ApplyPage } />
               <Route exact path="/privacy" component={ Privacy } />
