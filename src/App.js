@@ -29,6 +29,7 @@ import article_3 from './img/article-3.jpg'
 // Social
 import twitter_icon from './img/twitter-icon.svg'
 import medium_icon from './img/medium-icon.svg'
+import kit_icon from './img/kit-icon.svg'
 
 // Founder on home page
 import founder from './img/founders_compressed/blockstack1.jpg'
@@ -146,7 +147,7 @@ class CompaniesPage extends Component {
           <div className="founders-hero-photo">
             <div className="content">
               <div className="founders-hero-wrapper">
-                <h1 className="founders-header light-text">Dorm Room Fund has invested in 305 founders from 40 universities.</h1>
+                <h1 className="founders-header light-text">Our companies are built by over 300 founders from 40 universities.</h1>
                 <div className="founders-hero-grid">
                   <div className="left-part">
                     <div className="left-first-row">
@@ -200,7 +201,7 @@ class CompaniesPage extends Component {
           </div>
           <div className="content">
             <div className="founders-grid-wrapper">
-              <h1 className="team-divider-title">Companies</h1>
+              <h1 className="team-divider-title">All Companies</h1>
               <hr className="team-divider" />
               <div className="founders-grid-container">
                 <div className="founders-grid" data-column="3">
@@ -525,7 +526,7 @@ class Value extends Component {
             <div className="col-4 m-col-12">
               <div className="value-section-card">
                 <h3>$20,000</h3>
-                <p className="value-section-text">We invest $20,000 through a SAFE—the most founder-friendly terms that exist. </p>
+                <p className="value-section-text">We invest $20,000 through a <a className="bodylink" target="_blank" href="https://medium.com/@joshephraim/complete-guide-to-understanding-safes-how-we-invest-at-dorm-room-fund-bbb37855ec4e">SAFE</a>—the most founder-friendly terms that exist. </p>
               </div>
             </div>
           </div>
@@ -614,7 +615,7 @@ class Hero extends Component {
           <div className="content">
             <div className="col-12">
               <div className="logos-wrapper">
-                <h1>We&#39;ve invested in 150 startups who&#39;ve raised $400 million from:</h1>
+                <h1>We&#39;ve invested in 200 startups who&#39;ve raised $400 million from:</h1>
                 <div className="logos">
                   <div className="content">
                     <div className="col-10 col-centered m-col-12">
@@ -788,6 +789,11 @@ class CustomFooter extends Component {
               <h2 className="title">© 2018 Dorm Room Fund.</h2>
               <h2 className="title-mobile">© 2018 DRF.</h2>
               <ul className="links">
+                <li>
+                  <a className="menu" target="_blank" href="https://drive.google.com/drive/folders/13kIXHJjCRs5nfrqiww5aq_e0mzrJOY6J?usp=sharing">
+                    <div className="link-box"><img className="icon" src={ kit_icon }></img><span className="link-text">Press Kit</span></div>
+                  </a>
+                </li>
                 <li>
                   <a className="menu" href="https://medium.com/@dormroomfund">
                     <div className="link-box"><img className="icon" src={ medium_icon }></img><span className="link-text">Medium</span></div>
