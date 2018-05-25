@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import ReactGA from 'react-ga';
+
 import Menu from './Menu';
 import '../styles/App.scss';
 
@@ -32,10 +35,30 @@ const CustomFooter = () => (
   </footer>
 );
 
-export default ({ children, lightColor = false, relativeNav = false }) => (
-  <div className="App">
-    <Menu lightColor={lightColor} relativeNav={relativeNav} />
-    {children}
-    <CustomFooter />
-  </div>
-);
+export default class Layout extends Component {
+  static defaultProps = {
+    lightColor: false,
+    relativeNav: false
+  };
+
+  componentDidMount() {
+    if (!window.GA_INITIALIZED) {
+      ReactGA.initialize('UA-105612774-1');
+      window.GA_INITIALIZED = true;
+    }
+    ReactGA.pageview(window.location.pathname);
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <Menu
+          lightColor={this.props.lightColor}
+          relativeNav={this.props.relativeNav}
+        />
+        {this.props.children}
+        <CustomFooter />
+      </div>
+    );
+  }
+}
