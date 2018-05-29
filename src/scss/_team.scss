@@ -13,7 +13,7 @@ hr.team-divider {
 }
 
 .team-alumni-navigation {
-  margin-top: $between-text-spacing;
+  margin-bottom: $between-section-spacing;
   float: right;
 
   .team-alumni-link {
@@ -28,10 +28,10 @@ hr.team-divider {
 }
 
 .team-alumni-description {
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   text-align: left;
   line-height: 1.2rem;
-  margin-top: 0.25rem;
+  margin-top: 1rem;
   color: #7e7e7e;
 }
 
@@ -68,16 +68,16 @@ hr.team-divider {
   }
 
   .team-alumni-card {
-    //border: 1px solid $gray-box;
-    padding: 0.5rem;
-    //margin: 0.5rem $card-in-between-spacing 1rem 0;
+    border: 30px solid white;
+    padding: 0rem;
+    margin: 0rem;
   }
 
   hr.team-alumni-card-top-bar {
-    border-top: 10px solid;
+    border-top: 3px solid;
+    color: #0702d1;
   }
 
-  .team-alumni-card-bio,
   .team-alumni-card-school {
     color: #7e7e7e;
     white-space: nowrap;
@@ -85,18 +85,8 @@ hr.team-divider {
     text-overflow: ellipsis;
   }
 
-  .team-alumni-card-school {
+  .team-alumni-card-company {
     color: $black;
-  }
-
-  span.team-alumni-school {
-    @extend h4;
-    font-weight: 300;
-    font-size: 0.875;
-    color: #797b83;
-    width: initial;
-    background: $white;
-    padding-right: 0.5rem;
   }
 
   .team-alumni-school-mobile {
