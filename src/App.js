@@ -442,7 +442,9 @@ class TeamPage extends Component {
                 <ul>
                   <li className="team-alumni-link">
                     <Link to="/team" className="menu">
-                      <span>Current Team</span>
+                      <span>
+                        <font color="#0702d1">Current</font>
+                      </span>
                     </Link>
                   </li>
                   <li className="team-alumni-link">
@@ -567,12 +569,14 @@ class AlumniPage extends Component {
                   <ul>
                     <li className="team-alumni-link">
                       <Link to="/team" className="menu">
-                        <span>Current Team</span>
+                        <span>Current</span>
                       </Link>
                     </li>
                     <li className="team-alumni-link">
                       <Link to="/alumni" className="menu">
-                        <span>Alumni</span>
+                        <span>
+                          <font color="#0702d1">Alumni</font>
+                        </span>
                       </Link>
                     </li>
                   </ul>
@@ -580,13 +584,19 @@ class AlumniPage extends Component {
                 <h1 className="team-divider-title">Alumni</h1>
                 <hr className="team-divider" />
                 <div className="team-alumni-description">
-                  Over the past 5 years, Dorm Room Fund has graduated over 150
-                  investment team partners. These alumni have gone on to join
-                  top-flight VC firms such as First Round Capital and Sequoia
-                  Capital, found startups such as Synapse and DataFox, and been
-                  honored to prestigious awards such as Forbes30U30 and ___.
-                  Also birthed from the DRF community is the __________________,
-                  Graduate Fund.
+                  <p>
+                    In the past five years, over 150 alumni have graduated from
+                    Dorm Room Fund. Our alumni have gone on to join top-flight
+                    VC firms like Accel, Bessemer, First Round, and Sequoia or
+                    lead teams at companies like AngelList, Amazon, Google,
+                    Facebook, and Stripe. Many Dorm Room Fund alumni have
+                    started their own companies, have participated in YC, and
+                    have been honored by Forbes 30 Under 30. We have even
+                    started a new fund run by Dorm Room Fund alumni called
+                    Graduate Fund to empower recent graduates with bold ideas to
+                    start new ventures. Learn more about how to receive an
+                    investment from the Graduate Fund here.
+                  </p>
                 </div>
                 <div className="team-alumni-grid-container">
                   <div className="team-alumni-grid" data-column="3">
@@ -620,11 +630,11 @@ const Alumni = ({ alumni }) =>
                 {alumni.name}
               </h5>
             </div>
-            <div className="team-alumni-card-school">
+            <div className="team-alumni-card-company">
               {alumni.role ? alumni.role + ', ' : ''}
               {alumni.company ? alumni.company : <br />}
             </div>
-            <div className="team-alumni-card-bio">
+            <div className="team-alumni-card-school">
               {alumni.school ? alumni.school : <br />}
             </div>
           </div>
