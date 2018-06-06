@@ -30,3 +30,13 @@ $button-rounded-radius: 1.4rem;
     opacity: $semi-trans;
   }
 }
+
+.bodylink{
+  color: $blue;
+  border-bottom: 2px solid white;
+  transition: .3s;
+
+  &:hover{
+    border-bottom: 2px solid $blue;
+  }
+}
