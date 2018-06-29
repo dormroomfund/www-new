@@ -623,7 +623,7 @@ const Alumni = ({ alumni }) =>
     <div className="team-alumni-card-container">
       <a href={alumni.linkedin} className="team-alumni-card-link">
         <div className="team-alumni-card">
-          <hr className="team-alumni-card-top-bar" />
+          <div className="team-alumni-card-top-bar" />
           <div className="card-text">
             <div className="">
               <h5>
