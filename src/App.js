@@ -28,6 +28,7 @@ import article_3 from './img/article-3.jpg';
 // Social
 import twitter_icon from './img/twitter-icon.svg';
 import medium_icon from './img/medium-icon.svg';
+import linkedin_icon from './img/linkedin-icon.svg';
 
 // Founder on home page
 import founder from './img/founders_compressed/blockstack1.jpg';
@@ -418,6 +419,26 @@ const Company = ({ company }) =>
   </div>;
 
 class TeamPage extends Component {
+  scrollFunction() {
+    if (
+      document.documentElement.scrollTop > 1000 &&
+      document.documentElement.scrollTop <
+        document.getElementById('team-content').offsetHeight + 50
+    ) {
+      document.getElementById('scroll-back-to-top').style.display = 'block';
+    } else {
+      document.getElementById('scroll-back-to-top').style.display = 'none';
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.scrollFunction);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.scrollFunction);
+  }
+
   render() {
     return (
       <div className="App">
@@ -436,27 +457,35 @@ class TeamPage extends Component {
               </div>
             </div>
           </div>
-          <div className="content">
+          <div className="content" id="team-content">
+            <div className="team-alumni-navigation">
+              <ul>
+                <li className="team-current-link" id="team-current">
+                  <a href="/team/#team-current" className="menu">
+                    <span>
+                      <font color="#0702d1">Current</font>
+                    </span>
+                  </a>
+                </li>
+                <li className="team-alumni-link">
+                  <a href="/alumni/#team-alumni" className="menu">
+                    <span>Alumni</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
             <div className="team-wrapper">
-              <div className="team-alumni-navigation">
-                <ul>
-                  <li className="team-alumni-link">
-                    <Link to="/team" className="menu">
-                      <span>
-                        <font color="#0702d1">Current</font>
-                      </span>
-                    </Link>
-                  </li>
-                  <li className="team-alumni-link">
-                    <Link to="/alumni" className="menu">
-                      <span>Alumni</span>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
               <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
               <hr className="team-divider" />
               <div className="team-grid-container">
+                <a href="#team-current">
+                  <button
+                    className="scroll-back-to-top"
+                    id="scroll-back-to-top"
+                  >
+                    Top
+                  </button>
+                </a>
                 <div className="team-grid" data-column="3">
                   {team_data['national'].map(teamMember =>
                     TeamMember({
@@ -544,6 +573,26 @@ const TeamMember = ({ teamMember }) =>
 
 // Alumni page
 class AlumniPage extends Component {
+  scrollFunction() {
+    if (
+      document.documentElement.scrollTop > 1000 &&
+      document.documentElement.scrollTop <
+        document.getElementById('team-alumni-content').offsetHeight + 50
+    ) {
+      document.getElementById('scroll-back-to-top').style.display = 'block';
+    } else {
+      document.getElementById('scroll-back-to-top').style.display = 'none';
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.scrollFunction);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.scrollFunction);
+  }
+
   render() {
     return (
       <div className="App">
@@ -562,30 +611,34 @@ class AlumniPage extends Component {
               </div>
             </div>
           </div>
-          <div className="team-alumni">
+          <div className="team-alumni" id="team-alumni-content">
             <div className="content">
+              <div className="team-alumni-navigation">
+                <ul>
+                  <li className="team-current-link">
+                    <a href="/team/#team-current" className="menu">
+                      <span>Current</span>
+                    </a>
+                  </li>
+                  <li className="team-alumni-link" id="team-alumni">
+                    <a herf="/alumni" className="menu">
+                      <span>
+                        <font color="#0702d1">Alumni</font>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
               <div className="team-alumni-grid-wrapper">
-                <div className="team-alumni-navigation">
-                  <ul>
-                    <li className="team-alumni-link">
-                      <Link to="/team" className="menu">
-                        <span>Current</span>
-                      </Link>
-                    </li>
-                    <li className="team-alumni-link">
-                      <Link to="/alumni" className="menu">
-                        <span>
-                          <font color="#0702d1">Alumni</font>
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <h1 className="team-divider-title">
-                  <a href="http://graduatefund.herokuapp.com/" target="_blank">
+                <div className="team-divider-title">
+                  <a
+                    href="http://graduatefund.herokuapp.com/"
+                    target="_blank"
+                    className="team-divider-title-link"
+                  >
                     Alumni
                   </a>
-                </h1>
+                </div>
                 <hr className="team-divider" />
                 <div className="team-alumni-description">
                   <p>
@@ -609,6 +662,14 @@ class AlumniPage extends Component {
                   </p>
                 </div>
                 <div className="team-alumni-grid-container">
+                  <a href="#team-alumni">
+                    <button
+                      className="scroll-back-to-top"
+                      id="scroll-back-to-top"
+                    >
+                      Top
+                    </button>
+                  </a>
                   <div className="team-alumni-grid" data-column="3">
                     {alumni_data
                       .sort(
@@ -617,6 +678,7 @@ class AlumniPage extends Component {
                       )
                       .map(c => <Alumni key={c.name} alumni={c} />)}
                   </div>
+                  <a href="#team-alumni" />
                 </div>
               </div>
             </div>
@@ -631,25 +693,32 @@ class AlumniPage extends Component {
 const Alumni = ({ alumni }) =>
   <div className="team-alumni-column">
     <div className="team-alumni-card-container">
-      <a href={alumni.linkedin} className="team-alumni-card-link">
-        <div className="team-alumni-card">
-          <div className="team-alumni-card-top-bar" />
-          <div className="card-text">
-            <div className="">
-              <h5>
-                {alumni.name}
-              </h5>
-            </div>
-            <div className="team-alumni-card-company">
-              {alumni.role ? alumni.role + ', ' : ''}
-              {alumni.company ? alumni.company : <br />}
-            </div>
-            <div className="team-alumni-card-school">
-              {alumni.school ? alumni.school : <br />}
-            </div>
+      <div className="team-alumni-card">
+        <div className="team-alumni-card-top-bar" />
+        <div className="card-text">
+          <div className="">
+            <h5 className="team-alumni-card-name">
+              {alumni.name}
+              {alumni.linkedin != ''
+                ? <a
+                    href={alumni.linkedin}
+                    target="_blank"
+                    className="team-alumni-card-link"
+                  >
+                    <img className="icon" src={linkedin_icon} />
+                  </a>
+                : null}
+            </h5>
+          </div>
+          <div className="team-alumni-card-company">
+            {alumni.role ? alumni.role + ', ' : ''}
+            {alumni.company ? alumni.company : <br />}
+          </div>
+          <div className="team-alumni-card-school">
+            {alumni.school ? alumni.school : <br />}
           </div>
         </div>
-      </a>
+      </div>
     </div>
   </div>;
 
