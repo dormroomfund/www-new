@@ -581,7 +581,11 @@ class AlumniPage extends Component {
                     </li>
                   </ul>
                 </div>
-                <h1 className="team-divider-title">Alumni</h1>
+                <h1 className="team-divider-title">
+                  <a href="http://graduatefund.herokuapp.com/" target="_blank">
+                    Alumni
+                  </a>
+                </h1>
                 <hr className="team-divider" />
                 <div className="team-alumni-description">
                   <p>
@@ -593,9 +597,15 @@ class AlumniPage extends Component {
                     started their own companies, have participated in YC, and
                     have been honored by Forbes 30 Under 30. We have even
                     started a new fund run by Dorm Room Fund alumni called
-                    Graduate Fund to empower recent graduates with bold ideas to
-                    start new ventures. Learn more about how to receive an
-                    investment from the Graduate Fund here.
+                    <a
+                      href="http://graduatefund.herokuapp.com/"
+                      target="_blank"
+                    >
+                      {' '}Graduate Fund{' '}
+                    </a>
+                    to empower recent graduates with bold ideas to start new
+                    ventures. Learn more about how to receive an investment from
+                    the Graduate Fund here.
                   </p>
                 </div>
                 <div className="team-alumni-grid-container">

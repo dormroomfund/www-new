@@ -5,6 +5,12 @@ hr.team-divider {
   text-align: left;
   margin-top: $section-padding;
   margin-bottom: $between-text-spacing;
+  a {
+    color: #1a1b1c;
+  }
+  &:hover {
+    opacity: $semi-trans;
+  }
 }
 
 .team-divider-subtitle {
@@ -33,6 +39,14 @@ hr.team-divider {
   line-height: 1.2rem;
   margin-top: 1rem;
   color: #7e7e7e;
+  a {
+    color: #0702d1;
+  }
+  &:hover {
+    a {
+      opacity: $semi-trans;
+    }
+  }
 }
 
 .team-alumni {
@@ -86,6 +100,7 @@ hr.team-divider {
 
   h5 {
     margin-left: 10px;
+    margin-top: 5px;
   }
 
   .team-alumni-card-school {
@@ -94,6 +109,7 @@ hr.team-divider {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   .team-alumni-card-company {
@@ -107,7 +123,10 @@ hr.team-divider {
   }
 
   @media screen and (max-width: $tablet-landscape-max) {
-    .fteam-alumni-column {
+    .team-alumni-description {
+      display: none;
+    }
+    .team-alumni-column {
       width: percentage(1 / $tablet-columns);
       max-width: percentage(1 / $tablet-columns);
       min-width: percentage(1 / $tablet-columns);
