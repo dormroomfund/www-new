@@ -438,23 +438,25 @@ class TeamPage extends Component {
           </div>
           <div className="content">
             <div className="team-wrapper">
-              <div className="team-alumni-navigation">
-                <ul>
-                  <li className="team-alumni-link">
-                    <Link to="/team" className="menu">
-                      <span>
-                        <font color="#0702d1">Current</font>
-                      </span>
-                    </Link>
-                  </li>
-                  <li className="team-alumni-link">
-                    <Link to="/alumni" className="menu">
-                      <span>Alumni</span>
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
+              <h1 className="team-divider-title">
+                Dorm Room Fund HQ
+                <div className="team-alumni-navigation">
+                  <ul>
+                    <li className="team-alumni-link">
+                      <Link to="/team" className="menu">
+                        <span>
+                          <font color="#0702d1">Current</font>
+                        </span>
+                      </Link>
+                    </li>
+                    <li className="team-alumni-link">
+                      <Link to="/alumni" className="menu">
+                        <span>Alumni</span>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </h1>
               <hr className="team-divider" />
               <div className="team-grid-container">
                 <div className="team-grid" data-column="3">
@@ -565,26 +567,26 @@ class AlumniPage extends Component {
           <div className="team-alumni">
             <div className="content">
               <div className="team-alumni-grid-wrapper">
-                <div className="team-alumni-navigation">
-                  <ul>
-                    <li className="team-alumni-link">
-                      <Link to="/team" className="menu">
-                        <span>Current</span>
-                      </Link>
-                    </li>
-                    <li className="team-alumni-link">
-                      <Link to="/alumni" className="menu">
-                        <span>
-                          <font color="#0702d1">Alumni</font>
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
                 <h1 className="team-divider-title">
                   <a href="http://graduatefund.herokuapp.com/" target="_blank">
                     Alumni
                   </a>
+                  <div className="team-alumni-navigation">
+                    <ul>
+                      <li className="team-alumni-link">
+                        <Link to="/team" className="menu">
+                          <span>Current</span>
+                        </Link>
+                      </li>
+                      <li className="team-alumni-link">
+                        <Link to="/alumni" className="menu">
+                          <span>
+                            <font color="#0702d1">Alumni</font>
+                          </span>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </h1>
                 <hr className="team-divider" />
                 <div className="team-alumni-description">
@@ -631,7 +633,11 @@ class AlumniPage extends Component {
 const Alumni = ({ alumni }) =>
   <div className="team-alumni-column">
     <div className="team-alumni-card-container">
-      <a href={alumni.linkedin} className="team-alumni-card-link">
+      <a
+        href={alumni.linkedin}
+        target="_blank"
+        className="team-alumni-card-link"
+      >
         <div className="team-alumni-card">
           <div className="team-alumni-card-top-bar" />
           <div className="card-text">
