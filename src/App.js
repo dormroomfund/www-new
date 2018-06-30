@@ -648,17 +648,14 @@ class AlumniPage extends Component {
                     lead teams at companies like AngelList, Amazon, Google,
                     Facebook, and Stripe. Many Dorm Room Fund alumni have
                     started their own companies, have participated in YC, and
-                    have been honored by Forbes 30 Under 30. We have even
-                    started a new fund run by Dorm Room Fund alumni called
+                    have been honored by Forbes 30 Under 30. We've even
+                    started a new fund run entirely by Dorm Room Fund alumni called
                     <a
                       href="http://graduatefund.herokuapp.com/"
                       target="_blank"
-                    >
-                      {' '}Graduate Fund{' '}
-                    </a>
-                    to empower recent graduates with bold ideas to start new
-                    ventures. Learn more about how to receive an investment from
-                    the Graduate Fund here.
+                    >{' '}Graduate Fund
+                    </a>, which empowers recent graduates to start new
+                    ventures.
                   </p>
                 </div>
                 <div className="team-alumni-grid-container">
