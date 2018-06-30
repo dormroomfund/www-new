@@ -37,7 +37,8 @@ hr.team-divider {
   font-size: 0.8rem;
   text-align: left;
   line-height: 1.2rem;
-  margin-top: 1rem;
+  margin-top: $between-text-spacing;
+  margin-bottom: $medium-spacing;
   color: #7e7e7e;
   a {
     color: #0702d1;
@@ -82,18 +83,22 @@ hr.team-divider {
   }
 
   .team-alumni-card {
+    transition: .15s ease;
     border: 30px solid white;
     padding: 0rem;
     margin: 0rem;
     &:hover {
+      transition: .15s ease;
       background-color: #dafbf1;
       div.team-alumni-card-top-bar {
         color: #1dd79d;
+        transition: .15s ease;
       }
     }
   }
 
   div.team-alumni-card-top-bar {
+    transition: .15s ease;
     border-top: 3px solid;
     color: #0702d1;
   }
