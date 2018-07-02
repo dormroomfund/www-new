@@ -468,8 +468,7 @@ class TeamPage extends Component {
             <div className="content">
               <div className="team-hero-wrapper">
                 <h1 className="hero-text light-text">
-                  Dorm Room Fund is designed 100% for students, run 100% by
-                  students.
+                  We help founders from day zero.
                 </h1>
               </div>
             </div>
