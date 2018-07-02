@@ -5,8 +5,6 @@
   "dependencies": {
     "ajv": "^6.5.0",
     "express": "^4.15.4",
-    "husky": "^0.14.3",
-    "lint-staged": "^4.0.2",
     "morgan": "^1.8.2",
     "node-sass-chokidar": "0.0.3",
     "npm-run-all": "^4.0.2",
@@ -28,5 +26,16 @@
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0"
+  },
+  "lint-staged": {
+    "{pages,src}/**/*.{js,jsx,json,css,scss}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
   }
 }
