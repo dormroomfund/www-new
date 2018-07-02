@@ -60,8 +60,21 @@ class App extends Component {
             <Route path="/apply" component={ApplyPage} />
             <Route exact path="/privacy" component={Privacy} />
             <Route path="/companies" component={CompaniesPage} />
-            <Route path="/team" component={TeamPage} />
-            <Route path="/alumni" component={AlumniPage} />
+            <Route
+              path="/team"
+              render={() =>
+                <TeamPage
+                  showCurrent={true}
+                />}
+            />
+            <Route
+              path="/alumni"
+              render={() =>
+                <TeamPage
+                  showCurrent={false}
+                />}
+            />
+
             <Route
               path="/muneeb-ali"
               render={() =>
@@ -419,24 +432,28 @@ const Company = ({ company }) =>
   </div>;
 
 class TeamPage extends Component {
-  scrollFunction() {
-    if (
-      document.documentElement.scrollTop > 1000 &&
-      document.documentElement.scrollTop <
-        document.getElementById('team-content').offsetHeight + 50
-    ) {
-      document.getElementById('scroll-back-to-top').style.display = 'block';
-    } else {
-      document.getElementById('scroll-back-to-top').style.display = 'none';
-    }
+
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      showCurrent: this.props.showCurrent
+    };
+
+    this.handleCurrentClick = this.handleCurrentClick.bind(this);
+    this.handleAlumniClick = this.handleAlumniClick.bind(this);
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollFunction);
+  handleCurrentClick() {
+    this.setState({
+      showCurrent: true,
+    });
   }
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.scrollFunction);
+  handleAlumniClick() {
+    this.setState({
+      showCurrent: false,
+    });
   }
 
   render() {
@@ -460,90 +477,97 @@ class TeamPage extends Component {
           <div className="content" id="team-content">
             <div className="team-alumni-navigation">
               <ul>
-                <li className="team-current-link" id="team-current">
-                  <a href="/team/#team-current" className="menu">
-                    <span>
-                      <font color="#0702d1">Current</font>
+                <li className="team-current-link" id="team-current" onClick={this.handleCurrentClick}>
+                  <a className="menu" >
+                    <span className={this.state.showCurrent ? 'menu-highlight' : ''}>Current
                     </span>
                   </a>
                 </li>
-                <li className="team-alumni-link">
-                  <a href="/alumni/#team-alumni" className="menu">
-                    <span>Alumni</span>
+                <li className="team-alumni-link" onClick={this.handleAlumniClick}>
+                  <a className="menu" >
+                    <span className={this.state.showCurrent ? '' : 'menu-highlight'}>Alumni</span>
                   </a>
                 </li>
               </ul>
             </div>
-            <div className="team-wrapper">
-              <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
-              <hr className="team-divider" />
-              <div className="team-grid-container">
-                <a href="#team-current">
-                  <button
-                    className="scroll-back-to-top"
-                    id="scroll-back-to-top"
-                  >
-                    Top
-                  </button>
-                </a>
-                <div className="team-grid" data-column="3">
-                  {team_data['national'].map(teamMember =>
-                    TeamMember({
-                      teamMember
-                    })
-                  )}
-                </div>
-              </div>
-              <h1 className="team-divider-title">Investment</h1>
-              <hr className="team-divider" />
-              <h4 className="team-divider-subtitle">Boston</h4>
-              <div className="team-grid-container">
-                <div className="team-grid" data-column="3">
-                  {team_data['boston'].map(teamMember =>
-                    TeamMember({
-                      teamMember
-                    })
-                  )}
-                </div>
-              </div>
-              <hr className="team-divider" />
-              <h4 className="team-divider-subtitle">New York</h4>
-              <div className="team-grid-container">
-                <div className="team-grid" data-column="3">
-                  {team_data['newYork'].map(teamMember =>
-                    TeamMember({
-                      teamMember
-                    })
-                  )}
-                </div>
-              </div>
-              <hr className="team-divider" />
-              <h4 className="team-divider-subtitle">Philly</h4>
-              <div className="team-grid-container">
-                <div className="team-grid" data-column="3">
-                  {team_data['philly'].map(teamMember =>
-                    TeamMember({
-                      teamMember
-                    })
-                  )}
-                </div>
-              </div>
-              <hr className="team-divider" />
-              <h4 className="team-divider-subtitle">San Francisco</h4>
-              <div className="team-grid-container">
-                <div className="team-grid" data-column="3">
-                  {team_data['bayArea'].map(teamMember =>
-                    TeamMember({
-                      teamMember
-                    })
-                  )}
-                </div>
-              </div>
-            </div>
+          {this.state.showCurrent ? <TeamSection /> : <AlumniSection />}
           </div>
         </div>
         <CustomFooter />
       </div>
+    );
+  }
+}
+
+class TeamSection extends Component {
+  render() {
+    return(
+    <div className="team-wrapper">
+      <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
+      <hr className="team-divider" />
+      <div className="team-grid-container">
+        <a href="#team-current">
+          <button
+            className="scroll-back-to-top"
+            id="scroll-back-to-top"
+          >
+            Top
+          </button>
+        </a>
+        <div className="team-grid" data-column="3">
+          {team_data['national'].map(teamMember =>
+            TeamMember({
+              teamMember
+            })
+          )}
+        </div>
+      </div>
+      <h1 className="team-divider-title">Investment</h1>
+      <hr className="team-divider" />
+      <h4 className="team-divider-subtitle">Boston</h4>
+      <div className="team-grid-container">
+        <div className="team-grid" data-column="3">
+          {team_data['boston'].map(teamMember =>
+            TeamMember({
+              teamMember
+            })
+          )}
+        </div>
+      </div>
+      <hr className="team-divider" />
+      <h4 className="team-divider-subtitle">New York</h4>
+      <div className="team-grid-container">
+        <div className="team-grid" data-column="3">
+          {team_data['newYork'].map(teamMember =>
+            TeamMember({
+              teamMember
+            })
+          )}
+        </div>
+      </div>
+      <hr className="team-divider" />
+      <h4 className="team-divider-subtitle">Philly</h4>
+      <div className="team-grid-container">
+        <div className="team-grid" data-column="3">
+          {team_data['philly'].map(teamMember =>
+            TeamMember({
+              teamMember
+            })
+          )}
+        </div>
+      </div>
+      <hr className="team-divider" />
+      <h4 className="team-divider-subtitle">San Francisco</h4>
+      <div className="team-grid-container">
+        <div className="team-grid" data-column="3">
+          {team_data['bayArea'].map(teamMember =>
+            TeamMember({
+              teamMember
+            })
+          )}
+        </div>
+      </div>
+    </div>
     );
   }
 }
@@ -572,63 +596,9 @@ const TeamMember = ({ teamMember }) =>
   </div>;
 
 // Alumni page
-class AlumniPage extends Component {
-  scrollFunction() {
-    if (
-      document.documentElement.scrollTop > 1000 &&
-      document.documentElement.scrollTop <
-        document.getElementById('team-alumni-content').offsetHeight + 50
-    ) {
-      document.getElementById('scroll-back-to-top').style.display = 'block';
-    } else {
-      document.getElementById('scroll-back-to-top').style.display = 'none';
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.scrollFunction);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.scrollFunction);
-  }
-
+class AlumniSection extends Component {
   render() {
     return (
-      <div className="App">
-        <Helmet>
-          <title>Dorm Room Fund - Alumni</title>
-        </Helmet>
-        <div className="team">
-          <Menu lightColor={true} />
-          <div className="team-hero-photo">
-            <div className="content">
-              <div className="team-hero-wrapper">
-                <h1 className="hero-text light-text">
-                  Dorm Room Fund is designed 100% for students, run 100% by
-                  students.
-                </h1>
-              </div>
-            </div>
-          </div>
-          <div className="team-alumni" id="team-alumni-content">
-            <div className="content">
-              <div className="team-alumni-navigation">
-                <ul>
-                  <li className="team-current-link">
-                    <a href="/team/#team-current" className="menu">
-                      <span>Current</span>
-                    </a>
-                  </li>
-                  <li className="team-alumni-link" id="team-alumni">
-                    <a herf="/alumni" className="menu">
-                      <span>
-                        <font color="#0702d1">Alumni</font>
-                      </span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
               <div className="team-alumni-grid-wrapper">
                 <div className="team-divider-title">
                   <a
@@ -678,11 +648,6 @@ class AlumniPage extends Component {
                   <a href="#team-alumni" />
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <CustomFooter />
-      </div>
     );
   }
 }
