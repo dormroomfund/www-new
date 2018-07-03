@@ -14,14 +14,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
   }
 
-  .title, .title-mobile {
+  .title,
+  .title-mobile {
     float: left;
-    margin: 1% 0%;
   }
-  
+
   .title-mobile {
     display: none;
   }
@@ -30,7 +29,6 @@ footer {
     display: inline-block;
     font-size: 0;
     float: right;
-    margin: 1% 0%;
 
     li {
       display: inline-block;
@@ -50,7 +48,7 @@ footer {
     a {
       font-size: 0.875rem;
     }
-  
+
     .icon {
       height: 1rem;
       margin-right: 0.5rem;
@@ -67,7 +65,8 @@ footer {
 
 @media screen and (max-width: $tablet-landscape-max) {
   footer {
-    .title, .title-mobile {
+    .title,
+    .title-mobile {
       font-size: 1.25rem;
     }
 
@@ -88,6 +87,5 @@ footer {
     .title-mobile {
       display: block;
     }
-
   }
 }
