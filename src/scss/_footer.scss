@@ -14,11 +14,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .title,
   .title-mobile {
     float: left;
+    margin: 1% 0%;
   }
 
   .title-mobile {
@@ -29,6 +31,7 @@ footer {
     display: inline-block;
     font-size: 0;
     float: right;
+    margin: 1% 0%;
 
     li {
       display: inline-block;

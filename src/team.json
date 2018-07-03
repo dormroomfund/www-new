@@ -245,6 +245,13 @@
       "miniBio": "Software Engineering at Facebook. Formerly at Apple.",
       "imageFileName": "shrey_gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/shreyg19/"
+    },
+    {
+      "name": "David Mackanic",
+      "school": "Stanford University",
+      "miniBio": "Stanford PhD in Cleantech. Former InSITE President.",
+      "imageFileName": "david_mackanic.jpg",
+      "linkedin": "https://www.linkedin.com/in/david-mackanic"
     }
   ]
 }
