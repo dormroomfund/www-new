@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Link, NavLink, Route, Switch } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
+import smoothscroll from 'smoothscroll-polyfill';
 
 import ScrollToTop from './ScrollToTop';
 import ScrollBackToTop from './ScrollBackToTop';
@@ -54,6 +55,10 @@ function blockMove(e) {
 }
 
 class App extends Component {
+  componentDidMount() {
+    smoothscroll.polyfill();
+  }
+
   render() {
     return (
       <BrowserRouter>

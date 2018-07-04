@@ -16,7 +16,7 @@
     "react-router-dom": "^4.1.2",
     "react-scripts": "1.0.10",
     "react-typeform-embed": "^0.1.4",
-    "smooth-scroll": "^14.2.0"
+    "smoothscroll-polyfill": "^0.4.3"
   },
   "scripts": {
     "precommit": "lint-staged",
