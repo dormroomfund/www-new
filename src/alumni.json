@@ -1,12 +1,5 @@
 [
   {
-    "name": "Josh Ephraim",
-    "role": "Associate",
-    "company": "Gunderson Dettmer",
-    "school": "UC Berkeley",
-    "linkedin": "https://www.linkedin.com/in/joshephraim/"
-  },
-  {
     "name": "Breton Birkhofer",
     "role": "Investor",
     "company": "PLD Ventures",
@@ -838,5 +831,236 @@
     "company": "Just Appraised",
     "school": "Stanford",
     "linkedin": "https://www.linkedin.com/in/imrankk/"
+  },
+  {
+    "name": "Bryan Giudicelli",
+    "role": "Acquisitions, Development, and Leasing",
+    "company": "FoxRock Properties",
+    "school": "MIT Sloan",
+    "linkedin": "https://www.linkedin.com/in/bryangiudicelli/"
+  },
+  {
+    "name": "Isabelle Phelps",
+    "role": "Associate",
+    "company": "Lerer-Hippeau",
+    "school": "MIT Sloan",
+    "linkedin": "https://www.linkedin.com/in/isabellephelps/"
+  },
+  {
+    "name": "Joe Kahn",
+    "role": "Co-founder",
+    "company": "Karuna Health",
+    "school": "Harvard University",
+    "linkedin": "https://www.linkedin.com/in/josephwandile/"
+  },
+  {
+    "name": "Kelsey Bishop",
+    "role": "Growth Associate",
+    "company": "Omni",
+    "school": "Boston College",
+    "linkedin": "https://www.linkedin.com/in/bishopkelsey"
+  },
+  {
+    "name": "Lisette Tellez",
+    "role": "Associate",
+    "company": "Ocean Azul Partners",
+    "school": "MIT",
+    "linkedin": "https://www.linkedin.com/in/lisettellez/"
+  },
+  {
+    "name": "Mikal Khoso",
+    "role": "Analyst",
+    "company": "Wavemakers Partners",
+    "school": "Northeastern University",
+    "linkedin": "https://www.linkedin.com/in/mikalk/"
+  },
+  {
+    "name": "Nathaniel Horwitz",
+    "role": "Founder & CEO",
+    "company": "Nivien Therapeutics",
+    "school": "Harvard University",
+    "linkedin": "https://www.linkedin.com/in/nathaniel-brooks-horwitz"
+  },
+  {
+    "name": "Phoebe Peronto",
+    "role": "VC",
+    "company": "Salesforce",
+    "school": "Harvard Business School",
+    "linkedin": "https://www.linkedin.com/in/phoebeperonto/"
+  },
+  {
+    "name": "Andrew Ng",
+    "role": "Associate",
+    "company": "SignalFire",
+    "school": "Princeton University",
+    "linkedin": "https://www.linkedin.com/in/andrewjmng"
+  },
+  {
+    "name": "Lilly Wyden",
+    "role": "",
+    "company": "",
+    "school": "Columbia Business School",
+    "linkedin": "https://www.linkedin.com/in/lillywyden"
+  },
+  {
+    "name": "Mike Annunziata",
+    "role": "CEO & Co-founder",
+    "company": "Farther Farms",
+    "school": "Cornell University",
+    "linkedin": "https://www.linkedin.com/in/michael-annunziata-cfa-12853bb"
+  },
+  {
+    "name": "Monica Shi",
+    "role": "Business Analyst",
+    "company": "McKinsey",
+    "school": "Princeton University",
+    "linkedin": "https://www.linkedin.com/in/monicashi/"
+  },
+  {
+    "name": "Nash Mouen-Makoua",
+    "role": "Associate",
+    "company": "First Round Capital",
+    "school": "NYU Stern",
+    "linkedin": "https://www.linkedin.com/in/nashilu/"
+  },
+  {
+    "name": "Sara Sakowitz",
+    "role": "Founder",
+    "company": "Bite",
+    "school": "Columbia University",
+    "linkedin": "https://www.linkedin.com/in/sarasakowitz"
+  },
+  {
+    "name": "Sweyn Venderbush",
+    "role": "Associate Product Manager",
+    "company": "Google",
+    "school": "Yale University",
+    "linkedin": "https://www.linkedin.com/in/sweyn/"
+  },
+  {
+    "name": "Udit Jain",
+    "role": "CTO",
+    "company": "Snackpass",
+    "school": "Yale University",
+    "linkedin": "https://www.linkedin.com/in/jainudit"
+  },
+  {
+    "name": "Christine Esserman",
+    "role": "Investor",
+    "company": "Accel Partners",
+    "school": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/christine-esserman-82834577"
+  },
+  {
+    "name": "David Ongchoco",
+    "role": "Analyst",
+    "company": "Learn Capital",
+    "school": "University of Philadelphia",
+    "linkedin": "https://www.linkedin.com/in/davidongchoco/"
+  },
+  {
+    "name": "Matt Klein",
+    "role": "Vice President",
+    "company": "Arrowroot Capital",
+    "school": "Wharton",
+    "linkedin": "https://www.linkedin.com/in/matt-klein-920a2b37"
+  },
+  {
+    "name": "Matt Wachter",
+    "role": "Growth Equity",
+    "company": "General Atlantic",
+    "school": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/matthew-wachter-58a1a870"
+  },
+  {
+    "name": "Nick Kim",
+    "role": "Head of Platform",
+    "company": "Crosscut Ventures",
+    "school": "Wharton",
+    "linkedin": "https://www.linkedin.com/in/nickbkim/"
+  },
+  {
+    "name": "Priya Banerjee",
+    "role": "",
+    "company": "B Capital",
+    "school": "Wharton",
+    "linkedin": "https://www.linkedin.com/in/priyadarshini-banerjee-0a336851"
+  },
+  {
+    "name": "Trent Buenzli",
+    "role": "Analyst",
+    "company": "Insight Venture Partners",
+    "school": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/trentbuenzli/"
+  },
+  {
+    "name": "Ben Penchas",
+    "role": "Machine Learning Engineer",
+    "company": "Landing.ai",
+    "school": "Stanford University",
+    "linkedin": "https://www.linkedin.com/in/benpenchas"
+  },
+  {
+    "name": "Catherina Xu",
+    "role": "Associate Product Manager",
+    "company": "Google",
+    "school": "Stanford University",
+    "linkedin": "https://www.linkedin.com/in/catherinaxu"
+  },
+  {
+    "name": "Erin Booth",
+    "role": "",
+    "company": "",
+    "school": "Stanford GSB",
+    "linkedin": "https://www.linkedin.com/in/erindbooth"
+  },
+  {
+    "name": "Jamie Macfarlane",
+    "role": "Co-founder",
+    "company": "Fresher Ventures",
+    "school": "Stanford GSB",
+    "linkedin": "https://www.linkedin.com/in/jamiemacfarlane/"
+  },
+  {
+    "name": "Jeff Oldenburg",
+    "role": "Co-founder",
+    "company": "The Tusker Fund",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/jeff-oldenburg-ab1b7211"
+  },
+  {
+    "name": "Josh Ephraim",
+    "role": "Associate",
+    "company": "Gunderson Dettmer",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/joshephraim/"
+  },
+  {
+    "name": "Josh Tobin",
+    "role": "Research Assistant",
+    "company": "OpenAI",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/josh-tobin-4b3b10a9"
+  },
+  {
+    "name": "Davey Bloom",
+    "role": "Analyst",
+    "company": "Global Founders Capital",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/davidbloom5/"
+  },
+  {
+    "name": "Kate Murdock",
+    "role": "Associate",
+    "company": "OpenView Venture Partners",
+    "school": "Northeastern University",
+    "linkedin": "https://www.linkedin.com/in/kate-murdock-9975347b/"
+  },
+  {
+    "name": "Riley Soward",
+    "role": "Advisor",
+    "company": "Campus Insights",
+    "school": "Boston College",
+    "linkedin": "https://www.linkedin.com/in/rileysoward"
   }
 ]

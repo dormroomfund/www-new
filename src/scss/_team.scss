@@ -7,19 +7,13 @@ $blue-2: #0702d1;
 .scroll-back-to-top {
   display: none;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  width: 2.5%;
+  bottom: 25px;
+  right: 25px;
   z-index: 99;
-  font-size: 15px;
-  border: none;
-  outline: none;
-  background-color: #0702d1;
-  color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
   &:hover {
-    background-color: #7e7e7e;
+    opacity: 0.8;
   }
 }
 
@@ -77,11 +71,6 @@ hr.team-divider {
   a {
     color: #0702d1;
   }
-  &:hover {
-    a {
-      opacity: $semi-trans;
-    }
-  }
 }
 
 .team-alumni-grid-wrapper {
@@ -111,23 +100,23 @@ $mobile-columns: 1;
 }
 
 .team-alumni-card {
-  transition: .15s ease;
+  transition: 0.15s ease;
   border: 30px solid white;
   padding: 0rem;
   margin: 0rem;
   outline: none;
   &:hover {
-    transition: .15s ease;
+    transition: 0.15s ease;
     background-color: #dafbf1;
     div.team-alumni-card-top-bar {
       color: #1dd79d;
-      transition: .15s ease;
+      transition: 0.15s ease;
     }
   }
 }
 
 div.team-alumni-card-top-bar {
-  transition: .15s ease;
+  transition: 0.15s ease;
   border-top: 3px solid;
   color: #0702d1;
 }
@@ -179,9 +168,9 @@ div.team-alumni-card-top-bar {
     flex-basis: percentage(1 / $tablet-columns);
   }
   .scroll-back-to-top {
-    font-size: 8px;
-    padding: 8px;
-    right: 30px;
+    width: 3.5%;
+    bottom: 17.5px;
+    right: 17.5px;
   }
 }
 
@@ -225,9 +214,9 @@ div.team-alumni-card-top-bar {
     border: 20px solid white;
   }
   .scroll-back-to-top {
-    font-size: 8px;
-    padding: 8px;
+    width: 5%;
     right: 15px;
+    bottom: 15px;
   }
 }
 
@@ -240,8 +229,7 @@ div.team-alumni-card-top-bar {
     animation: 0.5s fade-in;
     font-weight: 300;
   }
-  .team-hero-wrapper
-	.team-hero-subheader {
+  .team-hero-wrapper .team-hero-subheader {
     margin-top: $between-text-spacing;
   }
 
@@ -254,7 +242,7 @@ div.team-alumni-card-top-bar {
     width: 100%;
     height: 60vh;
     min-height: 30rem;
-    background-image: url("../img/community-photo-blue.jpg");
+    background-image: url('../img/community-photo-blue.jpg');
     background-size: cover;
     background-position: center 0;
     position: relative;
