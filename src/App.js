@@ -20,6 +20,7 @@ import investor_gv from './img/investor-gv.svg';
 import investor_sequoia from './img/investor-sequoia.svg';
 import investor_yc from './img/investor-yc.svg';
 import community_photo from './img/community-photo.jpg';
+
 // Medium article previews
 import article_1 from './img/article-1.jpg';
 import article_2 from './img/article-2.jpg';
@@ -44,6 +45,8 @@ import scholly_founder from './img/founders_compressed/scholly.jpg';
 import team_data from './team.json';
 import company_data from './companies.json';
 import alumni_data from './alumni.json';
+
+import arrow from './img/ArrowBox.png';
 
 import './css/App.css';
 
@@ -72,7 +75,7 @@ class App extends Component {
 
             <Route
               path="/muneeb-ali"
-              render={() =>
+              render={() => (
                 <FoundersFeature
                   name="Muneeb Ali"
                   photo={blockstack_founder}
@@ -88,11 +91,12 @@ class App extends Component {
                   bio={
                     'Over 20 years ago as a child in Pakistan, Muneeb was offered a challenge by his mom: excel on your exams, and you’ll receive a computer.\nLittle did he know, that challenge would change his life. In his TEDx talk, Muneeb told the audience that the day he first accessed the Internet, he fell in love.\n20 years later, he set out to build a new internet.\nToday, the world’s most influential entrepreneurs, investors, and engineers are raving about the world-changing impact that blockchain will have on our society—furthermore, they’ve all got their sights set on Muneeb and co-founder Ryan Shea.\nLeading the pack of the decentralized revolution, the Blockstack founders have gotten backed by some of the world’s most prominent VCs, built a platform for thousands of developers to build technology off of, and have raised a $25M fund to keep supporting the blockchain ecosystem.\nBy turning a PhD dissertation into perhaps one of the most important companies in decades to come, Muneeb embodies the true meaning of a dorm room entrepreneur.'
                   }
-                />}
+                />
+              )}
             />
             <Route
               path="/chris-gray"
-              render={() =>
+              render={() => (
                 <FoundersFeature
                   name="Chris Gray"
                   photo={scholly_founder}
@@ -111,11 +115,12 @@ class App extends Component {
                   bio={
                     '8 years ago, Christopher Gray was on the verge of not attending college. Coming from a low-income background, he couldn’t afford the insane price tags associated with most American universities.\nHundreds of scholarship applications and $1.3 million in winnings later, Chris was headed to school.\nAfter realizing first-hand how horrible it is to apply to so many scholarships, Chris realized something: many scholarships go unnoticed and un-awarded, and students blindly apply to tons of scholarships that aren’t specific to their profile.\nScholarships can’t find applicants, and students can’t find the right scholarships for them.\nBy building Scholly, Chris set out on a mission to help students easily find scholarships for college.\nWith over 1 million users and over $70 million in scholarships raised, it’s safe to say that Chris has delivered on that mission.\nOn top of the countless students whose lives have been changed because of Scholly, Chris has been recognized as 2015 Ernst & Young Entrepreneur of the Year for Social Entrepreneurship, 2016 Forbes 30 Under 30, Oprah’s Inaugural Super Soul 100 Honorees, and a place on Oprah’s list of her favorite people.'
                   }
-                />}
+                />
+              )}
             />
             <Route
               path="/brooklinen"
-              render={() =>
+              render={() => (
                 <FoundersFeature
                   name="Rich Fulop & Vicki Fulop"
                   photo={brooklinen_founder}
@@ -130,11 +135,12 @@ class App extends Component {
                   bio={
                     'They weren’t textile industry experts, they weren’t supply chain veterans, and they didn’t know much about ecommerce.\nWhat Rich & Vicki Fulop did know was, people should be able to buy ridiculously comfortable sheets without having to spend an entire paycheck.\nThat conviction paid off, big time.\nIn 3 years, Brooklinen surpassed a $50M annual run rate and raised a $10M venture round from First Mark Capital.\nWhat started off as a Kickstarter project in an NYU dorm room is now a rapidly growing ecommerce powerhouse that has grown 10x every year since launch.'
                   }
-                />}
+                />
+              )}
             />
             <Route
               path="/tim-hwang"
-              render={() =>
+              render={() => (
                 <FoundersFeature
                   name="Tim Hwang"
                   photo={fiscalnote_founder}
@@ -149,7 +155,8 @@ class App extends Component {
                   bio={
                     'As a field organizer for the Obama ’08 campaign and later elected to the Montgomery County Board of Education to oversee a $4B budget, Tim learned a thing or two about politics.\nSitting in a Motel 6 in Silicon Valley during his time as a student at Harvard Business School, Tim launched FiscalNote to improve the way organizations engage with government. By empowering organizations to have maximum impact on legislation and regulation, global powerhouses all around the world rely on FiscalNote.\nTo date, the team has raised over $40M in funding from prominent investors and has been recognized as a Technology Pioneer by the World Economic Forum. Tim has been profiled in countless publications and has been recognized as a Forbes 30 Under 30 & Inc. 30 Under 30.'
                   }
-                />}
+                />
+              )}
             />
             <Route component={NoMatchPage} status={404} />
           </Switch>
@@ -309,7 +316,9 @@ class CompaniesPage extends Component {
                       (a, b) =>
                         a.companyName < b.companyName
                           ? -1
-                          : a.companyName > b.companyName ? 1 : 0
+                          : a.companyName > b.companyName
+                            ? 1
+                            : 0
                     )
                     .map(c => <Company key={c.companyName} company={c} />)}
                 </div>
@@ -335,62 +344,38 @@ class FoundersFeature extends Component {
               <div className="sidebar">
                 <ul className="overview-list">
                   <li>Milestones</li>
-                  {this.props.milestones.map(milestone =>
-                    <li>
-                      {milestone}
-                    </li>
-                  )}
+                  {this.props.milestones.map(milestone => <li>{milestone}</li>)}
                 </ul>
                 <ul className="overview-list">
                   <li>Founders</li>
-                  {this.props.founders.map(milestone =>
-                    <li>
-                      {milestone}
-                    </li>
-                  )}
+                  {this.props.founders.map(milestone => <li>{milestone}</li>)}
                 </ul>
               </div>
             </div>
             <div className="col-8 m-col-12">
               <div className="text">
-                <h1 className="feature-name">
-                  {this.props.name}
-                </h1>
-                <h1 className="feature-company">
-                  {this.props.company}
-                </h1>
+                <h1 className="feature-name">{this.props.name}</h1>
+                <h1 className="feature-company">{this.props.company}</h1>
                 <div className="feature-summary">
-                  <p className="italic">
-                    {this.props.summary}
-                  </p>
+                  <p className="italic">{this.props.summary}</p>
                 </div>
                 <div className="feature-bio">
                   <p>
                     {this.props.bio.split('\n').map(i => {
-                      return (
-                        <div className="bio-line-break">
-                          {i}
-                        </div>
-                      );
+                      return <div className="bio-line-break">{i}</div>;
                     })}
                   </p>
                 </div>
                 <div className="sidebar bottom">
                   <ul className="overview-list">
                     <li>Milestones</li>
-                    {this.props.milestones.map(milestone =>
-                      <li>
-                        {milestone}
-                      </li>
-                    )}
+                    {this.props.milestones.map(milestone => (
+                      <li>{milestone}</li>
+                    ))}
                   </ul>
                   <ul className="overview-list">
                     <li>Founders</li>
-                    {this.props.founders.map(milestone =>
-                      <li>
-                        {milestone}
-                      </li>
-                    )}
+                    {this.props.founders.map(milestone => <li>{milestone}</li>)}
                   </ul>
                 </div>
               </div>
@@ -403,28 +388,23 @@ class FoundersFeature extends Component {
   }
 }
 
-const Company = ({ company }) =>
+const Company = ({ company }) => (
   <div className="founders-column">
     <div className="founders-card-container">
       <a href={company.url} className="founders-card-link">
         <div className="founders-card">
           <div className="card-text">
             <div className="">
-              <h5>
-                {company.companyName}
-              </h5>
+              <h5>{company.companyName}</h5>
             </div>
-            <div className="founders-card-school">
-              {company.school}
-            </div>
-            <div className="founders-card-bio">
-              {company.people}
-            </div>
+            <div className="founders-card-school">{company.school}</div>
+            <div className="founders-card-bio">{company.people}</div>
           </div>
         </div>
       </a>
     </div>
-  </div>;
+  </div>
+);
 
 class TeamPage extends Component {
   constructor(props) {
@@ -513,11 +493,6 @@ class TeamSection extends Component {
         <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
         <hr className="team-divider" />
         <div className="team-grid-container">
-          <a href="#team-current">
-            <button className="scroll-back-to-top" id="scroll-back-to-top">
-              Top
-            </button>
-          </a>
           <div className="team-grid" data-column="3">
             {team_data['national'].map(teamMember =>
               TeamMember({
@@ -576,7 +551,7 @@ class TeamSection extends Component {
   }
 }
 
-const TeamMember = ({ teamMember }) =>
+const TeamMember = ({ teamMember }) => (
   <div className="team-column">
     <div className="team-card-container">
       <div className="team-card">
@@ -585,22 +560,33 @@ const TeamMember = ({ teamMember }) =>
           className="team-card-image"
         />
         <div className="card-text team-card-text">
-          <h5 className="team-card-name">
-            {teamMember.name}
-          </h5>
-          <div className="team-card-school">
-            {teamMember.school}
-          </div>
-          <div className="team-card-bio">
-            {teamMember.miniBio}
-          </div>
+          <h5 className="team-card-name">{teamMember.name}</h5>
+          <div className="team-card-school">{teamMember.school}</div>
+          <div className="team-card-bio">{teamMember.miniBio}</div>
         </div>
       </div>
     </div>
-  </div>;
+  </div>
+);
 
 // Alumni page
 class AlumniSection extends Component {
+  scrollFunction() {
+    if (document.documentElement.scrollTop > 750) {
+      document.getElementById('scroll-back-to-top').style.display = 'block';
+    } else {
+      document.getElementById('scroll-back-to-top').style.display = 'none';
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.scrollFunction);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.scrollFunction);
+  }
+
   render() {
     return (
       <div className="team-alumni-grid-wrapper">
@@ -621,18 +607,24 @@ class AlumniSection extends Component {
             Accel, Bessemer, First Round, and Sequoia or lead teams at companies
             like AngelList, Amazon, Google, Facebook, and Stripe. Many Dorm Room
             Fund alumni have started their own companies, have participated in
-            YC, and have been honored by Forbes 30 Under 30. We have even
-            started a new fund run entirely by Dorm Room Fund alumni called
-            <a href="http://graduatefund.herokuapp.com/" target="_blank">
-              {' '}Graduate Fund
+            YC, and have been honored by Forbes 30 Under 30. We've even started
+            a new fund run entirely by Dorm Room Fund alumni called{' '}
+            <a
+              href="http://graduatefund.herokuapp.com/"
+              target="_blank"
+              className="bodylink"
+            >
+              Graduate Fund
             </a>, which empowers recent graduates to start new ventures.
           </p>
         </div>
         <div className="team-alumni-grid-container">
-          <a href="#team-alumni">
-            <button className="scroll-back-to-top" id="scroll-back-to-top">
-              Top
-            </button>
+          <a href="#team-hero-photo">
+            <img
+              src={arrow}
+              className="scroll-back-to-top"
+              id="scroll-back-to-top"
+            />
           </a>
           <div className="team-alumni-grid" data-column="3">
             {alumni_data
@@ -646,7 +638,7 @@ class AlumniSection extends Component {
   }
 }
 
-const Alumni = ({ alumni }) =>
+const Alumni = ({ alumni }) => (
   <div className="team-alumni-column">
     <div className="team-alumni-card-container">
       <div className="team-alumni-card">
@@ -655,15 +647,15 @@ const Alumni = ({ alumni }) =>
           <div className="">
             <h5 className="team-alumni-card-name">
               {alumni.name}
-              {alumni.linkedin != ''
-                ? <a
-                    href={alumni.linkedin}
-                    target="_blank"
-                    className="team-alumni-card-link"
-                  >
-                    <img className="icon" src={linkedin_icon} />
-                  </a>
-                : null}
+              {alumni.linkedin != '' ? (
+                <a
+                  href={alumni.linkedin}
+                  target="_blank"
+                  className="team-alumni-card-link"
+                >
+                  <img className="icon" src={linkedin_icon} />
+                </a>
+              ) : null}
             </h5>
           </div>
           <div className="team-alumni-card-company">
@@ -676,7 +668,8 @@ const Alumni = ({ alumni }) =>
         </div>
       </div>
     </div>
-  </div>;
+  </div>
+);
 
 class Menu extends Component {
   constructor(props) {
@@ -719,39 +712,41 @@ class Menu extends Component {
                   (this.state.showMobileMenu ? 'mobile-menu-visible' : '')
                 }
               >
-                {this.props.lightColor
-                  ? <div>
-                      <Link to="/">
-                        <img
-                          alt="Dorm Room Fund logo"
-                          className="drf-logo-white"
-                          src={drf_logo_white}
-                        />
-                      </Link>
-                      <Link to="/">
-                        <img
-                          alt="Dorm Room Fund logo"
-                          className="drf-logo-small-white"
-                          src={drf_logo_small_white}
-                        />
-                      </Link>
-                    </div>
-                  : <div>
-                      <Link to="/">
-                        <img
-                          alt="Dorm Room Fund logo"
-                          className="drf-logo-black"
-                          src={drf_logo_black}
-                        />
-                      </Link>
-                      <Link to="/">
-                        <img
-                          alt="Dorm Room Fund logo"
-                          className="drf-logo-small-black"
-                          src={drf_logo_small_black}
-                        />
-                      </Link>
-                    </div>}
+                {this.props.lightColor ? (
+                  <div>
+                    <Link to="/">
+                      <img
+                        alt="Dorm Room Fund logo"
+                        className="drf-logo-white"
+                        src={drf_logo_white}
+                      />
+                    </Link>
+                    <Link to="/">
+                      <img
+                        alt="Dorm Room Fund logo"
+                        className="drf-logo-small-white"
+                        src={drf_logo_small_white}
+                      />
+                    </Link>
+                  </div>
+                ) : (
+                  <div>
+                    <Link to="/">
+                      <img
+                        alt="Dorm Room Fund logo"
+                        className="drf-logo-black"
+                        src={drf_logo_black}
+                      />
+                    </Link>
+                    <Link to="/">
+                      <img
+                        alt="Dorm Room Fund logo"
+                        className="drf-logo-small-black"
+                        src={drf_logo_small_black}
+                      />
+                    </Link>
+                  </div>
+                )}
               </div>
               <ul
                 className={'links ' + (this.state.showMobileMenu ? 'lock' : '')}
@@ -1235,42 +1230,42 @@ class NameForm extends Component {
   render() {
     return (
       <form className="resources-section-form">
-        {!this.state.submitted
-          ? <div>
-              <div className="container">
-                <input
-                  className="name"
-                  name="name"
-                  placeholder="First Name"
-                  type="text"
-                  value={this.state.name}
-                  onChange={this.handleNameChange}
-                />
-                <input
-                  className="email"
-                  name="email"
-                  placeholder="Email Address"
-                  type="text"
-                  value={this.state.email}
-                  onChange={this.handleEmailChange}
-                />
-                <input
-                  type="submit"
-                  value="Sign Up"
-                  onClick={this.handleSubmit}
-                />
-              </div>
-              <div
-                className={
-                  'validation-message' + (this.state.error ? '' : 'hidden')
-                }
-              >
-                <p>
-                  {this.state.message}
-                </p>
-              </div>
+        {!this.state.submitted ? (
+          <div>
+            <div className="container">
+              <input
+                className="name"
+                name="name"
+                placeholder="First Name"
+                type="text"
+                value={this.state.name}
+                onChange={this.handleNameChange}
+              />
+              <input
+                className="email"
+                name="email"
+                placeholder="Email Address"
+                type="text"
+                value={this.state.email}
+                onChange={this.handleEmailChange}
+              />
+              <input
+                type="submit"
+                value="Sign Up"
+                onClick={this.handleSubmit}
+              />
             </div>
-          : <h1>Thanks!</h1>}
+            <div
+              className={
+                'validation-message' + (this.state.error ? '' : 'hidden')
+              }
+            >
+              <p>{this.state.message}</p>
+            </div>
+          </div>
+        ) : (
+          <h1>Thanks!</h1>
+        )}
       </form>
     );
   }
