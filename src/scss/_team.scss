@@ -5,16 +5,24 @@ $blue-2: #0702d1;
 }
 
 .scroll-back-to-top {
-  display: none;
+  visibility: hidden;
   position: fixed;
   width: 2.5%;
   bottom: 25px;
   right: 25px;
   z-index: 99;
   cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s 0s, visibility 0s 0.2s;
   &:hover {
     opacity: 0.8;
   }
+}
+
+.scroll-back-to-top__show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.2s;
 }
 
 hr.team-divider {
