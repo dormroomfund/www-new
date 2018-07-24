@@ -357,6 +357,13 @@
     "linkedin": "https://www.linkedin.com/in/liugeorge/"
   },
   {
+      "name": "Haris Memon",
+      "school": "Brown University",
+      "miniBio": "CEO/Founder of ScaleUp Labs.",
+      "imageFileName": "haris_memon.jpg",
+      "linkedin": "https://www.linkedin.com/in/harismemon/"
+  },
+  {
     "name": "Henry Tsai",
     "role": "Tech & Innovation Policy Advisor, Mayor’s Office",
     "company": "City of San Jose",
@@ -890,7 +897,7 @@
   },
   {
     "name": "Ryan Marschang",
-    "role": "Private Equity Associate",
+    "role": "Investor",
     "company": "Blackstone",
     "school": "Wharton",
     "linkedin": "https://www.linkedin.com/in/ryanmarschang/"
