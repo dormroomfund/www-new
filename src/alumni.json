@@ -358,10 +358,10 @@
   },
   {
       "name": "Haris Memon",
-      "school": "Brown University",
-      "miniBio": "CEO/Founder of ScaleUp Labs.",
-      "imageFileName": "haris_memon.jpg",
-      "linkedin": "https://www.linkedin.com/in/harismemon/"
+      "role": "CEO",
+      "company": "ScaleUp Labs",
+      "school": "Harvard (HBS)",
+      "linkedin": "https://www.linkedin.com/in/harismemon"
   },
   {
     "name": "Henry Tsai",
