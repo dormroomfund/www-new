@@ -240,7 +240,7 @@
   {
     "name": "Connor McEwen",
     "role": "Lead Engineer",
-    "company": "GoDaddy",
+    "company": "Celo",
     "school": "Boston University",
     "linkedin": "https://www.linkedin.com/in/cmcewen/"
   },
@@ -351,17 +351,17 @@
   },
   {
     "name": "George Liu",
-    "role": "CEO",
-    "company": "Palette",
+    "role": "Chief Flavor Scientist",
+    "company": "Sundae",
     "school": "Columbia",
     "linkedin": "https://www.linkedin.com/in/liugeorge/"
   },
   {
-      "name": "Haris Memon",
-      "role": "CEO",
-      "company": "ScaleUp Labs",
-      "school": "Harvard (HBS)",
-      "linkedin": "https://www.linkedin.com/in/harismemon"
+    "name": "Haris Memon",
+    "role": "CEO",
+    "company": "ScaleUp Labs",
+    "school": "Brown University",
+    "linkedin": "https://www.linkedin.com/in/harismemon"
   },
   {
     "name": "Henry Tsai",
@@ -912,7 +912,7 @@
   {
     "name": "Sam Slover",
     "role": "Co-Founder & CEO",
-    "company": "The Sage Project",
+    "company": "Pinto",
     "school": "NYU",
     "linkedin": "https://www.linkedin.com/in/samslover/"
   },
