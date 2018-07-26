@@ -1116,12 +1116,12 @@ class Resources extends Component {
                 <div className="col-4 m-col-12">
                   <a
                     target="_blank"
-                    href="https://medium.com/@dormroomfund/drf4life-congrats-to-the-graduating-dorm-room-fund-partners-719f82ab3e03"
+                    href="https://medium.com/@dormroomfund/good-luck-to-the-graduating-dorm-room-fund-partners-1e8f230df93f"
                   >
                     <div className="medium-card">
-                      <img className="medium-article" src={article_2} />
+                      <img className="medium-article" src={article_1} />
                       <p className="medium-article-title">
-                        #DRF4Life: Congrats to the Graduating Dorm Room Fund
+                        #DRF4Life: Good Luck to the Graduating Dorm Room Fund
                         Partners!
                       </p>
                     </div>
@@ -1130,13 +1130,13 @@ class Resources extends Component {
                 <div className="col-4 m-col-12">
                   <a
                     target="_blank"
-                    href="https://medium.com/@dormroomfund/meet-the-seven-dorm-room-fund-startups-presenting-at-y-combinator-s17-demo-day-e6e731851726"
+                    href="https://medium.com/@dormroomfund/the-decentralized-future-of-tokenized-asset-trading-why-we-funded-paradigm-ae2c1df1cd3f"
                   >
                     <div className="medium-card">
-                      <img className="medium-article" src={article_1} />
+                      <img className="medium-article" src={article_2} />
                       <p className="medium-article-title">
-                        Meet the Seven Dorm Room Fund Startups Presenting at Y
-                        Combinator S17 Demo Day
+                        The Decentralized Future of Tokenized Asset
+                        Trading — Why We Funded Paradigm
                       </p>
                     </div>
                   </a>
@@ -1144,13 +1144,12 @@ class Resources extends Component {
                 <div className="col-4 m-col-12">
                   <a
                     target="_blank"
-                    href="https://medium.com/@dormroomfund/the-26-students-powering-entrepreneurship-meet-dorm-room-funds-new-partners-2a2d83d7c9f0"
+                    href="https://medium.com/@dormroomfund/how-to-start-a-startup-colgate-68132b71ccb"
                   >
                     <div className="medium-card last">
                       <img className="medium-article" src={article_3} />
                       <p className="medium-article-title">
-                        The 26 Students Powering Entrepreneurship — Meet Dorm
-                        Room Fund’s New Partners
+                        How to Start a Startup at Colgate
                       </p>
                     </div>
                   </a>
