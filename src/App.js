@@ -469,7 +469,7 @@ class TeamPage extends Component {
             <div className="content">
               <div className="team-hero-wrapper">
                 <h1 className="hero-text light-text">
-                  We help founders from day zero.
+                  We support founders across the US from day zero.
                 </h1>
               </div>
             </div>
