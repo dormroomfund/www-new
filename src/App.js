@@ -609,7 +609,7 @@ class AlumniSection extends Component {
         <ScrollBackToTop />
         <div className="team-divider-title">
           <a
-            href="http://graduatefund.herokuapp.com/"
+            href="http://graduatefund.com"
             target="_blank"
             className="team-divider-title-link"
           >
@@ -627,7 +627,7 @@ class AlumniSection extends Component {
             YC, and have been honored by Forbes 30 Under 30. We've even started
             a new fund run entirely by Dorm Room Fund alumni called{' '}
             <a
-              href="http://graduatefund.herokuapp.com/"
+              href="http://graduatefund.com"
               target="_blank"
               className="bodylink"
             >
