@@ -199,6 +199,7 @@ class HomePage extends Component {
         <Helmet>
           <title>Dorm Room Fund</title>
         </Helmet>
+        <Banner />
         <Menu lightColor={false} />
         <Hero />
         <Community />
@@ -1320,6 +1321,40 @@ class CustomFooter extends Component {
           </div>
         </div>
       </footer>
+    );
+  }
+}
+
+class Banner extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { showBanner: false };
+    this.closeBanner = this.closeBanner.bind(this);
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ showBanner: true }), 1000);
+  }
+
+  closeBanner(e) {
+    e.preventDefault();
+    this.setState({ showBanner: false });
+  }
+
+  render() {
+    return (
+      <div
+        className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
+      >
+        <div className="banner__message">
+          <a target="_blank" href="#">
+            Secret banner message goes here
+          </a>
+        </div>
+        <button className="banner__close" onClick={this.closeBanner}>
+          x
+        </button>
+      </div>
     );
   }
 }
