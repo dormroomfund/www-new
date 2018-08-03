@@ -426,13 +426,14 @@ form {
   width: 100%;
   height: 0;
   overflow: hidden;
-  background-color: $medium-gray;
+  background-color: #1dd79d;
   transition: height 0.5s;
   display: flex;
   align-items: center;
+  font-size: 0.8rem;
 
   &.banner--visible {
-    height: 100px;
+    height: 50px;
   }
 
   .banner__message {
@@ -440,27 +441,28 @@ form {
 
     a {
       color: $black;
-      border-bottom: 1px dotted $dark-gray;
+      border-bottom: 1px dotted $black;
     }
   }
 
   .banner__close {
-    width: 100px;
-    font-size: 30px;
+    width: 50px;
+    font-size: 1.1rem;
     background: none;
     border: none;
     cursor: pointer;
     margin: 0;
     padding: 0;
+    color: $black;
   }
 
   @media screen and (max-width: $tablet-landscape-max) {
     &.banner--visible {
-      height: 80px;
+      height: 45px;
     }
 
     .banner__close {
-      width: 50px;
+      width: 45px;
     }
   }
 }

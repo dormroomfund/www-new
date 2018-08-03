@@ -1352,7 +1352,7 @@ class Banner extends Component {
           </a>
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
-          x
+          X
         </button>
       </div>
     );
