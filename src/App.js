@@ -199,6 +199,7 @@ class HomePage extends Component {
         <Helmet>
           <title>Dorm Room Fund</title>
         </Helmet>
+        <Banner />
         <Menu lightColor={false} />
         <Hero />
         <Community />
@@ -1320,6 +1321,44 @@ class CustomFooter extends Component {
           </div>
         </div>
       </footer>
+    );
+  }
+}
+
+class Banner extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { showBanner: false };
+    this.closeBanner = this.closeBanner.bind(this);
+  }
+
+  componentDidMount() {
+    setTimeout(() => this.setState({ showBanner: true }), 1000);
+  }
+
+  closeBanner(e) {
+    e.preventDefault();
+    this.setState({ showBanner: false });
+  }
+
+  render() {
+    return (
+      <div
+        className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
+      >
+        <div className="banner__message">
+          <a
+            target="_blank"
+            href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-hq-team-a4109a3f8c54"
+          >
+            We're looking for student engineers and marketers to join DRF HQ.
+            Learn more &rarr;
+          </a>
+        </div>
+        <button className="banner__close" onClick={this.closeBanner}>
+          X
+        </button>
+      </div>
     );
   }
 }
