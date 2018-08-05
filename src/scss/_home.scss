@@ -438,6 +438,7 @@ form {
 
   .banner__message {
     flex-grow: 1;
+    padding-left: 10px;
 
     a {
       color: $black;
@@ -463,6 +464,12 @@ form {
 
     .banner__close {
       width: 45px;
+    }
+  }
+
+  @media screen and (max-width: $phone-landscape-max) {
+    &.banner--visible {
+      height: 55px;
     }
   }
 }
