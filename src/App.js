@@ -1347,12 +1347,19 @@ class Banner extends Component {
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
       >
         <div className="banner__message">
+          Join DRF&mdash;we're recruiting{' '}
+          <a
+            target="_blank"
+            href="https://medium.com/@dormroomfund/dorm-room-fund-is-looking-for-the-next-cohort-of-investment-partners-ea41904ba67f"
+          >
+            investment partners
+          </a>{' '}
+          &{' '}
           <a
             target="_blank"
             href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-hq-team-a4109a3f8c54"
           >
-            We're looking for student engineers and marketers to join DRF HQ.
-            Learn more &rarr;
+            engineering and marketing
           </a>
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
