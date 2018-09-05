@@ -518,7 +518,7 @@ class TeamSection extends Component {
   render() {
     return (
       <div className="team-wrapper">
-        <h1 className="team-divider-title">Dorm Room Fund HQ</h1>
+        <h1 className="team-divider-title">HQ</h1>
         <hr className="team-divider" />
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
