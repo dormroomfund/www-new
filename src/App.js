@@ -199,7 +199,6 @@ class HomePage extends Component {
         <Helmet>
           <title>Dorm Room Fund</title>
         </Helmet>
-        <Banner />
         <Menu lightColor={false} />
         <Hero />
         <Community />
