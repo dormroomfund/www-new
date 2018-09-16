@@ -1130,13 +1130,12 @@ class Resources extends Component {
                 <div className="col-4 m-col-12">
                   <a
                     target="_blank"
-                    href="https://medium.com/@dormroomfund/the-decentralized-future-of-tokenized-asset-trading-why-we-funded-paradigm-ae2c1df1cd3f"
+                    href="https://medium.com/@dormroomfund/dorm-room-fund-is-looking-for-the-next-cohort-of-investment-partners-ea41904ba67f"
                   >
                     <div className="medium-card">
                       <img className="medium-article" src={article_2} />
                       <p className="medium-article-title">
-                        The Decentralized Future of Tokenized Asset
-                        Trading — Why We Funded Paradigm
+                        Join the Dorm Room Fund Team in 2018
                       </p>
                     </div>
                   </a>
