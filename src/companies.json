@@ -802,5 +802,17 @@
     "url": "http://verbenergybar.com",
     "people": "Matt Czarnecki, Andre Monteiro, Bennett Byerley",
     "school": "Yale"
+  },
+  {
+    "companyName": "Hydrant",
+    "url": "www.drinkhydrant.com",
+    "people": "Jai Jung Kim, John Sherwin",
+    "school": "U Penn"
+  },
+  {
+    "companyName": "Splash Technologies",
+    "url": "https://splashwallet.io/",
+    "people": "Bryce Bjork, Lukas Burger, Tony Oliverio, Tyler Caldwell",
+    "school": "Yale"
   }
 ]
