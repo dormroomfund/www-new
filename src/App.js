@@ -1048,7 +1048,7 @@ class Hero extends Component {
             <div className="col-12">
               <div className="logos-wrapper">
                 <h1>
-                  We&#39;ve invested in 200 startups who&#39;ve raised $400
+                  We&#39;ve invested in 250 startups who&#39;ve raised $500
                   million from:
                 </h1>
                 <div className="logos">
