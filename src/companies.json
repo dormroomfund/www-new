@@ -826,5 +826,41 @@
     "url": "https://www.resonado.com/",
     "people": "Brian Cho, Peter Moeckel, Erikc Perez-Perez, Christian Femrite",
     "school": "Notre Dame"
+  },
+  {
+    "companyName": "Pixorize",
+    "url": "https://pixorize.com/",
+    "people": "David Albert Westfall, Nathan Jon Liu",
+    "school": "Cornell Weill"
+  },
+  {
+    "companyName": "Splash Technologies (Hexa Financial)",
+    "url": "https://splash.tech/",
+    "people": "Bryce Bjork, Lukas Burger, William Caldwell, Anthony Oliverio",
+    "school": "Yale"
+  },
+  {
+    "companyName": "Cathbuddy",
+    "url": "http://www.cathbuddy.com",
+    "people": "Souvik Paul, Brian Wee",
+    "school": ""
+  },
+  {
+    "companyName": "Airbud",
+    "url": "https://www.airbud.io/",
+    "people": "Israel Kush, Rom Cohen, Uri Valevski",
+    "school": "Cornell Tech"
+  },
+  {
+    "companyName": "Symbiont Health",
+    "url": "https://www.symbionthealth.com/",
+    "people": "Erich Meissner, Kyle Liu, Maria Chen",
+    "school": "University of Maryland, College Park"
+  },
+  {
+    "companyName": "TwentyEight Health",
+    "url": "",
+    "people": "Bruno Van Tuykom, Amy Fan",
+    "school": "UC Berkeley"
   }
 ]
