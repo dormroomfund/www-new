@@ -856,5 +856,23 @@
     "url": "",
     "people": "Bruno Van Tuykom, Amy Fan",
     "school": "UC Berkeley"
+  },
+  {
+    "companyName": "EmCasa",
+    "url": "https://www.emcasa.com",
+    "people": "Gustavo Chaves Vaz, Lucas Messias Cardozo, Gustavo Rocha Saiani",
+    "school": "Harvard Business School"
+  },
+  {
+    "companyName": "Bruzd Foods",
+    "url": "https://bruzdfoods.com/",
+    "people": "Parker Hughes, Alex Wong",
+    "school": "Emerson College, Boston College"
+  },
+  {
+    "companyName": "Soteria",
+    "url": "",
+    "people": "Tal Tchwella",
+    "school": "Harvard Business School"
   }
 ]
