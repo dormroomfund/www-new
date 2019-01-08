@@ -860,7 +860,7 @@
   {
     "companyName": "EmCasa",
     "url": "https://www.emcasa.com",
-    "people": "Gustavo Chaves Vaz, Lucas Messias Cardozo, Gustavo Rocha Saiani",
+    "people": "Gustavo Chaves Vaz",
     "school": "Harvard Business School"
   },
   {
@@ -874,5 +874,11 @@
     "url": "",
     "people": "Tal Tchwella",
     "school": "Harvard Business School"
+  },
+  {
+    "companyName": "Drag",
+    "url": "https://dragapp.com",
+    "people": "Duda Bardavid, Nick Timms",
+    "school": "MIT"
   }
 ]
