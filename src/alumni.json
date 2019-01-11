@@ -1069,5 +1069,26 @@
     "company": "UC Berkeley",
     "school": "UC Berkeley",
     "linkedin": "https://www.linkedin.com/in/farbod-nowzad-245339108"
+  },
+  {
+    "name": "Rei Wang",
+    "role": "Founder",
+    "company": "The Grand",
+    "school": "Emory University",
+    "linkedin": "https://www.linkedin.com/in/reiwang/"
+  },
+  {
+    "name": "Zachary Liu",
+    "role": "Software Engineer",
+    "company": "Nuro",
+    "school": "Princeton University",
+    "linkedin": "https://www.linkedin.com/in/zsliu/"
+  },
+  {
+    "name": "Maneet Khaira",
+    "role": "Founder",
+    "company": "Stealth",
+    "school": "Columbia University",
+    "linkedin": "https://www.linkedin.com/in/maneetkhaira/"
   }
 ]

@@ -1,25 +1,11 @@
 {
   "national": [
     {
-      "name": "Yasyf Mohamedali",
-      "school": "MIT",
-      "miniBio": "Engineering at Jane Street, Facebook, and Square.",
-      "imageFileName": "yasyf_mohamedali.jpg",
-      "linkedin": "https://www.linkedin.com/in/yasyfmohamedali"
-    },
-    {
       "name": "Albert Dong",
       "school": "Brown University",
-      "miniBio": "Design Tech at AppDynamics. Former designer at Super.",
+      "miniBio": "Interaction Design at Pison. Formerly at AppDynamics, Super, and ProfoundCo.",
       "imageFileName": "albert_dong.jpg",
       "linkedin": "https://www.linkedin.com/in/albertdong23/"
-    },
-    {
-      "name": "Zachary Liu",
-      "school": "Princeton University",
-      "miniBio": "Formerly at Instagram, Airbnb, and Square.",
-      "imageFileName": "zachary_liu.jpg",
-      "linkedin": "https://www.linkedin.com/in/zsliu/"
     },
     {
       "name": "Alicia Tsai",
@@ -54,13 +40,6 @@
     }
   ],
   "newYork": [
-    {
-      "name": "Maneet Khaira",
-      "school": "Columbia University",
-      "miniBio": "Greylock X Fellow. Product at Google/YouTube.",
-      "imageFileName": "maneet_khaira.jpg",
-      "linkedin": "https://www.linkedin.com/in/maneetkhaira/"
-    },
     {
       "name": "Mario Ruiz",
       "school": "Yale School of Management",
