@@ -21,8 +21,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "prettier": "prettier --write **/*.js **/*.jsx"
+    "start": "next start -p $PORT",
+    "prettier": "prettier --write **/*.js **/*.jsx",
+    "heroku-postbuild": "next build"
   },
   "husky": {
     "hooks": {
