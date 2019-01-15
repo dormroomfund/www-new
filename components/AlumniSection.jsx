@@ -1,5 +1,7 @@
 import { Component } from 'react';
 import ScrollBackToTop from './ScrollBackToTop';
+import alumni_data from '../static/data/alumni';
+import linkedin_icon from '../static/img/linkedin-icon.svg';
 
 export default class AlumniSection extends Component {
   render() {
