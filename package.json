@@ -19,7 +19,8 @@
     "smoothscroll-polyfill": "^0.4.3"
   },
   "devDependencies": {
-    "prettier": "^1.15.3"
+    "prettier": "^1.15.3",
+    "scssfmt": "^1.0.7"
   },
   "scripts": {
     "dev": "next",
@@ -36,6 +37,10 @@
   "lint-staged": {
     "*.{js,jsx,json,css,md}": [
       "prettier --write",
+      "git add"
+    ],
+    "*.scss": [
+      "scssfmt",
       "git add"
     ]
   },
