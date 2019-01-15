@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ad4045-7d28-4fbe-aa4d-92af3ea6b9f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_error.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -71,10 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_error.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_error.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/_error.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="260">
               <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -83,14 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoundersFeature.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/FoundersFeature.jsx">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="232">
+              <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -160,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/pages/Banner.jsx" />
         <option value="$PROJECT_DIR$/components/Value.jsx" />
         <option value="$PROJECT_DIR$/pages/NameForm.jsx" />
@@ -192,6 +184,7 @@
         <option value="$PROJECT_DIR$/components/TeamPage.jsx" />
         <option value="$PROJECT_DIR$/pages/alumni.jsx" />
         <option value="$PROJECT_DIR$/pages/_error.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -230,11 +223,6 @@
             <path>
               <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
               <item name="www-next" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www-next" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -255,7 +243,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="nomat&#9;null&#9;null&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;teampage&#9;null&#9;null&#10;brook&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;chrisg&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/chris-gray.jsx&#10;broo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;teamse&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/TeamSection.jsx&#10;teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="pack&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json&#10;nomat&#9;null&#9;null&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;teampage&#9;null&#9;null&#10;brook&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;chrisg&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/chris-gray.jsx&#10;broo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;teamse&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/TeamSection.jsx&#10;teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -295,12 +283,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547578352445</updated>
-      <workItem from="1547578353676" duration="6668000" />
+      <workItem from="1547578353676" duration="6732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6668000" />
+    <option name="totallyTimeSpent" value="6732000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
@@ -339,13 +327,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -715,11 +696,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/_error.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="260">
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" selection-start-line="22" selection-end-line="29" selection-end-column="4" />
         </state>
       </provider>
     </entry>
