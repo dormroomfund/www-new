@@ -1,11 +1,10 @@
-import {Component} from 'react';
+import { Component } from 'react';
 import Head from 'next/head';
 import Menu from './Menu';
 import CustomFooter from './Footer';
 import TeamSection from './TeamSection';
 import AlumniSection from './AlumniSection';
 import React from 'react';
-
 
 export default class TeamPage extends Component {
   constructor(props) {
@@ -14,6 +13,11 @@ export default class TeamPage extends Component {
     this.state = {
       showCurrent: this.props.showCurrent || true,
     };
+  }
+
+  componentDidMount() {
+    const img = new Image();
+    img.src = '/static/img/community-photo-blue.jpg';
   }
 
   handleCurrentClick = () => {
@@ -35,7 +39,7 @@ export default class TeamPage extends Component {
           <title>Dorm Room Fund - Team</title>
         </Head>
         <div className="team">
-          <Menu lightColor={true}/>
+          <Menu lightColor={true} />
           <div className="team-hero-photo">
             <div className="content">
               <div className="team-hero-wrapper">
@@ -75,10 +79,10 @@ export default class TeamPage extends Component {
                 </li>
               </ul>
             </div>
-            {this.state.showCurrent ? <TeamSection/> : <AlumniSection/>}
+            {this.state.showCurrent ? <TeamSection /> : <AlumniSection />}
           </div>
         </div>
-        <CustomFooter/>
+        <CustomFooter />
       </div>
     );
   }

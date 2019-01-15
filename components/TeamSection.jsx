@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import team_data from '../static/data/team'
+import team_data from '../static/data/team';
 
 const TeamMember = ({ teamMember }) => (
   <div className="team-column">
@@ -27,9 +27,9 @@ export default class TeamSection extends Component {
         <hr className="team-divider" />
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['national'].map((teamMember) =>
-              <TeamMember teamMember={teamMember} key={teamMember.name}/>
-            )}
+            {team_data['national'].map((teamMember) => (
+              <TeamMember teamMember={teamMember} key={teamMember.name} />
+            ))}
           </div>
         </div>
         <h1 className="team-divider-title">Investment</h1>
