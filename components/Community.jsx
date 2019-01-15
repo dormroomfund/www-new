@@ -19,7 +19,7 @@ export default class Community extends Component {
                 team is run by student leaders, entrepreneurs, and innovators
                 across the country.
               </p>
-              <Link to="/team">
+              <Link href="/team">
                 <a className="colored-section-button button-rounded-white">
                   Our Team
                 </a>

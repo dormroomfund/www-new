@@ -1,6 +1,7 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import smoothscroll from 'smoothscroll-polyfill';
+import '../scss/App.scss';
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
