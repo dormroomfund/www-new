@@ -1,0 +1,29 @@
+{
+  "name": "drf-website",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write **/*.js **/*.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dormroomfund/www-next.git"
+  },
+  "author": "Dorm Room Fund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dormroomfund/www-next/issues"
+  },
+  "homepage": "https://drf.vc/"
+}
