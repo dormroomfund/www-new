@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import ScrollBackToTop from './ScrollBackToTop';
 
 export default class AlumniSection extends Component {
   render() {

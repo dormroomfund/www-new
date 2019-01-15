@@ -1,4 +1,10 @@
 import { Component } from 'react';
+import ramp from '../static/img/ramp.svg';
+import ramp_mobile from '../static/img/ramp-mobile.svg';
+import investor_firstround from '../static/img/investor-firstround.svg';
+import investor_gv from '../static/img/investor-gv.svg';
+import investor_sequoia from '../static/img/investor-sequoia.svg';
+import investor_yc from '../static/img/investor-yc.svg';
 
 export default class Hero extends Component {
   render() {

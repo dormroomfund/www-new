@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 
-import arrow from './img/ArrowBox.png';
+import arrow from '../static/img/ArrowBox.png';
 
 export default class ScrollBackToTop extends Component {
   constructor(props) {

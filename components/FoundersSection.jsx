@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import Link from 'next/link';
+import founder from '../static/img/founders_compressed/blockstack2_o.jpg';
 
 export default class FoundersSection extends Component {
   render() {
@@ -17,7 +19,7 @@ export default class FoundersSection extends Component {
                 of fundraising, launch strategy, growth, and hiring, we’re just
                 as invested in your mission as you are.
               </p>
-              <Link to="/companies">
+              <Link href="/companies">
                 <a className="colored-section-button button-rounded-white">
                   Our Companies
                 </a>

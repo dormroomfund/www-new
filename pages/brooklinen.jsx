@@ -1,3 +1,6 @@
+import FoundersFeature from '../components/FoundersFeature';
+import React from 'react';
+
 export default () => (
   <FoundersFeature
     name="Rich Fulop & Vicki Fulop"

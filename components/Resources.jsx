@@ -1,4 +1,8 @@
 import { Component } from 'react';
+import NameForm from './NameForm';
+import article_1 from '../static/img/article-1.jpg';
+import article_2 from '../static/img/article-2.jpg';
+import article_3 from '../static/img/article-3.jpg';
 
 export default class Resources extends Component {
   render() {

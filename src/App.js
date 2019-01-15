@@ -4,9 +4,7 @@ import { Helmet } from 'react-helmet';
 import { ReactTypeformEmbed } from 'react-typeform-embed';
 import smoothscroll from 'smoothscroll-polyfill';
 
-import ScrollToTop from './ScrollToTop';
-
-import Privacy from '../pages/privacy.jsx/Privacy';
+import Privacy from '../pages/privacy';
 // Home page assets
 // Medium article previews
 // Social

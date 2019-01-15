@@ -1,3 +1,5 @@
+import scholly_founder from '../static/img/founders_compressed/scholly.jpg';
+
 export default () => (
   <FoundersFeature
     name="Chris Gray"

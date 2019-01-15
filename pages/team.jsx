@@ -1,4 +1,10 @@
 import { Component } from 'react';
+import Head from 'next/head';
+import Menu from '../components/Menu';
+import CustomFooter from '../components/Footer';
+import React from 'react';
+import AlumniSection from '../components/AlumniSection';
+import TeamSection from '../components/TeamSection';
 
 export default class TeamPage extends Component {
   constructor(props) {
@@ -7,29 +13,26 @@ export default class TeamPage extends Component {
     this.state = {
       showCurrent: this.props.showCurrent || true,
     };
-
-    this.handleCurrentClick = this.handleCurrentClick.bind(this);
-    this.handleAlumniClick = this.handleAlumniClick.bind(this);
   }
 
-  handleCurrentClick() {
+  handleCurrentClick = () => {
     this.setState({
       showCurrent: true,
     });
-  }
+  };
 
-  handleAlumniClick() {
+  handleAlumniClick = () => {
     this.setState({
       showCurrent: false,
     });
-  }
+  };
 
   render() {
     return (
       <div className="App">
-        <Helmet>
+        <Head>
           <title>Dorm Room Fund - Team</title>
-        </Helmet>
+        </Head>
         <div className="team">
           <Menu lightColor={true} />
           <div className="team-hero-photo">

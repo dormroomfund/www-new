@@ -1,6 +1,6 @@
 import { Component } from 'react';
 
-class MobileMenu extends Component {
+export default class MobileMenu extends Component {
   render() {
     return (
       <div className="mobile-nav">

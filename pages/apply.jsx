@@ -1,12 +1,14 @@
 import { Component } from 'react';
+import Head from 'next/head';
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 
 export default class ApplyPage extends Component {
   render() {
     return (
       <div>
-        <Helmet>
+        <Head>
           <title>Dorm Room Fund - Apply</title>
-        </Helmet>
+        </Head>
         <ReactTypeformEmbed
           url={'https://dormroomfund.typeform.com/to/H90ZNU'}
         />

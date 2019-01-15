@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import Link from 'next/link';
+import community_photo from '../static/img/community-photo.jpg';
 
 export default class Community extends Component {
   render() {

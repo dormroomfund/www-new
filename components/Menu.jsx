@@ -1,23 +1,30 @@
 import { Component } from 'react';
+import Link from 'next/link';
+import drf_logo_white from '../static/img/drf-logo-white.svg';
+import drf_logo_small_white from '../static/img/drf-logo-small-white.svg';
+import drf_logo_black from '../static/img/drf-logo-black.svg';
+import drf_logo_small_black from '../static/img/drf-logo-small-black.svg';
 
 function blockMove(e) {
   e.preventDefault();
 }
 
 export default class Menu extends Component {
-  constructor(props) {
-    super(props);
+  state = {
+    showMobileMenu: false,
+    originalBodyOverflow: '',
+  };
 
+  componentDidMount() {
     document.body.style.overflow = 'initial';
     document.body.removeEventListener('touchmove', blockMove);
-    this.state = {
-      showMobileMenu: false,
+
+    this.setState({
       originalBodyOverflow: document.body.style.overflow,
-    };
-    this.handleHamburgerClick = this.handleHamburgerClick.bind(this);
+    });
   }
 
-  handleHamburgerClick() {
+  handleHamburgerClick = () => {
     this.setState({
       showMobileMenu: !this.state.showMobileMenu,
     });
@@ -30,7 +37,7 @@ export default class Menu extends Component {
     } else {
       document.body.removeEventListener('touchmove', blockMove);
     }
-  }
+  };
 
   render() {
     return (
@@ -47,36 +54,44 @@ export default class Menu extends Component {
               >
                 {this.props.lightColor ? (
                   <div>
-                    <Link to="/">
-                      <img
-                        alt="Dorm Room Fund logo"
-                        className="drf-logo-white"
-                        src={drf_logo_white}
-                      />
+                    <Link href="/">
+                      <a>
+                        <img
+                          alt="Dorm Room Fund logo"
+                          className="drf-logo-white"
+                          src={drf_logo_white}
+                        />
+                      </a>
                     </Link>
-                    <Link to="/">
-                      <img
-                        alt="Dorm Room Fund logo"
-                        className="drf-logo-small-white"
-                        src={drf_logo_small_white}
-                      />
+                    <Link href="/">
+                      <a>
+                        <img
+                          alt="Dorm Room Fund logo"
+                          className="drf-logo-small-white"
+                          src={drf_logo_small_white}
+                        />
+                      </a>
                     </Link>
                   </div>
                 ) : (
                   <div>
-                    <Link to="/">
-                      <img
-                        alt="Dorm Room Fund logo"
-                        className="drf-logo-black"
-                        src={drf_logo_black}
-                      />
+                    <Link href="/">
+                      <a>
+                        <img
+                          alt="Dorm Room Fund logo"
+                          className="drf-logo-black"
+                          src={drf_logo_black}
+                        />
+                      </a>
                     </Link>
-                    <Link to="/">
-                      <img
-                        alt="Dorm Room Fund logo"
-                        className="drf-logo-small-black"
-                        src={drf_logo_small_black}
-                      />
+                    <Link href="/">
+                      <a>
+                        <img
+                          alt="Dorm Room Fund logo"
+                          className="drf-logo-small-black"
+                          src={drf_logo_small_black}
+                        />
+                      </a>
                     </Link>
                   </div>
                 )}
@@ -101,7 +116,7 @@ export default class Menu extends Component {
                   </div>
                 </li>
                 <li>
-                  <Link to="/companies">
+                  <Link href="/companies">
                     <a
                       className={
                         'menu ' + (this.props.lightColor ? 'light' : '')
@@ -112,7 +127,7 @@ export default class Menu extends Component {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/team">
+                  <Link href="/team">
                     <a
                       className={
                         'menu ' + (this.props.lightColor ? 'light' : '')

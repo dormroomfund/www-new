@@ -1,12 +1,15 @@
 import { Component } from 'react';
+import Head from 'next/head';
+import CustomFooter from '../components/Footer';
+import React from 'react';
 
 export default class NoMatchPage extends Component {
   render() {
     return (
       <div className="App">
-        <Helmet>
+        <Head>
           <title>Dorm Room Fund</title>
-        </Helmet>
+        </Head>
         <Menu lightColor={false} />
         <div className="content">
           <div className="error-wrapper">

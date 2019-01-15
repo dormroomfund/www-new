@@ -1,4 +1,7 @@
 import { Component } from 'react';
+import kit_icon from '../static/img/kit-icon.svg';
+import medium_icon from '../static/img/medium-icon.svg';
+import twitter_icon from '../static/img/twitter-icon.svg';
 
 export default class CustomFooter extends Component {
   render() {

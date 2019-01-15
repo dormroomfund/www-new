@@ -1,5 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
+import smoothscroll from 'smoothscroll-polyfill';
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, router, ctx }) {
@@ -15,14 +16,13 @@ export default class MyApp extends App {
   componentDidMount() {
     smoothscroll.polyfill();
   }
+
   render() {
     const { Component, pageProps } = this.props;
 
     return (
       <Container>
-        <ScrollToTop>
-          <Component {...pageProps} />
-        </ScrollToTop>
+        <Component {...pageProps} />
       </Container>
     );
   }

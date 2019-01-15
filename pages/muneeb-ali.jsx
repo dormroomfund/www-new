@@ -1,5 +1,6 @@
+import blockstack_founder from '../static/img/founders_compressed/blockstack2_o.jpgk';
+import FoundersFeature from '../components/FoundersFeature';
 import React from 'react';
-import PropTypes from 'prop-types';
 
 export default () => (
   <FoundersFeature
