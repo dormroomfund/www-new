@@ -23,6 +23,11 @@ export default class MyApp extends App {
 
     return (
       <Container>
+        <style jsx>{`
+          .App {
+            display: none;
+          }
+        `}</style>
         <Component {...pageProps} />
       </Container>
     );
