@@ -1,5 +1,6 @@
 import React from 'react';
 import App, { Container } from 'next/app';
+import Head from 'next/head';
 import smoothscroll from 'smoothscroll-polyfill';
 import '../scss/App.scss';
 
@@ -23,11 +24,13 @@ export default class MyApp extends App {
 
     return (
       <Container>
-        <style jsx global>{`
+        <Head>
+          <style type="text/css">{`
           .App {
             display: none;
           }
         `}</style>
+        </Head>
         <Component {...pageProps} />
       </Container>
     );
