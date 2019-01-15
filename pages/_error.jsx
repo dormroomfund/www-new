@@ -2,6 +2,7 @@ import { Component } from 'react';
 import Head from 'next/head';
 import CustomFooter from '../components/Footer';
 import React from 'react';
+import Menu from '../components/Menu';
 
 export default class NoMatchPage extends Component {
   render() {

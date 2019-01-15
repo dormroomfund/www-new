@@ -3,153 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="73ad4045-7d28-4fbe-aa4d-92af3ea6b9f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/www-next.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/www-next.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/AlumniSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AlumniSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Apply.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Apply.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Community.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Community.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/FoundersSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FoundersSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Hero.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Menu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/MobileMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/MobileMenu.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Resources.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Resources.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/NameForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NameForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_error.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_error.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/apply.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/apply.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brooklinen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brooklinen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chris-gray.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chris-gray.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/companies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/muneeb-ali.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/muneeb-ali.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/privacy.jsx/Privacy.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/privacy.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/team.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/team.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tim-hwang.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tim-hwang.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScrollBackToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/ScrollBackToTop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScrollToTop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/companies.json" beforeDir="false" afterPath="$PROJECT_DIR$/static/data/companies.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/ArrowBox.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ArrowBox.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/article-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/article-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/article-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/article-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/article-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/article-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/community-photo-blue.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/community-photo-blue.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/community-photo-old.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/community-photo-old.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/community-photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/community-photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/drf-logo-black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/drf-logo-black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/drf-logo-small-black.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/drf-logo-small-black.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/drf-logo-small-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/drf-logo-small-white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/drf-logo-white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/drf-logo-white.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/blockstack1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/blockstack1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/blockstack2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/blockstack2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/blockstack2_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/blockstack2_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/brooklinen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/brooklinen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/brooklinen_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/brooklinen_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/fiscalnote.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/fiscalnote.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/fiscalnote_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/fiscalnote_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/forge1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/forge1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/forge2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/forge2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/grove1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/grove1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/grove2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/grove2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/humon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/humon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/lovepop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/lovepop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/JPEG/scholly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/JPEG/scholly.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/blockstack1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/blockstack1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/blockstack2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/blockstack2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/blockstack2_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/blockstack2_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/brooklinen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/brooklinen.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/brooklinen_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/brooklinen_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/fiscalnote.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/fiscalnote.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/fiscalnote_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/fiscalnote_o.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/forge1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/forge1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/forge2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/forge2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/grove1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/grove1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/grove2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/grove2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/humon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/humon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/lovepop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/lovepop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/founders_compressed/scholly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/scholly.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/investor-firstround.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/investor-firstround.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/investor-gv.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/investor-gv.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/investor-sequoia.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/investor-sequoia.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/investor-yc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/investor-yc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/kit-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/kit-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/linkedin-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/linkedin-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/medium-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/medium-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/ramp-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ramp-mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/ramp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/ramp.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/Fixed Sizes.zip" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/Fixed Sizes.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/aChen_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/aChen_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/aKazlauskas_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/aKazlauskas_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/aKirtikar_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/aKirtikar_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/adam_brudnick.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/adam_brudnick.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/adele_li.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/adele_li.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/aeldefrawy_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/aeldefrawy_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/akarale_headshot.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/akarale_headshot.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/albert_dong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/albert_dong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/alex_immerman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/alex_immerman.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/alicia_tsai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/alicia_tsai.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/amol_punjabi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/amol_punjabi.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/amulya_kandikonda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/amulya_kandikonda.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/andrew_briggs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/andrew_briggs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/anne_kong.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/anne_kong.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/athena_kan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/athena_kan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/ayang_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/ayang_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/ben_draa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/ben_draa.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/blabe_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/blabe_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/bwalker_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/bwalker_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/cchow_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/cchow_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/courtney_andrews.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/courtney_andrews.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/csmilow_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/csmilow_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/czhang_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/czhang_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/dLee_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/dLee_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/david_mackanic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/david_mackanic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/dmackanic_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/dmackanic_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/eliu_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/eliu_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/farbod_nowzad.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/farbod_nowzad.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/gli_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/gli_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/hPerry_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/hPerry_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/haris_memon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/haris_memon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/jdorsainvil_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/jdorsainvil_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/jhumenansky_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/jhumenansky_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/karina_akib.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/karina_akib.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/karthik_menta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/karthik_menta.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/kyaegashi_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/kyaegashi_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/lily_peng.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/lily_peng.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/linus_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/linus_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/looi_qin_en.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/looi_qin_en.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/mRosic_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/mRosic_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/maneet_khaira.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/maneet_khaira.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/mario_ruiz.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/mario_ruiz.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/matthew_mizbani.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/matthew_mizbani.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/mina_iskarous.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/mina_iskarous.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/ozhang_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/ozhang_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/phillip.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/phillip.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/rei_wang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/rei_wang.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/rmorgan_headshot.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/rmorgan_headshot.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sDu_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sDu_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sFlanagan_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sFlanagan_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sMacConnell_headshot.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sMacConnell_headshot.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sYen_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sYen_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sbhamidipati_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sbhamidipati_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sguzick_headshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sguzick_headshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/shawn_xu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/shawn_xu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/shohini_gupta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/shohini_gupta.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/shrey_gupta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/shrey_gupta.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/sweyn_venderbush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/sweyn_venderbush.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/tsookraj_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/tsookraj_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/udit_jain.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/udit_jain.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/vinai_headshot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/vinai_headshot.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/will_manidis.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/will_manidis.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/will_nichols.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/will_nichols.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/yanika_magan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/yanika_magan.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/yasyf_mohamedali.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/yasyf_mohamedali.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/yonatan_dejene.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/yonatan_dejene.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/zachary_liu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/zachary_liu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/zann_ali.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/zann_ali.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/team_compressed/zoe_lu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/team_compressed/zoe_lu.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/twitter-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/twitter-icon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -170,32 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlumniSection.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/AlumniSection.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Value.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Value.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="135" column="26" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="26" />
+            <state>
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -203,11 +38,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alumni.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alumni.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="team.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/team.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_app.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_error.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/_error.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -215,20 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActiveLink.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/ActiveLink.jsx">
+      <file leaf-file-name="FoundersFeature.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/FoundersFeature.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="companies.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/companies.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+            <state relative-caret-position="314">
+              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -236,11 +95,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/privacy.jsx">
+      <file leaf-file-name="chris-gray.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/chris-gray.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+            <state relative-caret-position="80">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#76#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -257,9 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu</find>
-      <find>validateemail</find>
-      <find>teammember</find>
       <find>blockMove</find>
       <find>document</find>
       <find>drf_logo_black</find>
@@ -277,14 +136,23 @@
       <find>companies</find>
       <find>navlink</find>
       <find>link</find>
-      <find>blockst</find>
       <find>&lt;a</find>
       <find>classname</find>
       <find>&lt;link:144</find>
       <find>activelink</find>
       <find>&lt;link</find>
       <find>team</find>
+      <find>blockst</find>
+      <find>jpgk</find>
+      <find>team_compressed</find>
+      <find>apply now</find>
+      <find>features</find>
+      <find>alumn</find>
+      <find>head</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/pages</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -293,8 +161,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/components/FoundersFeature.jsx" />
-        <option value="$PROJECT_DIR$/components/TeamSection.jsx" />
         <option value="$PROJECT_DIR$/pages/Banner.jsx" />
         <option value="$PROJECT_DIR$/components/Value.jsx" />
         <option value="$PROJECT_DIR$/pages/NameForm.jsx" />
@@ -310,18 +176,22 @@
         <option value="$PROJECT_DIR$/components/Resources.jsx" />
         <option value="$PROJECT_DIR$/components/Footer.jsx" />
         <option value="$PROJECT_DIR$/pages/_app.jsx" />
-        <option value="$PROJECT_DIR$/pages/chris-gray.jsx" />
         <option value="$PROJECT_DIR$/pages/tim-hwang.jsx" />
-        <option value="$PROJECT_DIR$/pages/muneeb-ali.jsx" />
         <option value="$PROJECT_DIR$/pages/apply.jsx" />
-        <option value="$PROJECT_DIR$/pages/_error.jsx" />
-        <option value="$PROJECT_DIR$/pages/brooklinen.jsx" />
         <option value="$PROJECT_DIR$/components/ScrollBackToTop.js" />
         <option value="$PROJECT_DIR$/components/MobileMenu.jsx" />
         <option value="$PROJECT_DIR$/components/ActiveLink.jsx" />
-        <option value="$PROJECT_DIR$/components/Menu.jsx" />
         <option value="$PROJECT_DIR$/pages/companies.jsx" />
+        <option value="$PROJECT_DIR$/pages/muneeb-ali.jsx" />
+        <option value="$PROJECT_DIR$/components/TeamSection.jsx" />
+        <option value="$PROJECT_DIR$/components/Menu.jsx" />
+        <option value="$PROJECT_DIR$/pages/brooklinen.jsx" />
+        <option value="$PROJECT_DIR$/components/FoundersFeature.jsx" />
+        <option value="$PROJECT_DIR$/pages/chris-gray.jsx" />
         <option value="$PROJECT_DIR$/pages/team.jsx" />
+        <option value="$PROJECT_DIR$/components/TeamPage.jsx" />
+        <option value="$PROJECT_DIR$/pages/alumni.jsx" />
+        <option value="$PROJECT_DIR$/pages/_error.jsx" />
       </list>
     </option>
   </component>
@@ -360,17 +230,23 @@
             <path>
               <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
               <item name="www-next" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
-              <item name="www-next" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
               <item name="www-next" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www-next" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www-next" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,7 +255,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="nomat&#9;null&#9;null&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;teampage&#9;null&#9;null&#10;brook&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;chrisg&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/chris-gray.jsx&#10;broo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;teamse&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/TeamSection.jsx&#10;teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -419,36 +295,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547578352445</updated>
-      <workItem from="1547578353676" duration="5232000" />
+      <workItem from="1547578353676" duration="6668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5232000" />
+    <option name="totallyTimeSpent" value="6668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info id="npm" side_tool="true" />
-      <window_info anchor="right" id="Mongo Explorer" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49867022" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32978722" />
-      <window_info id="Structure" order="1" sideWeight="0.5013298" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info id="npm" order="1" side_tool="true" />
+      <window_info anchor="right" id="Mongo Explorer" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49867022" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.32978722" />
+      <window_info id="Structure" order="3" sideWeight="0.5013298" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,23 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/chris-gray.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/tim-hwang.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -599,47 +458,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/muneeb-ali.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_error.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/apply.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/brooklinen.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#60#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,13 +486,6 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/FoundersFeature.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -715,20 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Value.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/data/companies.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -746,13 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/privacy.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -762,35 +556,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/ActiveLink.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="300">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Value.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/companies.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        <state relative-caret-position="947">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/Menu.jsx">
+    <entry file="file://$PROJECT_DIR$/pages/privacy.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="135" column="26" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="26" />
+        <state relative-caret-position="346">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/muneeb-ali.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="83" selection-start-column="83" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/team.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/FoundersFeature.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/chris-gray.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/brooklinen.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/features.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Menu.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/TeamPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#412#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alumni.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/alumni.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/team.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_error.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>

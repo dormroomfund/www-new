@@ -156,7 +156,7 @@ export default class Menu extends Component {
                   </a>
                 </li>
                 <li>
-                  <Link to="/apply">
+                  <Link href="/apply">
                     <a
                       className={
                         this.props.lightColor

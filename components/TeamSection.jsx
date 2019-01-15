@@ -1,11 +1,12 @@
 import { Component } from 'react';
+import team_data from '../static/data/team'
 
 const TeamMember = ({ teamMember }) => (
   <div className="team-column">
     <div className="team-card-container">
       <div className="team-card">
         <img
-          src={require(`./img/team_compressed/${teamMember.imageFileName}`)}
+          src={`/static/img/team_compressed/${teamMember.imageFileName}`}
           className="team-card-image"
         />
         <div className="card-text team-card-text">
@@ -27,9 +28,7 @@ export default class TeamSection extends Component {
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
             {team_data['national'].map((teamMember) =>
-              TeamMember({
-                teamMember,
-              })
+              <TeamMember teamMember={teamMember} key={teamMember.name}/>
             )}
           </div>
         </div>

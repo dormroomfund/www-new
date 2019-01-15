@@ -1,4 +1,6 @@
 import scholly_founder from '../static/img/founders_compressed/scholly.jpg';
+import FoundersFeature from '../components/FoundersFeature';
+import React from 'react';
 
 export default () => (
   <FoundersFeature

@@ -1,4 +1,6 @@
 import { Component } from 'react';
+import Menu from './Menu';
+import CustomFooter from './Footer';
 
 export default class FoundersFeature extends Component {
   render() {
