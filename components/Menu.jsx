@@ -54,7 +54,7 @@ export default class Menu extends Component {
               >
                 {this.props.lightColor ? (
                   <div>
-                    <Link href="/">
+                    <Link href="/" prefetch>
                       <a>
                         <img
                           alt="Dorm Room Fund logo"
@@ -63,7 +63,7 @@ export default class Menu extends Component {
                         />
                       </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/" prefetch>
                       <a>
                         <img
                           alt="Dorm Room Fund logo"
@@ -75,7 +75,7 @@ export default class Menu extends Component {
                   </div>
                 ) : (
                   <div>
-                    <Link href="/">
+                    <Link href="/" prefetch>
                       <a>
                         <img
                           alt="Dorm Room Fund logo"
@@ -84,7 +84,7 @@ export default class Menu extends Component {
                         />
                       </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/" prefetch>
                       <a>
                         <img
                           alt="Dorm Room Fund logo"
