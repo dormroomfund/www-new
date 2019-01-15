@@ -23,7 +23,7 @@ export default class MyApp extends App {
 
     return (
       <Container>
-        <style jsx>{`
+        <style jsx global>{`
           .App {
             display: none;
           }

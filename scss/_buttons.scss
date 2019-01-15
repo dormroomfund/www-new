@@ -2,7 +2,8 @@ $button-rounded-horizontal-padding: 1.6rem;
 $button-rounded-vertical-padding: 0.7rem;
 $button-rounded-radius: 1.4rem;
 
-.button-rounded, %button-rounded {
+.button-rounded,
+%button-rounded {
   @extend .menu;
   background: $blue;
   padding: $button-rounded-vertical-padding $button-rounded-horizontal-padding;
@@ -22,21 +23,21 @@ $button-rounded-radius: 1.4rem;
 }
 
 .button-rounded-white {
-	@extend .button-rounded;
-	background: $white;
-	color: $blue;
+  @extend .button-rounded;
+  background: $white;
+  color: $blue;
   transition: $t-hover-opacity;
   &:hover {
     opacity: $semi-trans;
   }
 }
 
-.bodylink{
+.bodylink {
   color: $blue;
   border-bottom: 2px solid white;
   transition: .3s;
 
-  &:hover{
+  &:hover {
     border-bottom: 2px solid $blue;
   }
 }

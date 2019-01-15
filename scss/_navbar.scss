@@ -23,13 +23,17 @@ nav {
     padding: 0 $content-padding;
   }
 
-  .drf-logo-black, .drf-logo-small-black, .drf-logo-white, .drf-logo-small-white {
+  .drf-logo-black,
+  .drf-logo-small-black,
+  .drf-logo-white,
+  .drf-logo-small-white {
     height: $logo-height;
     display: inline-block;
-    float: left;  
+    float: left;
   }
 
-  .drf-logo-small-black, .drf-logo-small-white {
+  .drf-logo-small-black,
+  .drf-logo-small-white {
     display: none;
   }
 
@@ -72,11 +76,11 @@ nav {
     transform: translate3d(0, -1rem, 0);
     transition: $t-page-opacity, $t-page-transform;
   }
-} 
+}
 
 
 div.mobile-nav {
-  z-index: 1; 
+  z-index: 1;
   background-color: $light-gray;
   position: fixed;
   left: 0;
@@ -102,7 +106,7 @@ div.mobile-nav {
   }
 }
 
-@media screen and (max-width: 1250px) {  
+@media screen and (max-width: 1250px) {
   nav {
     .links {
       li {
@@ -117,20 +121,20 @@ div.mobile-nav {
 }
 
 nav {
-    .links.lock > li {
-      display: none;
-      position: relative;
-      z-index: 11;
-    }
+  .links.lock > li {
+    display: none;
+    position: relative;
+    z-index: 11;
+  }
 
-    .links.lock > .hamburger-container {
-      display: inline-block;
-      vertical-align: middle;
-      position: relative;
-    }
+  .links.lock > .hamburger-container {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
 }
 
-@media screen and (max-width: $tablet-landscape-max) {  
+@media screen and (max-width: $tablet-landscape-max) {
   nav {
     .links > li {
       display: none;
@@ -146,23 +150,27 @@ nav {
 
     .hamburger {
       height: 1.5 * $logo-height;
-      cursor: pointer;  
+      cursor: pointer;
     }
 
     .hamburger-icon .line {
       display: block;
-      transform:translateY(18px);
+      transform: translateY(18px);
     }
 
     // Default
-    .hamburger-icon .line, .hamburger-icon .line:after, .hamburger-icon .line:before {
+    .hamburger-icon .line,
+    .hamburger-icon .line:after,
+    .hamburger-icon .line:before {
       transition: transform .15s cubic-bezier(0,0,.58,1);
       width: 28px;
       height: 2px;
       background-color: #3f4147;
     }
 
-    .hamburger-icon .line.light, .hamburger-icon .line.light:after,.hamburger-icon .line.light:before {
+    .hamburger-icon .line.light,
+    .hamburger-icon .line.light:after,
+    .hamburger-icon .line.light:before {
       background-color: $white;
     }
 
@@ -175,14 +183,15 @@ nav {
       top: -8px;
     }
 
-    .hamburger-icon .line:after, .hamburger .line:before {
+    .hamburger-icon .line:after,
+    .hamburger .line:before {
       content: '';
       left: 0;
     }
 
     // Active
     .hamburger-icon .line.active {
-      transition: background .3s cubic-bezier(.25,.1,.25,1);  
+      transition: background .3s cubic-bezier(.25,.1,.25,1);
       background-color: transparent;
     }
 
@@ -199,12 +208,14 @@ nav {
   }
 }
 
-@media screen and (max-width: $phone-portrait-slightly-above-max) {  
-  img.drf-logo-small-black, img.drf-logo-small-white {
+@media screen and (max-width: $phone-portrait-slightly-above-max) {
+  img.drf-logo-small-black,
+  img.drf-logo-small-white {
     display: inline;
   }
 
-  img.drf-logo-black, img.drf-logo-white{
+  img.drf-logo-black,
+  img.drf-logo-white {
     display: none;
   }
 

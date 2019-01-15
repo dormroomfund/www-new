@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   color: $black;
   font-family: $sans;
   font-size: 16px;
@@ -14,7 +15,8 @@ html, body {
   }
 }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
   cursor: pointer;
 }
@@ -43,7 +45,11 @@ input {
 
 @function contains($list, $var) {
   $_out: false;
-  @each $item in $list { @if $item == $var { $_out: true; } }
+  @each $item in $list {
+    @if $item == $var {
+      $_out: true;
+    }
+  }
   @return $_out;
 }
 
