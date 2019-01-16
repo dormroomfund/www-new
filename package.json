@@ -16,7 +16,8 @@
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-typeform-embed": "^0.2.0",
-    "smoothscroll-polyfill": "^0.4.3"
+    "smoothscroll-polyfill": "^0.4.3",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "prettier": "^1.15.3",

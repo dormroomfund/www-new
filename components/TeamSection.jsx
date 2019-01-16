@@ -37,44 +37,36 @@ export default class TeamSection extends Component {
         <h4 className="team-divider-subtitle">Boston</h4>
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['boston'].map((teamMember) =>
-              TeamMember({
-                teamMember,
-              })
-            )}
+            {team_data['boston'].map((teamMember) => (
+              <TeamMember teamMember={teamMember} key={teamMember.name} />
+            ))}
           </div>
         </div>
         <hr className="team-divider" />
         <h4 className="team-divider-subtitle">New York</h4>
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['newYork'].map((teamMember) =>
-              TeamMember({
-                teamMember,
-              })
-            )}
+            {team_data['newYork'].map((teamMember) => (
+              <TeamMember teamMember={teamMember} key={teamMember.name} />
+            ))}
           </div>
         </div>
         <hr className="team-divider" />
         <h4 className="team-divider-subtitle">Philly</h4>
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['philly'].map((teamMember) =>
-              TeamMember({
-                teamMember,
-              })
-            )}
+            {team_data['philly'].map((teamMember) => (
+              <TeamMember teamMember={teamMember} key={teamMember.name} />
+            ))}
           </div>
         </div>
         <hr className="team-divider" />
         <h4 className="team-divider-subtitle">San Francisco</h4>
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['bayArea'].map((teamMember) =>
-              TeamMember({
-                teamMember,
-              })
-            )}
+            {team_data['bayArea'].map((teamMember) => (
+              <TeamMember teamMember={teamMember} key={teamMember.name} />
+            ))}
           </div>
         </div>
       </div>

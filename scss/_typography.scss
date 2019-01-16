@@ -1,43 +1,4 @@
-@font-face {
-  font-family: 'Circular Std';
-  src: url('/static/font/CircularStd-Medium.eot');
-  src: url('/static/font/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
-    url('/static/font/CircularStd-Medium.woff') format('woff'),
-    url('/static/font/CircularStd-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
 
-@font-face {
-  font-family: 'Circular Std';
-  src: url('/static/font/CircularStd-Bold.eot');
-  src: url('/static/font/CircularStd-Bold.eot?#iefix') format('embedded-opentype'),
-    url('/static/font/CircularStd-Bold.woff') format('woff'),
-    url('/static/font/CircularStd-Bold.ttf') format('truetype');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Circular Std';
-  src: url('/static/font/CircularStd-Book.eot');
-  src: url('/static/font/CircularStd-Book.eot?#iefix') format('embedded-opentype'),
-    url('/static/font/CircularStd-Book.woff') format('woff'),
-    url('/static/font/CircularStd-Book.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'GT Walsheim';
-  src: url('/static/font/GTWalsheimMedium.eot');
-  src: url('/static/font/GTWalsheimMedium.eot?#iefix') format('embedded-opentype'),
-    url('/static/font/GTWalsheimMedium.woff') format('woff'),
-    url('/static/font/GTWalsheimMedium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-  font-display: optional;
-}
 
 // Font weights
 $bold: 700;

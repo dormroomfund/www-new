@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73ad4045-7d28-4fbe-aa4d-92af3ea6b9f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/Menu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Menu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/TeamSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/TeamSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_typography.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,68 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_app.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="team.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/team.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamPage.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/TeamPage.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/Menu.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="1720">
               <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AlumniSection.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/AlumniSection.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -95,8 +43,32 @@
       <file leaf-file-name="_team.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/_team.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
+            <state relative-caret-position="-2273">
+              <caret line="254" column="4" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_app.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamSection.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;a</find>
-      <find>classname</find>
       <find>&lt;link:144</find>
       <find>activelink</find>
       <find>&lt;link</find>
@@ -143,6 +113,8 @@
       <find>font-weight</find>
       <find>gt wal</find>
       <find>link</find>
+      <find>window</find>
+      <find>map</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pages</dir>
@@ -171,7 +143,6 @@
         <option value="$PROJECT_DIR$/components/ActiveLink.jsx" />
         <option value="$PROJECT_DIR$/pages/companies.jsx" />
         <option value="$PROJECT_DIR$/pages/muneeb-ali.jsx" />
-        <option value="$PROJECT_DIR$/components/TeamSection.jsx" />
         <option value="$PROJECT_DIR$/pages/brooklinen.jsx" />
         <option value="$PROJECT_DIR$/components/FoundersFeature.jsx" />
         <option value="$PROJECT_DIR$/pages/chris-gray.jsx" />
@@ -181,16 +152,19 @@
         <option value="$PROJECT_DIR$/static/css/App.css" />
         <option value="$PROJECT_DIR$/components/Community.jsx" />
         <option value="$PROJECT_DIR$/next.config.js" />
-        <option value="$PROJECT_DIR$/scss/App.scss" />
-        <option value="$PROJECT_DIR$/pages/_app.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/components/Hero.jsx" />
         <option value="$PROJECT_DIR$/components/AlumniSection.jsx" />
         <option value="$PROJECT_DIR$/scss/_team.scss" />
-        <option value="$PROJECT_DIR$/scss/_typography.scss" />
         <option value="$PROJECT_DIR$/pages/team.jsx" />
         <option value="$PROJECT_DIR$/components/TeamPage.jsx" />
         <option value="$PROJECT_DIR$/components/Menu.jsx" />
+        <option value="$PROJECT_DIR$/scss/fonts.scss" />
+        <option value="$PROJECT_DIR$/components/TeamSection.jsx" />
+        <option value="$PROJECT_DIR$/scss/App.scss" />
+        <option value="$PROJECT_DIR$/scss/_typography.scss" />
+        <option value="$PROJECT_DIR$/static/font/fonts.css" />
+        <option value="$PROJECT_DIR$/pages/_app.jsx" />
       </list>
     </option>
   </component>
@@ -231,6 +205,22 @@
               <item name="www-next" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www-next" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www-next" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www-next" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www-next" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -238,7 +228,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;teamscss&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/_team.scss&#10;teamjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;pack&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json&#10;appsc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;appscss&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;nextc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/next.config.js&#10;pac&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json&#10;commu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;form&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/NameForm.jsx&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;nextjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/next.config.js&#10;app&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;nomat&#9;null&#9;null&#10;teampage&#9;null&#9;null&#10;brook&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;chrisg&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/chris-gray.jsx&#10;broo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;teamse&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/TeamSection.jsx&#10;teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
+    <property name="SearchEverywhereHistoryKey" value="typo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/_typography.scss&#10;teamse&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/TeamSection.jsx&#10;appsc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;appscs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;apps&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;appjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;typ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/_typography.scss&#10;menu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;teamscss&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/_team.scss&#10;teamjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;pack&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json&#10;appscss&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/scss/App.scss&#10;nextc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/next.config.js&#10;pac&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json&#10;commu&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;form&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/NameForm.jsx&#10;nextjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/next.config.js&#10;app&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/_app.jsx&#10;nomat&#9;null&#9;null&#10;teampage&#9;null&#9;null&#10;brook&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;chrisg&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/chris-gray.jsx&#10;broo&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/brooklinen.jsx&#10;teamj&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;activ&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ActiveLink.jsx&#10;compan&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/companies.jsx&#10;men&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Menu.jsx&#10;sc&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;scrol&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/ScrollBackToTop.js&#10;appjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/App.js&#10;teamjs&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;applyjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Apply.jsx&#10;founde&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/FoundersSection.jsx&#10;commun&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Community.jsx&#10;scrollto&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/src/ScrollToTop.js&#10;herojsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/components/Hero.jsx&#10;index&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;indexjsx&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/index.jsx&#10;team&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/pages/team.jsx&#10;packag&#9;FILE&#9;file:///Users/caseychow/src/drf/www-next/package.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
@@ -278,12 +268,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547578352445</updated>
-      <workItem from="1547578353676" duration="10877000" />
+      <workItem from="1547578353676" duration="12958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10877000" />
+    <option name="totallyTimeSpent" value="12958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
@@ -296,7 +286,7 @@
       <window_info id="npm" order="1" side_tool="true" />
       <window_info anchor="right" id="Mongo Explorer" order="0" />
       <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49867022" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49867022" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32978722" />
       <window_info id="Structure" order="3" sideWeight="0.5013298" side_tool="true" weight="0.25" />
@@ -322,19 +312,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/img/founders_compressed/blockstack2_o.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Resources.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="63" column="56" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.next/server/static/development/pages/_error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -466,16 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -619,23 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Hero.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -646,14 +596,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -663,23 +606,6 @@
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/_team.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="253" column="26" selection-start-line="253" selection-start-column="26" selection-end-line="253" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/AlumniSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -694,12 +620,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/fonts.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/AlumniSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/Menu.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="1720">
           <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_team.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2273">
+          <caret line="254" column="4" selection-start-line="254" selection-start-column="4" selection-end-line="254" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/font/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

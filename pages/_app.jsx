@@ -16,6 +16,15 @@ export default class MyApp extends App {
   }
 
   componentDidMount() {
+    import('webfontloader').then((WebFont) =>
+      WebFont.load({
+        custom: {
+          families: ['Circular Std', 'GT Walsheim'],
+          urls: ['/static/fonts/fonts.css'],
+        },
+      })
+    );
+
     smoothscroll.polyfill();
   }
 
@@ -26,8 +35,11 @@ export default class MyApp extends App {
       <Container>
         <Head>
           <style type="text/css">{`
-          .App {
+          html {
             display: none;
+          }
+          html.wf-active {
+            display: block;
           }
         `}</style>
         </Head>

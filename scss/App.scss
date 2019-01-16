@@ -23,7 +23,10 @@
 @import 'team';
 @import '404';
 
-.App {
+html {
   display: block !important;
+}
+
+.App {
   text-align: center;
 }
