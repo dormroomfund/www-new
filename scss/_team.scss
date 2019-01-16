@@ -252,7 +252,6 @@ div.team-alumni-card-top-bar {
     height: 60vh;
     min-height: 30rem;
     background-image: url('/static/img/community-photo-blue.jpg');
-    background-color: #2855E3;
     background-size: cover;
     background-position: center 0;
     position: relative;
@@ -265,7 +264,7 @@ div.team-alumni-card-top-bar {
 
   .team-card-text {
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
     width: 9.5rem;
 
     .team-card-name {
@@ -293,7 +292,7 @@ div.team-alumni-card-top-bar {
     height: 5.5rem;
     margin-right: 1rem;
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
   }
 
   .team-grid-container {

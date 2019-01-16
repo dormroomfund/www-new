@@ -1,29 +1,15 @@
 {
   "national": [
     {
-      "name": "Yasyf Mohamedali",
-      "school": "MIT",
-      "miniBio": "Engineering at Jane Street, Facebook, and Square.",
-      "imageFileName": "yasyf_mohamedali.jpg",
-      "linkedin": "https://www.linkedin.com/in/yasyfmohamedali"
-    },
-    {
       "name": "Albert Dong",
       "school": "Brown University",
-      "miniBio": "Design Tech at AppDynamics. Former designer at Super.",
+      "miniBio": "Interaction Design at Pison. Formerly at AppDynamics, Super, and ProfoundCo.",
       "imageFileName": "albert_dong.jpg",
       "linkedin": "https://www.linkedin.com/in/albertdong23/"
     },
     {
-      "name": "Zachary Liu",
-      "school": "Princeton University",
-      "miniBio": "Formerly at Instagram, Airbnb, and Square.",
-      "imageFileName": "zachary_liu.jpg",
-      "linkedin": "https://www.linkedin.com/in/zsliu/"
-    },
-    {
       "name": "Alicia Tsai",
-      "school": "Georgia Tech",
+      "school": "UC Berkeley",
       "miniBio": "Former Associate at Cherubic Ventures.",
       "imageFileName": "alicia_tsai.jpg"
     },
@@ -41,7 +27,7 @@
       "imageFileName": "vinai_headshot.jpg"
     },
     {
-      "name": "Philip Hui-Bon-Hoa",
+      "name": "Phillip Hui-Bon-Hoa",
       "school": "Boston College",
       "miniBio": "Formerly co-founder of Publist. Growth at Cyclops.io. Chef",
       "imageFileName": "phillip.jpg"
@@ -54,13 +40,6 @@
     }
   ],
   "newYork": [
-    {
-      "name": "Maneet Khaira",
-      "school": "Columbia University",
-      "miniBio": "Greylock X Fellow. Product at Google/YouTube.",
-      "imageFileName": "maneet_khaira.jpg",
-      "linkedin": "https://www.linkedin.com/in/maneetkhaira/"
-    },
     {
       "name": "Mario Ruiz",
       "school": "Yale School of Management",
@@ -118,7 +97,7 @@
     {
       "name": "Haywood L. Perry III",
       "school": "Yale Divinity School",
-      "miniBio": "Formerly at Aspen Institute, Obama Admin, JPMorgan, Global Dev in India & South Africa",
+      "miniBio": "Formerly at Aspen Inst., Obama WH, JPMorgan, Global Dev in India/S. Africa",
       "imageFileName": "hPerry_headshot.jpg"
     },
     {
@@ -130,7 +109,7 @@
     {
       "name": "Sri Bhamidipati",
       "school": "Columbia Business School",
-      "miniBio": " Bowery Capital, formerly Schematic Ventures. Outdoorsy and avid singer.",
+      "miniBio": "Bowery Capital, formerly Schematic Ventures and Sprinklr. Outdoors and singing.",
       "imageFileName": "sbhamidipati_headshot.png"
     },
     {
@@ -297,14 +276,14 @@
     {
       "name": "Brittany Walker",
       "school": "Wharton School",
-      "miniBio": "Formerly Uber and Deloitte Digital. Gymnast and Stephen Starr restaurateur.",
+      "miniBio": "Formerly Uber and Deloitte Digital. Beginner yogi and Stephen Starr fanatic.",
       "imageFileName": "bwalker_headshot.jpg"
     },
     {
       "name": "Adam Eldefrawy",
       "school": "University of Pennslyvania",
-      "miniBio": "Focus of computer science, previously at 8i. Loves soccer and traveling.",
-      "imageFileName": "aeldefrawy_headshot.png"
+      "miniBio": "Focus on computer science, previously at 8i. Loves soccer and traveling.",
+      "imageFileName": "aeldefrawy_headshot.jpg"
     },
     {
       "name": "Olivia Zhang",

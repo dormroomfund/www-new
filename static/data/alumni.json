@@ -169,7 +169,7 @@
   },
   {
     "name": "Casey Hogan",
-    "role": "Market Manager",
+    "role": "Sr. Operations Manager, New Vendor Relations",
     "company": "Boston Public Market Association",
     "school": "Northeastern",
     "linkedin": "https://www.linkedin.com/in/caseyhogan/"
@@ -309,8 +309,8 @@
   },
   {
     "name": "Deborah Li",
-    "role": "Head of US Operations",
-    "company": "EDITED",
+    "role": "Head of New Markets",
+    "company": "Nextail Labs",
     "school": "Columbia",
     "linkedin": "https://www.linkedin.com/in/debli/"
   },
@@ -806,8 +806,8 @@
   },
   {
     "name": "Potluck Mittal",
-    "role": "Software Engineer",
-    "company": "Clever",
+    "role": "Growth & Analytics",
+    "company": "Eaze",
     "school": "UPenn",
     "linkedin": "https://www.linkedin.com/in/potluck/"
   },
@@ -869,8 +869,8 @@
   },
   {
     "name": "Rishi Narang",
-    "role": "Product & Engineering",
-    "company": "AngelList",
+    "role": "",
+    "company": "Pioneer",
     "school": "Princeton",
     "linkedin": "https://www.linkedin.com/in/narangrishi/"
   },
@@ -1069,5 +1069,26 @@
     "company": "UC Berkeley",
     "school": "UC Berkeley",
     "linkedin": "https://www.linkedin.com/in/farbod-nowzad-245339108"
+  },
+  {
+    "name": "Rei Wang",
+    "role": "Founder",
+    "company": "The Grand",
+    "school": "Emory University",
+    "linkedin": "https://www.linkedin.com/in/reiwang/"
+  },
+  {
+    "name": "Zachary Liu",
+    "role": "Software Engineer",
+    "company": "Nuro",
+    "school": "Princeton University",
+    "linkedin": "https://www.linkedin.com/in/zsliu/"
+  },
+  {
+    "name": "Maneet Khaira",
+    "role": "Founder",
+    "company": "Stealth",
+    "school": "Columbia University",
+    "linkedin": "https://www.linkedin.com/in/maneetkhaira/"
   }
 ]

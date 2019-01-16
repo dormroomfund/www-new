@@ -8,12 +8,12 @@ export default class MobileMenu extends Component {
           <div>
             <ul>
               <li>
-                <Link to="/companies">
+                <Link href="/companies">
                   <a className="menu menu-link">Companies</a>
                 </Link>
               </li>
               <li>
-                <Link to="/team">
+                <Link href="/team">
                   <a className="menu menu-link">Team</a>
                 </Link>
               </li>
@@ -31,7 +31,7 @@ export default class MobileMenu extends Component {
                 </a>
               </li>
               <li>
-                <Link to="/apply">
+                <Link href="/apply">
                   <a className="menu menu-link">Apply Now</a>
                 </Link>
               </li>

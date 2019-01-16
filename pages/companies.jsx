@@ -30,7 +30,7 @@ export default class CompaniesPage extends Component {
                   <div className="left-part">
                     <div className="left-first-row">
                       <div className="left-first-row-first-half tile">
-                        <Link to="/muneeb-ali">
+                        <Link href="/muneeb-ali">
                           <a>
                             <img
                               className="tile-img"
@@ -46,7 +46,7 @@ export default class CompaniesPage extends Component {
                         </Link>
                       </div>
                       <div className="left-first-row-second-half tile">
-                        <Link to="/chris-gray">
+                        <Link href="/chris-gray">
                           <a>
                             <img className="tile-img" src={scholly_founder} />
                             <div className="overlay-text card-text">
