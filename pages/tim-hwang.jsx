@@ -1,4 +1,4 @@
-import fiscalnote_founder from '../static/img/founders_compressed/fiscalnote_o.jpg';
+import fiscalnote_founder from '../static/img/founders_compressed/fiscalnote.jpg';
 import FoundersFeature from '../components/FoundersFeature';
 import React from 'react';
 

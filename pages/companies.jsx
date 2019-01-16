@@ -3,10 +3,10 @@ import Head from 'next/head';
 import Menu from '../components/Menu';
 import Link from 'next/link';
 import CustomFooter from '../components/Footer';
-import brooklinen_founder from '../static/img/founders_compressed/brooklinen_o.jpg';
-import blockstack_founder from '../static/img/founders_compressed/blockstack2_o.jpg';
+import brooklinen_founder from '../static/img/founders_compressed/brooklinen.jpg';
+import blockstack_founder from '../static/img/founders_compressed/blockstack2.jpg';
 import scholly_founder from '../static/img/founders_compressed/scholly.jpg';
-import fiscalnote_founder from '../static/img/founders_compressed/fiscalnote_o.jpg';
+import fiscalnote_founder from '../static/img/founders_compressed/fiscalnote.jpg';
 import company_data from '../static/data/companies';
 import ActiveLink from '../components/ActiveLink';
 

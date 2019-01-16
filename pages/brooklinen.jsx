@@ -1,6 +1,6 @@
 import FoundersFeature from '../components/FoundersFeature';
 import React from 'react';
-import brooklinen_founder from '../static/img/founders_compressed/brooklinen_o.jpg';
+import brooklinen_founder from '../static/img/founders_compressed/brooklinen.jpg';
 
 export default () => (
   <FoundersFeature

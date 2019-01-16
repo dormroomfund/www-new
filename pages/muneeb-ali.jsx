@@ -1,4 +1,4 @@
-import blockstack_founder from '../static/img/founders_compressed/blockstack2_o.jpg';
+import blockstack_founder from '../static/img/founders_compressed/blockstack2.jpg';
 import FoundersFeature from '../components/FoundersFeature';
 import React from 'react';
 
