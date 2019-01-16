@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
           html {
             display: none;
           }
-          html.wf-active {
+          html.wf-active, html.wf-inactive {
             display: block;
           }
         `}</style>
