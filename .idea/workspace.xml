@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73ad4045-7d28-4fbe-aa4d-92af3ea6b9f4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/components/FoundersSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FoundersSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/brooklinen.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/brooklinen.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/companies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/companies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/muneeb-ali.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/muneeb-ali.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/tim-hwang.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tim-hwang.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/founders_compressed/blockstack2_o.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/founders_compressed/blockstack2_o.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="73ad4045-7d28-4fbe-aa4d-92af3ea6b9f4" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -53,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/components/FoundersSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
-              <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+              <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -76,19 +69,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tim-hwang.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tim-hwang.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/tim-hwang.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="76" selection-start-column="76" selection-end-column="76" />
+            <state relative-caret-position="420">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TeamSection.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TeamSection.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
+            <state relative-caret-position="1340">
               <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
@@ -137,8 +133,8 @@
       <find>gt wal</find>
       <find>link</find>
       <find>window</find>
-      <find>map</find>
       <find>_o</find>
+      <find>map</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/pages</dir>
@@ -292,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547578352445</updated>
-      <workItem from="1547578353676" duration="13277000" />
+      <workItem from="1547578353676" duration="13322000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13277000" />
+    <option name="totallyTimeSpent" value="13322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="826" extended-state="0" />
@@ -641,16 +637,6 @@
     <entry file="file://$PROJECT_DIR$/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/_app.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -678,7 +664,7 @@
     <entry file="file://$PROJECT_DIR$/components/FoundersSection.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="66" lean-forward="true" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
+          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -698,8 +684,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/tim-hwang.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="76" selection-start-column="76" selection-end-column="76" />
+        <state relative-caret-position="420">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/TeamSection.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1340">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
