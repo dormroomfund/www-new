@@ -40,6 +40,7 @@ export default class MyDocument extends Document {
             name="google-site-verification"
             content="nXnVMtqHxrViui7tiWjGPBbaFK8gbr096hgEwnYftH0"
           />
+          <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
         </Head>
         <body className="custom_class">
           <Main />
