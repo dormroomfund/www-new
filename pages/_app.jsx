@@ -20,7 +20,7 @@ export default class MyApp extends App {
       WebFont.load({
         custom: {
           families: ['Circular Std', 'GT Walsheim'],
-          urls: ['/static/fonts/fonts.css'],
+          urls: ['/static/font/fonts.css'],
         },
       })
     );
