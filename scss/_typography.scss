@@ -1,0 +1,160 @@
+
+
+// Font weights
+$bold: 700;
+$medium: 500;
+$regular: 400;
+$book: 300;
+
+// Fonts
+$sans: 'Circular Std', Helvetica, Arial, sans-serif;
+
+p.italic {
+  font-style: italic;
+}
+
+h1,
+%h1,
+.h1 {
+  font-size: 1.5rem;
+  font-weight: $bold;
+  // line-height: 1.6rem;
+}
+
+// We alternate between Walsheim and Circular for titles
+h2,
+%h2 {
+  @extend h1;
+  // font-family: 'GT Walsheim';
+  // font-weight: 500;
+}
+
+h3,
+%h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+// all caps
+h4,
+%h4,
+.h4 {
+  font-size: 0.75rem;
+  font-weight: $bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: $near-black;
+}
+
+// smaller title
+h5 {
+  font-size: 0.95rem;
+  font-weight: $bold;
+  color: $black;
+}
+
+p,
+%p {
+  // font-size: 0.875rem;
+  // line-height: 1.1rem;
+  font-weight: 300;
+
+  &.large {
+    @extend %h3;
+  }
+
+  cite {
+    font-style: italic;
+  }
+}
+
+.menu {
+  @extend h4;
+  transition: $t-hover-opacity;
+
+  &:hover {
+    opacity: $semi-trans;
+  }
+}
+
+
+.card-text {
+  font-size: 0.7rem;
+  font-weight: $book;
+  text-align: left;
+}
+
+@media screen and (max-width: $tablet-landscape-max) {
+
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1.0rem;
+  }
+  .card-text {
+    font-size: 0.875rem;
+    line-height: 1.075rem;
+  }
+}
+
+@media screen and (max-width: $tablet-portrait-max) {
+  h1,
+  %h1,
+  .h1 {
+    font-size: 2.5rem;
+  }
+
+  p,
+  %p {
+    font-size: 1.5rem;
+  }
+
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1.0rem;
+  }
+}
+
+@media screen and (max-width: $phone-landscape-max) {
+  h1,
+  %h1,
+  .h1 {
+    font-size: 2.25rem;
+  }
+
+  h2,
+  %h2 {
+    font-size: 1.5rem;
+  }
+
+  h3,
+  %h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: $phone-portrait-max) {
+  h1,
+  %h1,
+  .h1 {
+    font-size: 1.75rem;
+    // line-height: 1.25;
+  }
+
+  h4,
+  %h4 {
+    font-size: 1.25rem;
+  }
+
+  p,
+  %p {
+    font-size: 1.25rem;
+  }
+
+  .menu,
+  h4,
+  %h4 {
+    font-size: 1.0rem;
+  }
+}

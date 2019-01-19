@@ -1,0 +1,329 @@
+$card-in-between-spacing: 0.5rem;
+
+@mixin cover-photo {
+  background-size: cover;
+  background-position: center 0;
+}
+.founders {
+  .founders-hero-photo {
+    width: 100%;
+    min-height: 30rem;
+    background-color: $blue-background;
+    position: relative;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: $section-padding;
+  }
+
+  .founders-header {
+    margin-bottom: $section-padding;
+    font-weight: 300;
+  }
+
+  $overlay-text-inset: 0.5rem;
+  .overlay-text {
+    opacity: 1;
+    text-align: left;
+    color: $white;
+    position: absolute;
+    bottom: $overlay-text-inset;
+    left: $overlay-text-inset;
+
+    > div {
+      &.mobile-only {
+        display: none;
+      }
+    }
+
+    @media screen and (max-width: $phone-portrait-large) {
+      > div {
+        display: none;
+        &.mobile-only {
+          display: block;
+        }
+      }
+    }
+
+    // TODO(maneet): Add hover animation
+    // > div:last-child {
+    // 	opacity: 0;
+    // }
+    // &:hover > div:last-child {
+    // 	opacity: 1;
+    // }
+  }
+
+  .tile {
+    position: relative;
+    overflow: auto;
+  }
+
+  .tile-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.85;
+    object-fit: cover;
+    object-position: 50% 0;
+    display: block;
+    @media screen and (max-width: $phone-portrait-max) {
+      &.brooklinen {
+        object-position: 90% 0;
+      }
+      &.fiscalnote {
+        object-position: 55% 0;
+      }
+    }
+  }
+
+  .tile-img {
+    transition: .5s ease;
+  }
+  .tile:hover .tile-img {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  $grid-height: 28rem;
+  $grid-separator: 0.5rem;
+  .founders-hero-grid {
+    animation: 1s fade-in-up;
+    display: flex;
+    flex-direction: row;
+    height: $grid-height;
+    > div {
+      &:nth-child(1) {
+        width: calc(100% / 3 * 2);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        > div {
+          &:nth-child(1) {
+            height: 40%;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 0.5 * $grid-separator;
+
+            > div {
+              // ELEMENT - FIRST ROW LEFT
+              &:nth-child(1) {
+                width: 50%;
+                height: 100%;
+                margin-right: 0.5 * $grid-separator;
+              }
+              // ELEMENT - FIRST ROW RIGHT
+              &:nth-child(2) {
+                width: 50%;
+                height: 100%;
+                margin-left: 0.5 * $grid-separator;
+              }
+            }
+          }
+          // ELEMENT - SECOND ROW
+          &:nth-child(2) {
+            height: 60%;
+            width: 100%;
+            margin-top: 0.5 * $grid-separator;
+          }
+        }
+      }
+      // ELEMENT - RIGHT HALF
+      &:nth-child(2) {
+        margin-left: $grid-separator;
+        height: 100%;
+        width: calc(100% / 3 * 1);
+      }
+    }
+  }
+
+  a.founders-card-link {
+    text-transform: none;
+    letter-spacing: initial;
+  }
+  .founders-hero-wrapper {
+    @include column;
+    float: none;
+    text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+  }
+  .founders-grid-wrapper {
+    padding: 0 $content-padding;
+  }
+
+  .founders-grid-container {
+    margin: $section-padding 0;
+    margin-top: $between-text-spacing;
+  }
+
+  .founders-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  $desktop-columns: 3;
+  $tablet-columns: 2;
+  $mobile-columns: 1;
+
+  .founders-column {
+    width: percentage(1 / $desktop-columns);
+    max-width: percentage(1 / $desktop-columns);
+    min-width: percentage(1 / $desktop-columns);
+    flex-basis: percentage(1 / $desktop-columns);
+  }
+
+  .founders-card {
+    border: 1px solid $gray-box;
+    padding: 1rem;
+    margin: 0.5rem $card-in-between-spacing 1rem 0;
+  }
+
+  hr.founders-card-top-bar {
+    border-top: 10px solid;
+  }
+
+  .founders-card-bio,
+  .founders-card-school {
+    color: #7e7e7e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .founders-card-school {
+    color: $black;
+  }
+
+  span.founders-school {
+    @extend h4;
+    font-weight: 300;
+    font-size: 0.875;
+    color: #797b83;
+    width: initial;
+    background: $white;
+    padding-right: 0.5rem;
+  }
+
+  .founders-school-mobile {
+    text-align: left;
+    display: none;
+  }
+
+  .founders-line {
+    width: 100%;
+    height: 20px;
+    // border-bottom: 1px solid #797B83;
+    text-align: left;
+
+    &.last {
+      width: calc(100% - 0.5rem);
+    }
+  }
+
+  @media screen and (max-width: $tablet-landscape-max) {
+    .founders-column {
+      width: percentage(1 / $tablet-columns);
+      max-width: percentage(1 / $tablet-columns);
+      min-width: percentage(1 / $tablet-columns);
+      flex-basis: percentage(1 / $tablet-columns);
+    }
+  }
+
+  @media screen and (max-width: $tablet-portrait-max) {
+    .founders-column {
+      width: percentage(1 / $mobile-columns);
+      max-width: percentage(1 / $mobile-columns);
+      min-width: percentage(1 / $mobile-columns);
+      flex-basis: percentage(1 / $mobile-columns);
+      text-align: center;
+    }
+
+    .founders-line {
+      display: none;
+    }
+
+    .founders-school-mobile {
+      display: block;
+    }
+  }
+}
+
+.founders-feature {
+  nav {
+    position: relative;
+  }
+  .feature-wrapper {
+    @include column;
+    float: initial;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: inline-block;
+    width: 100%;
+  }
+  .text {
+    text-align: left;
+    padding-right: 8rem;
+
+    @media screen and (max-width: $tablet-portrait-max) {
+      padding-right: 0;
+    }
+
+    .feature-name {
+      font-size: 2.5rem;
+
+      @media screen and (max-width: $tablet-portrait-max) {
+        margin-top: $between-text-spacing;
+      }
+    }
+
+    .feature-summary {
+      margin-top: 0.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .feature-bio {
+      > p {
+        margin-top: $between-text-spacing;
+      }
+    }
+  }
+
+  .sidebar {
+    margin-bottom: $medium-spacing;
+    font-size: 0.7rem;
+
+    @media screen and (max-width: $tablet-portrait-max) {
+      display: none;
+      font-size: 1rem;
+    }
+
+    &.bottom {
+      margin-top: $medium-spacing;
+      display: none;
+      @media screen and (max-width: $tablet-portrait-max) {
+        display: block;
+      }
+    }
+  }
+  .overview-list {
+    text-align: left;
+    margin-top: $between-text-spacing;
+    font-weight: 300;
+    :nth-child(1) {
+      font-weight: 700;
+    }
+  }
+  .subtitle {
+  }
+
+  .bio-line-break {
+    margin-top: 1rem;
+  }
+}
