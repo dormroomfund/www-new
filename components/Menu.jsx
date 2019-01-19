@@ -141,7 +141,7 @@ export default class Menu extends Component {
                   <a
                     className={'menu ' + (this.props.lightColor ? 'light' : '')}
                     target="_blank"
-                    href="https://blueprint.drf.vc"
+                    href="https://blueprint.dormroomfund.com"
                   >
                     Blueprint
                   </a>
