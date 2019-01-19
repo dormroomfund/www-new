@@ -1,0 +1,511 @@
+large-screen-width = 1025px
+medium-screen-width = 767px
+small-screen-width = 479px
+apply-button-breakpoint = 506px
+
+html
+  font-family Gibson
+
+body
+  margin 0
+
+  @media (max-width: small-screen-width)
+
+    .logo
+      margin-top 30px
+
+    .page-title
+      margin-top 30px
+
+      .page-subtitle
+        font-size 26px
+        margin-top 30px
+
+    .description
+      margin-top 30px
+      font-size 16px
+
+    .more
+      margin-top 90px
+
+      p
+        margin-top 30px
+        font-size 20px
+
+    .apply
+      margin-top 90px
+
+    .testimonials
+      margin-top 90px
+
+      .container
+        margin-top 15px
+
+        .image-container
+          margin-top 30px
+          width initial
+          display flex
+          flex-direction column-reverse
+          align-items center
+
+          .person
+            width 70%
+            margin 10 auto
+
+          .pager
+            margin-bottom 20px
+
+        .pager
+          margin-top 0px
+
+        .copy
+          margin-top 0
+
+          .body
+            font-size 14px
+
+    .curriculum
+      margin-top 50px
+
+      p
+        font-size 20px
+        line-height 1.5
+
+      .list-container
+        margin-top 30px
+
+        .list
+          margin-right 0px
+
+          .list-item
+            font-size 16px
+
+    .previous-guides
+      margin-top 90px
+
+      .container
+        margin-top 0
+
+        .image-container
+          margin-top 20px
+          margin-right 0
+          width initial
+
+          .person
+            width 70%
+            margin 0 auto
+
+        .copy
+          display flex
+          flex-direction column-reverse
+
+          .details
+            margin-top 20px
+            min-height initial
+
+            .name
+              font-size 22.4px
+            .title
+              font-size 22.4px
+
+            .body
+              font-size 14px
+
+          .pager
+            margin-top 0
+
+    .black
+      margin-top 90px
+
+      .faq
+        padding 30px 0
+
+        .faq-list
+          font-size 16px
+
+          .faq-item
+            margin-top 45px
+
+        .line
+          margin-top 30px
+
+        .about
+          margin-top 30px
+
+h3
+  margin 0
+  font-size 33.5px
+  font-weight 600
+
+button
+  border none
+  background-color initial
+
+  &:hover
+    cursor pointer
+
+  &:disabled
+    cursor default
+    opacity 0.3
+
+  &:focus
+    outline none
+
+.subheading
+  font-size 33.5px
+  font-weight 300
+  color #3f3d3c
+
+.track-container
+  display flex
+  justify-content flex-end
+
+#header-track
+  position absolute
+  width 79%
+  max-width 1185px
+  z-index -1
+
+.content
+  margin 0 175.5px
+  @media (max-width: large-screen-width)
+    margin 0 54.5px
+  @media (max-width: medium-screen-width)
+    margin 0 24.5px
+  @media (max-width: small-screen-width)
+    margin 0 14.5px
+
+.logo
+  margin-top 108px
+  height 88px
+  width 88px
+
+.image-container
+  display flex
+  flex-direction column
+  width 43.5%
+  min-width 300px
+
+  .person
+    width 100%
+
+.pager
+  text-align center
+  margin-top 43px
+
+  &.pager-large
+    display block
+
+    @media (max-width: medium-screen-width)
+      display none
+
+  &.pager-small
+    display none
+
+    @media (max-width: medium-screen-width)
+      display block
+      margin 30px auto 0
+
+
+.pager-arrow
+  height 56px
+  width 56px
+
+  &.left-arrow
+    transform rotate(180deg)
+    margin-right 24.5px
+
+.page-title
+  margin-top 200px
+  max-width 895px
+
+  h1
+    margin 0
+    margin-bottom 10px
+    font-size 54.3px
+
+  .page-subtitle
+    line-height 1.24
+    font-size 54.3px
+
+.description
+  margin-top 125px
+  max-width 930px
+  font-family 'Source Sans Pro', sans-serif
+  font-size 33.5px
+  line-height 1.5
+  color #37383c
+
+  a
+    color #37383c
+    border-bottom 2px solid #2c2e2d
+    text-decoration none
+
+.more
+  margin-top 145px
+  font-size 33.5px
+
+  h3
+    margin-bottom 5px
+
+
+  p
+    margin-top 46.5px
+    max-width 933px
+    font-family 'Source Sans Pro', sans-serif
+    font-size 24.9px
+    line-height 1.51
+    color #37383c
+
+.apply
+  margin-top 137.5px
+  padding 60px 0
+  background-color #e2f9f3
+
+  .title-section
+    color #018062
+    font-size 33.5px
+    line-height 1.12
+
+    .subheading
+      color #018062
+
+      a
+        color #018062
+        border-bottom 2px solid #018062
+        text-decoration none
+
+  .tracks
+    display flex
+    flex-wrap wrap
+    justify-content space-between
+    margin-top 37.5px
+    max-width 1080px
+
+    .track
+      width 500px
+      display flex
+      justify-content space-between
+      margin-top 30px
+      background-color #ffffff
+      box-shadow 0px 4px 4px 0 rgba(0, 0, 0, 0.05)
+      font-size 20.8px
+
+      @media (max-width: apply-button-breakpoint)
+        flex-direction column
+
+      &:last-child
+        margin-right 0
+
+      .info
+        box-sizing border-box
+        padding 25.5px 5px 20.5px 32.5px
+        line-height 1.1
+
+        .name
+          color #37383c
+
+        .date
+          color #807c79
+
+          @media (max-width: apply-button-breakpoint)
+            font-size 19px
+
+      .apply-btn
+        padding 35px 50px
+        background-color #03e7b0
+
+        @media (max-width: apply-button-breakpoint)
+          padding 15px 50px
+
+      a
+        text-align center
+        color #ffffff
+        text-decoration none
+
+.testimonials
+  margin-top 148.5px
+
+  #body-track
+    position absolute
+    width 41%
+    max-width 629px
+    z-index -1
+    margin-left 174.5px
+    @media (max-width: large-screen-width)
+      margin-left 54.5px
+    @media (max-width: medium-screen-width)
+      margin-left 24.5px
+    @media (max-width: small-screen-width)
+      margin-left 15px
+      width 105px
+
+  .container
+    display flex
+    flex-wrap wrap
+    margin-top 76px
+
+  .copy
+    box-sizing border-box
+    max-width 692px
+    background-color #ffffff
+    box-shadow 0px 10.5px 31px 0 rgba(76, 76, 76, 0.1)
+    margin-left -100px
+    margin-top 190px
+    padding 75.5px 109.5px 71px 69.5px
+
+    @media (max-width: 1398px)
+      margin-top 20px
+    @media (max-width: large-screen-width)
+      padding 15px
+      box-shadow none
+      margin-left 0
+      margin-top 20px
+    @media (max-width: medium-screen-width)
+      padding 15px
+      box-shadow none
+      margin-left 0
+      margin-top 20px
+      display flex
+      flex-direction column
+    @media (max-width: small-screen-width)
+      box-shadow none
+      margin-left 0
+      margin-top 20px
+
+    .body
+      color #010101
+      font-size 24.9px
+      line-height 1.4
+
+    .name
+      margin-top 35px
+      font-size 22.4px
+
+    .title
+      margin-top 10px
+      font-size 22.4px
+      font-weight 300
+      color #777777
+      line-height 1.3
+
+.curriculum
+  margin-top 183.5px
+
+  p
+    font-family 'Source Sans Pro', sans-serif
+    font-size 24.9px
+    max-width 837px
+
+  .line
+    width 325.5px
+    height 1px
+    background-color #d5d5d6
+
+  .list-container
+    display flex
+    flex-wrap wrap
+    margin-top 78.5px
+
+    .list
+      margin-left 30px
+      margin-right 140px
+      @media (max-width: large-screen-width)
+        margin-left 25px
+      @media (max-width: medium-screen-width)
+        margin-left 20px
+      @media (max-width: small-screen-width)
+        margin-left 15px
+
+      &:last-child
+        margin-right 0
+
+      .list-item
+        display flex
+        padding 15px 0px
+        font-size 26.9px
+        max-width 347.5px
+
+      .arrow
+        width 22.5px
+        height 10px
+        margin-right 31px
+        padding-top 10px
+
+.previous-guides
+  margin-top 200px
+
+  .container
+    display flex
+    flex-wrap wrap
+    margin-top 76.5px
+
+    .image-container
+      margin-right 70px
+
+    .copy
+      max-width 485px
+      padding 20px 0
+
+      .details
+        min-height 505px
+
+        .name
+          font-size 36.5px
+
+        .title
+          margin-top 10px
+          font-size 36.5px
+          font-weight 300
+          color #777777
+          line-height 1.3
+
+        .body
+          margin-top 35px
+          color #010101
+          font-size 24.9px
+          line-height 1.4
+
+.black
+  margin-top 172.5px
+  background-color #000000
+  color #ffffff
+
+.faq
+  padding-top 126px
+  padding-bottom 120px
+
+  .faq-list
+    margin-top 21px
+    font-size 22.8px
+
+    .faq-item
+      margin-top 60px
+
+      .question
+        font-weight 600
+        margin-bottom 8px
+
+      .answer
+        font-weight 300
+        line-height 1.47
+
+  .line
+    margin-top 115px
+    width: 170.5px
+    height: 1px
+    background-color: #d5d5d6
+
+  .about
+    margin-top 79.5px
+    font-size 16.7px
+    font-weight 600
+    line-height 1.36
+
+    .copyright
+      font-weight normal
+
+  a
+    color #ffffff
+    border-bottom 2px solid #ffffff
+    text-decoration none
