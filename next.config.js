@@ -1,8 +1,8 @@
 const flow = require('lodash.flow');
 const withSass = require('@zeit/next-sass');
-const withOptimizedImages = require('next-optimized-images');
+const withImages = require('next-images');
 
 module.exports = flow(
   withSass,
-  withOptimizedImages
+  withImages
 )();

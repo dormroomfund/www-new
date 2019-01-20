@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import Link from 'next/link';
+import { LazyImage } from 'react-lazy-images';
 import community_photo from '../static/img/community-photo.jpg';
+import community_photo_lo from '../static/img/community-photo-lo.jpg';
 
 export default class Community extends Component {
   render() {
@@ -26,7 +28,21 @@ export default class Community extends Component {
               </Link>
             </div>
           </div>
-          <img className="community-image" src={community_photo} />
+          <LazyImage
+            src={community_photo}
+            alt="The Dorm Room Fund family."
+            placeholder={({ imageProps, ref }) => (
+              <img
+                ref={ref}
+                className="community-image"
+                src={community_photo_lo}
+                alt={imageProps.alt}
+              />
+            )}
+            actual={({ imageProps }) => (
+              <img className="community-image" {...imageProps} />
+            )}
+          />
         </div>
       </div>
     );
