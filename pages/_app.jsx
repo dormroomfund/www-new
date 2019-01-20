@@ -1,8 +1,5 @@
-import React from 'react';
 import App, { Container } from 'next/app';
-import Head from 'next/head';
-import 'intersection-observer';
-import smoothscroll from 'smoothscroll-polyfill';
+import React from 'react';
 import '../scss/App.scss';
 
 export default class MyApp extends App {
@@ -17,6 +14,10 @@ export default class MyApp extends App {
   }
 
   componentDidMount() {
+    import('smoothscroll-polyfill').then((smoothscroll) =>
+      smoothscroll.polyfill()
+    );
+    import('intersection-observer');
     import('webfontloader').then((WebFont) =>
       WebFont.load({
         custom: {
@@ -25,8 +26,6 @@ export default class MyApp extends App {
         },
       })
     );
-
-    smoothscroll.polyfill();
   }
 
   render() {
