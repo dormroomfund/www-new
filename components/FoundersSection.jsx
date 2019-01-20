@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import Link from 'next/link';
-import founder from '../static/img/founders_compressed/blockstack2.jpg';
+import founder from '../static/img/founders_compressed/blockstack1.jpg';
 
 export default class FoundersSection extends Component {
   render() {
