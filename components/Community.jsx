@@ -1,6 +1,10 @@
 import { Component } from 'react';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import { LazyImage } from 'react-lazy-images';
+const LazyImage = dynamic(
+  async () => (await import('react-lazy-images')).LazyImage,
+  { ssr: false }
+);
 import community_photo from '../static/img/community-photo.jpg';
 import community_photo_lo from '../static/img/community-photo-lo.jpg';
 
