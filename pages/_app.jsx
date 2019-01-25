@@ -3,7 +3,6 @@ import React from 'react';
 import '../scss/App.scss';
 
 if (process.browser) {
-  import('intersection-observer');
   import('smoothscroll-polyfill').then((smoothscroll) =>
     smoothscroll.polyfill()
   );
