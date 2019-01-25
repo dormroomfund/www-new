@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import Link from 'next/link';
+import MobileMenu from './MobileMenu';
 import drf_logo_white from '../static/img/drf-logo-white.svg';
 import drf_logo_small_white from '../static/img/drf-logo-small-white.svg';
 import drf_logo_black from '../static/img/drf-logo-black.svg';
