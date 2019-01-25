@@ -21,9 +21,9 @@ export default class MobileMenu extends Component {
               <li>
                 <a
                   className="menu menu-link"
-                  href="https://5years.dormroomfund.com"
+                  href="https://blueprint.dormroomfund.com"
                 >
-                  Five Years
+                  Blueprint
                 </a>
               </li>
               <li>
