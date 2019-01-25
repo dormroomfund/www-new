@@ -1,12 +1,10 @@
 import { Component } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-const LazyImage = dynamic(
-  async () => (await import('react-lazy-images')).LazyImage,
-  { ssr: false }
-);
-import community_photo from '../static/img/community-photo.jpg';
-import community_photo_lo from '../static/img/community-photo-lo.jpg';
+import dynamic from 'next/dynamic';
+const CommunityImage = dynamic(() => import('./CommunityImage'), {
+  ssr: false,
+});
 
 export default class Community extends Component {
   render() {
@@ -32,20 +30,9 @@ export default class Community extends Component {
               </Link>
             </div>
           </div>
-          <LazyImage
-            src={community_photo}
+          <CommunityImage
             alt="The Dorm Room Fund family."
-            placeholder={({ imageProps, ref }) => (
-              <img
-                ref={ref}
-                className="community-image"
-                src={community_photo_lo}
-                alt={imageProps.alt}
-              />
-            )}
-            actual={({ imageProps }) => (
-              <img className="community-image" {...imageProps} />
-            )}
+            className="community-image"
           />
         </div>
       </div>
