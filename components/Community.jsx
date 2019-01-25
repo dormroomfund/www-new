@@ -1,7 +1,6 @@
 import { Component } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
-import dynamic from 'next/dynamic';
 const CommunityImage = dynamic(() => import('./CommunityImage'), {
   ssr: false,
 });
