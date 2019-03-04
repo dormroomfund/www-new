@@ -78,8 +78,8 @@
     "school": "Columbia"
   },
   {
-    "companyName": "App Hub",
-    "url": "http://apphub.io",
+    "companyName": "LogRocket",
+    "url": "https://logrocket.com/",
     "people": "Matt Arbesfeld, Ben Edelstein",
     "school": "Columbia"
   },
@@ -216,8 +216,8 @@
     "school": "Harvard"
   },
   {
-    "companyName": "Potluck Energy",
-    "url": "https://potluckenergy.com/",
+    "companyName": "Solisite",
+    "url": "https://solisite.com/",
     "people": "Michele Lunati",
     "school": "Harvard"
   },
@@ -332,7 +332,7 @@
   {
     "companyName": "Reach Labs",
     "url": "https://www.reachlabs.co/",
-    "people": "Brandon Le",
+    "people": "Chris Davlantes",
     "school": "MIT"
   },
   {
@@ -892,5 +892,77 @@
     "url": "www.rmdyco.com",
     "people": "Ryan Morgan, Kate Kim",
     "school": "Wharton"
+  },
+  {
+    "companyName": "Gainful",
+    "url": "https://www.gainful.com/",
+    "people": "Eric",
+    "school": ""
+  },
+  {
+    "companyName": "Eat Makhana",
+    "url": "https://eatmakhana.com/",
+    "people": "Mallika Chawla, Amruta Gadgil",
+    "school": "UC Berkeley"
+  },
+  {
+    "companyName": "Flourish",
+    "url": "https://flourishchange.com",
+    "people": "Braden Fineberg & Zach Morrow",
+    "school": "University of Pennsylvania, Baylor University"
+  },
+  {
+    "companyName": "Floating Point Group",
+    "url": "http://floating.group",
+    "people": "Kevin March, Van Phu, John Peurifoy",
+    "school": "MIT, UMKC"
+  },
+  {
+    "companyName": "DegreeChamp",
+    "url": "https://www.degreechamp.com",
+    "people": "James Griffin",
+    "school": "University of Texas at Dallas"
+  },
+  {
+    "companyName": "SheFly",
+    "url": "https://www.sheflyapparel.com/",
+    "people": "Bianca Gonzalez, Charlotte Massey, Georgia Grace Edwards",
+    "school": "Middlebury College"
+  },
+  {
+    "companyName": "OliLux Biosciences",
+    "url": "",
+    "people": "Mireille Kamariza, Widya Mulyasasmita",
+    "school": ""
+  },
+  {
+    "companyName": "Five to Nine",
+    "url": "http://fivetonine.co",
+    "people": "Jasmine Shells, Denise Umubyeyi, Ayanga Okpokowuruk, Pedro Suarez",
+    "school": "University of Chicago - Booth School of Business"
+  },
+  {
+    "companyName": "C. Light Technologies",
+    "url": "https://www.clighttechnologies.com",
+    "people": "Dr. Christy Sheehy, Dr. Zachary Helft",
+    "school": "UC Berkeley"
+  },
+  {
+    "companyName": "Firefly",
+    "url": "https://usefirefly.com/",
+    "people": "Dan Shipper, Patrick Leahy, Justin Meltzer",
+    "school": "U Penn"
+  },
+  {
+    "companyName": "Quithelp",
+    "url": "https://www.yup.com/",
+    "people": "Hikari Senju",
+    "school": "Harvard"
+  },
+  {
+    "companyName": "Booya Fitness",
+    "url": "https://www.booyafitness.com/",
+    "people": "Prita Kumar",
+    "school": "Havard Business School"
   }
 ]
