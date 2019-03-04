@@ -10,8 +10,8 @@ export default class CustomFooter extends Component {
         <div className="content">
           <div className="wrapper">
             <div className="vertically-centered">
-              <h2 className="title">© 2018 Dorm Room Fund.</h2>
-              <h2 className="title-mobile">© 2018 DRF.</h2>
+              <h2 className="title">© 2019 Dorm Room Fund.</h2>
+              <h2 className="title-mobile">© 2019 DRF.</h2>
               <ul className="links">
                 <li>
                   <a
