@@ -1,10 +1,25 @@
 import { Component } from 'react';
 import NameForm from './NameForm';
-import article_1 from '../static/img/article-1.jpg';
-import article_2 from '../static/img/article-2.jpg';
-import article_3 from '../static/img/article-3.jpg';
+import axios from 'axios';
 
 export default class Resources extends Component {
+  state = { articles: [] };
+
+  async componentDidMount() {
+    try {
+      const mediumRssFeed = 'https://medium.com/feed/@dormroomfund';
+      const rssToJsonApi = 'https://api.rss2json.com/v1/api.json';
+      const data = { params: { rss_url: mediumRssFeed } };
+      const newArticles = (await axios.get(
+        rssToJsonApi,
+        data
+      )).data.items.slice(0, 3); // take first 3 articles
+      this.setState({ articles: newArticles });
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   render() {
     return (
       <div className="resources-section">
@@ -26,46 +41,24 @@ export default class Resources extends Component {
             </p>
             <div className="medium-content-links">
               <div className="content">
-                <div className="col-4 m-col-12">
-                  <a
-                    target="_blank"
-                    href="https://medium.com/@dormroomfund/good-luck-to-the-graduating-dorm-room-fund-partners-1e8f230df93f"
-                  >
-                    <div className="medium-card">
-                      <img className="medium-article" src={article_1} />
-                      <p className="medium-article-title">
-                        #DRF4Life: Good Luck to the Graduating Dorm Room Fund
-                        Partners!
-                      </p>
+                {this.state.articles.length === 0 ? (
+                  <p>There seems to be a problem with loading our articles.</p>
+                ) : (
+                  this.state.articles.map((article) => (
+                    <div className="col-4 m-col-12">
+                      <a target="_blank" href={article.link}>
+                        <div className="medium-card">
+                          <div class="medium-article">
+                            <img src={article.thumbnail} />
+                          </div>
+                          <p className="medium-article-title">
+                            {article.title}
+                          </p>
+                        </div>
+                      </a>
                     </div>
-                  </a>
-                </div>
-                <div className="col-4 m-col-12">
-                  <a
-                    target="_blank"
-                    href="https://medium.com/@dormroomfund/dorm-room-fund-is-looking-for-the-next-cohort-of-investment-partners-ea41904ba67f"
-                  >
-                    <div className="medium-card">
-                      <img className="medium-article" src={article_2} />
-                      <p className="medium-article-title">
-                        Join the Dorm Room Fund Team in 2018
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                <div className="col-4 m-col-12">
-                  <a
-                    target="_blank"
-                    href="https://medium.com/@dormroomfund/how-to-start-a-startup-colgate-68132b71ccb"
-                  >
-                    <div className="medium-card last">
-                      <img className="medium-article" src={article_3} />
-                      <p className="medium-article-title">
-                        How to Start a Startup at Colgate
-                      </p>
-                    </div>
-                  </a>
-                </div>
+                  ))
+                )}
               </div>
             </div>
           </div>
