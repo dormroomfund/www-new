@@ -7,12 +7,14 @@ import Hero from '../components/Hero';
 import Community from '../components/Community';
 import Value from '../components/Value';
 import FoundersSection from '../components/FoundersSection';
+import Banner from '../components/Banner';
 
 export default () => (
   <div className="App">
     <Head>
       <title>Dorm Room Fund</title>
     </Head>
+    <Banner />
     <Menu lightColor={false} />
     <Hero />
     <Community />
