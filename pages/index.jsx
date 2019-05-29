@@ -24,7 +24,7 @@ export default class Index extends Component {
       ); // take first 3 articles
       return { articles };
     } catch (error) {
-      console.log(error);
+      console.log(`Medium article loading error: ${error}`);
       return { articles: [] };
     }
   }
