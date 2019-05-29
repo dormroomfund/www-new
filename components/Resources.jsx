@@ -1,6 +1,6 @@
 import NameForm from './NameForm';
 
-export default () => (
+export default ({ articles }) => (
   <div className="resources-section">
     <div className="content">
       <div className="resources-section-wrapper">
@@ -20,10 +20,10 @@ export default () => (
         </p>
         <div className="medium-content-links">
           <div className="content">
-            {this.props.articles.length === 0 ? (
+            {articles.length === 0 ? (
               <p>There seems to be a problem with loading our articles.</p>
             ) : (
-              this.props.articles.map((article) => (
+              articles.map((article) => (
                 <div className="col-4 m-col-12">
                   <a target="_blank" href={article.link}>
                     <div className="medium-card">
