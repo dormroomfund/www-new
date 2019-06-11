@@ -50,15 +50,15 @@
   },
   {
     "name": "Alina Balean",
-    "role": "Principal Experience Designer",
+    "role": "Product Design Manager",
     "company": "Capital One",
     "school": "NYU",
     "linkedin": "https://www.linkedin.com/in/alinabalean/"
   },
   {
     "name": "Alon Bonder",
-    "role": "VP",
-    "company": "Venrock",
+    "role": "Strategy and Corporate Development",
+    "company": "Google",
     "school": "Wharton",
     "linkedin": "https://www.linkedin.com/in/alonbonder/"
   },
@@ -239,7 +239,7 @@
   },
   {
     "name": "Connor McEwen",
-    "role": "Lead Engineer",
+    "role": "Mobile Team Lead",
     "company": "Celo",
     "school": "Boston University",
     "linkedin": "https://www.linkedin.com/in/cmcewen/"
@@ -295,8 +295,8 @@
   },
   {
     "name": "David Ongchoco",
-    "role": "Analyst",
-    "company": "Learn Capital",
+    "role": "Growth, Customer Success",
+    "company": "Amplitude",
     "school": "University of Philadelphia",
     "linkedin": "https://www.linkedin.com/in/davidongchoco/"
   },
@@ -316,7 +316,7 @@
   },
   {
     "name": "Derek Kleinow",
-    "role": "Startup Business Development",
+    "role": "Venture Capital Business Development",
     "company": "AWS",
     "school": "Wharton",
     "linkedin": "https://www.linkedin.com/in/derekkleinow/"
@@ -554,8 +554,8 @@
   },
   {
     "name": "Lilly Wyden",
-    "role": "",
-    "company": "",
+    "role": "Chief of Staff",
+    "company": "City Block Health",
     "school": "Columbia Business School",
     "linkedin": "https://www.linkedin.com/in/lillywyden"
   },
@@ -666,7 +666,7 @@
   },
   {
     "name": "Mediha Abdulhay",
-    "role": "Global Head of Marketing, Google My Business",
+    "role": "Global Head of Privacy Marketing, Brand Studio",
     "company": "Google",
     "school": "UC Berkeley",
     "linkedin": "https://www.linkedin.com/in/mediha-abdulhay-925244b/"
@@ -813,7 +813,7 @@
   },
   {
     "name": "Priya Banerjee",
-    "role": "",
+    "role": "Investor",
     "company": "B Capital",
     "school": "Wharton",
     "linkedin": "https://www.linkedin.com/in/priyadarshini-banerjee-0a336851"
@@ -947,7 +947,7 @@
   {
     "name": "Steve Krouse",
     "role": "Founder",
-    "company": "Coding Space",
+    "company": "WoofJS",
     "school": "Upenn",
     "linkedin": "https://www.linkedin.com/in/stevekrouse/"
   },
@@ -974,7 +974,7 @@
   },
   {
     "name": "Talia Goldberg",
-    "role": "Principal",
+    "role": "Partner",
     "company": "Bessemer Venture Partners",
     "school": "Wharton",
     "linkedin": "https://www.linkedin.com/in/talia-goldberg-a3819431/"
@@ -1023,7 +1023,7 @@
   },
   {
     "name": "Will Fry",
-    "role": "Product Manager, Data Acquisition",
+    "role": "VP of Engineering",
     "company": "AppleCart",
     "school": "UPenn",
     "linkedin": "https://www.linkedin.com/in/fryw95/"
