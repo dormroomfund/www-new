@@ -25,33 +25,6 @@ export default class Index extends Component {
         3
       ); // take first 3 articles
 
-      /*
-       * Update the article cache if necessary on the server side.
-       */
-      if (req && articles_cache[0].title !== articles[0].title) {
-        let newArticles = [];
-        articles.forEach((article) => {
-          const newObj = {
-            link: article.link,
-            title: article.title,
-            thumbnail: article.thumbnail,
-          };
-          newArticles.push(newArticles);
-        });
-
-        const fs = eval("require('fs')");
-
-        await fs.writeFile(
-          '../static/data/articles.json',
-          JSON.stringify(newArticles, null, 4),
-          (err) => {
-            if (err) {
-              console.error(`File Writing Error ${err}`);
-            }
-          }
-        );
-      }
-
       return { articles };
     } catch (error) {
       console.log(
