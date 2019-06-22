@@ -1,6 +1,20 @@
 {
   "national": [
     {
+      "name": "Molly Fowler",
+      "school": "Yale University",
+      "miniBio": "CEO of Dorm Room Fund.",
+      "imageFileName": "m0lly_headshot.jpg",
+      "linkedin": "https://www.linkedin.com/in/molly-fowler/"
+    },
+    {
+      "name": "Chauncey Hamilton",
+      "school": "Trinity College-Hartford",
+      "miniBio": "COO of Dorm Room Fund.",
+      "imageFileName": "chauncey_headshot.jpg",
+      "linkedin": "https://www.linkedin.com/in/chaunceykerr/"
+    },
+    {
       "name": "Albert Dong",
       "school": "Brown University",
       "miniBio": "Formerly Pison and AppDynamics",
@@ -19,7 +33,6 @@
       "miniBio": "Formerly Google and Lyft.",
       "imageFileName": "cchow_headshot.jpg"
     },
-
     {
       "name": "Vinai Rachakonda",
       "school": "University of Pennsylvania",
