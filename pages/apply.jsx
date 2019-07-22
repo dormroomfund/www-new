@@ -1,6 +1,12 @@
 import { Component } from 'react';
 import Head from 'next/head';
-import { ReactTypeformEmbed } from 'react-typeform-embed';
+import dynamic from 'next/dynamic';
+
+// I,port component with no SSR
+const ReactTypeformEmbed = dynamic(
+  import('react-typeform-embed').then((mod) => mod.ReactTypeformEmbed),
+  { ssr: false }
+);
 
 export default class ApplyPage extends Component {
   render() {
