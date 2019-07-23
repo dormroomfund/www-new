@@ -298,12 +298,12 @@
       "miniBio": "Formerly 8i.",
       "imageFileName": "aeldefrawy_headshot.jpg"
     },
-    {
-      "name": "Olivia Zhang",
-      "school": "Princeton University",
-      "miniBio": "Formerly Carbon3D.",
-      "imageFileName": "ozhang_headshot.png"
-    },
+    // {
+    //   "name": "Olivia Zhang",
+    //   "school": "Princeton University",
+    //   "miniBio": "Formerly Carbon3D.",
+    //   "imageFileName": "ozhang_headshot.png"
+    // },
     {
       "name": "Abhinav Karale",
       "school": "University of Pennsylvania",
