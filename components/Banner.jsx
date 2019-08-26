@@ -3,7 +3,7 @@ import { Component } from 'react';
 export default class Banner extends Component {
   constructor(props) {
     super(props);
-    this.state = { showBanner: false };
+    this.state = { showBanner: true };
     this.closeBanner = this.closeBanner.bind(this);
   }
 
@@ -22,22 +22,13 @@ export default class Banner extends Component {
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
       >
         <div className="banner__message">
-          {/*Join DRF&mdash;we're recruiting{' '}*/}
-          {/*<a*/}
-          {/*  target="_blank"*/}
-          {/*  href="https://medium.com/@dormroomfund/dorm-room-fund-is-looking-for-the-next-cohort-of-investment-partners-ea41904ba67f"*/}
-          {/*>*/}
-          {/*  investment partners*/}
-          {/*</a>{' '}*/}
-          {/*&{' '}*/}
-          {/*<a*/}
-          {/*  target="_blank"*/}
-          {/*  href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-hq-team-a4109a3f8c54"*/}
-          {/*>*/}
-          {/*  engineering and marketing*/}
-          {/*</a>*/}
-          We are currently slow with processing applications due to the end of
-          the semester.
+          Join DRF! We're recruiting{' '}
+          <a
+            target="_blank"
+            href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-team-2019-e3bf9be34f73"
+          >
+            investment partners, engineers, and marketers.
+          </a>
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
           X
