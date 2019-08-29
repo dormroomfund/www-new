@@ -27,7 +27,7 @@ export default class Banner extends Component {
             target="_blank"
             href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-team-2019-e3bf9be34f73"
           >
-            investment partners, engineers, and marketers.
+            investment partners, engineers, designers, and marketers.
           </a>
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
