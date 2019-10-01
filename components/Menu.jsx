@@ -142,9 +142,9 @@ export default class Menu extends Component {
                   <a
                     className={'menu ' + (this.props.lightColor ? 'light' : '')}
                     target="_blank"
-                    href="https://femalefounders.dormroomfund.com"
+                    href="https://ebook.dormroomfund.com"
                   >
-                    Female Founders
+                    Ebook
                   </a>
                 </li>
                 <li>
