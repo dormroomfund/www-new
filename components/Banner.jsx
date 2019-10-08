@@ -22,10 +22,10 @@ export default class Banner extends Component {
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
       >
         <div className="banner__message">
-          Get our FREE
+          Get our FREE{' '}
           <a target="_blank" href="https://ebook.dormroomfund.com">
             eBook
-          </a>
+          </a>{' '}
           on how to break into tech as a new grad
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
