@@ -22,13 +22,11 @@ export default class Banner extends Component {
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
       >
         <div className="banner__message">
-          Join DRF! We're recruiting{' '}
-          <a
-            target="_blank"
-            href="https://medium.com/@dormroomfund/join-the-dorm-room-fund-team-2019-e3bf9be34f73"
-          >
-            investment partners, engineers, designers, and marketers.
+          Get our FREE
+          <a target="_blank" href="https://ebook.dormroomfund.com">
+            eBook
           </a>
+          on how to break into tech as a new grad
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
           X
