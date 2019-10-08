@@ -3,7 +3,7 @@ import { Component } from 'react';
 export default class Banner extends Component {
   constructor(props) {
     super(props);
-    this.state = { showBanner: true };
+    this.state = { showBanner: false };
     this.closeBanner = this.closeBanner.bind(this);
   }
 
