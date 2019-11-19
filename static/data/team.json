@@ -230,6 +230,24 @@
       "school": "MIT",
       "miniBio": "Formerly Ecotrack and Thunkable.",
       "imageFileName": "jason_seibel.png"
+    },
+    {
+      "name": "Ashley Aydin",
+      "school": "MIT Sloan",
+      "miniBio": "Formerly Estée Lauder and Saks Fifth Avenue.",
+      "imageFileName": "ashley_aydin.png"
+    },
+    {
+      "name": "Michael Truell",
+      "school": "MIT",
+      "miniBio": "Broad Institute. Formerly Google, Two Sigma.",
+      "imageFileName": "michael_truell.png"
+    },
+    {
+      "name": "Loewen Cavill",
+      "school": "MIT",
+      "miniBio": "Formerly Bessemer Venture Partners and Optimus Ride.",
+      "imageFileName": "loewen_cavill.png"
     }
   ],
   "philly": [
@@ -406,24 +424,6 @@
       "school": "Harvard Business School",
       "miniBio": "Formerly Bessemer Venture Partners.",
       "imageFileName": "andrew_walsh.png"
-    },
-    {
-      "name": "Ashley Aydin",
-      "school": "MIT Sloan",
-      "miniBio": "Formerly Estée Lauder and Saks Fifth Avenue.",
-      "imageFileName": "ashley_aydin.png"
-    },
-    {
-      "name": "Michael Truell",
-      "school": "MIT",
-      "miniBio": "Broad Institute. Formerly Google, Two Sigma.",
-      "imageFileName": "michael_truell.png"
-    },
-    {
-      "name": "Loewen Cavill",
-      "school": "MIT",
-      "miniBio": "Formerly Bessemer Venture Partners and Optimus Ride.",
-      "imageFileName": "loewen_cavill.png"
     },
     {
       "name": "Medha Kothari",
