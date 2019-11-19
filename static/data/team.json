@@ -128,7 +128,31 @@
       "school": "Yale University",
       "miniBio": "Carbon. Formerly Optiver.",
       "imageFileName": "dLee_headshot.png"
-    }
+    },
+    {
+      "name": "Chris Shei",
+      "school": "Cornell Tech",
+      "miniBio": "Formerly Jet.com.",
+      "imageFileName": "chris_shei.png"
+    },
+    {
+      "name": "Isabel Sheinman",
+      "school": "NYU Stern School of Business",
+      "miniBio": "Formerly Nabu.org.",
+      "imageFileName": "isabel-sheinman.png"
+    },
+    {
+      "name": "David Dellal",
+      "school": "Yale University Schools of Medicine and Engineering & Applied Sciences",
+      "miniBio": "Floe. Formerly MIT Langer Lab & Air Liquide.",
+      "imageFileName": "david_dellal.png"
+    },
+    {
+      "name": "Lola Lafia",
+      "school": "Columbia University",
+      "miniBio": "Schefs. Formerly RunFriendly & Teen to Table.",
+      "imageFileName": "lola_lafia.png"
+    },
   ],
   "boston": [
     {
@@ -259,30 +283,6 @@
       "school": "University of Pennsylvania",
       "miniBio": "Formerly Accomplice VC and PracticeGigs.",
       "imageFileName": "toni_oloko.jpg"
-    },
-    {
-      "name": "Chris Shei",
-      "school": "Cornell Tech",
-      "miniBio": "Formerly Jet.com.",
-      "imageFileName": "chris_shei.png"
-    },
-    {
-      "name": "Isabel Sheinman",
-      "school": "NYU Stern School of Business",
-      "miniBio": "Formerly Nabu.org.",
-      "imageFileName": "isabel-sheinman.png"
-    },
-    {
-      "name": "David Dellal",
-      "school": "Yale University Schools of Medicine and Engineering & Applied Sciences",
-      "miniBio": "Floe. Formerly MIT Langer Lab & Air Liquide.",
-      "imageFileName": "david_dellal.png"
-    },
-    {
-      "name": "Lola Lafia",
-      "school": "Columbia University",
-      "miniBio": "Schefs. Formerly RunFriendly & Teen to Table.",
-      "imageFileName": "lola_lafia.png"
     },
     {
       "name": "Tej Singh",
