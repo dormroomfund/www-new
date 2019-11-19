@@ -1,5 +1,5 @@
 {
-  "national": [
+  "hq": [
     {
       "name": "Molly Fowler",
       "school": "Yale University",
@@ -15,197 +15,166 @@
       "linkedin": "https://www.linkedin.com/in/chaunceykerr/"
     },
     {
-      "name": "Albert Dong",
-      "school": "Brown University",
-      "miniBio": "Formerly Pison and AppDynamics",
-      "imageFileName": "albert_dong.jpg",
-      "linkedin": "https://www.linkedin.com/in/albertdong23/"
-    },
-    {
-      "name": "Alicia Tsai",
-      "school": "UC Berkeley",
-      "miniBio": "Former Cherubic Ventures and Deloitte.",
-      "imageFileName": "alicia_tsai.jpg"
-    },
-    {
-      "name": "Casey Chow",
-      "school": "Princeton University",
-      "miniBio": "Formerly Google and Lyft.",
-      "imageFileName": "cchow_headshot.jpg"
-    },
-    {
       "name": "Vinai Rachakonda",
       "school": "University of Pennsylvania",
-      "miniBio": "Formerly SpaceX and Contrast Security.",
+      "miniBio": "Formerly CTRL-Labs and SpaceX.",
       "imageFileName": "vinai_headshot.jpg"
     },
     {
       "name": "Phillip Hui-Bon-Hoa",
       "school": "Boston College",
-      "miniBio": "Cyclops.io. Formerly Publist.",
+      "miniBio": "Abacus Growth. Formerly Publist and RemoteHQ.",
       "imageFileName": "phillip.jpg"
     },
     {
       "name": "Trevor Sookraj",
       "school": "Western University (Huron College)",
-      "miniBio": " Formerly Shopify and Clearbit.",
+      "miniBio": "Abacus Growth. Formerly Clearbit and Shopify.",
       "imageFileName": "tsookraj_headshot.jpg"
-    }
-  ],
-  "newYork": [
+    },
     {
-      "name": "Mario Ruiz",
+      "name": "Arun Kirubarajan",
+      "school": "University of Pennsylvania",
+      "miniBio": "Bridgewater. Formerly Foursquare.",
+      "imageFileName": "arun_kirubarajan.png"
+    },
+    {
+      "name": "Meryl Breidbart",
       "school": "Yale School of Management",
-      "miniBio": "Formerly Napier Park and Kapor Capital.",
-      "imageFileName": "mario_ruiz.jpg",
-      "linkedin": "https://www.linkedin.com/in/mariorruiz"
+      "miniBio": "Chirps. Formerly Amino Apps and Jopwell.",
+      "imageFileName": "meryl_breidbart.png"
     },
     {
-      "name": "Karthik Menta",
+      "name": "Zain Khoja",
       "school": "Cornell University",
-      "miniBio": "Formerly Accenture and WeCook.",
-      "imageFileName": "karthik_menta.jpg",
-      "linkedin": "https://www.linkedin.com/in/karthikeyamenta/"
+      "miniBio": "Cornell AppDev. Formerly GitHub.",
+      "imageFileName": "zain_khoja.png"
     },
     {
-      "name": "Courtney Andrews",
-      "school": "Columbia Business School",
-      "miniBio": "Formerly Facebook and Gwynnie Bee.",
-      "imageFileName": "courtney_andrews.jpg",
-      "linkedin": "https://www.linkedin.com/in/courtneyandrews/"
+      "name": "Kanwar Sahdra",
+      "school": "Western University",
+      "miniBio": "Formerly Republic and Feld Lab, University of Toronto.",
+      "imageFileName": "kanwar_sahdra.png"
     },
     {
-      "name": "Amulya Kandikonda",
-      "school": "Barnard College",
-      "miniBio": "Former VMware and Almaworks.",
-      "imageFileName": "amulya_kandikonda.jpg",
-      "linkedin": "https://www.linkedin.com/in/amulya-kandikonda/"
+      "name": "Andy Reed",
+      "school": "University of Michigan",
+      "miniBio": "Formerly Airbnb and Virtru.",
+      "imageFileName": "andy_reed.png"
+    },
+    {
+      "name": "Alexander Becker",
+      "school": "The Tuck School of Business at Dartmouth",
+      "miniBio": "Formerly Catalant and Silicon Valley Bank.",
+      "imageFileName": "alexander_becker.png"
     },
     {
       "name": "Anne Kong",
       "school": "New York University",
       "miniBio": "Formerly Glossier and Sherpa Capital.",
+      "miniBio": "Formerly Retool and Glossier.",
       "imageFileName": "anne_kong.jpg",
       "linkedin": "https://www.linkedin.com/in/annebkong/"
-    },
-    {
-      "name": "Will Nichols",
-      "school": "NYU Stern",
-      "miniBio": "FJ Labs. Formerly Schematic Ventures and Instacart.",
-      "imageFileName": "will_nichols.jpg",
-      "linkedin": "https://www.linkedin.com/in/wsumnernichols/"
-    },
+    }
+  ],
+  "newYork": [
     {
       "name": "Alex Chen",
       "school": "Yale School of Management",
-      "miniBio": " Formerly MUFG and Strategic Development Solutions.",
+      "miniBio": "Formerly Supernode Ventures and C.Light Technologies.",
       "imageFileName": "aChen_headshot.jpg"
     },
     {
       "name": "Cindy Zhang",
       "school": "Cornell University",
-      "miniBio": "UC Connect. Formerly PocketEd.",
+      "miniBio": "Formerly 500 Startups.",
       "imageFileName": "czhang_headshot.jpg"
-    },
-    {
-      "name": "Haywood L. Perry III",
-      "school": "Yale Divinity School",
-      "miniBio": "Formerly Aspen Institute and JPMorgan.",
-      "imageFileName": "hPerry_headshot.jpg"
     },
     {
       "name": "Spencer Yen",
       "school": "Columbia University",
-      "miniBio": "Formerly Snackpass and DoorDash",
+      "miniBio": "Formerly Karuna Health ans Snackpass.",
       "imageFileName": "sYen_headshot.png"
     },
     {
       "name": "Sri Bhamidipati",
       "school": "Columbia Business School",
-      "miniBio": "Bowery Capital. Formerly Schematic Ventures and Sprinklr.",
+      "miniBio": "Formerly Primary Venture Partners and Bowery Capital.",
       "imageFileName": "sbhamidipati_headshot.png"
     },
     {
       "name": "Daniel Lee",
       "school": "Yale University",
-      "miniBio": "Carbon. Formerly Optiver.",
+      "miniBio": "Formerly Nextdoor and Optiver.",
       "imageFileName": "dLee_headshot.png"
+    },
+    {
+      "name": "Chris Shei",
+      "school": "Cornell Tech",
+      "miniBio": "Formerly Jet.com.",
+      "imageFileName": "chris_shei.png"
+    },
+    {
+      "name": "Isabel Sheinman",
+      "school": "NYU Stern School of Business",
+      "miniBio": "Formerly Nabu.org.",
+      "imageFileName": "isabel-sheinman.png"
+    },
+    {
+      "name": "David Dellal",
+      "school": "Yale University Schools of Medicine and Engineering & Applied Sciences",
+      "miniBio": "Floe. Formerly MIT Langer Lab & Air Liquide.",
+      "imageFileName": "david_dellal.png"
+    },
+    {
+      "name": "Lola Lafia",
+      "school": "Columbia University",
+      "miniBio": "Schefs. Formerly RunFriendly & Teen to Table.",
+      "imageFileName": "lola_lafia.png"
+    },
+    {
+      "name": "Brent Willess",
+      "school": "Yale School of Management",
+      "miniBio": "Formerly Uber and PwC.",
+      "imageFileName": "brent_willess.png"
+    },
+    {
+      "name": "Shruti Agarwal",
+      "school": "Cornell University",
+      "miniBio": "Formerly CerraCap Ventures and Ernst & Young.",
+      "imageFileName": "shruti_agarwal.png"
+    },
+    {
+      "name": "Havi Nguyen",
+      "school": "Columbia University",
+      "miniBio": "Built By Girls. Formerly Dow Jones and Google",
+      "imageFileName": "havi_nguyen.png"
+    },
+    {
+      "name": "Tom Guthrie",
+      "school": "Columbia Business School",
+      "miniBio": "onejob. Formerly Capsule and FiscalNote.",
+      "imageFileName": "tom_guthrie.png"
     }
   ],
   "boston": [
     {
-      "name": "Athena Kan",
-      "school": "Harvard University",
-      "miniBio": "8VC. Formerly Uber and Coding it Forward.",
-      "imageFileName": "athena_kan.jpg",
-      "linkedin": "https://www.linkedin.com/in/athena-kan-52a9b0102/"
-    },
-    {
-      "name": "Zoe Lu",
-      "school": "MIT",
-      "miniBio": "Formerly Google and Two Sigma.",
-      "imageFileName": "zoe_lu.jpg",
-      "linkedin": "http://linkedin.com/in/siyulumit"
-    },
-    {
-      "name": "Mina Iskarous",
-      "school": "Northeastern University",
-      "miniBio": "Formerly Kespry and Generate.",
-      "imageFileName": "mina_iskarous.jpg",
-      "linkedin": "https://www.linkedin.com/in/minaiskarous/"
-    },
-    {
-      "name": "Alex Immerman",
-      "school": "Harvard Business School",
-      "miniBio": "Formerly General Atlantic and Facebook.",
-      "imageFileName": "alex_immerman.jpg",
-      "linkedin": "https://www.linkedin.com/in/immerman/"
-    },
-    {
       "name": "Amol Punjabi",
       "school": "Harvard University",
-      "miniBio": "Bridgewater. Formerly Vertex and DE Shaw Research.",
+      "miniBio": "Formerly 8VC and Bridgewater.",
       "imageFileName": "amol_punjabi.jpg",
       "linkedin": "https://www.linkedin.com/in/amol-p-97aa44122/"
     },
     {
-      "name": "Lily Peng",
-      "school": "Harvard Business School",
-      "miniBio": "Proof Positive Partners. Formerly Facebook and Square.",
-      "imageFileName": "lily_peng.jpg",
-      "linkedin": "https://www.linkedin.com/in/lilyspeng/"
-    },
-    {
-      "name": "Zann Ali",
-      "school": "MIT Sloan",
-      "miniBio": "Former Putnam and Fidelity Investments.",
-      "imageFileName": "zann_ali.jpg",
-      "linkedin": "https://www.linkedin.com/in/zannali"
-    },
-    {
-      "name": "Will Manidis",
-      "school": "Olin College",
-      "miniBio": "Cascade.bio. Formerly Foundation Medicine and PathwaysAI.",
-      "imageFileName": "will_manidis.jpg",
-      "linkedin": "https://www.linkedin.com/in/willmanidis/"
-    },
-    {
-      "name": "Karina Akib",
-      "school": "MIT Sloan",
-      "miniBio": "Formerly Iterative Scopes and Google.",
-      "imageFileName": "karina_akib.jpg",
-      "linkedin": "https://www.linkedin.com/in/karina-akib"
-    },
-    {
       "name": "Claire Smilow",
       "school": "Harvard Business School",
-      "miniBio": "Formerly Bridgewater and BoxGroup.",
+      "miniBio": "Founder Collective. Formerly BoxGroup and Skillshare.",
       "imageFileName": "csmilow_headshot.jpg"
     },
     {
       "name": "Garros Li",
       "school": "Harvard Business School",
-      "miniBio": "Pioneer Fund. Formerly Edusight and Monitor Deloitte.",
+      "miniBio": "Formerly Madrona Venture Group and Edusight.",
       "imageFileName": "gli_headshot.jpg"
     },
     {
@@ -217,19 +186,13 @@
     {
       "name": "Akshay Kirtikar",
       "school": "MIT Sloan",
-      "miniBio": "Formerly PatientPing and Oliver Wyman.",
+      "miniBio": "Formerly Google and PatientPing.",
       "imageFileName": "aKirtikar_headshot.jpg"
-    },
-    {
-      "name": "Anna Kazlauskas",
-      "school": "MIT",
-      "miniBio": "Formerly Iambiq and World Bank.",
-      "imageFileName": "aKazlauskas_headshot.jpg"
     },
     {
       "name": "Sara Du",
       "school": "Harvard",
-      "miniBio": "Sensetrick Labs. Formerly Sway Ventures.",
+      "miniBio": "Formerly Snap and Sway Ventures.",
       "imageFileName": "sDu_headshot.png"
     },
     {
@@ -241,61 +204,88 @@
     {
       "name": "Steve Flanagan",
       "school": "Northeastern University",
-      "miniBio": "Formerly Mitre.",
+      "miniBio": "Bountium. Formerly MITRE and nucrypto lab.",
       "imageFileName": "sFlanagan_headshot.jpg"
+    },
+    {
+      "name": "Angela Winegar",
+      "school": "Harvard Business School / Harvard Kennedy School",
+      "miniBio": "Formerly Freshly Picked and Bain & Co.",
+      "imageFileName": "angela_winegar.png"
+    },
+    {
+      "name": "Alex Wendland",
+      "school": "Harvard College",
+      "miniBio": "Formerly Luminopia.",
+      "imageFileName": "alex_wendland.png"
+    },
+    {
+      "name": "Sarah Moseson",
+      "school": "MIT",
+      "miniBio": "Formerly True Ventures Fellow.",
+      "imageFileName": "sarah_moseson.png"
+    },
+    {
+      "name": "Jason Seibel",
+      "school": "MIT",
+      "miniBio": "Formerly Ecotrack and Thunkable.",
+      "imageFileName": "jason_seibel.png"
+    },
+    {
+      "name": "Ashley Aydin",
+      "school": "MIT Sloan",
+      "miniBio": "Formerly Estée Lauder and Saks Fifth Avenue.",
+      "imageFileName": "ashley_aydin.png"
+    },
+    {
+      "name": "Michael Truell",
+      "school": "MIT",
+      "miniBio": "Broad Institute. Formerly Google, Two Sigma.",
+      "imageFileName": "michael_truell.png"
+    },
+    {
+      "name": "Loewen Cavill",
+      "school": "MIT",
+      "miniBio": "Formerly Bessemer Venture Partners and Optimus Ride.",
+      "imageFileName": "loewen_cavill.png"
+    },
+    {
+      "name": "Andrew Walsh",
+      "school": "Harvard Business School",
+      "miniBio": "Formerly Bessemer Venture Partners.",
+      "imageFileName": "andrew_walsh.png"
     }
   ],
   "philly": [
     {
-      "name": "Yoni Dejene",
-      "school": "University of Pennsylvania",
-      "miniBio": "Formerly Arium and Goldman Sachs.",
-      "imageFileName": "yonatan_dejene.jpg",
-      "linkedin": "https://www.linkedin.com/in/yonidejene/"
-    },
-    {
-      "name": "Shawn Xu",
-      "school": "Wharton School",
-      "miniBio": "Bessemer VP. Formerly Village Global and Square.",
-      "imageFileName": "shawn_xu.jpg",
-      "linkedin": "https://www.linkedin.com/in/shawnxxu/"
-    },
-    {
       "name": "Adele Li",
       "school": "University of Pennslyvania",
-      "miniBio": "Formerly Macquarie Group and Mayfield Fund.",
+      "miniBio": "Formerly at Ares and Katerra.",
       "imageFileName": "adele_li.jpg",
       "linkedin": "https://www.linkedin.com/in/adeleli"
     },
     {
-      "name": "Matthew Mizbani",
-      "school": "University of Pennslyvania",
-      "miniBio": "Formerly TwoSigma and Tightrope Labs.",
-      "imageFileName": "matthew_mizbani.jpg",
-      "linkedin": "https://www.linkedin.com/in/matthew-mizbani-89751b116/"
-    },
-    {
       "name": "Bridget Labe",
       "school": "Wharton School",
-      "miniBio": "Formerly Google X and Related.",
+      "miniBio": "Formerly Sidewalk Infrastructure Partners (formerly Sidewalk Labs) and Google X.",
       "imageFileName": "blabe_headshot.jpg"
     },
     {
       "name": "Ryan Morgan",
       "school": "Wharton School",
-      "miniBio": "Formerly DFJ and Booking Holdings.",
+      "miniBio": "rmdy. Formerly DFJ and Booking Holdings.",
       "imageFileName": "rmorgan_headshot.PNG"
     },
     {
       "name": "Brittany Walker",
       "school": "Wharton School",
-      "miniBio": "Formerly Uber and Deloitte Digital.",
+      "miniBio": "Formerly Pritzker Ventures and Crosscut.",
       "imageFileName": "bwalker_headshot.jpg"
     },
     {
       "name": "Adam Eldefrawy",
       "school": "University of Pennslyvania",
-      "miniBio": "Formerly 8i.",
+      "miniBio": "Formerly Root Ventures and 8i.",
       "imageFileName": "aeldefrawy_headshot.jpg"
     },
     {
@@ -305,59 +295,60 @@
       "imageFileName": "akarale_headshot.jpeg"
     },
     {
-      "name": "Toni Oloko",
+      "name": "Tej Singh",
+      "school": "The Wharton School",
+      "miniBio": "Formerly Coatue and Bain Capital Ventures.",
+      "imageFileName": "tej_singh.png"
+    },
+    {
+      "name": "Stephanie McCaffrey",
+      "school": "Wharton MBA",
+      "miniBio": "Formerly professional soccer.",
+      "imageFileName": "stephanie_mccaffrey.png"
+    },
+    {
+      "name": "Alex Torrey",
+      "school": "Wharton MBA",
+      "miniBio": "Formerly Techstars and CIA.",
+      "imageFileName": "alex_torrey.png"
+    },
+    {
+      "name": "Daniel Bessonov",
       "school": "University of Pennsylvania",
-      "miniBio": "Formerly Accomplice VC and PracticeGigs.",
-      "imageFileName": "toni_oloko.jpg"
+      "miniBio": "Formerly Genecloud and CMU.",
+      "imageFileName": "daniel_bessonov.png"
+    },
+    {
+      "name": "Elijah Conniff",
+      "school": "The Wharton School",
+      "miniBio": "Formerly Gladly.",
+      "imageFileName": "elijah_conniff.png"
+    },
+    {
+      "name": "Sanya Ohri",
+      "school": "The Wharton School",
+      "miniBio": "Formerly Khan Academy and Bain & Co.",
+      "imageFileName": "sanya_ohri.png"
+    },
+    {
+      "name": "Chris Seitz",
+      "school": "The Wharton School",
+      "miniBio": "Formerly Excel Venture Management.",
+      "imageFileName": "chris_seitz.png"
     }
   ],
   "bayArea": [
     {
       "name": "Shohini Gupta",
       "school": "UC Berkeley",
-      "miniBio": "Abra. Formerly 118 Capital and Blueprint Income.",
+      "miniBio": "Oscar. Formerly Abra and Blueprint Income.",
       "imageFileName": "shohini_gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/shohini-gupta/"
     },
     {
-      "name": "Andrew Briggs",
-      "school": "UC Berkeley",
-      "miniBio": "Formerly McKinsey and Airbnb.",
-      "imageFileName": "andrew_briggs.jpg",
-      "linkedin": "https://www.linkedin.com/in/andrewtbriggs/"
-    },
-    {
-      "name": "Looi Qin En",
-      "school": "Stanford University",
-      "miniBio": "Formerly BNP Paribas and Glints.",
-      "imageFileName": "looi_qin_en.jpg",
-      "linkedin": "https://www.linkedin.com/in/looiqinen/"
-    },
-    {
-      "name": "Adam Brudnick",
-      "school": "UC Berkeley",
-      "miniBio": "Former DCVC and McKinsey.",
-      "imageFileName": "adam_brudnick.jpg",
-      "linkedin": "https://linkedin.com/in/adam-brudnick"
-    },
-    {
-      "name": "Ben Draa",
-      "school": "Stanford GSB",
-      "miniBio": "Formerly Norwest VP and Golden State Warriors.",
-      "imageFileName": "ben_draa.jpg",
-      "linkedin": "https://www.linkedin.com/in/bendraa/"
-    },
-    {
-      "name": "Yanika Magan",
-      "school": "UC Berkeley",
-      "miniBio": "Formerly NEA and RealtyShares.",
-      "imageFileName": "yanika_magan.jpg",
-      "linkedin": "http://linkedin.com/in/yanikamagan"
-    },
-    {
       "name": "Shrey Gupta",
       "school": "Stanford University",
-      "miniBio": "Formerly Coursera and Apple.",
+      "miniBio": "Primer. Formerly Facebook and Coursera.",
       "imageFileName": "shrey_gupta.jpg",
       "linkedin": "https://www.linkedin.com/in/shreyg19/"
     },
@@ -371,31 +362,31 @@
     {
       "name": "Linus Lee",
       "school": "UC Berkeley",
-      "miniBio": "Formerly Spensa and The Anvil.",
+      "miniBio": "Hack Club. Formerly Repl.it and The Anvil.",
       "imageFileName": "linus_headshot.jpg"
     },
     {
       "name": "JeanClaude White",
       "school": "UC Berkeley",
-      "miniBio": "Bold VP. Formerly at Citigroup.",
+      "miniBio": "Bold VP. Formerly JP Morgan and Citigroup.",
       "imageFileName": "jdorsainvil_headshot.jpg"
     },
     {
       "name": "Justine Humenansky",
       "school": "UC Berkeley",
-      "miniBio": "Formerly Barclays and Equinix.",
+      "miniBio": "Formerly Samsung NEXT and Barclays.",
       "imageFileName": "jhumenansky_headshot.jpg"
     },
     {
       "name": "Eric Liu",
       "school": "Stanford GSB",
-      "miniBio": "Formerly Atrium and Bayes Impact.",
+      "miniBio": "NewCo. Formerly Atrium and Bayes Impact.",
       "imageFileName": "eliu_headshot.jpg"
     },
     {
       "name": "Sarah Guzick",
       "school": "Stanford GSB",
-      "miniBio": "Formerly G2VP and Tesla.",
+      "miniBio": "Formerly Francisco Partners and Tesla.",
       "imageFileName": "sguzick_headshot.png"
     },
     {
@@ -407,8 +398,56 @@
     {
       "name": "Kenta Yaegashi",
       "school": "Stanford University",
-      "miniBio": "Formerly Code Advisors and Olympic Valley Capital.",
+      "miniBio": "General Atlantic. Formerly Code Advisors and Olympic Valley Capital.",
       "imageFileName": "kyaegashi_headshot.jpg"
+    },
+    {
+      "name": "Andy Chen",
+      "school": "Berkeley Haas",
+      "miniBio": "Berkeley SkyDeck. Formerly physician and BE Accelerator.",
+      "imageFileName": "aChen_headshot.jpg"
+    },
+    {
+      "name": "Shiroy Aspandiar",
+      "school": "Berkeley Haas",
+      "miniBio": "Formerly Impact Hub and Teach For America.",
+      "imageFileName": "shiroy_aspandiar.png"
+    },
+    {
+      "name": "Shreyas Parab",
+      "school": "Stanford University",
+      "miniBio": "Formerly Rock Ventures and StartUpHealth.",
+      "imageFileName": "shreyas_parab.png"
+    },
+    {
+      "name": "Kerry Omughelli",
+      "school": "Stanford Graduate School of Business",
+      "miniBio": "Formerly Gulf Interstate Engineering.",
+      "imageFileName": "kerry_omughelli.png"
+    },
+    {
+      "name": "Medha Kothari",
+      "school": "UC Berkeley",
+      "miniBio": "she256. Formerly Celo and SAP.",
+      "imageFileName": "medha_kothari.png"
+    },
+    {
+      "name": "John Forbes",
+      "school": "UC Berkeley",
+      "miniBio": "Formerly SnapMD.",
+      "imageFileName": "john_forbes.png"
+    },
+    {
+      "name": "Isabelle Zhou",
+      "school": "Stanford University",
+      "miniBio": "Formerly Two Sigma Ventures and Amazon.",
+      "imageFileName": "isabelle_zhou.png"
+    },
+    {
+      "name": "Jessica Leão",
+      "school": "Stanford Graduate School of Business",
+      "miniBio": "Formerly Palantir",
+      "imageFileName": "jessica_leao.png"
     }
   ]
 }

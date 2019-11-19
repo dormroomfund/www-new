@@ -27,7 +27,7 @@ export default class TeamSection extends Component {
         <hr className="team-divider" />
         <div className="team-grid-container">
           <div className="team-grid" data-column="3">
-            {team_data['national'].map((teamMember) => (
+            {team_data['hq'].map((teamMember) => (
               <TeamMember teamMember={teamMember} key={teamMember.name} />
             ))}
           </div>
