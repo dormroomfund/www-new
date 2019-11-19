@@ -248,6 +248,12 @@
       "school": "MIT",
       "miniBio": "Formerly Bessemer Venture Partners and Optimus Ride.",
       "imageFileName": "loewen_cavill.png"
+    },
+    {
+      "name": "Andrew Walsh",
+      "school": "Harvard Business School",
+      "miniBio": "Formerly Bessemer Venture Partners.",
+      "imageFileName": "andrew_walsh.png"
     }
   ],
   "philly": [
@@ -418,12 +424,6 @@
       "school": "Stanford Graduate School of Business",
       "miniBio": "Formerly Gulf Interstate Engineering.",
       "imageFileName": "kerry_omughelli.png"
-    },
-    {
-      "name": "Andrew Walsh",
-      "school": "Harvard Business School",
-      "miniBio": "Formerly Bessemer Venture Partners.",
-      "imageFileName": "andrew_walsh.png"
     },
     {
       "name": "Medha Kothari",
