@@ -52,22 +52,22 @@
       "imageFileName": "tsookraj_headshot.jpg"
     },
     {
-      "name": "Meryl Breidbart",
-      "school": "Yale School of Management",
-      "miniBio": "Chirps. Formerly Amino Apps and Jopwell.",
-      "imageFileName": ""
-    },
-    {
       "name": "Arun Kirubarajan",
       "school": "University of Pennsylvania",
       "miniBio": "Bridgewater. Formerly Foursquare.",
-      "imageFileName": ""
+      "imageFileName": "arun_kirubarajan.png"
+    },
+    {
+      "name": "Meryl Breidbart",
+      "school": "Yale School of Management",
+      "miniBio": "Chirps. Formerly Amino Apps and Jopwell.",
+      "imageFileName": "meryl_breidbart.png"
     },
     {
       "name": "Zain Khoja",
       "school": "Cornell University",
       "miniBio": "Cornell AppDev. Formerly GitHub.",
-      "imageFileName": ""
+      "imageFileName": "zain_khoja.png"
     }
   ],
   "newYork": [
@@ -264,49 +264,49 @@
       "name": "Chris Shei",
       "school": "Cornell Tech",
       "miniBio": "Formerly Jet.com.",
-      "imageFileName": ""
+      "imageFileName": "chris_shei.png"
     },
     {
       "name": "Isabel Sheinman",
       "school": "NYU Stern School of Business",
       "miniBio": "Formerly Nabu.org.",
-      "imageFileName": ""
+      "imageFileName": "isabel-sheinman.png"
     },
     {
       "name": "David Dellal",
       "school": "Yale University Schools of Medicine and Engineering & Applied Sciences",
       "miniBio": "Floe. Formerly MIT Langer Lab & Air Liquide.",
-      "imageFileName": ""
+      "imageFileName": "david_dellal.png"
     },
     {
       "name": "Lola Lafia",
       "school": "Columbia University",
       "miniBio": "Schefs. Formerly RunFriendly & Teen to Table.",
-      "imageFileName": ""
+      "imageFileName": "lola_lafia.png"
     },
     {
       "name": "Tej Singh",
       "school": "The Wharton School",
       "miniBio": "Formerly Coatue and Bain Capital Ventures.",
-      "imageFileName": ""
+      "imageFileName": "tej_singh.png"
     },
     {
       "name": "Stephanie McCaffrey",
       "school": "Wharton MBA",
       "miniBio": "Formerly professional soccer.",
-      "imageFileName": ""
+      "imageFileName": "stephanie_mccaffrey.png"
     },
     {
       "name": "Alex Torrey",
       "school": "Wharton MBA",
       "miniBio": "Formerly Techstars and CIA.",
-      "imageFileName": ""
+      "imageFileName": "alex_torrey.png"
     },
     {
       "name": "Daniel Bessonov",
       "school": "University of Pennsylvania",
       "miniBio": "Formerly Genecloud and CMU.",
-      "imageFileName": ""
+      "imageFileName": "daniel_bessonov.png"
     }
   ],
   "bayArea": [
@@ -397,50 +397,50 @@
     {
       "name": "Andy Chen",
       "school": "Berkeley Haas",
-      "bio": "Berkeley SkyDeck. Formerly physician and BE Accelerator.",
-      "image": ""
+      "miniBio": "Berkeley SkyDeck. Formerly physician and BE Accelerator.",
+      "imageFileName": "aChen_headshot.jpg"
     },
     {
       "name": "Shiroy Aspandiar",
       "school": "Berkeley Haas",
-      "bio": "Formerly Impact Hub and Teach For America.",
-      "image": ""
+      "miniBio": "Formerly Impact Hub and Teach For America.",
+      "imageFileName": "shiroy_aspandiar.png"
     },
     {
       "name": "Shreyas Parab",
       "school": "Stanford University",
-      "bio": "Formerly Rock Ventures and StartUpHealth.",
-      "image": ""
+      "miniBio": "Formerly Rock Ventures and StartUpHealth.",
+      "imageFileName": "shreyas_parab.png"
     },
     {
       "name": "Kerry Omughelli",
       "school": "Stanford Graduate School of Business",
-      "bio": "Formerly Gulf Interstate Engineering.",
-      "image": ""
+      "miniBio": "Formerly Gulf Interstate Engineering.",
+      "imageFileName": "kerry_omughelli.png"
     },
     {
       "name": "Andrew Walsh",
       "school": "Harvard Business School",
-      "bio": "Formerly Bessemer Venture Partners.",
-      "image": ""
+      "miniBio": "Formerly Bessemer Venture Partners.",
+      "imageFileName": "andrew_walsh.png"
     },
     {
       "name": "Ashley Aydin",
       "school": "MIT Sloan",
-      "bio": "Formerly Estée Lauder and Saks Fifth Avenue.",
-      "image": ""
+      "miniBio": "Formerly Estée Lauder and Saks Fifth Avenue.",
+      "imageFileName": "ashley_aydin.png"
     },
     {
       "name": "Michael Truell",
       "school": "MIT",
-      "bio": "Broad Institute. Formerly Google, Two Sigma.",
-      "image": ""
+      "miniBio": "Broad Institute. Formerly Google, Two Sigma.",
+      "imageFileName": "michael_truell.png"
     },
     {
       "name": "Loewen Cavill",
       "school": "MIT",
-      "bio": "Formerly Bessemer Venture Partners and Optimus Ride.",
-      "image": ""
+      "miniBio": "Formerly Bessemer Venture Partners and Optimus Ride.",
+      "imageFileName": "loewen_cavill.png"
     }
   ]
 }
