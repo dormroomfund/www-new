@@ -90,13 +90,6 @@
   ],
   "newYork": [
     {
-      "name": "Anne Kong",
-      "school": "New York University",
-      "miniBio": "Formerly Retool and Glossier.",
-      "imageFileName": "anne_kong.jpg",
-      "linkedin": "https://www.linkedin.com/in/annebkong/"
-    },
-    {
       "name": "Alex Chen",
       "school": "Yale School of Management",
       "miniBio": "Formerly Supernode Ventures and C.Light Technologies.",
