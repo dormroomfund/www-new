@@ -86,6 +86,14 @@
       "school": "The Tuck School of Business at Dartmouth",
       "miniBio": "Formerly Catalant and Silicon Valley Bank.",
       "imageFileName": "alexander_becker.png"
+    },
+    {
+      "name": "Anne Kong",
+      "school": "New York University",
+      "miniBio": "Formerly Glossier and Sherpa Capital.",
+      "miniBio": "Formerly Retool and Glossier.",
+      "imageFileName": "anne_kong.jpg",
+      "linkedin": "https://www.linkedin.com/in/annebkong/"
     }
   ],
   "newYork": [
