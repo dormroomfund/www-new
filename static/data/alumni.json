@@ -1069,5 +1069,38 @@
     "company": "Stealth",
     "school": "Columbia University",
     "linkedin": "https://www.linkedin.com/in/maneetkhaira/"
+  },
+  {
+    "name": "Trevor Sookraj",
+    "role": "Co-Founder",
+    "company": "Abacus Growth",
+    "school": "Western University (Huron College)",
+    "linkedin": "https://www.linkedin.com/in/trevorsookraj/"
+  },
+  {
+    "name": "Anne Kong",
+    "role": "Product Marketing",
+    "company": "Ethena",
+    "school": "New York University",
+    "linkedin": "https://www.linkedin.com/in/annebkong/"
+  },
+  {
+    "name": "Shohini Gupta",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/shohini-gupta/"
+  },
+  {
+    "name": "Toni Oloko",
+    "role": "Co-Founder",
+    "company": "Orthly",
+    "school": "Wharton",
+    "linkedin": "https://www.linkedin.com/in/tonioloko/"
+  },
+  {
+    "name": "Cindy Zhang",
+    "role": "Product",
+    "company": "Grow",
+    "school": "Cornell University",
+    "linkedin": "https://www.linkedin.com/in/lancindyzhang/"
   }
 ]

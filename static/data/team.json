@@ -27,12 +27,6 @@
       "imageFileName": "phillip.jpg"
     },
     {
-      "name": "Trevor Sookraj",
-      "school": "Western University (Huron College)",
-      "miniBio": "Abacus Growth. Formerly Clearbit and Shopify.",
-      "imageFileName": "tsookraj_headshot.jpg"
-    },
-    {
       "name": "Arun Kirubarajan",
       "school": "University of Pennsylvania",
       "miniBio": "Bridgewater. Formerly Foursquare.",
@@ -67,13 +61,6 @@
       "school": "The Tuck School of Business at Dartmouth",
       "miniBio": "Formerly Catalant and Silicon Valley Bank.",
       "imageFileName": "alexander_becker.png"
-    },
-    {
-      "name": "Anne Kong",
-      "school": "New York University",
-      "miniBio": "Formerly Retool, Trialspark, Glossier, and Away.",
-      "imageFileName": "anne_kong.jpg",
-      "linkedin": "https://www.linkedin.com/in/annebkong/"
     }
   ],
   "newYork": [
@@ -82,12 +69,6 @@
       "school": "Yale School of Management",
       "miniBio": "Formerly Supernode Ventures and C.Light Technologies.",
       "imageFileName": "aChen_headshot.jpg"
-    },
-    {
-      "name": "Cindy Zhang",
-      "school": "Cornell University",
-      "miniBio": "Formerly 500 Startups.",
-      "imageFileName": "czhang_headshot.jpg"
     },
     {
       "name": "Spencer Yen",
@@ -343,13 +324,6 @@
     }
   ],
   "bayArea": [
-    {
-      "name": "Shohini Gupta",
-      "school": "UC Berkeley",
-      "miniBio": "Oscar. Formerly Abra and Blueprint Income.",
-      "imageFileName": "shohini_gupta.jpg",
-      "linkedin": "https://www.linkedin.com/in/shohini-gupta/"
-    },
     {
       "name": "Shrey Gupta",
       "school": "Stanford University",
