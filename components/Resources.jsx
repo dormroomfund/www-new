@@ -27,10 +27,13 @@ export default ({ articles }) => (
                 <div className="col-4 m-col-12">
                   <a target="_blank" href={article.link}>
                     <div className="medium-card">
-                      <div class="medium-article">
-                        <img src={article.thumbnail} />
-                      </div>
-                      <p className="medium-article-title">{article.title}</p>
+                      <img src={article.thumbnail} />
+                      <p
+                        style={{ textAlign: 'center' }}
+                        className="medium-article-title"
+                      >
+                        {article.title}
+                      </p>
                     </div>
                   </a>
                 </div>
