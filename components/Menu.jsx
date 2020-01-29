@@ -151,15 +151,6 @@ export default class Menu extends Component {
                   <a
                     className={'menu ' + (this.props.lightColor ? 'light' : '')}
                     target="_blank"
-                    href="https://vcwiz.co"
-                  >
-                    VCWiz
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className={'menu ' + (this.props.lightColor ? 'light' : '')}
-                    target="_blank"
                     href="https://www.notion.so/dormroomfund/528f475499b2424ea9839ca87344c804?v=c522c87778014443a79ffcb99ec15013"
                   >
                     Jobs
