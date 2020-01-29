@@ -27,11 +27,6 @@ export default class MobileMenu extends Component {
                 </a>
               </li>
               <li>
-                <a className="menu menu-link" href="https://vcwiz.co">
-                  VCWiz
-                </a>
-              </li>
-              <li>
                 <Link href="/apply">
                   <a className="menu menu-link">Apply Now</a>
                 </Link>
