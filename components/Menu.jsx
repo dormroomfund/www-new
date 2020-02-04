@@ -166,6 +166,15 @@ export default class Menu extends Component {
                   </a>
                 </li>
                 <li>
+                  <a
+                    className={'menu ' + (this.props.lightColor ? 'light' : '')}
+                    target="_blank"
+                    href="https://open.spotify.com/show/0xE2r6VMd5CPd4Ar4yHFjp?si=NgaQ4dKtSwKuc6Lo6xy1sg"
+                  >
+                    Podcast
+                  </a>
+                </li>
+                <li>
                   <Link href="/apply">
                     <a
                       className={
