@@ -1065,5 +1065,47 @@
     "url": "www.sleektext.com",
     "people": "Spandana Nakka & Gaurav Aggarwal",
     "school": "Stanford University"
+  },
+  {
+    "companyName": "Marlo",
+    "url": "https://getmarlo.com",
+    "people": "Ankith Harathi & John Keck",
+    "school": "Harvard Business School & Harvard SEAS"
+  },
+  {
+    "companyName": "Carry",
+    "url": "https://carry.travel",
+    "people": "Kashish Gupta",
+    "school": "University of Pennsylvania"
+  },
+  {
+    "companyName": "Clew",
+    "url": "https://clew.ai/",
+    "people": "Udara Jayawardena & Haishan Qian",
+    "school": "Western University & Ivey Business School"
+  },
+  {
+    "companyName": "Speeak2 Systems",
+    "url": "https://www.speak2systems.com",
+    "people": "Ori Belson",
+    "school": "Cornell University"
+  },
+  {
+    "companyName": "Noofood",
+    "url": "https://www.trynoofood.com",
+    "people": "Katie Spies & Christine Busaba",
+    "school": "Harvard Business School"
+  },
+  {
+    "companyName": "Hailify",
+    "url": "https://www.drivehailify.com",
+    "people": "Nick Bhashyam & James Dorman",
+    "school": "Albert Einstein College of Medicine & Cooper Union"
+  },
+  {
+    "companyName": "Chippin",
+    "url": "chippinsnacks.com",
+    "people": "Haley Russell & Laura Colagrande",
+    "school": "University of Pennsylvania (Wharton & PennDesign)"
   }
 ]
