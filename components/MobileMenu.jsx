@@ -37,7 +37,7 @@ export default class MobileMenu extends Component {
               <li>
                 <a
                   className="menu menu-link"
-                  href="https://open.spotify.com/show/0xE2r6VMd5CPd4Ar4yHFjp?si=NgaQ4dKtSwKuc6Lo6xy1sg"
+                  href="https://anchor.fm/dormroomfund"
                 >
                   Podcast
                 </a>
