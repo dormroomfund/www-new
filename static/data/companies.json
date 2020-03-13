@@ -1107,5 +1107,23 @@
     "url": "chippinsnacks.com",
     "people": "Haley Russell & Laura Colagrande",
     "school": "University of Pennsylvania (Wharton & PennDesign)"
+  },
+  {
+    "companyName": "Kaoshi",
+    "url": "https://kaoshi.network/",
+    "people": "Chukwunonso Arinze & Princess Oti",
+    "school": "University of Chicago"
+  },
+  {
+    "companyName": "Glisten",
+    "url": "http://glisten.ai/",
+    "people": "Sarah Wooders & Alice Deng",
+    "school": "MIT, UC Berkeley"
+  },
+  {
+    "companyName": "Showcase",
+    "url": "http://showcaseinsights.com/",
+    "people": "Dana Kim",
+    "school": "The Wharton School"
   }
 ]
