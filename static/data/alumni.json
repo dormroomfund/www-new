@@ -1110,5 +1110,19 @@
     "company": "Grow",
     "school": "Cornell University",
     "linkedin": "https://www.linkedin.com/in/lancindyzhang/"
+  },
+  {
+    "name": "Alicia Tsai",
+    "role": "PhD",
+    "company": "UC Berkeley",
+    "school": "UC Berkeley",
+    "linkedin": "https://www.linkedin.com/in/aliciatsai/"
+  },
+  {
+    "name": "Albert Dong",
+    "role": "Founder and Creative Director",
+    "company": "Godling Studio",
+    "school": "Brown University",
+    "linkedin": "https://www.linkedin.com/in/albertdong23/"
   }
 ]
