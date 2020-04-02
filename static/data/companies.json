@@ -876,8 +876,8 @@
     "school": "Harvard Business School"
   },
   {
-    "companyName": "Aegis AI",
-    "url": "https://www.aegissystems.ai/",
+    "companyName": "Actuate",
+    "url": "https://www.actuate.ai/",
     "people": "Sonny Tai, Ben Ziomek",
     "school": "Chicago Booth"
   },
@@ -1026,10 +1026,10 @@
     "school": "Harvard University"
   },
   {
-    "companyName": "Boundary Labs",
-    "url": "https://www.boundarylabs.io",
+    "companyName": "Workbench",
+    "url": "https://www.workbenchtech.io",
     "people": "Prince Ghosh, Lucas Fridman",
-    "school": "HCase Western Reserve University"
+    "school": "Case Western Reserve University"
   },
   {
     "companyName": "betterbank.app",
@@ -1065,5 +1065,149 @@
     "url": "www.sleektext.com",
     "people": "Spandana Nakka & Gaurav Aggarwal",
     "school": "Stanford University"
+  },
+  {
+    "companyName": "Marlo",
+    "url": "https://getmarlo.com",
+    "people": "Ankith Harathi & John Keck",
+    "school": "Harvard Business School & Harvard SEAS"
+  },
+  {
+    "companyName": "Carry",
+    "url": "https://carry.travel",
+    "people": "Kashish Gupta",
+    "school": "University of Pennsylvania"
+  },
+  {
+    "companyName": "Clew",
+    "url": "https://clew.ai/",
+    "people": "Udara Jayawardena & Haishan Qian",
+    "school": "Western University & Ivey Business School"
+  },
+  {
+    "companyName": "Speeak2 Systems",
+    "url": "https://www.speak2systems.com",
+    "people": "Ori Belson",
+    "school": "Cornell University"
+  },
+  {
+    "companyName": "Noofood",
+    "url": "https://www.trynoofood.com",
+    "people": "Katie Spies & Christine Busaba",
+    "school": "Harvard Business School"
+  },
+  {
+    "companyName": "Hailify",
+    "url": "https://www.drivehailify.com",
+    "people": "Nick Bhashyam & James Dorman",
+    "school": "Albert Einstein College of Medicine & Cooper Union"
+  },
+  {
+    "companyName": "Chippin",
+    "url": "chippinsnacks.com",
+    "people": "Haley Russell & Laura Colagrande",
+    "school": "University of Pennsylvania (Wharton & PennDesign)"
+  },
+  {
+    "companyName": "Kaoshi",
+    "url": "https://kaoshi.network/",
+    "people": "Chukwunonso Arinze & Princess Oti",
+    "school": "University of Chicago"
+  },
+  {
+    "companyName": "Glisten",
+    "url": "http://glisten.ai/",
+    "people": "Sarah Wooders & Alice Deng",
+    "school": "MIT, UC Berkeley"
+  },
+  {
+    "companyName": "Aavia",
+    "url": "http://www.aavia.io/",
+    "people": "Aagya Mathur, Aya Suzuki, Alexis Wong",
+    "school": "MIT"
+  },
+  {
+    "companyName": "Flo Recruit",
+    "url": "https://www.florecruit.com",
+    "people": "Katherine Allen & Atreya Misra",
+    "school": "University of Texas at Austin"
+  },
+  {
+    "companyName": "Vise AI",
+    "url": "https://www.viseai.com",
+    "people": "Samir Vasavada & Runik Mehrotra",
+    "school": "The Wharton School"
+  },
+  {
+    "companyName": "Resonado",
+    "url": "http://www.resonado.com",
+    "people": "Brian Cho",
+    "school": "University of Notre Dame"
+  },
+  {
+    "companyName": "Motivote",
+    "url": "https://www.motivote.us/",
+    "people": "Jess Riegel & Rachel Konowitz",
+    "school": "NYU & U Penn"
+  },
+  {
+    "companyName": "Atolla Skin Labs",
+    "url": "https://www.atollaskinlab.com",
+    "people": "Meghan Maupin & Sid Salvi",
+    "school": "MIT"
+  },
+  {
+    "companyName": "Cascade Bio",
+    "url": "https://www.cascade.bio/",
+    "people": "Will Manidis, Gaurav Kaushik, Lara Yuan",
+    "school": "Franklin W. Olin College, UC San Diego, Princeton"
+  },
+  {
+    "companyName": "aavrani",
+    "url": "https://aavrani.com/",
+    "people": "Rooshy Roy & Justin Silver",
+    "school": "The Wharton School"
+  },
+  {
+    "companyName": "Acciyo",
+    "url": "https://www.acciyo.com",
+    "people": "Anum Hussain & Vivian Diep",
+    "school": "MIT"
+  },
+  {
+    "companyName": "EuMotus",
+    "url": "https://www.eumotus.com",
+    "people": "Henry Liu & Boris Doynov",
+    "school": "Harvard Business School"
+  },
+  {
+    "companyName": "Vested Finance",
+    "url": "https://www.vested.co.in",
+    "people": "Viram Shah, Darwin Arfin & Eric Huynh",
+    "school": "UC Berkeley, Haas School of Business"
+  },
+  {
+    "companyName": "UCHU Biosensors",
+    "url": "https://www.uchubiosensors.com/",
+    "people": "Daniel Weinstein, Noah Hill & Saam Bozorg",
+    "school": "Tufts University"
+  },
+  {
+    "companyName": "WAYV",
+    "url": "https://ourwayv.com",
+    "people": "Julia Haber",
+    "school": "Syracuse University"
+  },
+  {
+    "companyName": "Bizwise",
+    "url": "http://bizwise.com",
+    "people": "Neil Bhasin, Alston Lin & Antonio Clarke",
+    "school": "University of Waterloo"
+  },
+  {
+    "companyName": "Showcase",
+    "url": "http://showcaseinsights.com/",
+    "people": "Dana Kim",
+    "school": "The Wharton School"
   }
 ]
