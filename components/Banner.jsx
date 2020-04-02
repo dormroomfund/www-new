@@ -20,7 +20,6 @@ export default class Banner extends Component {
     return (
       <div
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
-        style={{ height: '5rem' }}
       >
         <div className="banner__message" style={{ fontSize: '1rem' }}>
           We're hiring for a new Head of Content and a new Head of Design.{' '}
