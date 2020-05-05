@@ -20,16 +20,20 @@ export default class Banner extends Component {
     return (
       <div
         className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
+        style={{ height: '5rem' }}
       >
-        <div className="banner__message">
-          Subscribe to our newsletter,{' '}
-          <a target="_blank" href="https://dormroomfund.substack.com/">
-            The Syllabus
+        <div className="banner__message" style={{ fontSize: '1rem' }}>
+          We're hiring for a new Head of Content and a new Head of Design.{' '}
+          <a
+            target="_blank"
+            href="https://blog.dormroomfund.com/blog/student-founders-need-you-join-the-dorm-room-fund-hq-team"
+          >
+            Apply Now
           </a>
           !{' '}
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
-          X
+          ✗
         </button>
       </div>
     );
