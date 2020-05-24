@@ -15,12 +15,6 @@
       "linkedin": "https://www.linkedin.com/in/chaunceykerr/"
     },
     {
-      "name": "Vinai Rachakonda",
-      "school": "University of Pennsylvania",
-      "miniBio": "Formerly CTRL-Labs and SpaceX.",
-      "imageFileName": "vinai_headshot.jpg"
-    },
-    {
       "name": "Phillip Hui-Bon-Hoa",
       "school": "Boston College",
       "miniBio": "Abacus Growth. Formerly Publist and RemoteHQ.",
@@ -33,28 +27,10 @@
       "imageFileName": "arun_kirubarajan.png"
     },
     {
-      "name": "Meryl Breidbart",
-      "school": "Yale School of Management",
-      "miniBio": "Chirps. Formerly Amino Apps and Jopwell.",
-      "imageFileName": "meryl_breidbart.png"
-    },
-    {
-      "name": "Zain Khoja",
-      "school": "Cornell University",
-      "miniBio": "Cornell AppDev. Formerly GitHub.",
-      "imageFileName": "zain_khoja.png"
-    },
-    {
       "name": "Kanwar Sahdra",
       "school": "Western University",
       "miniBio": "Formerly Republic and Feld Lab, University of Toronto.",
       "imageFileName": "kanwar_sahdra.png"
-    },
-    {
-      "name": "Andy Reed",
-      "school": "University of Michigan",
-      "miniBio": "Formerly Airbnb and Virtru.",
-      "imageFileName": "andy_reed.png"
     },
     {
       "name": "Alexander Becker",

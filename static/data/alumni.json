@@ -1124,5 +1124,30 @@
     "company": "Godling Studio",
     "school": "Brown University",
     "linkedin": "https://www.linkedin.com/in/albertdong23/"
+  },
+  {
+    "name": "Zain Khoja",
+    "school": "Cornell University",
+    "company": "Instagram",
+    "linkedin": "https://www.linkedin.com/in/zainkho/"
+  },
+  {
+    "name": "Meryl Breidbart",
+    "school": "Yale School of Management",
+    "role": "Associate Investor",
+    "company": "LDV Capital",
+    "linkedin": "https://www.linkedin.com/in/merylnatow/"
+  },
+  {
+    "name": "Vinai Rachakonda",
+    "school": "University of Pennsylvania",
+    "linkedin": "https://www.linkedin.com/in/vinai-rachakonda-a41927117/"
+  },
+  {
+    "name": "Andy Reed",
+    "school": "University of Michigan",
+    "company": "Robinhood",
+    "linkedin": "https://www.linkedin.com/in/andykreed/",
+    "role": "Content Strategist"
   }
 ]
