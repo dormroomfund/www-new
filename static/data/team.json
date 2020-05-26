@@ -8,13 +8,6 @@
       "linkedin": "https://www.linkedin.com/in/molly-fowler/"
     },
     {
-      "name": "Chauncey Hamilton",
-      "school": "Trinity College-Hartford",
-      "miniBio": "COO of Dorm Room Fund.",
-      "imageFileName": "chauncey_headshot.jpg",
-      "linkedin": "https://www.linkedin.com/in/chaunceykerr/"
-    },
-    {
       "name": "Phillip Hui-Bon-Hoa",
       "school": "Boston College",
       "miniBio": "Abacus Growth. Formerly Publist and RemoteHQ.",
@@ -37,6 +30,36 @@
       "school": "Dartmouth Tuck School of Business",
       "miniBio": "Formerly Catalant and Silicon Valley Bank.",
       "imageFileName": "alexander_becker.png"
+    },
+    {
+      "name": "Kai Gradert",
+      "school": "NYU Stern School of Business",
+      "miniBio": "Formerly Sotheby’s and Apeer.",
+      "imageFileName": "kai_gradert.jpg"
+    },
+    {
+      "name": "Kylie To",
+      "school": "Western University",
+      "miniBio": "Currently RBC Ventures, Formerly Appnovation.",
+      "imageFileName": "kylie_to.jpg"
+    },
+    {
+      "name": "Mahira Dayal",
+      "school": "Columbia University Graduate School of Journalism",
+      "miniBio": "Formerly Verizon Media and Buzzfeed.",
+      "imageFileName": "mahira_dayal.jpg"
+    },
+    {
+      "name": "Tanthai Pongstien",
+      "school": "UC Berkeley",
+      "miniBio": "Currently Conjecture Design, Formerly SafeBox.",
+      "imageFileName": "tanthai_pongstien.jpg"
+    },
+    {
+      "name": "Jeremy Navarro",
+      "school": "Middlebury College",
+      "miniBio": "Currently DormOps, Formerly Reedsy.",
+      "imageFileName": "jeremy_navarro.jpg"
     }
   ],
   "newYork": [
