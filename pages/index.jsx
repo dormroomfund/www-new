@@ -40,6 +40,7 @@ export default class Index extends Component {
         <Head>
           <title>Dorm Room Fund</title>
         </Head>
+        <Banner />
         <Menu lightColor={false} />
         <Hero />
         <Community />

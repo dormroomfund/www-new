@@ -8,34 +8,27 @@ export default class Banner extends Component {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setState({ showBanner: true }), 1000);
+    setTimeout(() => this.setState({ showBanner: true }), 100);
   }
 
   closeBanner(e) {
     e.preventDefault();
+    console.log('wtf');
     this.setState({ showBanner: false });
   }
 
   render() {
-    return (
-      <div
-        className={'banner ' + (this.state.showBanner ? 'banner--visible' : '')}
-        style={{ height: '5rem' }}
-      >
-        <div className="banner__message" style={{ fontSize: '1rem' }}>
-          We're hiring for a new Head of Content and a new Head of Design.{' '}
-          <a
-            target="_blank"
-            href="https://blog.dormroomfund.com/blog/student-founders-need-you-join-the-dorm-room-fund-hq-team"
-          >
-            Apply Now
-          </a>
-          !{' '}
+    return this.state.showBanner ? (
+      <div className={'banner'} style={{ height: '5rem' }}>
+        <div className="banner__message" style={{ fontSize: '0.9rem' }}>
+          We are heartbroken at the events of this week and stand with the Black
+          community— and with the members of our community that are profoundly
+          affected by systemic racism.
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
           ✗
         </button>
       </div>
-    );
+    ) : null;
   }
 }
