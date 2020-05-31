@@ -41,18 +41,18 @@ export default class MyDocument extends Document {
             content="nXnVMtqHxrViui7tiWjGPBbaFK8gbr096hgEwnYftH0"
           />
           <link rel="icon" type="image/x-icon" href="/static/favicon.ico" />
-        </Head>
-        <body className="custom_class">
-          <Main />
-          <NextScript />
           <script>
             {`(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
                })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-               ga('create', 'UA-105612774-1', 'auto');
+               ga('create', 'UA-105612774-8', 'auto');
                ga('send', 'pageview');`}
           </script>
+        </Head>
+        <body className="custom_class">
+          <Main />
+          <NextScript />
         </body>
       </html>
     );
