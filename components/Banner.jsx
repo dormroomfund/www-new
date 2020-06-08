@@ -21,7 +21,7 @@ export default class Banner extends Component {
     return this.state.showBanner ? (
       <div className={'banner'} style={{ height: '5rem' }}>
         <div className="banner__message" style={{ fontSize: '0.9rem' }}>
-          We are heartbroken at recent events and stand with the Black
+          We are heartbroken over recent events and stand with the Black
           community— and with the members of our community that are profoundly
           affected by systemic racism.
         </div>
