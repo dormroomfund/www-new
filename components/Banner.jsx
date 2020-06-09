@@ -16,7 +16,7 @@ export default class Banner extends Component {
     console.log('wtf');
     this.setState({ showBanner: false });
   }
-
+  //
   render() {
     return this.state.showBanner ? (
       <div className={'banner'} style={{ height: '5rem' }}>
