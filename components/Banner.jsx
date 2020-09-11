@@ -21,9 +21,12 @@ export default class Banner extends Component {
     return this.state.showBanner ? (
       <div className={'banner'} style={{ height: '5rem' }}>
         <div className="banner__message" style={{ fontSize: '0.9rem' }}>
-          We are heartbroken over recent events and stand with the Black
-          community— and with the members of our community that are profoundly
-          affected by systemic racism.
+          Dorm Room Fund is recruiting! We're looking for amazing Investment
+          Partners and a Head of Engineering to join us. Learn more at{' '}
+          <a target="_blank" href="join.dormroomfund.com">
+            join.dormroomfund.com
+          </a>
+          !{' '}
         </div>
         <button className="banner__close" onClick={this.closeBanner}>
           ✗
