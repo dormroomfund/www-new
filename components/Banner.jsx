@@ -23,7 +23,7 @@ export default class Banner extends Component {
         <div className="banner__message" style={{ fontSize: '0.9rem' }}>
           Dorm Room Fund is recruiting! We're looking for amazing Investment
           Partners and a Head of Engineering to join us. Learn more at{' '}
-          <a target="_blank" href="join.dormroomfund.com">
+          <a target="_blank" href="https://join.dormroomfund.com">
             join.dormroomfund.com
           </a>
           !{' '}
