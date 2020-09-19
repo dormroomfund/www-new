@@ -183,7 +183,7 @@ export default class Menu extends Component {
                           : 'button-rounded-blue'
                       }
                     >
-                      Apply Now
+                      Apply for Funding
                     </a>
                   </Link>
                 </li>

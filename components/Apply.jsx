@@ -10,7 +10,7 @@ export default class Apply extends Component {
             <h2>Working on something big? Let&#39;s talk.</h2>
             <Link href="/apply">
               <a className="apply-section-button button-rounded-blue">
-                Apply Now
+                Apply for Funding
               </a>
             </Link>
           </div>

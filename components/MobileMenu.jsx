@@ -44,7 +44,7 @@ export default class MobileMenu extends Component {
               </li>
               <li>
                 <Link href="/apply">
-                  <a className="menu menu-link">Apply Now</a>
+                  <a className="menu menu-link">Apply for Funding</a>
                 </Link>
               </li>
             </ul>
