@@ -43,9 +43,14 @@ export default class MobileMenu extends Component {
                 </a>
               </li>
               <li>
-                <Link href="/apply">
-                  <a className="menu menu-link">Apply for Funding</a>
-                </Link>
+                <a
+                  href="https://airtable.com/shrIkIQTZqkdcS05v"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="menu menu-link"
+                >
+                  Apply for Funding
+                </a>
               </li>
             </ul>
           </div>

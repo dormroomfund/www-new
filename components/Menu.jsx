@@ -175,17 +175,18 @@ export default class Menu extends Component {
                   </a>
                 </li>
                 <li>
-                  <Link href="/apply">
-                    <a
-                      className={
-                        this.props.lightColor
-                          ? 'button-rounded-white'
-                          : 'button-rounded-blue'
-                      }
-                    >
-                      Apply for Funding
-                    </a>
-                  </Link>
+                  <a
+                    href="https://airtable.com/shrIkIQTZqkdcS05v"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={
+                      this.props.lightColor
+                        ? 'button-rounded-white'
+                        : 'button-rounded-blue'
+                    }
+                  >
+                    Apply for Funding
+                  </a>
                 </li>
               </ul>
             </div>
